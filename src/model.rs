@@ -410,6 +410,12 @@ pub enum Play {
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
+    TriplePlay {
+        batter: String,
+        pitcher: String,
+        fielders: Vec<String>,
+        movements: Vec<Movement>,
+    },
     GroundedIntoDoublePlay {
         batter: String,
         pitcher: String,
@@ -865,6 +871,37 @@ impl Play {
         )).collect();
 
         Ok(Play::DoublePlay {
+            batter,
+            pitcher,
+            fielders,
+            movements,
+        })
+    }
+
+    async fn triple_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let batter = match value["matchup"]["batter"]["fullName"].as_str() {
+            Some(batter) => batter.to_string(),
+            None => return Err("No batter".to_string()),
+        };
+        let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
+            Some(pitcher) => pitcher.to_string(),
+            None => return Err("No pitcher".to_string()),
+        };
+        let fielder_ids = value["runners"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
+            .map(|id| id as usize);
+        let fielders = join_all(
+            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        ).await;
+        let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
+            runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
+            &runner["movement"],
+        )).collect();
+
+        Ok(Play::TriplePlay {
             batter,
             pitcher,
             fielders,
@@ -1437,6 +1474,7 @@ impl Play {
             "Fielders Choice Out" => Play::fielders_choice_out_from_value(value).await,
             "Catcher Interference" => Play::catcher_interference_from_value(value).await,
             "Double Play" => Play::double_play_from_value(value).await,
+            "Triple Play" => Play::triple_play_from_value(value).await,
             "Grounded Into DP" => Play::grounded_into_double_play_from_value(value).await,
             "Strikeout Double Play" => Play::strikeout_double_play_from_value(value).await,
             "Pickoff 1B" => Play::pickoff_from_value_and_base(value, 1).await,
@@ -1491,8 +1529,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::BuntGroundout { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1509,8 +1545,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Strikeout { batter, pitcher, movements } => {
                 tokens += &format!(
@@ -1526,8 +1560,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Lineout { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1544,8 +1576,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::BuntLineout { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1562,8 +1592,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Flyout { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1580,8 +1608,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::PopOut { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1598,8 +1624,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::BuntPopOut { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1616,8 +1640,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Forceout { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1634,8 +1656,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::FieldersChoiceOut { batter, pitcher, fielders, scoring_runner, movements } => {
                 tokens += &format!(
@@ -1653,8 +1673,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::DoublePlay { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1671,8 +1689,22 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
+            },
+            Play::TriplePlay { batter, pitcher, fielders, movements } => {
+                tokens += &format!(
+                    "Triple Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
             },
             Play::GroundedIntoDoublePlay { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1689,8 +1721,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::StrikeoutDoublePlay { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1707,8 +1737,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Pickoff { base, runner, fielders, movements } => {
                 tokens += &format!(
@@ -1725,8 +1753,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::PickoffError { base, runner, fielders, movements } => {
                 tokens += &format!(
@@ -1743,8 +1769,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::CaughtStealing { base, runner, fielders, movements } => {
                 tokens += &format!(
@@ -1761,8 +1785,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::PickoffCaughtStealing { base, runner, fielders, movements } => {
                 tokens += &format!(
@@ -1779,8 +1801,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::WildPitch { pitcher, runner, movements } => {
                 tokens += &format!(
@@ -1796,8 +1816,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::RunnerOut { runner, fielders, movements } => {
                 tokens += &format!(
@@ -1813,8 +1831,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Single { batter, pitcher, movements } => {
                 tokens += &format!(
@@ -1830,8 +1846,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Double { batter, pitcher, movements } => {
                 tokens += &format!(
@@ -1847,8 +1861,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Triple { batter, pitcher, movements } => {
                 tokens += &format!(
@@ -1864,8 +1876,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::HomeRun { batter, pitcher, movements } => {
                 tokens += &format!(
@@ -1881,8 +1891,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::Walk { batter, pitcher, movements } => {
                 tokens += &format!(
@@ -1898,8 +1906,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::IntentWalk { batter, pitcher, movements } => {
                 tokens += &format!(
@@ -1915,8 +1921,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::HitByPitch { batter, pitcher, movements } => {
                 tokens += &format!(
@@ -1932,8 +1936,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::FieldersChoice { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1950,8 +1952,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::CatcherInterference { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -1968,8 +1968,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::SacFly { batter, pitcher, fielders, scoring_runner, movements } => {
                 tokens += &format!(
@@ -1987,8 +1985,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::SacFlyDoublePlay { batter, pitcher, fielders, scoring_runner, movements } => {
                 tokens += &format!(
@@ -2006,8 +2002,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::SacBunt { batter, pitcher, fielders, runner, movements } => {
                 tokens += &format!(
@@ -2025,8 +2019,6 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
             Play::FieldError { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
@@ -2043,10 +2035,10 @@ impl Tokenize for Play {
                         tokens += ", ";
                     }
                 }
-
-                tokens
             },
-        }
+        };
+
+        tokens
     }
 }
 
