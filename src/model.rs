@@ -46,17 +46,6 @@ fn base_value_to_option_u8(base: &serde_json::Value) -> Option<u8> {
     }
 }
 
-fn round_to_3dp(value: f32) -> f32 {
-    (value * 1e3).round() / 1e3
-}
-
-fn parse_mlb_percentage(value: &str) -> Result<f32, String> {
-    match value.parse::<f32>() {
-        Ok(value) => Ok(round_to_3dp(value)),
-        Err(_) => Err("Failed to parse value".to_string()),
-    }
-}
-
 #[derive(Debug, Clone, Copy, Serialize, Deserialize)]
 pub struct Date {
     year: u16,
@@ -82,38 +71,6 @@ impl From<&str> for Date {
     }
 }
 
-impl Date {
-    pub fn previous_day(&self) -> Self {
-        let month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-
-        let mut year = self.year;
-        let mut month = self.month;
-        let mut day = self.day;
-
-        if day > 1 {
-            day -= 1;
-        } else if month > 1 {
-            month -= 1;
-            day = month_days[month as usize - 1];
-        } else {
-            year -= 1;
-            month = 12;
-            day = month_days[month as usize - 1];
-        }
-
-        Date { year, month, day }
-    }
-
-    pub fn minus_n_days(&self, n: u8) -> Self {
-        let mut date = *self;
-        for _ in 0..n {
-            date = date.previous_day();
-        }
-
-        date
-    }
-}
-
 impl Tokenize for Date {
     fn tokenize(&self, indent: usize) -> String {
         let mut tokens = String::new();
@@ -129,13 +86,6 @@ impl Tokenize for Date {
         tokens
     }
 }
-
-// pub enum PositionRole {
-//     Pitcher,
-//     Fielder,
-//     Hitter,
-//     TwoWayPlayer,
-// }
 
 #[derive(Debug, Clone, Copy, Serialize, Deserialize)]
 pub enum Position {
@@ -229,141 +179,15 @@ impl ToString for Position {
     }
 }
 
-// #[derive(Debug, Serialize)]
-// pub enum PlayerStats {
-//     Pitching {
-//         era: Option<f32>,
-//         whip: Option<f32>,
-//         strikeouts_per_nine_innings: Option<f32>,
-//         innings_pitched: Option<f32>,
-//     },
-//     Fielding {
-//         fielding_percentage: Option<f32>,
-//         range_factor_per_nine_innings: Option<f32>,
-//         assists_per_game: Option<f32>,
-//         putouts_per_game: Option<f32>,
-//         double_plays_per_game: Option<f32>,
-//     },
-//     Hitting {
-//         avg: Option<f32>,
-//         obp: Option<f32>,
-//         slg: Option<f32>,
-//         ops: Option<f32>,
-//     }
-// }
-
-// impl PlayerStats {
-//     pub async fn from_id_position_and_date(player_id: usize, position: Position, game_date: Date) -> Result<Self, String> {
-//         let start_date = game_date.minus_n_days(30).to_string();
-//         let end_date = game_date.previous_day().to_string(); // [start_date, game_date)
-
-//         match position.role() {
-//             PositionRole::Pitcher => {
-//                 let stats_url = format!("https://statsapi.mlb.com/api/v1/people/{player_id}/stats?stats=byDateRange&startDate={start_date}&endDate={end_date}&group=pitching");
-//                 let response = reqwest::get(&stats_url).await.unwrap();
-//                 let stats_data = response.json::<serde_json::Value>().await.unwrap();
-
-//                 if stats_data["stats"][0]["splits"].as_array().is_none() || stats_data["stats"][0]["splits"].as_array().unwrap().is_empty() {
-//                     println!("\t{}", stats_url);
-//                     return Err("No splits".to_string());
-//                 }
-
-//                 let era = stats_data["stats"][0]["splits"][0]["stat"]["era"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-//                 let whip = stats_data["stats"][0]["splits"][0]["stat"]["whip"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-//                 let strikeouts_per_nine_innings = stats_data["stats"][0]["splits"][0]["stat"]["strikeoutsPer9Inn"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-//                 let innings_pitched = stats_data["stats"][0]["splits"][0]["stat"]["inningsPitched"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-
-//                 Ok(Self::Pitching { era, whip, strikeouts_per_nine_innings, innings_pitched })
-//             },
-//             PositionRole::Fielder => {
-//                 let stats_url = format!("https://statsapi.mlb.com/api/v1/people/{player_id}/stats?stats=byDateRange&startDate={start_date}&endDate={end_date}&group=fielding");
-//                 let response = reqwest::get(&stats_url).await.unwrap();
-//                 let stats_data = response.json::<serde_json::Value>().await.unwrap();
-
-//                 if stats_data["stats"][0]["splits"].as_array().is_none() || stats_data["stats"][0]["splits"].as_array().unwrap().is_empty() {
-//                     return Err("No splits".to_string());
-//                 }
-
-//                 let games_played = stats_data["stats"][0]["splits"][0]["stat"]["gamesPlayed"].as_u64().unwrap() as f32;
-
-//                 let fielding_percentage = stats_data["stats"][0]["splits"][0]["stat"]["fielding"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-//                 let range_factor_per_nine_innings = stats_data["stats"][0]["splits"][0]["stat"]["rangeFactorPer9Inn"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-//                 let assists_per_game = round_to_3dp(stats_data["stats"][0]["splits"][0]["stat"]["assists"].as_u64().unwrap() as f32 / games_played);
-//                 let putouts_per_game = round_to_3dp(stats_data["stats"][0]["splits"][0]["stat"]["putOuts"].as_u64().unwrap() as f32 / games_played);
-//                 let double_plays_per_game = round_to_3dp(stats_data["stats"][0]["splits"][0]["stat"]["doublePlays"].as_u64().unwrap() as f32 / games_played);
-
-//                 Ok(Self::Fielding {
-//                     fielding_percentage,
-//                     range_factor_per_nine_innings,
-//                     assists_per_game: Some(assists_per_game),
-//                     putouts_per_game: Some(putouts_per_game),
-//                     double_plays_per_game: Some(double_plays_per_game),
-//                 })
-//             },
-//             PositionRole::Hitter => {
-//                 let stats_url = format!("https://statsapi.mlb.com/api/v1/people/{player_id}/stats?stats=byDateRange&startDate={start_date}&endDate={end_date}&group=batting");
-//                 let response = reqwest::get(&stats_url).await.unwrap();
-//                 let stats_data = response.json::<serde_json::Value>().await.unwrap();
-
-//                 if stats_data["stats"][0]["splits"].as_array().is_none() || stats_data["stats"][0]["splits"].as_array().unwrap().is_empty() {
-//                     return Err("No splits".to_string());
-//                 }
-
-//                 let avg = stats_data["stats"][0]["splits"][0]["stat"]["avg"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-//                 let obp = stats_data["stats"][0]["splits"][0]["stat"]["obp"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-//                 let slg = stats_data["stats"][0]["splits"][0]["stat"]["slg"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-//                 let ops = stats_data["stats"][0]["splits"][0]["stat"]["ops"]
-//                     .as_str()
-//                     .map(parse_mlb_percentage)
-//                     .and_then(Result::ok);
-
-//                 Ok(Self::Hitting { avg, obp, slg, ops })
-//             },
-//         }
-//     }
-// }
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Player {
     name: String,
     position: Position,
-    // stats: PlayerStats,
 }
 
 impl Player {
     pub async fn new(name: String, position: Position) -> Result<Self, String> {
-        Ok(Self {
-            name,
-            position,
-            // stats: PlayerStats::from_id_position_and_date(id, position, game_date).await?,
-        })
+        Ok(Self { name, position })
     }
 }
 
@@ -419,7 +243,6 @@ impl Tokenize for Team {
 
         tokens += &format!("\n{}<PLAYERS>", indent_spaces(indent + 1));
         for player in &self.players {
-            // tokens += &player.tokenize(indent + 2);
             tokens += &format!("\n{}", player.tokenize(indent + 2));
         }
         tokens += &format!("\n{}</PLAYERS>", indent_spaces(indent + 1));
@@ -1797,20 +1620,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</BUNT_LINEOUT>", indent_spaces(indent));
             },
             Play::Flyout { batter, pitcher, fielders, movements } => {
-                // tokens += "<FLYOUT>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</FLYOUT>";
-
                 tokens += &format!("{}<FLYOUT>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -1826,20 +1635,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</FLYOUT>", indent_spaces(indent));
             },
             Play::PopOut { batter, pitcher, fielders, movements } => {
-                // tokens += "<POP_OUT>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</POP_OUT>";
-
                 tokens += &format!("{}<POP_OUT>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -1855,20 +1650,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</POP_OUT>", indent_spaces(indent));
             },
             Play::BuntPopOut { batter, pitcher, fielders, movements } => {
-                // tokens += "<BUNT_POP_OUT>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</BUNT_POP_OUT>";
-
                 tokens += &format!("{}<BUNT_POP_OUT>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -1884,20 +1665,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</BUNT_POP_OUT>", indent_spaces(indent));
             },
             Play::Forceout { batter, pitcher, fielders, movements } => {
-                // tokens += "<FORCEOUT>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</FORCEOUT>";
-
                 tokens += &format!("{}<FORCEOUT>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -1913,21 +1680,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</FORCEOUT>", indent_spaces(indent));
             },
             Play::FieldersChoiceOut { batter, pitcher, fielders, scoring_runner, movements } => {
-                // tokens += "<FIELDERS_CHOICE_OUT>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-                // tokens += &format!("<SCORING_RUNNER>{}</SCORING_RUNNER>", scoring_runner);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</FIELDERS_CHOICE_OUT>";
-
                 tokens += &format!("{}<FIELDERS_CHOICE_OUT>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -1944,20 +1696,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</FIELDERS_CHOICE_OUT>", indent_spaces(indent));
             },
             Play::DoublePlay { batter, pitcher, fielders, movements } => {
-                // tokens += "<DOUBLE_PLAY>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</DOUBLE_PLAY>";
-
                 tokens += &format!("{}<DOUBLE_PLAY>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -1973,20 +1711,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</DOUBLE_PLAY>", indent_spaces(indent));
             },
             Play::GroundedIntoDoublePlay { batter, pitcher, fielders, movements } => {
-                // tokens += "<GROUNDED_INTO_DOUBLE_PLAY>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</GROUNDED_INTO_DOUBLE_PLAY>";
-
                 tokens += &format!("{}<GROUNDED_INTO_DOUBLE_PLAY>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2002,20 +1726,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</GROUNDED_INTO_DOUBLE_PLAY>", indent_spaces(indent));
             },
             Play::StrikeoutDoublePlay { batter, pitcher, fielders, movements } => {
-                // tokens += "<STRIKEOUT_DOUBLE_PLAY>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</STRIKEOUT_DOUBLE_PLAY>";
-
                 tokens += &format!("{}<STRIKEOUT_DOUBLE_PLAY>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2031,20 +1741,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</STRIKEOUT_DOUBLE_PLAY>", indent_spaces(indent));
             },
             Play::Pickoff { base, runner, fielders, movements } => {
-                // tokens += "<PICKOFF>";
-
-                // tokens += &format!("<BASE>{}</BASE>", base);
-                // tokens += &format!("<RUNNER>{}</RUNNER>", runner);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</PICKOFF>";
-
                 tokens += &format!("{}<PICKOFF>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BASE>{}</BASE>", indent_spaces(indent + 1), base);
@@ -2060,20 +1756,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</PICKOFF>", indent_spaces(indent));
             },
             Play::PickoffError { base, runner, fielders, movements } => {
-                // tokens += "<PICKOFF_ERROR>";
-
-                // tokens += &format!("<BASE>{}</BASE>", base);
-                // tokens += &format!("<RUNNER>{}</RUNNER>", runner);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</PICKOFF_ERROR>";
-
                 tokens += &format!("{}<PICKOFF_ERROR>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BASE>{}</BASE>", indent_spaces(indent + 1), base);
@@ -2089,20 +1771,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</PICKOFF_ERROR>", indent_spaces(indent));
             },
             Play::CaughtStealing { base, runner, fielders, movements } => {
-                // tokens += "<CAUGHT_STEALING>";
-
-                // tokens += &format!("<BASE>{}</BASE>", base);
-                // tokens += &format!("<RUNNER>{}</RUNNER>", runner);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</CAUGHT_STEALING>";
-
                 tokens += &format!("{}<CAUGHT_STEALING>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BASE>{}</BASE>", indent_spaces(indent + 1), base);
@@ -2118,20 +1786,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</CAUGHT_STEALING>", indent_spaces(indent));
             },
             Play::PickoffCaughtStealing { base, runner, fielders, movements } => {
-                // tokens += "<PICKOFF_CAUGHT_STEALING>";
-
-                // tokens += &format!("<BASE>{}</BASE>", base);
-                // tokens += &format!("<RUNNER>{}</RUNNER>", runner);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</PICKOFF_CAUGHT_STEALING>";
-
                 tokens += &format!("{}<PICKOFF_CAUGHT_STEALING>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BASE>{}</BASE>", indent_spaces(indent + 1), base);
@@ -2147,19 +1801,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</PICKOFF_CAUGHT_STEALING>", indent_spaces(indent));
             },
             Play::WildPitch { pitcher, runner, movements } => {
-                // tokens += "<WILD_PITCH>";
-
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<RUNNER>{}</RUNNER>", runner);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</WILD_PITCH>";
-
                 tokens += &format!("{}<WILD_PITCH>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
@@ -2174,19 +1815,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</WILD_PITCH>", indent_spaces(indent));
             },
             Play::RunnerOut { runner, fielders, movements } => {
-                // tokens += "<RUNNER_OUT>";
-
-                // tokens += &format!("<RUNNER>{}</RUNNER>", runner);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</RUNNER_OUT>";
-
                 tokens += &format!("{}<RUNNER_OUT>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), runner);
@@ -2201,19 +1829,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</RUNNER_OUT>", indent_spaces(indent));
             },
             Play::Single { batter, pitcher, movements } => {
-                // tokens += "<SINGLE>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</SINGLE>";
-
                 tokens += &format!("{}<SINGLE>", indent_spaces(indent));
                 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2228,19 +1843,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</SINGLE>", indent_spaces(indent));
             },
             Play::Double { batter, pitcher, movements } => {
-                // tokens += "<DOUBLE>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</DOUBLE>";
-
                 tokens += &format!("{}<DOUBLE>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2255,19 +1857,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</DOUBLE>", indent_spaces(indent));
             },
             Play::Triple { batter, pitcher, movements } => {
-                // tokens += "<TRIPLE>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</TRIPLE>";
-
                 tokens += &format!("{}<TRIPLE>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2282,19 +1871,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</TRIPLE>", indent_spaces(indent));
             },
             Play::HomeRun { batter, pitcher, movements } => {
-                // tokens += "<HOME_RUN>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</HOME_RUN>";
-
                 tokens += &format!("{}<HOME_RUN>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2309,19 +1885,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</HOME_RUN>", indent_spaces(indent));
             },
             Play::Walk { batter, pitcher, movements } => {
-                // tokens += "<WALK>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</WALK>";
-
                 tokens += &format!("{}<WALK>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2336,19 +1899,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</WALK>", indent_spaces(indent));
             },
             Play::IntentWalk { batter, pitcher, movements } => {
-                // tokens += "<INTENT_WALK>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</INTENT_WALK>";
-
                 tokens += &format!("{}<INTENT_WALK>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2363,19 +1913,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</INTENT_WALK>", indent_spaces(indent));
             },
             Play::HitByPitch { batter, pitcher, movements } => {
-                // tokens += "<HIT_BY_PITCH>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</HIT_BY_PITCH>";
-
                 tokens += &format!("{}<HIT_BY_PITCH>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2390,20 +1927,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</HIT_BY_PITCH>", indent_spaces(indent));
             },
             Play::FieldersChoice { batter, pitcher, fielders, movements } => {
-                // tokens += "<FIELDERS_CHOICE>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</FIELDERS_CHOICE>";
-
                 tokens += &format!("{}<FIELDERS_CHOICE>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2419,20 +1942,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</FIELDERS_CHOICE>", indent_spaces(indent));
             },
             Play::CatcherInterference { batter, pitcher, fielders, movements } => {
-                // tokens += "<CATCHER_INTERFERENCE>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</CATCHER_INTERFERENCE>";
-
                 tokens += &format!("{}<CATCHER_INTERFERENCE>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2448,21 +1957,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</CATCHER_INTERFERENCE>", indent_spaces(indent));
             },
             Play::SacFly { batter, pitcher, fielders, scoring_runner, movements } => {
-                // tokens += "<SAC_FLY>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-                // tokens += &format!("<SCORING_RUNNER>{}</SCORING_RUNNER>", scoring_runner);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</SAC_FLY>";
-
                 tokens += &format!("{}<SAC_FLY>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2479,21 +1973,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</SAC_FLY>", indent_spaces(indent));
             },
             Play::SacFlyDoublePlay { batter, pitcher, fielders, scoring_runner, movements } => {
-                // tokens += "<SAC_FLY_DOUBLE_PLAY>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-                // tokens += &format!("<SCORING_RUNNER>{}</SCORING_RUNNER>", scoring_runner);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</SAC_FLY_DOUBLE_PLAY>";
-
                 tokens += &format!("{}<SAC_FLY_DOUBLE_PLAY>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2510,21 +1989,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</SAC_FLY_DOUBLE_PLAY>", indent_spaces(indent));
             },
             Play::SacBunt { batter, pitcher, fielders, runner, movements } => {
-                // tokens += "<SAC_BUNT>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-                // tokens += &format!("<RUNNER>{}</RUNNER>", runner);
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</SAC_BUNT>";
-
                 tokens += &format!("{}<SAC_BUNT>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2541,20 +2005,6 @@ impl Tokenize for Play {
                 tokens += &format!("\n{}</SAC_BUNT>", indent_spaces(indent));
             },
             Play::FieldError { batter, pitcher, fielders, movements } => {
-                // tokens += "<FIELD_ERROR>";
-
-                // tokens += &format!("<BATTER>{}</BATTER>", batter);
-                // tokens += &format!("<PITCHER>{}</PITCHER>", pitcher);
-                // tokens += &format!("<FIELDERS>{}</FIELDERS>", fielders.join(", "));
-
-                // tokens += "<MOVEMENTS>";
-                // for movement in movements {
-                //     tokens += &movement.tokenize();
-                // }
-                // tokens += "</MOVEMENTS>";
-
-                // tokens += "</FIELD_ERROR>";
-
                 tokens += &format!("{}<FIELD_ERROR>", indent_spaces(indent));
 
                 tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
@@ -2584,7 +2034,6 @@ pub struct Game {
 impl Game {
     pub async fn from_game_pk(game_pk: usize) -> Result<Self, String> {
         let url = format!("https://statsapi.mlb.com/api/v1.1/game/{game_pk}/feed/live");
-        // println!("Getting game: {url}");
         log(format!("[Game::from_game_pk] Getting game: {url}"));
         let response = reqwest::get(&url).await.unwrap();
         let game_data = response.json::<serde_json::Value>().await.unwrap();
@@ -2595,10 +2044,6 @@ impl Game {
 
         let game_date = game_data["gameData"]["datetime"]["originalDate"].as_str().unwrap();
         let game_date = Date::from(game_date);
-        // if game_date.month < 4 {
-        //     return Err(format!("Game is in the off-season (date: {})", game_date.to_string()));
-        // }
-
         let weather = Weather::from_value(&game_data["gameData"]["weather"]);
 
         let plays_data = game_data["liveData"]["plays"]["allPlays"].as_array().unwrap();
@@ -2606,9 +2051,6 @@ impl Game {
         let mut plays = Vec::new();
         for play in plays_data {
             let p = Play::from_value(play).await?; // if any data is missing, discard the game
-            // if let Play::Forceout { movements, .. } = &p {
-            //     println!("{:#?}", movements);
-            // }
             plays.push(p);
         }
 
@@ -2644,7 +2086,6 @@ impl Game {
         std::fs::write(&file_path, json)
             .map_err(|e| format!("Failed to write game to file: {}", e)).unwrap();
 
-        // println!("Saved game to {}", file_path);
         log(format!("[Game::save] Saved game to {}", file_path));
     }
 
@@ -2653,8 +2094,6 @@ impl Game {
         let response = reqwest::get(&url).await.unwrap();
         let schedule = response.json::<serde_json::Value>().await.unwrap();
         let dates = schedule["dates"].as_array().unwrap();
-
-        // log(format!("[Game::get_all_by_team_in_season] Skipping {} games.", skip));
 
         let progress_style = ProgressStyle::default_bar().template("{wide_bar} {pos}/{len} | elapsed: {elapsed_precise}, eta: {eta_precise}").unwrap();
         for date in dates.iter().progress_with_style(progress_style) {
@@ -2676,21 +2115,6 @@ impl Game {
 
 impl Tokenize for Game {
     fn tokenize(&self, indent: usize) -> String {
-        // let mut tokens = String::new();
-
-        // tokens += "<GAME>";
-        // tokens += &self.context.tokenize();
-
-        // tokens += "<PLAYS>";
-        // for play in &self.plays {
-        //     tokens += &play.tokenize();
-        // }
-        // tokens += "</PLAYS>";
-
-        // tokens += "</GAME>";
-
-        // tokens
-
         let mut tokens = String::new();
 
         tokens += &format!("{}<GAME>", indent_spaces(indent));
