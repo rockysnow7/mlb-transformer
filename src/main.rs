@@ -75,11 +75,11 @@ async fn main() {
                 let progress_style = ProgressStyle::default_bar().template("{wide_bar} {pos}/{len} | elapsed: {elapsed_precise}, eta: {eta_precise}").unwrap();
                 for game_path in all_games.iter().progress_with_style(progress_style) {
                     let game = serde_json::from_str::<model::Game>(&std::fs::read_to_string(game_path).unwrap()).unwrap();
-                    let tokens = game.tokenize(0);
+                    let tokens = game.tokenize();
 
                     let tokens_path = game_path
                         .replace("data", "tokenized_data")
-                        .replace(".json", ".xml");
+                        .replace(".json", ".txt");
 
                     let parts = tokens_path
                         .split('/')

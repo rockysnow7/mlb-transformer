@@ -3,12 +3,8 @@ use indicatif::{ProgressIterator, ProgressStyle};
 use serde::{Serialize, Deserialize};
 use std::io::Write;
 
-fn indent_spaces(amount: usize) -> String {
-    " ".repeat(4 * amount)
-}
-
 pub trait Tokenize {
-    fn tokenize(&self, indent: usize) -> String;
+    fn tokenize(&self) -> String;
 }
 
 fn log(message: String) {
@@ -72,18 +68,8 @@ impl From<&str> for Date {
 }
 
 impl Tokenize for Date {
-    fn tokenize(&self, indent: usize) -> String {
-        let mut tokens = String::new();
-
-        tokens += &format!("{}<DATE>", indent_spaces(indent));
-
-        tokens += &format!("\n{}<YEAR>{}</YEAR>", indent_spaces(indent), self.year);
-        tokens += &format!("\n{}<MONTH>{}</MONTH>", indent_spaces(indent), self.month);
-        tokens += &format!("\n{}<DAY>{}</DAY>", indent_spaces(indent), self.day);
-
-        tokens += &format!("\n{}</DATE>", indent_spaces(indent));
-
-        tokens
+    fn tokenize(&self) -> String {
+        format!("[DATE] {}", self.to_string())
     }
 }
 
@@ -133,24 +119,6 @@ impl Position {
             _ => panic!("Unknown position abbreviation: {}", position_abbr),
         }
     }
-
-    // pub fn role(&self) -> PositionRole {
-    //     match self {
-    //         Position::Pitcher => PositionRole::Pitcher,
-    //         Position::Catcher
-    //             | Position::FirstBase
-    //             | Position::SecondBase
-    //             | Position::ThirdBase
-    //             | Position::Shortstop
-    //             | Position::LeftField
-    //             | Position::CenterField
-    //             | Position::RightField
-    //             | Position::Outfield
-    //             | Position::Infield => PositionRole::Fielder,
-    //         Position::Hitter => PositionRole::Hitter,
-    //         Position::TwoWayPlayer => PositionRole::TwoWayPlayer,
-    //     }
-    // }
 }
 
 impl ToString for Position {
@@ -192,14 +160,8 @@ impl Player {
 }
 
 impl Tokenize for Player {
-    fn tokenize(&self, indent: usize) -> String {
-        format!(
-            "{}<{}>{}</{}>",
-            indent_spaces(indent),
-            self.position.to_string(),
-            self.name,
-            self.position.to_string(),
-        )
+    fn tokenize(&self) -> String {
+        format!("[{}] {}", self.position.to_string(), self.name)
     }
 }
 
@@ -234,20 +196,13 @@ impl Team {
 }
 
 impl Tokenize for Team {
-    fn tokenize(&self, indent: usize) -> String {
+    fn tokenize(&self) -> String {
         let mut tokens = String::new();
 
-        tokens += &format!("{}<TEAM>", indent_spaces(indent));
-
-        tokens += &format!("\n{}<ID>{}</ID>", indent_spaces(indent + 1), self.id);
-
-        tokens += &format!("\n{}<PLAYERS>", indent_spaces(indent + 1));
+        tokens += &format!("[TEAM] {}\n", self.id);
         for player in &self.players {
-            tokens += &format!("\n{}", player.tokenize(indent + 2));
+            tokens += &format!("{}\n", player.tokenize());
         }
-        tokens += &format!("\n{}</PLAYERS>", indent_spaces(indent + 1));
-
-        tokens += &format!("\n{}</TEAM>", indent_spaces(indent));
 
         tokens
     }
@@ -284,18 +239,8 @@ impl Weather {
 }
 
 impl Tokenize for Weather {
-    fn tokenize(&self, indent: usize) -> String {
-        let mut tokens = String::new();
-
-        tokens += &format!("{}<WEATHER>", indent_spaces(indent));
-
-        tokens += &format!("\n{}<CONDITION>{}</CONDITION>", indent_spaces(indent + 1), self.condition);
-        tokens += &format!("\n{}<TEMPERATURE>{}</TEMPERATURE>", indent_spaces(indent + 1), self.temperature);
-        tokens += &format!("\n{}<WIND_SPEED>{}</WIND_SPEED>", indent_spaces(indent + 1), self.wind_speed);
-
-        tokens += &format!("\n{}</WEATHER>", indent_spaces(indent));
-
-        tokens
+    fn tokenize(&self) -> String {
+        format!("[WEATHER] {} {} {}", self.condition, self.temperature, self.wind_speed)
     }
 }
 
@@ -335,25 +280,16 @@ impl GameContext {
 }
 
 impl Tokenize for GameContext {
-    fn tokenize(&self, indent: usize) -> String {
-        let mut tokens = String::new();
-
-        tokens += &format!("{}<CONTEXT>", indent_spaces(indent));
-
-        tokens += &format!("\n{}<GAME_PK>{}</GAME_PK>", indent_spaces(indent + 1), self.game_pk);
-        tokens += "\n";
-        tokens += &self.date.tokenize(indent + 1);
-        tokens += &format!("\n{}<VENUE_NAME>{}</VENUE_NAME>", indent_spaces(indent + 1), self.venue_name);
-        tokens += "\n";
-        tokens += &self.weather.tokenize(indent + 1);
-        tokens += "\n";
-        tokens += &self.home_team.tokenize(indent + 1);
-        tokens += "\n";
-        tokens += &self.away_team.tokenize(indent + 1);
-
-        tokens += &format!("\n{}</CONTEXT>", indent_spaces(indent));
-
-        tokens
+    fn tokenize(&self) -> String {
+        format!(
+            "{} [DATE] {} [VENUE] {} {}\n\n{}\n{}",
+            self.game_pk,
+            self.date.to_string(),
+            self.venue_name,
+            self.weather.tokenize(),
+            self.home_team.tokenize(),
+            self.away_team.tokenize(),
+        )
     }
 }
 
@@ -381,30 +317,25 @@ impl Movement {
 }
 
 impl Tokenize for Movement {
-    fn tokenize(&self, indent: usize) -> String {
+    fn tokenize(&self) -> String {
         let mut tokens = String::new();
 
-        tokens += &format!("{}<MOVEMENT>", indent_spaces(indent));
+        tokens += &format!("{} ", self.runner);
 
-        tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), self.runner);
-
-        tokens += &format!("\n{}<START_BASE>", indent_spaces(indent + 1));
-        tokens += match self.start_base {
+        let start_base_str = match self.start_base {
             Some(base) => base.to_string(),
-            None => "null".to_string(),
-        }.as_str();
-        tokens += "</START_BASE>";
-
-        tokens += &format!("\n{}<END_BASE>", indent_spaces(indent + 1));
-        tokens += match self.end_base {
+            None => "home".to_string(),
+        };
+        let end_base_str = match self.end_base {
             Some(base) => base.to_string(),
-            None => "null".to_string(),
-        }.as_str();
-        tokens += "</END_BASE>";
+            None => "home".to_string(),
+        };
 
-        tokens += &format!("\n{}<IS_OUT>{}</IS_OUT>", indent_spaces(indent + 1), self.is_out);
+        tokens += &format!("{} -> {}", start_base_str, end_base_str);
 
-        tokens += &format!("\n{}</MOVEMENT>", indent_spaces(indent));
+        if self.is_out {
+            tokens += " [out]";
+        }
 
         tokens
     }
@@ -1541,487 +1472,581 @@ impl Play {
 }
 
 impl Tokenize for Play {
-    fn tokenize(&self, indent: usize) -> String {
-        let mut tokens = String::new();
+    fn tokenize(&self) -> String {
+        let mut tokens = "[PLAY] ".to_string();
 
         match self {
             Play::Groundout { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<GROUNDOUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Groundout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</GROUNDOUT>", indent_spaces(indent));
+                tokens
             },
             Play::BuntGroundout { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<BUNT_GROUNDOUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Bunt Groundout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</BUNT_GROUNDOUT>", indent_spaces(indent));
+                tokens
             },
             Play::Strikeout { batter, pitcher, movements } => {
-                tokens += &format!("{}<STRIKEOUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Strikeout [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</STRIKEOUT>", indent_spaces(indent));
+                tokens
             },
             Play::Lineout { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<LINEOUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Lineout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</LINEOUT>", indent_spaces(indent));
+                tokens
             },
             Play::BuntLineout { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<BUNT_LINEOUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Bunt Lineout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</BUNT_LINEOUT>", indent_spaces(indent));
+                tokens
             },
             Play::Flyout { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<FLYOUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Flyout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</FLYOUT>", indent_spaces(indent));
+                tokens
             },
             Play::PopOut { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<POP_OUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Pop Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</POP_OUT>", indent_spaces(indent));
+                tokens
             },
             Play::BuntPopOut { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<BUNT_POP_OUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Bunt Pop Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</BUNT_POP_OUT>", indent_spaces(indent));
+                tokens
             },
             Play::Forceout { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<FORCEOUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Forceout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</FORCEOUT>", indent_spaces(indent));
+                tokens
             },
             Play::FieldersChoiceOut { batter, pitcher, fielders, scoring_runner, movements } => {
-                tokens += &format!("{}<FIELDERS_CHOICE_OUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Fielders Choice Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                    scoring_runner,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
-                tokens += &format!("\n{}<SCORING_RUNNER>{}</SCORING_RUNNER>", indent_spaces(indent + 1), scoring_runner);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</FIELDERS_CHOICE_OUT>", indent_spaces(indent));
+                tokens
             },
             Play::DoublePlay { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<DOUBLE_PLAY>", indent_spaces(indent));
+                tokens += &format!(
+                    "Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</DOUBLE_PLAY>", indent_spaces(indent));
+                tokens
             },
             Play::GroundedIntoDoublePlay { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<GROUNDED_INTO_DOUBLE_PLAY>", indent_spaces(indent));
+                tokens += &format!(
+                    "Grounded Into Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</GROUNDED_INTO_DOUBLE_PLAY>", indent_spaces(indent));
+                tokens
             },
             Play::StrikeoutDoublePlay { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<STRIKEOUT_DOUBLE_PLAY>", indent_spaces(indent));
+                tokens += &format!(
+                    "Strikeout Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</STRIKEOUT_DOUBLE_PLAY>", indent_spaces(indent));
+                tokens
             },
             Play::Pickoff { base, runner, fielders, movements } => {
-                tokens += &format!("{}<PICKOFF>", indent_spaces(indent));
+                tokens += &format!(
+                    "Pickoff [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    base,
+                    runner,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BASE>{}</BASE>", indent_spaces(indent + 1), base);
-                tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), runner);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</PICKOFF>", indent_spaces(indent));
+                tokens
             },
             Play::PickoffError { base, runner, fielders, movements } => {
-                tokens += &format!("{}<PICKOFF_ERROR>", indent_spaces(indent));
+                tokens += &format!(
+                    "Pickoff Error [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    base,
+                    runner,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BASE>{}</BASE>", indent_spaces(indent + 1), base);
-                tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), runner);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</PICKOFF_ERROR>", indent_spaces(indent));
+                tokens
             },
             Play::CaughtStealing { base, runner, fielders, movements } => {
-                tokens += &format!("{}<CAUGHT_STEALING>", indent_spaces(indent));
+                tokens += &format!(
+                    "Caught Stealing [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    base,
+                    runner,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BASE>{}</BASE>", indent_spaces(indent + 1), base);
-                tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), runner);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</CAUGHT_STEALING>", indent_spaces(indent));
+                tokens
             },
             Play::PickoffCaughtStealing { base, runner, fielders, movements } => {
-                tokens += &format!("{}<PICKOFF_CAUGHT_STEALING>", indent_spaces(indent));
+                tokens += &format!(
+                    "Pickoff Caught Stealing [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    base,
+                    runner,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BASE>{}</BASE>", indent_spaces(indent + 1), base);
-                tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), runner);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</PICKOFF_CAUGHT_STEALING>", indent_spaces(indent));
+                tokens
             },
             Play::WildPitch { pitcher, runner, movements } => {
-                tokens += &format!("{}<WILD_PITCH>", indent_spaces(indent));
+                tokens += &format!(
+                    "Wild Pitch [PITCHER] {} [RUNNER] {} [MOVEMENTS] ",
+                    pitcher,
+                    runner,
+                );
 
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), runner);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</WILD_PITCH>", indent_spaces(indent));
+                tokens
             },
             Play::RunnerOut { runner, fielders, movements } => {
-                tokens += &format!("{}<RUNNER_OUT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Runner Out [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    runner,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), runner);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</RUNNER_OUT>", indent_spaces(indent));
+                tokens
             },
             Play::Single { batter, pitcher, movements } => {
-                tokens += &format!("{}<SINGLE>", indent_spaces(indent));
-                
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
+                tokens += &format!(
+                    "Single [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                );
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</SINGLE>", indent_spaces(indent));
+                tokens
             },
             Play::Double { batter, pitcher, movements } => {
-                tokens += &format!("{}<DOUBLE>", indent_spaces(indent));
+                tokens += &format!(
+                    "Double [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</DOUBLE>", indent_spaces(indent));
+                tokens
             },
             Play::Triple { batter, pitcher, movements } => {
-                tokens += &format!("{}<TRIPLE>", indent_spaces(indent));
+                tokens += &format!(
+                    "Triple [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</TRIPLE>", indent_spaces(indent));
+                tokens
             },
             Play::HomeRun { batter, pitcher, movements } => {
-                tokens += &format!("{}<HOME_RUN>", indent_spaces(indent));
+                tokens += &format!(
+                    "Home Run [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</HOME_RUN>", indent_spaces(indent));
+                tokens
             },
             Play::Walk { batter, pitcher, movements } => {
-                tokens += &format!("{}<WALK>", indent_spaces(indent));
+                tokens += &format!(
+                    "Walk [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</WALK>", indent_spaces(indent));
+                tokens
             },
             Play::IntentWalk { batter, pitcher, movements } => {
-                tokens += &format!("{}<INTENT_WALK>", indent_spaces(indent));
+                tokens += &format!(
+                    "Intent Walk [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</INTENT_WALK>", indent_spaces(indent));
+                tokens
             },
             Play::HitByPitch { batter, pitcher, movements } => {
-                tokens += &format!("{}<HIT_BY_PITCH>", indent_spaces(indent));
+                tokens += &format!(
+                    "Hit By Pitch [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</HIT_BY_PITCH>", indent_spaces(indent));
+                tokens
             },
             Play::FieldersChoice { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<FIELDERS_CHOICE>", indent_spaces(indent));
+                tokens += &format!(
+                    "Fielders Choice [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</FIELDERS_CHOICE>", indent_spaces(indent));
+                tokens
             },
             Play::CatcherInterference { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<CATCHER_INTERFERENCE>", indent_spaces(indent));
+                tokens += &format!(
+                    "Catcher Interference [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</CATCHER_INTERFERENCE>", indent_spaces(indent));
+                tokens
             },
             Play::SacFly { batter, pitcher, fielders, scoring_runner, movements } => {
-                tokens += &format!("{}<SAC_FLY>", indent_spaces(indent));
+                tokens += &format!(
+                    "Sac Fly [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                    scoring_runner,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
-                tokens += &format!("\n{}<SCORING_RUNNER>{}</SCORING_RUNNER>", indent_spaces(indent + 1), scoring_runner);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</SAC_FLY>", indent_spaces(indent));
+                tokens
             },
             Play::SacFlyDoublePlay { batter, pitcher, fielders, scoring_runner, movements } => {
-                tokens += &format!("{}<SAC_FLY_DOUBLE_PLAY>", indent_spaces(indent));
+                tokens += &format!(
+                    "Sac Fly Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                    scoring_runner,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
-                tokens += &format!("\n{}<SCORING_RUNNER>{}</SCORING_RUNNER>", indent_spaces(indent + 1), scoring_runner);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</SAC_FLY_DOUBLE_PLAY>", indent_spaces(indent));
+                tokens
             },
             Play::SacBunt { batter, pitcher, fielders, runner, movements } => {
-                tokens += &format!("{}<SAC_BUNT>", indent_spaces(indent));
+                tokens += &format!(
+                    "Sac Bunt [BATTER] {} [PITCHER] {} [FIELDERS] {} [RUNNER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                    runner,
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
-                tokens += &format!("\n{}<RUNNER>{}</RUNNER>", indent_spaces(indent + 1), runner);
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</SAC_BUNT>", indent_spaces(indent));
+                tokens
             },
             Play::FieldError { batter, pitcher, fielders, movements } => {
-                tokens += &format!("{}<FIELD_ERROR>", indent_spaces(indent));
+                tokens += &format!(
+                    "Field Error [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
 
-                tokens += &format!("\n{}<BATTER>{}</BATTER>", indent_spaces(indent + 1), batter);
-                tokens += &format!("\n{}<PITCHER>{}</PITCHER>", indent_spaces(indent + 1), pitcher);
-                tokens += &format!("\n{}<FIELDERS>{}</FIELDERS>", indent_spaces(indent + 1), fielders.join(", "));
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &format!("{}", movement.tokenize());
 
-                tokens += &format!("\n{}<MOVEMENTS>", indent_spaces(indent + 1));
-                for movement in movements {
-                    tokens += &format!("\n{}", movement.tokenize(indent + 2));
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
                 }
-                tokens += &format!("\n{}</MOVEMENTS>", indent_spaces(indent + 1));
 
-                tokens += &format!("\n{}</FIELD_ERROR>", indent_spaces(indent));
+                tokens
             },
         }
-
-        tokens
     }
 }
 
@@ -2114,20 +2139,14 @@ impl Game {
 }
 
 impl Tokenize for Game {
-    fn tokenize(&self, indent: usize) -> String {
+    fn tokenize(&self) -> String {
         let mut tokens = String::new();
 
-        tokens += &format!("{}<GAME>", indent_spaces(indent));
-
-        tokens += &format!("\n{}", self.context.tokenize(indent + 1));
-
-        tokens += &format!("\n{}<PLAYS>", indent_spaces(indent + 1));
+        tokens += &format!("[GAME] {}\n[START]\n", self.context.tokenize());
         for play in &self.plays {
-            tokens += &format!("\n{}", play.tokenize(indent + 2));
+            tokens += &format!("{}\n", play.tokenize());
         }
-        tokens += &format!("\n{}</PLAYS>", indent_spaces(indent + 1));
-
-        tokens += &format!("\n{}</GAME>", indent_spaces(indent));
+        tokens += "[END]\n";
 
         tokens
     }
