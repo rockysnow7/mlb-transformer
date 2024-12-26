@@ -419,6 +419,18 @@ pub enum Play {
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
+    RunnerDoublePlay {
+        batter: String,
+        pitcher: String,
+        fielders: Vec<String>,
+        movements: Vec<Movement>,
+    },
+    RunnerTriplePlay {
+        batter: String,
+        pitcher: String,
+        fielders: Vec<String>,
+        movements: Vec<Movement>,
+    },
     GroundedIntoDoublePlay {
         batter: String,
         pitcher: String,
@@ -468,6 +480,10 @@ pub enum Play {
     FieldOut {
         fielder: String,
         runner: String,
+        movements: Vec<Movement>,
+    },
+    Balk {
+        pitcher: String,
         movements: Vec<Movement>,
     },
     // scores
@@ -922,6 +938,68 @@ impl Play {
         })
     }
 
+    async fn runner_double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let batter = match value["matchup"]["batter"]["fullName"].as_str() {
+            Some(batter) => batter.to_string(),
+            None => return Err("No batter".to_string()),
+        };
+        let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
+            Some(pitcher) => pitcher.to_string(),
+            None => return Err("No pitcher".to_string()),
+        };
+        let fielder_ids = value["runners"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
+            .map(|id| id as usize);
+        let fielders = join_all(
+            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        ).await;
+        let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
+            runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
+            &runner["movement"],
+        )).collect();
+
+        Ok(Play::RunnerDoublePlay {
+            batter,
+            pitcher,
+            fielders,
+            movements,
+        })
+    }
+
+    async fn runner_triple_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let batter = match value["matchup"]["batter"]["fullName"].as_str() {
+            Some(batter) => batter.to_string(),
+            None => return Err("No batter".to_string()),
+        };
+        let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
+            Some(pitcher) => pitcher.to_string(),
+            None => return Err("No pitcher".to_string()),
+        };
+        let fielder_ids = value["runners"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
+            .map(|id| id as usize);
+        let fielders = join_all(
+            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        ).await;
+        let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
+            runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
+            &runner["movement"],
+        )).collect();
+
+        Ok(Play::TriplePlay {
+            batter,
+            pitcher,
+            fielders,
+            movements,
+        })
+    }
+
     async fn grounded_into_double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
@@ -1140,6 +1218,23 @@ impl Play {
         Ok(Play::FieldOut {
             fielder,
             runner,
+            movements,
+        })
+    }
+
+    async fn balk_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
+            Some(pitcher) => pitcher.to_string(),
+            None => return Err("No pitcher".to_string()),
+        };
+        let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
+        let movements = vec![Movement::from_runner_and_value(
+            runner.clone(),
+            &value["runners"][0]["movement"],
+        )];
+
+        Ok(Play::Balk {
+            pitcher,
             movements,
         })
     }
@@ -1520,6 +1615,8 @@ impl Play {
             "Catcher Interference" => Play::catcher_interference_from_value(value).await,
             "Double Play" => Play::double_play_from_value(value).await,
             "Triple Play" => Play::triple_play_from_value(value).await,
+            "Runner Double Play" => Play::runner_double_play_from_value(value).await,
+            "Runner Triple Play" => Play::runner_triple_play_from_value(value).await,
             "Grounded Into DP" => Play::grounded_into_double_play_from_value(value).await,
             "Strikeout Double Play" => Play::strikeout_double_play_from_value(value).await,
             "Pickoff 1B" => Play::pickoff_from_value_and_base(value, 1).await,
@@ -1538,6 +1635,7 @@ impl Play {
             "Wild Pitch" => Play::wild_pitch_from_value(value).await,
             "Runner Out" => Play::runner_out_from_value(value).await,
             "Field Out" => Play::field_out_from_value(value).await,
+            "Balk" => Play::balk_from_value(value).await,
             "Single" => Play::single_from_value(value).await,
             "Double" => Play::double_from_value(value).await,
             "Triple" => Play::triple_from_value(value).await,
@@ -1755,6 +1853,38 @@ impl Tokenize for Play {
                     }
                 }
             },
+            Play::RunnerDoublePlay { batter, pitcher, fielders, movements } => {
+                tokens += &format!(
+                    "Runner Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
+            Play::RunnerTriplePlay { batter, pitcher, fielders, movements } => {
+                tokens += &format!(
+                    "Runner Triple Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
             Play::GroundedIntoDoublePlay { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
                     "Grounded Into Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
@@ -1886,6 +2016,20 @@ impl Tokenize for Play {
                     "Field Out [FIELDER] {} [RUNNER] {} [MOVEMENTS] ",
                     fielder,
                     runner,
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
+            Play::Balk { pitcher, movements } => {
+                tokens += &format!(
+                    "Balk [PITCHER] {} [MOVEMENTS] ",
+                    pitcher,
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
