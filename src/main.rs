@@ -96,6 +96,10 @@ async fn main() {
                     std::fs::write(tokens_path, tokens).unwrap();
                 }
             }
+            "getone" => {
+                let game_pk = std::env::args().nth(2).unwrap().parse::<usize>().unwrap();
+                let _ = model::Game::from_game_pk(game_pk).await.unwrap();
+            },
             _ => eprintln!("Unknown command."),
         },
         None => eprintln!("Please provide a command."),

@@ -173,14 +173,17 @@ pub struct Team {
 
 impl Team {
     pub async fn from_boxscore_team_data_and_date(team_data: &serde_json::Value) -> Result<Self, String> {
-        // let team_name = team_data["team"]["abbreviation"].as_str().unwrap().to_string();
         let id = team_data["team"]["id"].as_u64().unwrap() as u8;
         let players_data = team_data["players"].as_object().unwrap();
 
         let mut players = Vec::new();
         for player_data in players_data.values() {
             let player_name = player_data["person"]["fullName"].as_str().unwrap().to_string();
-            let position_abbr = player_data["position"]["abbreviation"].as_str().unwrap();
+            let position_abbr = if let Some(abbr) = player_data["position"]["abbreviation"].as_str() {
+                abbr
+            } else {
+                return Err("No position abbreviation".to_string());
+            };
             let position = Position::from_abbr(position_abbr);
 
             let player = Player::new(player_name, position).await?;
@@ -462,6 +465,11 @@ pub enum Play {
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
+    FieldOut {
+        fielder: String,
+        runner: String,
+        movements: Vec<Movement>,
+    },
     // scores
     Single {
         batter: String,
@@ -508,6 +516,11 @@ pub enum Play {
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
+        movements: Vec<Movement>,
+    },
+    StolenBase {
+        base: u8,
+        runner: String,
         movements: Vec<Movement>,
     },
     // other
@@ -1113,6 +1126,24 @@ impl Play {
         })
     }
 
+    async fn field_out_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let fielder = match value["runners"][0]["details"]["fielder"]["fullName"].as_str() {
+            Some(fielder) => fielder.to_string(),
+            None => return Err("No fielder".to_string()),
+        };
+        let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
+        let movements = vec![Movement::from_runner_and_value(
+            runner.clone(),
+            &value["runners"][0]["movement"],
+        )];
+
+        Ok(Play::FieldOut {
+            fielder,
+            runner,
+            movements,
+        })
+    }
+
     // scores
     async fn single_from_value(value: &serde_json::Value) -> Result<Self, String> {
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
@@ -1323,6 +1354,20 @@ impl Play {
         })
     }
 
+    async fn stolen_base_from_value_and_base(value: &serde_json::Value, base: u8) -> Result<Self, String> {
+        let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
+        let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
+            runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
+            &runner["movement"],
+        )).collect();
+
+        Ok(Play::StolenBase {
+            base,
+            runner,
+            movements,
+        })
+    }
+
     // other
     async fn sac_fly_from_value(value: &serde_json::Value) -> Result<Self, String> {
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
@@ -1492,6 +1537,7 @@ impl Play {
             "Pickoff Caught Stealing Home" => Play::pickoff_caught_stealing_from_value_and_base(value, 4).await,
             "Wild Pitch" => Play::wild_pitch_from_value(value).await,
             "Runner Out" => Play::runner_out_from_value(value).await,
+            "Field Out" => Play::field_out_from_value(value).await,
             "Single" => Play::single_from_value(value).await,
             "Double" => Play::double_from_value(value).await,
             "Triple" => Play::triple_from_value(value).await,
@@ -1500,6 +1546,9 @@ impl Play {
             "Intent Walk" => Play::intent_walk_from_value(value).await,
             "Hit By Pitch" => Play::hit_by_pitch_from_value(value).await,
             "Fielders Choice" => Play::fielders_choice_from_value(value).await,
+            "Stolen Base 1B" => Play::stolen_base_from_value_and_base(value, 1).await,
+            "Stolen Base 2B" => Play::stolen_base_from_value_and_base(value, 2).await,
+            "Stolen Base 3B" => Play::stolen_base_from_value_and_base(value, 3).await,
             "Sac Fly" => Play::sac_fly_from_value(value).await,
             "Sac Fly Double Play" => Play::sac_fly_double_play_from_value(value).await,
             "Sac Bunt" => Play::sac_bunt_from_value(value).await,
@@ -1832,6 +1881,21 @@ impl Tokenize for Play {
                     }
                 }
             },
+            Play::FieldOut { fielder, runner, movements } => {
+                tokens += &format!(
+                    "Field Out [FIELDER] {} [RUNNER] {} [MOVEMENTS] ",
+                    fielder,
+                    runner,
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
             Play::Single { batter, pitcher, movements } => {
                 tokens += &format!(
                     "Single [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
@@ -1959,6 +2023,21 @@ impl Tokenize for Play {
                     batter,
                     pitcher,
                     fielders.join(", "),
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
+            Play::StolenBase { base, runner, movements } => {
+                tokens += &format!(
+                    "Stolen Base [BASE] {} [RUNNER] {} [MOVEMENTS] ",
+                    base,
+                    runner,
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
