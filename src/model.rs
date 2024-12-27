@@ -98,7 +98,7 @@ pub enum Position {
 impl Position {
     pub fn from_abbr(position_abbr: &str) -> Self {
         match position_abbr {
-            "P" => Position::Pitcher,
+            "P" | "LHP" | "RHP" => Position::Pitcher,
             "C" => Position::Catcher,
             "1B" => Position::FirstBase,
             "2B" => Position::SecondBase,
@@ -113,7 +113,7 @@ impl Position {
             "TWP" => Position::TwoWayPlayer,
             "OF" => Position::Outfield,
             "IF" => Position::Infield,
-            "UTIL" => Position::Utility,
+            "UT" | "UTIL" => Position::Utility,
             "RP" => Position::ReliefPitcher,
             "SP" => Position::StartingPitcher,
             _ => panic!("Unknown position abbreviation: {}", position_abbr),
@@ -555,6 +555,13 @@ pub enum Play {
         movements: Vec<Movement>,
     },
     SacBunt {
+        batter: String,
+        pitcher: String,
+        fielders: Vec<String>,
+        runner: String,
+        movements: Vec<Movement>,
+    },
+    SacBuntDoublePlay {
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
@@ -1566,6 +1573,40 @@ impl Play {
         })
     }
 
+    async fn sac_bunt_double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let batter = match value["matchup"]["batter"]["fullName"].as_str() {
+            Some(batter) => batter.to_string(),
+            None => return Err("No batter".to_string()),
+        };
+        let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
+            Some(pitcher) => pitcher.to_string(),
+            None => return Err("No pitcher".to_string()),
+        };
+        let fielder_ids = value["runners"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
+            .map(|id| id as usize);
+        let fielders = join_all(
+            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        ).await;
+        let runner = value["runners"][1]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
+
+        let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
+            runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
+            &runner["movement"],
+        )).collect();
+
+        Ok(Play::SacBuntDoublePlay {
+            batter,
+            pitcher,
+            fielders,
+            runner,
+            movements,
+        })
+    }
+
     async fn field_error_from_value(value: &serde_json::Value) -> Result<Self, String> {
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
@@ -1650,6 +1691,7 @@ impl Play {
             "Sac Fly" => Play::sac_fly_from_value(value).await,
             "Sac Fly Double Play" => Play::sac_fly_double_play_from_value(value).await,
             "Sac Bunt" => Play::sac_bunt_from_value(value).await,
+            "Sac Bunt Double Play" => Play::sac_bunt_double_play_from_value(value).await,
             "Field Error" => Play::field_error_from_value(value).await,
             _ => panic!("Unknown play type: {}", play_type),
         }
@@ -2243,6 +2285,23 @@ impl Tokenize for Play {
                     }
                 }
             },
+            Play::SacBuntDoublePlay { batter, pitcher, fielders, runner, movements } => {
+                tokens += &format!(
+                    "Sac Bunt Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [RUNNER] {} [MOVEMENTS] ",
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                    runner,
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
             Play::FieldError { batter, pitcher, fielders, movements } => {
                 tokens += &format!(
                     "Field Error [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
@@ -2341,6 +2400,7 @@ impl Game {
             for game_data in games_data {
                 let game_pk = game_data["gamePk"].as_u64().unwrap() as usize;
                 if skip_game_pks.contains(&game_pk) {
+                    log(format!("[Game::get_all_by_team_in_season] Skipping game {}", game_pk));
                     continue;
                 }
 
@@ -2357,11 +2417,11 @@ impl Tokenize for Game {
     fn tokenize(&self) -> String {
         let mut tokens = String::new();
 
-        tokens += &format!("[GAME] {}\n[START]\n", self.context.tokenize());
+        tokens += &format!("[GAME] {}\n[GAME_START]\n", self.context.tokenize());
         for play in &self.plays {
             tokens += &format!("{}\n", play.tokenize());
         }
-        tokens += "[END]\n";
+        tokens += "[GAME_END]\n";
 
         tokens
     }
