@@ -1,4 +1,3 @@
-use futures::future::join_all;
 use indicatif::{ProgressIterator, ProgressStyle};
 use serde::{Serialize, Deserialize};
 use std::io::Write;
@@ -19,13 +18,17 @@ fn log(message: String) {
     writeln!(file, "{}", message).unwrap();
 }
 
-async fn get_player_name_from_id(player_id: usize) -> String {
+async fn get_player_name_from_id(player_id: usize) -> Result<String, String> {
     let url = format!("https://statsapi.mlb.com/api/v1/people/{player_id}");
-    let response = reqwest::get(&url).await.unwrap();
+    let response = if let Ok(response) = reqwest::get(&url).await {
+        response
+    } else {
+        return Err("Failed to get player data".to_string());
+    };
     let player_data = response.json::<serde_json::Value>().await.unwrap();
     let player_name = player_data["people"][0]["fullName"].as_str().unwrap().to_string();
 
-    player_name
+    Ok(player_name)
 }
 
 fn base_value_to_option_u8(base: &serde_json::Value) -> Option<u8> {
@@ -219,25 +222,29 @@ pub struct Weather {
 }
 
 impl Weather {
-    pub fn from_value(value: &serde_json::Value) -> Self {
+    pub fn from_value(value: &serde_json::Value) -> Result<Self, String> {
         let condition = value["condition"].as_str().unwrap().to_string();
         let temperature = value["temp"].as_str().unwrap().parse().unwrap();
         let wind_speed = value["wind"]
-            .as_str()
-            .unwrap()
-            .to_string()
-            .split(' ')
-            .collect::<Vec<&str>>()
-            .first()
-            .unwrap()
-            .parse()
-            .unwrap();
+            .as_str();
 
-        Self {
+        let wind_speed = if let Some(wind_speed) = wind_speed {
+            wind_speed.to_string()
+                .split(' ')
+                .collect::<Vec<&str>>()
+                .first()
+                .unwrap()
+                .parse()
+                .unwrap()
+        } else {
+            return Err("No wind speed".to_string());
+        };
+
+        Ok(Self {
             condition,
             temperature,
             wind_speed,
-        }
+        })
     }
 }
 
@@ -574,6 +581,7 @@ pub enum Play {
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
+    GameAdvisory,
 }
 
 impl Play {
@@ -593,9 +601,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -624,9 +636,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -676,9 +692,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -707,9 +727,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -738,9 +762,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -769,9 +797,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -800,9 +832,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -831,9 +867,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -862,9 +902,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let scoring_runner = match value["runners"][1]["details"]["runner"]["fullName"].as_str() {
             Some(runner) => runner.to_string(),
             None => return Err("No scoring runner".to_string()),
@@ -898,9 +942,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -929,9 +977,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -960,9 +1012,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -991,9 +1047,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -1022,9 +1082,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -1053,9 +1117,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -1077,9 +1145,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
@@ -1102,9 +1174,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
@@ -1127,9 +1203,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
@@ -1152,9 +1232,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
@@ -1195,9 +1279,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
@@ -1409,9 +1497,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -1440,9 +1532,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
             &runner["movement"],
@@ -1486,9 +1582,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let scoring_runner = value["runners"][1]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
@@ -1520,9 +1620,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let scoring_runner = value["runners"][1]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
@@ -1554,9 +1658,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let runner = value["runners"][1]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
@@ -1588,9 +1696,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
         let runner = value["runners"][1]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
@@ -1622,9 +1734,13 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        let fielders = join_all(
-            fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        ).await;
+        // let fielders = join_all(
+        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
+        // ).await;
+        let mut fielders = Vec::new();
+        for id in fielder_ids {
+            fielders.push(get_player_name_from_id(id).await?);
+        }
 
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
@@ -1693,6 +1809,7 @@ impl Play {
             "Sac Bunt" => Play::sac_bunt_from_value(value).await,
             "Sac Bunt Double Play" => Play::sac_bunt_double_play_from_value(value).await,
             "Field Error" => Play::field_error_from_value(value).await,
+            "Game Advisory" => Ok(Play::GameAdvisory),
             _ => panic!("Unknown play type: {}", play_type),
         }
     }
@@ -2318,6 +2435,7 @@ impl Tokenize for Play {
                     }
                 }
             },
+            Play::GameAdvisory => tokens += "Game Advisory",
         };
 
         tokens
@@ -2359,7 +2477,7 @@ impl Game {
         let context = GameContext::from_game_boxscore_data_and_date_and_weather_and_game_pk(
             &boxscore_data,
             game_date,
-            weather,
+            weather?,
             game_pk,
         ).await?;
 
