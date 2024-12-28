@@ -12,6 +12,7 @@ SPECIAL_TOKENS = [
     "[SEP]",
     "[MASK]",
 ]
+VOCAB_SIZE = 10000
 
 
 def get_game_tokens_from_game(game: str) -> list[str]:
@@ -75,7 +76,7 @@ def train_tokenizer():
     ])
     tokenizer.decoder = decoders.WordPiece()
     trainer = trainers.WordPieceTrainer(
-        vocab_size=10000,
+        vocab_size=VOCAB_SIZE,
         special_tokens=special_tokens,
     )
 
