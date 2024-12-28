@@ -110,7 +110,7 @@ impl Position {
             "LF" => Position::LeftField,
             "CF" => Position::CenterField,
             "RF" => Position::RightField,
-            "DH" => Position::DesignatedHitter,
+            "DH" | "EH" => Position::DesignatedHitter,
             "PH" => Position::PinchHitter,
             "PR" => Position::PinchRunner,
             "TWP" => Position::TwoWayPlayer,
