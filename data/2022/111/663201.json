@@ -1,0 +1,1896 @@
+{
+  "context": {
+    "game_pk": 663201,
+    "date": {
+      "year": 2022,
+      "month": 8,
+      "day": 9
+    },
+    "venue_name": "Fenway Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 79,
+      "wind_speed": 12
+    },
+    "home_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Rich Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Pham",
+          "position": "LeftField"
+        },
+        {
+          "name": "J.D. Martinez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Ryan Brasier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Hosmer",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Yolmer Sánchez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Matt Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Plawecki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hirokazu Sawamura",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Arroyo",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Reese McGuire",
+          "position": "Catcher"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Darwinzon Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Davis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "RightField"
+        },
+        {
+          "name": "Jaylin Davis",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Bobby Dalbec",
+          "position": "FirstBase"
+        },
+        {
+          "name": "John Schreiber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Winckowski",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kaleb Ort",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Whitlock",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kutter Crawford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarren Duran",
+          "position": "CenterField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 144,
+      "players": [
+        {
+          "name": "Kenley Jansen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Charlie Morton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ehire Adrianza",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Travis d'Arnaud",
+          "position": "Catcher"
+        },
+        {
+          "name": "Marcell Ozuna",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Robbie Grossman",
+          "position": "LeftField"
+        },
+        {
+          "name": "Collin McHugh",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Odorizzi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Matzek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eddie Rosario",
+          "position": "LeftField"
+        },
+        {
+          "name": "Orlando Arcia",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Dansby Swanson",
+          "position": "Shortstop"
+        },
+        {
+          "name": "A.J. Minter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Olson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jackson Stephens",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chadwick Tromp",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kyle Wright",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Huascar Ynoa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ronald Acuña Jr.",
+          "position": "RightField"
+        },
+        {
+          "name": "William Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Austin Riley",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Dylan Lee",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Harris II",
+          "position": "CenterField"
+        },
+        {
+          "name": "Spencer Strider",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Rich Hill",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Eric Hosmer"
+        ],
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Austin Riley",
+        "pitcher": "Rich Hill",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Olson",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "William Contreras",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Rafael Devers",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Plawecki",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Michael Harris II",
+        "pitcher": "Rich Hill",
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Rafael Devers",
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Rich Hill",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Austin Riley",
+        "pitcher": "Rich Hill",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Dansby Swanson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Olson",
+        "pitcher": "Rich Hill",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "William Contreras",
+        "pitcher": "Rich Hill",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Rich Hill",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Tommy Pham",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Rafael Devers",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Michael Harris II",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Rich Hill",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Plawecki",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Ryan Brasier",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Riley",
+        "pitcher": "Ryan Brasier",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Olson",
+        "pitcher": "Ryan Brasier",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "William Contreras",
+        "pitcher": "Ryan Brasier",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jarren Duran",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tommy Pham",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Rafael Devers",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Matt Olson",
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Matt Barnes",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Matt Barnes",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Matt Barnes",
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Michael Harris II",
+        "pitcher": "Matt Barnes",
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Orlando Arcia",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Orlando Arcia",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Matt Barnes",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Riley",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Olson",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Hirokazu Sawamura"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "William Contreras",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "John Schreiber",
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Collin McHugh",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Kevin Plawecki",
+        "pitcher": "Collin McHugh",
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Jarren Duran",
+        "pitcher": "Collin McHugh",
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Collin McHugh",
+        "fielders": [
+          "Michael Harris II"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Devers",
+        "pitcher": "A.J. Minter",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Michael Harris II",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Austin Riley",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Bobby Dalbec"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Olson",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Bobby Dalbec"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "William Contreras",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kevin Plawecki",
+        "pitcher": "Kenley Jansen",
+        "fielders": [
+          "Kenley Jansen"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Kenley Jansen",
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Tommy Pham",
+        "pitcher": "Kenley Jansen",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Rafael Devers",
+        "pitcher": "Kenley Jansen",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Kenley Jansen",
+        "fielders": [
+          "Michael Harris II"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Kaleb Ort",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Kaleb Ort",
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Eddie Rosario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Eddie Rosario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Orlando Arcia",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Michael Harris II",
+        "pitcher": "Kaleb Ort",
+        "fielders": [
+          "Kaleb Ort"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Dylan Lee",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Dylan Lee",
+        "fielders": [
+          "Michael Harris II"
+        ],
+        "scoring_runner": "Xander Bogaerts",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Dylan Lee",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Dylan Lee",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Kaleb Ort",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Michael Harris II",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Kaleb Ort",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Riley",
+        "pitcher": "Kaleb Ort",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Michael Harris II",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Matt Olson",
+        "pitcher": "Kaleb Ort",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "William Contreras",
+        "pitcher": "Kaleb Ort",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Austin Davis",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Plawecki",
+        "pitcher": "Tyler Matzek",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jaylin Davis",
+        "pitcher": "Tyler Matzek",
+        "movements": [
+          {
+            "runner": "Jaylin Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Tyler Matzek",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

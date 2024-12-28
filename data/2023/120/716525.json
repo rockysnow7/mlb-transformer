@@ -1,0 +1,1385 @@
+{
+  "context": {
+    "game_pk": 716525,
+    "date": {
+      "year": 2023,
+      "month": 9,
+      "day": 19
+    },
+    "venue_name": "Nationals Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 74,
+      "wind_speed": 6
+    },
+    "home_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "Ildemaro Vargas",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrés Machado",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Weems",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Meneses",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Harvey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dominic Smith",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Michael Chavis",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Lane Thomas",
+          "position": "RightField"
+        },
+        {
+          "name": "Keibert Ruiz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jake Irvin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Thaddeus Ward",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Rutherford",
+          "position": "LeftField"
+        },
+        {
+          "name": "Carter Kieboom",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jake Alu",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Alex Call",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jackson Rutledge",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis García Jr.",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Joan Adon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cory Abbott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robert Garcia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josiah Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "CJ Abrams",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Drew Millas",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jacob Young",
+          "position": "CenterField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 145,
+      "players": [
+        {
+          "name": "Elvis Andrus",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Yasmani Grandal",
+          "position": "Catcher"
+        },
+        {
+          "name": "Bryan Shaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Ureña",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trayce Thompson",
+          "position": "RightField"
+        },
+        {
+          "name": "Mike Clevinger",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Bummer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tanner Banks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Remillard",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tim Anderson",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Andrew Benintendi",
+          "position": "LeftField"
+        },
+        {
+          "name": "Eloy Jiménez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Carlos Pérez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Dylan Cease",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Kopech",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gavin Sheets",
+          "position": "RightField"
+        },
+        {
+          "name": "Yoán Moncada",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Deivi García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Santos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jesse Scholtens",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sammy Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Patiño",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lenyn Sosa",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Luis Robert Jr.",
+          "position": "CenterField"
+        },
+        {
+          "name": "Lane Ramsey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Vaughn",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Korey Lee",
+          "position": "Catcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Tim Anderson",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Jacob Young"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Robert Jr.",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Luis Robert Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tim Anderson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Jacob Young"
+        ],
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "CJ Abrams",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lane Thomas",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Yoán Moncada"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dominic Smith",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Dominic Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Gavin Sheets"
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Drew Millas",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Drew Millas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Korey Lee",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Korey Lee",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tim Anderson",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Blake Rutherford"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "CaughtStealing": {
+        "base": 2,
+        "runner": "Tim Anderson",
+        "fielders": [
+          "Drew Millas"
+        ],
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Blake Rutherford",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Blake Rutherford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jacob Young",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Jacob Young",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "CJ Abrams",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Luis Robert Jr.",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Luis Robert Jr.",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Ildemaro Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lane Thomas",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Dominic Smith",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Andrew Vaughn",
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Dominic Smith",
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Korey Lee",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Korey Lee",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tim Anderson",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Drew Millas",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Yoán Moncada"
+        ],
+        "movements": [
+          {
+            "runner": "Drew Millas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Blake Rutherford",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Blake Rutherford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Jacob Young"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Luis Robert Jr.",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Dominic Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Robert Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Ildemaro Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Jacob Young",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Jacob Young",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "CJ Abrams",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Lane Thomas",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "scoring_runner": "Jacob Young",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jacob Young",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Jackson Rutledge",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Jackson Rutledge",
+        "fielders": [
+          "Jackson Rutledge"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trayce Thompson",
+        "pitcher": "Robert Garcia",
+        "movements": [
+          {
+            "runner": "Trayce Thompson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Robert Garcia",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Aaron Bummer",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Aaron Bummer",
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Carter Kieboom",
+        "pitcher": "Aaron Bummer",
+        "movements": [
+          {
+            "runner": "Carter Kieboom",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Drew Millas",
+        "pitcher": "Aaron Bummer",
+        "movements": [
+          {
+            "runner": "Drew Millas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Joey Meneses",
+        "pitcher": "Bryan Shaw",
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Carter Kieboom",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jacob Young",
+        "pitcher": "Bryan Shaw",
+        "movements": [
+          {
+            "runner": "Jacob Young",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "CJ Abrams",
+        "pitcher": "Bryan Shaw",
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Bryan Shaw",
+        "fielders": [
+          "Korey Lee"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Korey Lee",
+        "pitcher": "Hunter Harvey",
+        "fielders": [
+          "Ildemaro Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Korey Lee",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tim Anderson",
+        "pitcher": "Hunter Harvey",
+        "fielders": [
+          "Lane Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Hunter Harvey",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Sammy Peralta",
+        "fielders": [
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Sammy Peralta",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Sammy Peralta",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Luis Robert Jr.",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Luis Robert Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Kyle Finnegan",
+        "fielders": [
+          "Drew Millas"
+        ],
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Robert Jr.",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Trayce Thompson",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Trayce Thompson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Kyle Finnegan",
+        "fielders": [
+          "Lane Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

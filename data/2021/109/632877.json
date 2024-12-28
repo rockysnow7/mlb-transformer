@@ -1,0 +1,1418 @@
+{
+  "context": {
+    "game_pk": 632877,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 14
+    },
+    "venue_name": "Chase Field",
+    "weather": {
+      "condition": "Roof Closed",
+      "temperature": 75,
+      "wind_speed": 0
+    },
+    "home_team": {
+      "id": 109,
+      "players": [
+        {
+          "name": "David Peralta",
+          "position": "LeftField"
+        },
+        {
+          "name": "Asdrúbal Cabrera",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Tyler Clippard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Madison Bumgarner",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Merrill Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Humberto Castellanos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Walker",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Joe Mantiply",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bryan Holaday",
+          "position": "Catcher"
+        },
+        {
+          "name": "Caleb Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Ahmed",
+          "position": "Shortstop"
+        },
+        {
+          "name": "J.B. Wendelken",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ketel Marte",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jake Hager",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake Faria",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carson Kelly",
+          "position": "Catcher"
+        },
+        {
+          "name": "Josh VanMeter",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Drew Ellis",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Tyler Gilbert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pavin Smith",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Daulton Varsho",
+          "position": "Catcher"
+        },
+        {
+          "name": "Taylor Clarke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zac Gallen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Rojas",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Peacock",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brett de Geus",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 135,
+      "players": [
+        {
+          "name": "Mark Melancon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Craig Stammen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Pham",
+          "position": "LeftField"
+        },
+        {
+          "name": "Eric Hosmer",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Daniel Hudson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Nola",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jake Marisnick",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Wil Myers",
+          "position": "RightField"
+        },
+        {
+          "name": "Pierce Johnson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Manny Machado",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Victor Caratini",
+          "position": "Catcher"
+        },
+        {
+          "name": "Joe Musgrove",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Snell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Strahm",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nabil Crismatt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Miguel Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Frazier",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jake Cronenworth",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Emilio Pagán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brian O'Grady",
+          "position": "RightField"
+        },
+        {
+          "name": "Tim Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Grisham",
+          "position": "CenterField"
+        },
+        {
+          "name": "Ha-Seong Kim",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Ryan Weathers",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Tommy Pham",
+        "pitcher": "Tyler Gilbert",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Adam Frazier",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Josh VanMeter",
+          "Nick Ahmed"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Tyler Gilbert",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Josh VanMeter",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ketel Marte",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh VanMeter",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Josh VanMeter",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Pavin Smith",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Asdrúbal Cabrera",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Peralta",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Pavin Smith",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Pavin Smith",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Drew Ellis",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Drew Ellis",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Pavin Smith",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "David Peralta",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Eric Hosmer"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyler Gilbert",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Gilbert",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Nola",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Josh VanMeter"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Josh VanMeter"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh VanMeter",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Wil Myers"
+        ],
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Pavin Smith",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Manny Machado",
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wil Myers",
+        "pitcher": "Tyler Gilbert",
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Drew Ellis"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joe Musgrove",
+        "pitcher": "Tyler Gilbert",
+        "movements": [
+          {
+            "runner": "Joe Musgrove",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Peralta",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Drew Ellis",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Drew Ellis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tommy Pham",
+        "pitcher": "Tyler Gilbert",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Adam Frazier",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Pavin Smith",
+          "Pavin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Manny Machado",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "David Peralta"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Daulton Varsho",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Tyler Gilbert",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Joe Musgrove"
+        ],
+        "runner": "Nick Ahmed",
+        "movements": [
+          {
+            "runner": "Tyler Gilbert",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Ahmed",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh VanMeter",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Ketel Marte",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Adam Frazier",
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Nola",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Josh Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Tyler Gilbert"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Pavin Smith",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Josh Rojas",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Pavin Smith",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Peralta",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Joe Musgrove"
+        ],
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Drew Ellis",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Drew Ellis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Wil Myers",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Pavin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "David Peralta"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Matt Strahm",
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Tyler Gilbert",
+        "pitcher": "Matt Strahm",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "runner": "Nick Ahmed",
+        "movements": [
+          {
+            "runner": "Tyler Gilbert",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Ahmed",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh VanMeter",
+        "pitcher": "Matt Strahm",
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Ahmed",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ketel Marte",
+        "pitcher": "Matt Strahm",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh VanMeter",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Pavin Smith",
+        "pitcher": "Matt Strahm",
+        "fielders": [
+          "Eric Hosmer"
+        ],
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Matt Strahm",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tommy Pham",
+        "pitcher": "Tyler Gilbert",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Adam Frazier",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Drew Ellis"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Manny Machado",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Pavin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Josh VanMeter"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Peralta",
+        "pitcher": "Matt Strahm",
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Drew Ellis",
+        "pitcher": "Matt Strahm",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Drew Ellis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Matt Strahm",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Drew Ellis",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Miguel Díaz",
+        "fielders": [
+          "Eric Hosmer"
+        ],
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Drew Ellis",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler Gilbert",
+        "pitcher": "Miguel Díaz",
+        "movements": [
+          {
+            "runner": "Tyler Gilbert",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Nola",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "David Peralta"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Nick Ahmed"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Wil Myers",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh VanMeter",
+        "pitcher": "Miguel Díaz",
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Miguel Díaz",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Pavin Smith",
+        "pitcher": "Miguel Díaz",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Tyler Gilbert",
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Tyler Gilbert",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Tyler Gilbert",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

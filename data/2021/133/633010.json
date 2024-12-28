@@ -1,0 +1,1604 @@
+{
+  "context": {
+    "game_pk": 633010,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 4
+    },
+    "venue_name": "Oakland Coliseum",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 66,
+      "wind_speed": 11
+    },
+    "home_team": {
+      "id": 133,
+      "players": [
+        {
+          "name": "Yusmeiro Petit",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elvis Andrus",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jed Lowrie",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Sergio Romo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Deolis Guerra",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Starling Marte",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jake Diekman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mitch Moreland",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Yan Gomes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Josh Harrison",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Stephen Piscotty",
+          "position": "RightField"
+        },
+        {
+          "name": "Burch Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mark Canha",
+          "position": "LeftField"
+        },
+        {
+          "name": "Frankie Montas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Bassitt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.B. Wendelken",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cole Irvin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Olson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Sean Manaea",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daulton Jefferies",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lou Trivino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Kemp",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Matt Chapman",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Ramón Laureano",
+          "position": "RightField"
+        },
+        {
+          "name": "Sean Murphy",
+          "position": "Catcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 135,
+      "players": [
+        {
+          "name": "Mark Melancon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Craig Stammen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Pham",
+          "position": "LeftField"
+        },
+        {
+          "name": "Yu Darvish",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew Pomeranz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Hosmer",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Austin Nola",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jake Marisnick",
+          "position": "RightField"
+        },
+        {
+          "name": "Wil Myers",
+          "position": "RightField"
+        },
+        {
+          "name": "Pierce Johnson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Manny Machado",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jurickson Profar",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Victor Caratini",
+          "position": "Catcher"
+        },
+        {
+          "name": "Joe Musgrove",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Snell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Strahm",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Miguel Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Frazier",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jake Cronenworth",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Emilio Pagán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tim Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reiss Knehr",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Grisham",
+          "position": "CenterField"
+        },
+        {
+          "name": "Ha-Seong Kim",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Ryan Weathers",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Tommy Pham",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Adam Frazier",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "runner": "Tommy Pham",
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Mark Canha",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Starling Marte",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jake Marisnick"
+        ],
+        "movements": [
+          {
+            "runner": "Starling Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Olson",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "StrikeoutDoublePlay": {
+        "batter": "Trent Grisham",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Sean Murphy",
+          "Sean Murphy"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jurickson Profar",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Josh Harrison",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Sean Murphy",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Josh Harrison",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Chapman",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jurickson Profar"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Victor Caratini",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Victor Caratini",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Adam Frazier",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Caratini",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Mark Canha",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Starling Marte",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Starling Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Olson",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Eric Hosmer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Trent Grisham",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jurickson Profar",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jurickson Profar",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eric Hosmer",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Victor Caratini",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Victor Caratini",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Trent Grisham",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Harrison",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sean Murphy",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Adam Frazier",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Mark Canha",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Starling Marte",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jake Marisnick"
+        ],
+        "movements": [
+          {
+            "runner": "Starling Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Matt Olson",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Josh Harrison",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Manny Machado",
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "BuntGroundout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Andrew Chafin",
+        "fielders": [
+          "Andrew Chafin"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Caratini",
+        "pitcher": "Andrew Chafin",
+        "movements": [
+          {
+            "runner": "Victor Caratini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Andrew Chafin",
+        "movements": [
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Tommy Pham",
+        "pitcher": "Andrew Chafin",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sean Murphy",
+        "pitcher": "Pierce Johnson",
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Pierce Johnson",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Pierce Johnson",
+        "fielders": [
+          "Jake Cronenworth",
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Adam Frazier",
+        "pitcher": "Jake Diekman",
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Jake Diekman",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Jake Diekman",
+        "fielders": [
+          "Elvis Andrus",
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mark Canha",
+        "pitcher": "Drew Pomeranz",
+        "fielders": [
+          "Jake Marisnick"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Starling Marte",
+        "pitcher": "Drew Pomeranz",
+        "fielders": [
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "Starling Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Olson",
+        "pitcher": "Drew Pomeranz",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Yusmeiro Petit",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Yusmeiro Petit",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Trent Grisham",
+        "pitcher": "Yusmeiro Petit",
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Victor Caratini",
+        "pitcher": "Yusmeiro Petit",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Caratini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Mark Melancon",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Mark Melancon",
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Harrison",
+        "pitcher": "Mark Melancon",
+        "fielders": [
+          "Jurickson Profar"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sean Murphy",
+        "pitcher": "Mark Melancon",
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Chapman",
+        "pitcher": "Mark Melancon",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yan Gomes",
+        "pitcher": "Mark Melancon",
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mark Canha",
+        "pitcher": "Mark Melancon",
+        "fielders": [
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wil Myers",
+        "pitcher": "Lou Trivino",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Tommy Pham",
+        "pitcher": "Lou Trivino",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Adam Frazier",
+        "pitcher": "Lou Trivino",
+        "fielders": [
+          "Josh Harrison"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Manny Machado",
+        "pitcher": "Lou Trivino",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Lou Trivino",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Starling Marte",
+        "pitcher": "Tim Hill",
+        "movements": [
+          {
+            "runner": "Starling Marte",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mark Canha",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Matt Olson",
+        "pitcher": "Tim Hill",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mark Canha",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Starling Marte",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Starling Marte",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

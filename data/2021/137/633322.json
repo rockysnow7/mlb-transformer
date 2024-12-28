@@ -1,0 +1,1546 @@
+{
+  "context": {
+    "game_pk": 633322,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 9
+    },
+    "venue_name": "Oracle Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 61,
+      "wind_speed": 16
+    },
+    "home_team": {
+      "id": 137,
+      "players": [
+        {
+          "name": "Johnny Cueto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Donovan Solano",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jake McGee",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Alvarez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wilmer Flores",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Brandon Crawford",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Anthony DeSclafani",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Dickerson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Darin Ruf",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Mike Yastrzemski",
+          "position": "RightField"
+        },
+        {
+          "name": "Curt Casali",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kevin Gausman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Beede",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Slater",
+          "position": "LeftField"
+        },
+        {
+          "name": "John Brebbia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarlín García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dominic Leone",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jason Vosler",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Steven Duggar",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alex Wood",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zack Littell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Thairo Estrada",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Tyler Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chadwick Tromp",
+          "position": "Catcher"
+        },
+        {
+          "name": "Logan Webb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "LaMonte Wade Jr.",
+          "position": "LeftField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "Alcides Escobar",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jon Lester",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Scherzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gerardo Parra",
+          "position": "CenterField"
+        },
+        {
+          "name": "Ryan Zimmerman",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Paolo Espino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Starlin Castro",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Yan Gomes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Brad Hand",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Harrison",
+          "position": "LeftField"
+        },
+        {
+          "name": "Daniel Hudson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wander Suero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Erick Fedde",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trea Turner",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Ryne Harper",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Voth",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Clay",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jefry Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yadiel Hernandez",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle McGowin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor Robles",
+          "position": "CenterField"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "RightField"
+        },
+        {
+          "name": "Tres Barrera",
+          "position": "Catcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Strikeout": {
+        "batter": "Alcides Escobar",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Trea Turner",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Donovan Solano"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Dickerson",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Alex Dickerson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Gerardo Parra"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Darin Ruf",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Darin Ruf",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Dickerson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Steven Duggar",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Starlin Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Duggar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Starlin Castro",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Starlin Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yan Gomes",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Harrison",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Steven Duggar"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gerardo Parra",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Brandon Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Gerardo Parra",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Donovan Solano",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Curt Casali",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Logan Webb",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Logan Webb",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Josh Harrison"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Alex Dickerson",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Dickerson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Paolo Espino",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Logan Webb"
+        ],
+        "movements": [
+          {
+            "runner": "Paolo Espino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alcides Escobar",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Logan Webb"
+        ],
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Trea Turner",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Donovan Solano"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Josh Bell"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Darin Ruf",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Josh Harrison"
+        ],
+        "movements": [
+          {
+            "runner": "Darin Ruf",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Juan Soto",
+        "pitcher": "Jose Alvarez",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Bell",
+        "pitcher": "Jose Alvarez",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Starlin Castro",
+        "pitcher": "Jose Alvarez",
+        "fielders": [
+          "Steven Duggar"
+        ],
+        "movements": [
+          {
+            "runner": "Starlin Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Tres Barrera",
+        "pitcher": "Jose Alvarez",
+        "movements": [
+          {
+            "runner": "Tres Barrera",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Bell",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Harrison",
+        "pitcher": "John Brebbia",
+        "fielders": [
+          "Wilmer Flores"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Gerardo Parra",
+        "pitcher": "John Brebbia",
+        "movements": [
+          {
+            "runner": "Gerardo Parra",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tres Barrera",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Paolo Espino",
+        "pitcher": "John Brebbia",
+        "movements": [
+          {
+            "runner": "Paolo Espino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gerardo Parra",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Steven Duggar",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Josh Harrison"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Duggar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Donovan Solano",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Alcides Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Curt Casali",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Thairo Estrada",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Curt Casali",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Sam Clay",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Thairo Estrada",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Slater",
+        "pitcher": "Sam Clay",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alcides Escobar",
+        "pitcher": "Jarlín García",
+        "fielders": [
+          "Wilmer Flores"
+        ],
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trea Turner",
+        "pitcher": "Jarlín García",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Jarlín García",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Jarlín García",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Sam Clay",
+        "fielders": [
+          "Starlin Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Sam Clay",
+        "fielders": [
+          "Starlin Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Darin Ruf",
+        "pitcher": "Sam Clay",
+        "movements": [
+          {
+            "runner": "Darin Ruf",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Steven Duggar",
+        "pitcher": "Sam Clay",
+        "movements": [
+          {
+            "runner": "Steven Duggar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Starlin Castro",
+        "pitcher": "Zack Littell",
+        "movements": [
+          {
+            "runner": "Starlin Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Tres Barrera",
+        "pitcher": "Zack Littell",
+        "fielders": [
+          "Brandon Crawford",
+          "Donovan Solano"
+        ],
+        "movements": [
+          {
+            "runner": "Starlin Castro",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tres Barrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Harrison",
+        "pitcher": "Zack Littell",
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Kyle McGowin",
+        "fielders": [
+          "Gerardo Parra"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Curt Casali",
+        "pitcher": "Kyle McGowin",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jason Vosler",
+        "pitcher": "Kyle McGowin",
+        "movements": [
+          {
+            "runner": "Jason Vosler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Kyle McGowin",
+        "fielders": [
+          "Alcides Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Gerardo Parra",
+        "pitcher": "Dominic Leone",
+        "movements": [
+          {
+            "runner": "Gerardo Parra",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yadiel Hernandez",
+        "pitcher": "Dominic Leone",
+        "movements": [
+          {
+            "runner": "Yadiel Hernandez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gerardo Parra",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gerardo Parra",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Alcides Escobar",
+        "pitcher": "Dominic Leone",
+        "fielders": [
+          "Darin Ruf"
+        ],
+        "runner": "Yadiel Hernandez",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Yadiel Hernandez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Trea Turner",
+        "pitcher": "Dominic Leone",
+        "fielders": [
+          "Brandon Crawford"
+        ],
+        "scoring_runner": "Trea Turner",
+        "movements": [
+          {
+            "runner": "Gerardo Parra",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juan Soto",
+        "pitcher": "Dominic Leone",
+        "fielders": [
+          "Donovan Solano"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Slater",
+        "pitcher": "Wander Suero",
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Wander Suero",
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Wander Suero",
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Darin Ruf",
+        "pitcher": "Wander Suero",
+        "fielders": [
+          "Trea Turner",
+          "Alcides Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Darin Ruf",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Bell",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "Wilmer Flores"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Starlin Castro",
+        "pitcher": "Tyler Rogers",
+        "movements": [
+          {
+            "runner": "Starlin Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tres Barrera",
+        "pitcher": "Tyler Rogers",
+        "movements": [
+          {
+            "runner": "Tres Barrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Starlin Castro",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Harrison",
+        "pitcher": "Tyler Rogers",
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Starlin Castro",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tres Barrera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Gerardo Parra",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "Donovan Solano",
+          "Brandon Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gerardo Parra",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Steven Duggar",
+        "pitcher": "Ryne Harper",
+        "movements": [
+          {
+            "runner": "Steven Duggar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Ryne Harper",
+        "fielders": [
+          "Starlin Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Curt Casali",
+        "pitcher": "Ryne Harper",
+        "fielders": [
+          "Josh Bell"
+        ],
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Zimmerman",
+        "pitcher": "Jake McGee",
+        "movements": [
+          {
+            "runner": "Ryan Zimmerman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alcides Escobar",
+        "pitcher": "Jake McGee",
+        "fielders": [
+          "Mike Yastrzemski"
+        ],
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trea Turner",
+        "pitcher": "Jake McGee",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Soto",
+        "pitcher": "Jake McGee",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Bell",
+        "pitcher": "Jake McGee",
+        "fielders": [
+          "Brandon Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

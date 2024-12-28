@@ -1,0 +1,1409 @@
+{
+  "context": {
+    "game_pk": 663360,
+    "date": {
+      "year": 2022,
+      "month": 5,
+      "day": 6
+    },
+    "venue_name": "Chase Field",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 96,
+      "wind_speed": 5
+    },
+    "home_team": {
+      "id": 109,
+      "players": [
+        {
+          "name": "David Peralta",
+          "position": "LeftField"
+        },
+        {
+          "name": "Ian Kennedy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mark Melancon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Madison Bumgarner",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Merrill Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Humberto Castellanos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Walker",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Joe Mantiply",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Caleb Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Noé Ramirez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Ahmed",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Zach Davies",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ketel Marte",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Keynan Middleton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Herrera",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jordan Luplow",
+          "position": "CenterField"
+        },
+        {
+          "name": "Pavin Smith",
+          "position": "RightField"
+        },
+        {
+          "name": "Daulton Varsho",
+          "position": "Catcher"
+        },
+        {
+          "name": "Seth Beer",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Luis Frías",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zac Gallen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Rojas",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Cooper Hummel",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Geraldo Perdomo",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 115,
+      "players": [
+        {
+          "name": "Daniel Bard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Charlie Blackmon",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jhoulys Chacín",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Colomé",
+          "position": "Pitcher"
+        },
+        {
+          "name": "C.J. Cron",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Randal Grichuk",
+          "position": "RightField"
+        },
+        {
+          "name": "Elias Díaz",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jose Iglesias",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Robert Stephenson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Gomber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yonathan Daza",
+          "position": "CenterField"
+        },
+        {
+          "name": "Kyle Freeland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Estévez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Germán Márquez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ty Blach",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Antonio Senzatela",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ashton Goudeau",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dom Nuñez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Garrett Hampson",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tyler Kinley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chad Kuhl",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan McMahon",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Sam Hilliard",
+          "position": "CenterField"
+        },
+        {
+          "name": "Connor Joe",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brendan Rodgers",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Justin Lawrence",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Connor Joe",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Connor Joe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Charlie Blackmon",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Merrill Kelly"
+        ],
+        "runner": "Connor Joe",
+        "movements": [
+          {
+            "runner": "Charlie Blackmon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Connor Joe",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Daulton Varsho"
+        ],
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Connor Joe",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "C.J. Cron",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Connor Joe",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Pavin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Brendan Rodgers"
+        ],
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Pavin Smith",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "David Peralta",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Walker",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Chad Kuhl"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elias Díaz",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Rodgers",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sam Hilliard",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Sam Hilliard",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Sam Hilliard",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Connor Joe",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Christian Walker"
+        ],
+        "movements": [
+          {
+            "runner": "Connor Joe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Rojas",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ketel Marte",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Rojas",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Seth Beer",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Randal Grichuk"
+        ],
+        "scoring_runner": "Ketel Marte",
+        "movements": [
+          {
+            "runner": "Seth Beer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Rojas",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Herrera",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Jose Herrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Charlie Blackmon",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Christian Walker"
+        ],
+        "movements": [
+          {
+            "runner": "Charlie Blackmon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "C.J. Cron",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Josh Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Connor Joe"
+        ],
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Pavin Smith",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "David Peralta",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Ryan McMahon"
+        ],
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Walker",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Sam Hilliard"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "David Peralta"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elias Díaz",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Pavin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brendan Rodgers",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Daulton Varsho"
+        ],
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Ryan McMahon"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Sam Hilliard"
+        ],
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Beer",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Brendan Rodgers"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Beer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Sam Hilliard",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Pavin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Sam Hilliard",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Connor Joe",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Daulton Varsho"
+        ],
+        "movements": [
+          {
+            "runner": "Connor Joe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "C.J. Cron"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jose Herrera",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Jose Herrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Ryan McMahon"
+        ],
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Pavin Smith",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Charlie Blackmon",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Charlie Blackmon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "C.J. Cron",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "David Peralta",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Connor Joe"
+        ],
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Walker",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Brendan Rodgers"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elias Díaz",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "David Peralta"
+        ],
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brendan Rodgers",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Pavin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sam Hilliard",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Sam Hilliard",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Robert Stephenson",
+        "fielders": [
+          "Connor Joe"
+        ],
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seth Beer",
+        "pitcher": "Robert Stephenson",
+        "fielders": [
+          "Sam Hilliard"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Beer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Robert Stephenson",
+        "fielders": [
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Connor Joe",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Josh Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Connor Joe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Charlie Blackmon",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Nick Ahmed"
+        ],
+        "movements": [
+          {
+            "runner": "Charlie Blackmon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Christian Walker"
+        ],
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jordan Luplow",
+        "pitcher": "Carlos Estévez",
+        "movements": [
+          {
+            "runner": "Jordan Luplow",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Carlos Estévez",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Pavin Smith",
+        "pitcher": "Carlos Estévez",
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "David Peralta",
+        "pitcher": "Carlos Estévez",
+        "movements": [
+          {
+            "runner": "Pavin Smith",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Pavin Smith",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Walker",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Rojas",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ketel Marte",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Beer",
+        "pitcher": "Justin Lawrence",
+        "fielders": [
+          "Justin Lawrence"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Beer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "C.J. Cron",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Elias Díaz",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Rodgers",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Elias Díaz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Elias Díaz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sam Hilliard",
+        "pitcher": "Mark Melancon",
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sam Hilliard",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Mark Melancon",
+        "fielders": [
+          "Mark Melancon"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

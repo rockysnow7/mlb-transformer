@@ -1,0 +1,1774 @@
+{
+  "context": {
+    "game_pk": 718524,
+    "date": {
+      "year": 2023,
+      "month": 4,
+      "day": 18
+    },
+    "venue_name": "Fenway Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 54,
+      "wind_speed": 5
+    },
+    "home_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Kenley Jansen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corey Kluber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Turner",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Ryan Brasier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Sale",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Raimel Tapia",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Rob Refsnyder",
+          "position": "LeftField"
+        },
+        {
+          "name": "Christian Arroyo",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Reese McGuire",
+          "position": "Catcher"
+        },
+        {
+          "name": "Yu Chang",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Tanner Houck",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "RightField"
+        },
+        {
+          "name": "Connor Wong",
+          "position": "Catcher"
+        },
+        {
+          "name": "John Schreiber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Winckowski",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Triston Casas",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Kaleb Ort",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Whitlock",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kutter Crawford",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Brayan Bello",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarren Duran",
+          "position": "CenterField"
+        },
+        {
+          "name": "Masataka Yoshida",
+          "position": "LeftField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 142,
+      "players": [
+        {
+          "name": "Donovan Solano",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Sonny Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Vázquez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Michael A. Taylor",
+          "position": "CenterField"
+        },
+        {
+          "name": "Caleb Thielbar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Kepler",
+          "position": "RightField"
+        },
+        {
+          "name": "Jorge López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Correa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Byron Buxton",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Nick Gordon",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Kenta Maeda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pablo López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Mahle",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emilio Pagán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Griffin Jax",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Joe Ryan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Alcala",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jhoan Duran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jovani Moran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Larnach",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Garlick",
+          "position": "LeftField"
+        },
+        {
+          "name": "Edouard Julien",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Jose Miranda",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ryan Jeffers",
+          "position": "Catcher"
+        },
+        {
+          "name": "Brent Headrick",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Strikeout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Carlos Correa",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Carlos Correa",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rafael Devers",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Justin Turner",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Justin Turner",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "Sonny Gray",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Triston Casas",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Triston Casas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Garlick",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Kyle Garlick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Kepler",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Connor Wong",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Connor Wong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jarren Duran",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yu Chang",
+        "pitcher": "Sonny Gray",
+        "fielders": [
+          "Carlos Correa"
+        ],
+        "movements": [
+          {
+            "runner": "Yu Chang",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jarren Duran",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rafael Devers",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Justin Turner",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Chris Sale",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Carlos Correa",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Carlos Correa",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Chris Sale",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Correa",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "Sonny Gray",
+        "fielders": [
+          "Michael A. Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Sonny Gray",
+        "fielders": [
+          "Carlos Correa"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Triston Casas",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Triston Casas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Chris Sale",
+        "fielders": [
+          "Yu Chang"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Garlick",
+        "pitcher": "Chris Sale",
+        "fielders": [
+          "Masataka Yoshida"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Garlick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Connor Wong",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Connor Wong",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Sonny Gray",
+        "fielders": [
+          "Carlos Correa"
+        ],
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Connor Wong",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yu Chang",
+        "pitcher": "Sonny Gray",
+        "fielders": [
+          "Michael A. Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Yu Chang",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Rafael Devers",
+        "pitcher": "Sonny Gray",
+        "fielders": [
+          "Carlos Correa"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Max Kepler",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Willi Castro",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Carlos Correa",
+        "pitcher": "Chris Sale",
+        "fielders": [
+          "Masataka Yoshida"
+        ],
+        "scoring_runner": "Michael A. Taylor",
+        "movements": [
+          {
+            "runner": "Carlos Correa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Chris Sale",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Justin Turner",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "Sonny Gray",
+        "fielders": [
+          "Kyle Garlick"
+        ],
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Triston Casas",
+        "pitcher": "Sonny Gray",
+        "movements": [
+          {
+            "runner": "Triston Casas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Garlick",
+        "pitcher": "Chris Sale",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Garlick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Chris Sale",
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Connor Wong",
+        "pitcher": "Jorge López",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Connor Wong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Jorge López",
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yu Chang",
+        "pitcher": "Jorge López",
+        "fielders": [
+          "Carlos Correa"
+        ],
+        "movements": [
+          {
+            "runner": "Yu Chang",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Max Kepler",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Edouard Julien",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Edouard Julien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Carlos Correa",
+        "pitcher": "Josh Winckowski",
+        "fielders": [
+          "Triston Casas"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Correa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Caleb Thielbar",
+        "fielders": [
+          "Nick Gordon"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Rafael Devers",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Justin Turner",
+        "pitcher": "Caleb Thielbar",
+        "fielders": [
+          "Carlos Correa"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "Caleb Thielbar",
+        "fielders": [
+          "Caleb Thielbar"
+        ],
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Byron Buxton",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Josh Winckowski",
+        "fielders": [
+          "Masataka Yoshida"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Josh Winckowski",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Griffin Jax",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Triston Casas",
+        "pitcher": "Griffin Jax",
+        "movements": [
+          {
+            "runner": "Triston Casas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Reese McGuire",
+        "pitcher": "Griffin Jax",
+        "fielders": [
+          "Jose Miranda"
+        ],
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Jarren Duran",
+        "pitcher": "Griffin Jax",
+        "fielders": [
+          "Nick Gordon"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Raimel Tapia",
+        "pitcher": "Griffin Jax",
+        "movements": [
+          {
+            "runner": "Raimel Tapia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Griffin Jax",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Kenley Jansen",
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Kepler",
+        "pitcher": "Kenley Jansen",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Gordon",
+        "pitcher": "Kenley Jansen",
+        "fielders": [
+          "Jarren Duran"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Jhoan Duran",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Justin Turner",
+        "pitcher": "Jhoan Duran",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "Jhoan Duran",
+        "fielders": [
+          "Jose Miranda"
+        ],
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Donovan Solano",
+        "pitcher": "John Schreiber",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Carlos Correa",
+        "pitcher": "John Schreiber",
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Correa",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Byron Buxton",
+        "pitcher": "John Schreiber",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "scoring_runner": "Donovan Solano",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Gordon",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Miranda",
+        "pitcher": "John Schreiber",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Correa",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "John Schreiber",
+        "fielders": [
+          "Jarren Duran"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Jovani Moran",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kutter Crawford",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Triston Casas",
+        "pitcher": "Jovani Moran",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Triston Casas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Reese McGuire",
+        "pitcher": "Jovani Moran",
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kutter Crawford",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Triston Casas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jarren Duran",
+        "pitcher": "Jovani Moran",
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Triston Casas",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Jovani Moran",
+        "fielders": [
+          "Jose Miranda",
+          "Jose Miranda"
+        ],
+        "movements": [
+          {
+            "runner": "Triston Casas",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jarren Duran",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Jovani Moran",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jarren Duran",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

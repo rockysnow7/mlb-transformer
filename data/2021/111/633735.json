@@ -1,0 +1,1732 @@
+{
+  "context": {
+    "game_pk": 633735,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 11
+    },
+    "venue_name": "Fenway Park",
+    "weather": {
+      "condition": "Overcast",
+      "temperature": 64,
+      "wind_speed": 7
+    },
+    "home_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Adam Ottavino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.D. Martinez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Marwin Gonzalez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Brandon Workman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Martín Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Danny Santana",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Matt Andriese",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Vázquez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "CenterField"
+        },
+        {
+          "name": "Garrett Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Brennan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Renfroe",
+          "position": "RightField"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Plawecki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hirokazu Sawamura",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Arroyo",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Darwinzon Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Taylor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Bobby Dalbec",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Garrett Whitlock",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 141,
+      "players": [
+        {
+          "name": "Rafael Dolis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Chatwood",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marcus Semien",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Randal Grichuk",
+          "position": "RightField"
+        },
+        {
+          "name": "Hyun Jin Ryu",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ross Stripling",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Matz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robbie Ray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carl Edwards Jr.",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Panik",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jordan Romano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Teoscar Hernández",
+          "position": "LeftField"
+        },
+        {
+          "name": "Joel Payamps",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Anthony Castro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cavan Biggio",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Reese McGuire",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jonathan Davis",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tim Mayza",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rowdy Tellez",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Riley Adams",
+          "position": "Catcher"
+        },
+        {
+          "name": "Trent Thornton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Bo Bichette",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alek Manoah",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lourdes Gurriel Jr.",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jeremy Beasley",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Marcus Semien",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Marwin Gonzalez"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Lourdes Gurriel Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Reese McGuire",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bo Bichette",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Randal Grichuk"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Marwin Gonzalez"
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Reese McGuire",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Randal Grichuk"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Randal Grichuk"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Marwin Gonzalez"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Cavan Biggio"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Marwin Gonzalez",
+          "Marwin Gonzalez"
+        ],
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Rowdy Tellez"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Reese McGuire",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Marcus Semien",
+        "pitcher": "Garrett Richards",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Marcus Semien",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Randal Grichuk"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Ross Stripling",
+        "fielders": [
+          "Marcus Semien"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Ross Stripling",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Tyler Chatwood",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Tyler Chatwood",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Tyler Chatwood",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Tim Mayza",
+        "fielders": [
+          "Tim Mayza"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Brandon Workman",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Brandon Workman",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Brandon Workman",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Randal Grichuk",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Randal Grichuk",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Josh Taylor",
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Riley Adams",
+        "pitcher": "Josh Taylor",
+        "movements": [
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Tim Mayza",
+        "fielders": [
+          "Rowdy Tellez"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Tim Mayza",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Tim Mayza",
+        "fielders": [
+          "Rowdy Tellez"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Carl Edwards Jr.",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Marcus Semien",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Carl Edwards Jr.",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Carl Edwards Jr.",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Carl Edwards Jr.",
+        "fielders": [
+          "Lourdes Gurriel Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Carl Edwards Jr.",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan Davis",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Riley Adams",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Marwin Gonzalez"
+        ],
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Rafael Dolis",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Rafael Dolis",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Danny Santana",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

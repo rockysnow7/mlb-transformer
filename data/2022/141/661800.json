@@ -1,0 +1,1443 @@
+{
+  "context": {
+    "game_pk": 661800,
+    "date": {
+      "year": 2022,
+      "month": 8,
+      "day": 30
+    },
+    "venue_name": "Rogers Centre",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 75,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 141,
+      "players": [
+        {
+          "name": "David Phelps",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Anthony Bass",
+          "position": "Pitcher"
+        },
+        {
+          "name": "George Springer",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Ross Stripling",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yimi García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Gausman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Whit Merrifield",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jackie Bradley Jr.",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jordan Romano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Raimel Tapia",
+          "position": "LeftField"
+        },
+        {
+          "name": "Teoscar Hernández",
+          "position": "RightField"
+        },
+        {
+          "name": "José Berríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cavan Biggio",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tim Mayza",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Cimber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Danny Jansen",
+          "position": "Catcher"
+        },
+        {
+          "name": "Matt Chapman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Bo Bichette",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alek Manoah",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lourdes Gurriel Jr.",
+          "position": "LeftField"
+        },
+        {
+          "name": "Santiago Espinal",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Mitch White",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejandro Kirk",
+          "position": "Catcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 112,
+      "players": [
+        {
+          "name": "Rafael Ortega",
+          "position": "CenterField"
+        },
+        {
+          "name": "Yan Gomes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Marcus Stroman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willson Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Drew Smyly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rowan Wick",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Farrell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Franmil Reyes",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Michael Rucker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mark Leiter Jr.",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Manuel Rodríguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach McKinstry",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Sean Newcomb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erich Uelmen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nico Hoerner",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Nick Madrigal",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Alfonso Rivas III",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brendon Little",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ian Happ",
+          "position": "LeftField"
+        },
+        {
+          "name": "P.J. Higgins",
+          "position": "Catcher"
+        },
+        {
+          "name": "Javier Assad",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christopher Morel",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jeremiah Estrada",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seiya Suzuki",
+          "position": "RightField"
+        },
+        {
+          "name": "Nelson Velázquez",
+          "position": "CenterField"
+        },
+        {
+          "name": "Brandon Hughes",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Willson Contreras",
+        "pitcher": "Kevin Gausman",
+        "fielders": [
+          "Santiago Espinal",
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ian Happ",
+        "pitcher": "Kevin Gausman",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "George Springer",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Marcus Stroman",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Nelson Velázquez"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Bo Bichette",
+        "pitcher": "Marcus Stroman",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Chapman",
+        "pitcher": "Marcus Stroman",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "StrikeoutDoublePlay": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Kevin Gausman",
+        "fielders": [
+          "Danny Jansen",
+          "Danny Jansen"
+        ],
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Nick Madrigal"
+        ],
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Danny Jansen",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Nelson Velázquez"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "P.J. Higgins",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "P.J. Higgins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christopher Morel",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "George Springer",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Kevin Gausman",
+        "fielders": [
+          "Santiago Espinal"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Willson Contreras",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ian Happ",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Kevin Gausman",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Nick Madrigal"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Nick Madrigal"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Marcus Stroman",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "P.J. Higgins",
+        "pitcher": "Kevin Gausman",
+        "fielders": [
+          "Lourdes Gurriel Jr."
+        ],
+        "movements": [
+          {
+            "runner": "P.J. Higgins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Danny Jansen",
+        "pitcher": "Marcus Stroman",
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "George Springer",
+        "pitcher": "Marcus Stroman",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Marcus Stroman",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Danny Jansen",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Danny Jansen",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Marcus Stroman",
+        "fielders": [
+          "Nick Madrigal"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Christopher Morel",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Kevin Gausman",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alfonso Rivas III",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ian Happ",
+        "pitcher": "Kevin Gausman",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Kevin Gausman",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Bo Bichette",
+        "pitcher": "Brendon Little",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Chapman",
+        "pitcher": "Brendon Little",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Brendon Little",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Brendon Little",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Danny Jansen",
+        "pitcher": "Brendon Little",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Brendon Little",
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "George Springer",
+        "pitcher": "Michael Rucker",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "David Phelps",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nico Hoerner",
+        "pitcher": "David Phelps",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "David Phelps",
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "P.J. Higgins",
+        "pitcher": "David Phelps",
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "P.J. Higgins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Christopher Morel",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "P.J. Higgins",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Anthony Bass",
+        "fielders": [
+          "Jackie Bradley Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Michael Rucker",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Michael Rucker",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Michael Rucker",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Michael Rucker",
+        "fielders": [
+          "Nick Madrigal"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alfonso Rivas III",
+        "pitcher": "Trevor Richards",
+        "movements": [
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ian Happ",
+        "pitcher": "Trevor Richards",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Trevor Richards",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Jordan Romano",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Jeremiah Estrada",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Jeremiah Estrada",
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Danny Jansen",
+        "pitcher": "Jeremiah Estrada",
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Jeremiah Estrada",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Jordan Romano",
+        "fielders": [
+          "Lourdes Gurriel Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "Jordan Romano",
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "P.J. Higgins",
+        "pitcher": "Jordan Romano",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "P.J. Higgins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Christopher Morel",
+        "pitcher": "Jordan Romano",
+        "fielders": [
+          "Santiago Espinal"
+        ],
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1443 @@
+{
+  "context": {
+    "game_pk": 716788,
+    "date": {
+      "year": 2023,
+      "month": 8,
+      "day": 30
+    },
+    "venue_name": "T-Mobile Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 69,
+      "wind_speed": 5
+    },
+    "home_team": {
+      "id": 136,
+      "players": [
+        {
+          "name": "Eugenio Suárez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Luke Weaver",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Teoscar Hernández",
+          "position": "RightField"
+        },
+        {
+          "name": "Luis Castillo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Topa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.P. Crawford",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Tayler Saucedo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gabe Speier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Ford",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brian O'Keefe",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andrés Muñoz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Thornton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Isaiah Campbell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cal Raleigh",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ty France",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Dylan Moore",
+          "position": "CenterField"
+        },
+        {
+          "name": "Matt Brash",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Rojas",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Logan Gilbert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "George Kirby",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Caballero",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Julio Rodríguez",
+          "position": "CenterField"
+        },
+        {
+          "name": "Bryce Miller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dominic Canzone",
+          "position": "LeftField"
+        },
+        {
+          "name": "Cade Marlowe",
+          "position": "LeftField"
+        },
+        {
+          "name": "Bryan Woo",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 133,
+      "players": [
+        {
+          "name": "Carlos Pérez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Trevor May",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Neal",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Patton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Paul Blackburn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Kemp",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Aledmys Díaz",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Sean Newcomb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Francisco Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adrián Martínez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seth Brown",
+          "position": "RightField"
+        },
+        {
+          "name": "Esteury Ruiz",
+          "position": "LeftField"
+        },
+        {
+          "name": "Dany Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Muller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brent Rooker",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Lucas Erceg",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shea Langeliers",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Nick Allen",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Kirby Snead",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lawrence Butler",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jordan Diaz",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ryan Noda",
+          "position": "FirstBase"
+        },
+        {
+          "name": "JP Sears",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zack Gelof",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jonah Bride",
+          "position": "ThirdBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Ryan Noda",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Zack Gelof",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "J.P. Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Zack Gelof",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seth Brown",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Dominic Canzone"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "J.P. Crawford",
+        "pitcher": "Zach Neal",
+        "fielders": [
+          "Zack Gelof"
+        ],
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cal Raleigh",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Cal Raleigh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Zach Neal",
+        "fielders": [
+          "Lawrence Butler"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jordan Diaz",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Jordan Diaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Carlos Pérez",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Carlos Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Lawrence Butler",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Lawrence Butler",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jordan Diaz",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Aledmys Díaz",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Aledmys Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Esteury Ruiz",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ryan Noda",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Zack Gelof",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Zack Gelof",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ty France",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Ty France",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dominic Canzone",
+        "pitcher": "Zach Neal",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Canzone",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mike Ford",
+        "pitcher": "Zach Neal",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Ford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dylan Moore",
+        "pitcher": "Zach Neal",
+        "fielders": [
+          "Lawrence Butler"
+        ],
+        "movements": [
+          {
+            "runner": "Dylan Moore",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seth Brown",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jordan Diaz",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Jordan Diaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.P. Crawford",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Cal Raleigh",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Cal Raleigh",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Cal Raleigh",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ty France",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Ty France",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Carlos Pérez",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Carlos Pérez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lawrence Butler",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Lawrence Butler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Pérez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Aledmys Díaz",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Eugenio Suárez",
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Pérez",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Lawrence Butler",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Aledmys Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Esteury Ruiz",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Josh Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Dominic Canzone",
+        "pitcher": "Zach Neal",
+        "fielders": [
+          "Zack Gelof"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Canzone",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Mike Ford",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Mike Ford",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Dylan Moore",
+        "pitcher": "Zach Neal",
+        "fielders": [
+          "Aledmys Díaz",
+          "Zack Gelof"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Ford",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Dylan Moore",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Noda",
+        "pitcher": "Bryce Miller",
+        "movements": [
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Zack Gelof",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Dylan Moore"
+        ],
+        "movements": [
+          {
+            "runner": "Zack Gelof",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Dylan Moore"
+        ],
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Zach Neal",
+        "fielders": [
+          "Esteury Ruiz"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.P. Crawford",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Zach Neal",
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seth Brown",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "Dominic Canzone"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jordan Diaz",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "J.P. Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Jordan Diaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Pérez",
+        "pitcher": "Bryce Miller",
+        "fielders": [
+          "J.P. Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cal Raleigh",
+        "pitcher": "Lucas Erceg",
+        "movements": [
+          {
+            "runner": "Cal Raleigh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Lucas Erceg",
+        "fielders": [
+          "Aledmys Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Ty France",
+        "pitcher": "Lucas Erceg",
+        "fielders": [
+          "Ryan Noda"
+        ],
+        "movements": [
+          {
+            "runner": "Ty France",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lawrence Butler",
+        "pitcher": "Justin Topa",
+        "fielders": [
+          "Justin Topa"
+        ],
+        "movements": [
+          {
+            "runner": "Lawrence Butler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Aledmys Díaz",
+        "pitcher": "Justin Topa",
+        "movements": [
+          {
+            "runner": "Aledmys Díaz",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Esteury Ruiz",
+        "pitcher": "Justin Topa",
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Allen",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Allen",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Ryan Noda",
+        "pitcher": "Justin Topa",
+        "fielders": [
+          "Teoscar Hernández",
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Dominic Canzone",
+        "pitcher": "Kirby Snead",
+        "movements": [
+          {
+            "runner": "Dominic Canzone",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mike Ford",
+        "pitcher": "Kirby Snead",
+        "movements": [
+          {
+            "runner": "Mike Ford",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Canzone",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Dylan Moore",
+        "pitcher": "Kirby Snead",
+        "movements": [
+          {
+            "runner": "José Caballero",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dylan Moore",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Kirby Snead",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.P. Crawford",
+        "pitcher": "Kirby Snead",
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "José Caballero",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "José Caballero",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Canzone",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Dylan Moore",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Dany Jiménez",
+        "fielders": [
+          "Jordan Diaz"
+        ],
+        "scoring_runner": "J.P. Crawford",
+        "movements": [
+          {
+            "runner": "Dylan Moore",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "J.P. Crawford",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dylan Moore",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "J.P. Crawford",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Cal Raleigh",
+        "pitcher": "Dany Jiménez",
+        "fielders": [
+          "Lawrence Butler"
+        ],
+        "movements": [
+          {
+            "runner": "Cal Raleigh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Zack Gelof",
+        "pitcher": "Matt Brash",
+        "movements": [
+          {
+            "runner": "Zack Gelof",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brent Rooker",
+        "pitcher": "Matt Brash",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Brown",
+        "pitcher": "Matt Brash",
+        "fielders": [
+          "Josh Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brent Rooker",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Matt Brash",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Spencer Patton",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ty France",
+        "pitcher": "Spencer Patton",
+        "fielders": [
+          "Zack Gelof"
+        ],
+        "movements": [
+          {
+            "runner": "Ty France",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dominic Canzone",
+        "pitcher": "Spencer Patton",
+        "fielders": [
+          "Esteury Ruiz"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Canzone",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Shea Langeliers",
+        "pitcher": "Andrés Muñoz",
+        "fielders": [
+          "J.P. Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Shea Langeliers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lawrence Butler",
+        "pitcher": "Andrés Muñoz",
+        "movements": [
+          {
+            "runner": "Lawrence Butler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Allen",
+        "pitcher": "Andrés Muñoz",
+        "fielders": [
+          "Dominic Canzone"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Allen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

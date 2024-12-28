@@ -1,0 +1,1364 @@
+{
+  "context": {
+    "game_pk": 631089,
+    "date": {
+      "year": 2020,
+      "month": 9,
+      "day": 23
+    },
+    "venue_name": "PNC Park",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 75,
+      "wind_speed": 2
+    },
+    "home_team": {
+      "id": 134,
+      "players": [
+        {
+          "name": "Derek Holland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nik Turley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Polanco",
+          "position": "RightField"
+        },
+        {
+          "name": "Erik González",
+          "position": "Shortstop"
+        },
+        {
+          "name": "John Ryan Murphy",
+          "position": "Catcher"
+        },
+        {
+          "name": "José Osuna",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Colin Moran",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Trevor Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Richard Rodríguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "JT Riddle",
+          "position": "LeftField"
+        },
+        {
+          "name": "Dovydas Neverauskas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Joe Musgrove",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Tropeano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Howard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jacob Stallings",
+          "position": "Catcher"
+        },
+        {
+          "name": "Chris Stratton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Frazier",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Chad Kuhl",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Brault",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Davis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mitch Keller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ke'Bryan Hayes",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Geoff Hartlieb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "JT Brubaker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Cederlind",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jared Oliva",
+          "position": "CenterField"
+        },
+        {
+          "name": "Bryan Reynolds",
+          "position": "CenterField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 112,
+      "players": [
+        {
+          "name": "Jon Lester",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cameron Maybin",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jose Quintana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José A. Martínez",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jeremy Jeffress",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yu Darvish",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jason Heyward",
+          "position": "RightField"
+        },
+        {
+          "name": "Craig Kimbrel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Anthony Rizzo",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Kyle Hendricks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jason Kipnis",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Billy Hamilton",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Ryan Tepera",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willson Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jason Adam",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kris Bryant",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Ryan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dan Winkler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Victor Caratini",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alec Mills",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Bote",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Adbert Alzolay",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Schwarber",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Nico Hoerner",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Ian Happ",
+          "position": "CenterField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Strikeout": {
+        "batter": "Ian Happ",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "JT Riddle"
+        ],
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Cameron Maybin",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Gregory Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Cameron Maybin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Adam Frazier",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Colin Moran",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gregory Polanco",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Gregory Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "José Osuna",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "José Osuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jason Heyward",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Colin Moran"
+        ],
+        "movements": [
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jason Kipnis",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Ke'Bryan Hayes"
+        ],
+        "movements": [
+          {
+            "runner": "Jason Kipnis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "JT Riddle",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Jason Kipnis"
+        ],
+        "movements": [
+          {
+            "runner": "JT Riddle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Erik González",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Jason Heyward"
+        ],
+        "movements": [
+          {
+            "runner": "Erik González",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jacob Stallings",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Jacob Stallings",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jared Oliva",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Oliva",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "David Bote",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ian Happ",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Trevor Williams"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "David Bote",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Ke'Bryan Hayes"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Ke'Bryan Hayes"
+        ],
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Adam Frazier",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Jason Heyward"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Colin Moran",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Gregory Polanco",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "David Bote"
+        ],
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gregory Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Cameron Maybin",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Cameron Maybin",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jason Heyward",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Javier Báez",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Ke'Bryan Hayes"
+        ],
+        "movements": [
+          {
+            "runner": "Jason Heyward",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Cameron Maybin",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jason Kipnis",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Jason Kipnis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Osuna",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "David Bote"
+        ],
+        "movements": [
+          {
+            "runner": "José Osuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "JT Riddle",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "JT Riddle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Erik González",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Erik González",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "David Bote",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ian Happ",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "JT Riddle"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Colin Moran"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jacob Stallings",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Jacob Stallings",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jared Oliva",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Oliva",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Adam Frazier",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Trevor Williams",
+        "fielders": [
+          "Ke'Bryan Hayes"
+        ],
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Cameron Maybin",
+        "pitcher": "Trevor Williams",
+        "movements": [
+          {
+            "runner": "Cameron Maybin",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jason Heyward",
+        "pitcher": "Austin Davis",
+        "movements": [
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Javier Báez",
+        "pitcher": "Austin Davis",
+        "fielders": [
+          "Jared Oliva"
+        ],
+        "movements": [
+          {
+            "runner": "Cameron Maybin",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jason Heyward",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Colin Moran",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Gregory Polanco",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Gregory Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "José Osuna",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez",
+          "Jason Kipnis"
+        ],
+        "movements": [
+          {
+            "runner": "Gregory Polanco",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "José Osuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jason Kipnis",
+        "pitcher": "Nik Turley",
+        "fielders": [
+          "Jared Oliva"
+        ],
+        "movements": [
+          {
+            "runner": "Jason Kipnis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "David Bote",
+        "pitcher": "Nik Turley",
+        "fielders": [
+          "Erik González"
+        ],
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ian Happ",
+        "pitcher": "Nik Turley",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Nik Turley",
+        "fielders": [
+          "Colin Moran"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "JT Riddle",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Cameron Maybin"
+        ],
+        "movements": [
+          {
+            "runner": "JT Riddle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Erik González",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Erik González",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jacob Stallings",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Kyle Hendricks"
+        ],
+        "movements": [
+          {
+            "runner": "Jacob Stallings",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Chris Stratton",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Chris Stratton",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Cameron Maybin",
+        "pitcher": "Chris Stratton",
+        "fielders": [
+          "Jared Oliva"
+        ],
+        "movements": [
+          {
+            "runner": "Cameron Maybin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jason Heyward",
+        "pitcher": "Chris Stratton",
+        "movements": [
+          {
+            "runner": "Billy Hamilton",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jared Oliva",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Jason Heyward"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Oliva",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Adam Frazier",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Adam Frazier",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Adam Frazier",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Colin Moran",
+        "pitcher": "Craig Kimbrel",
+        "fielders": [
+          "Jason Heyward"
+        ],
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Richard Rodríguez",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jason Kipnis",
+        "pitcher": "Richard Rodríguez",
+        "movements": [
+          {
+            "runner": "Jason Kipnis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "David Bote",
+        "pitcher": "Richard Rodríguez",
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ian Happ",
+        "pitcher": "Richard Rodríguez",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

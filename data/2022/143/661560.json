@@ -1,0 +1,1820 @@
+{
+  "context": {
+    "game_pk": 661560,
+    "date": {
+      "year": 2022,
+      "month": 7,
+      "day": 22
+    },
+    "venue_name": "Citizens Bank Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 93,
+      "wind_speed": 12
+    },
+    "home_team": {
+      "id": 143,
+      "players": [
+        {
+          "name": "Kyle Gibson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brad Hand",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Didi Gregorius",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jeurys Familia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Odúbel Herrera",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Zack Wheeler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Bellatti",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Castellanos",
+          "position": "RightField"
+        },
+        {
+          "name": "J.T. Realmuto",
+          "position": "Catcher"
+        },
+        {
+          "name": "Garrett Stubbs",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Nola",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corey Knebel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Alvarado",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yairo Muñoz",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Seranthony Domínguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Johan Camargo",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Ranger Suárez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Connor Brogdon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rhys Hoskins",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Nick Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Schwarber",
+          "position": "LeftField"
+        },
+        {
+          "name": "Matt Vierling",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alec Bohm",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "JoJo Romero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Darick Hall",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Bryson Stott",
+          "position": "SecondBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 112,
+      "players": [
+        {
+          "name": "Chris Martin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Robertson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rafael Ortega",
+          "position": "CenterField"
+        },
+        {
+          "name": "Yan Gomes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mychal Givens",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marcus Stroman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willson Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Drew Smyly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rowan Wick",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Wisdom",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "David Bote",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Keegan Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Brault",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Frank Schwindel",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Justin Steele",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erich Uelmen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nico Hoerner",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alfonso Rivas III",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ian Happ",
+          "position": "LeftField"
+        },
+        {
+          "name": "Scott Effross",
+          "position": "Pitcher"
+        },
+        {
+          "name": "P.J. Higgins",
+          "position": "Catcher"
+        },
+        {
+          "name": "Christopher Morel",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Seiya Suzuki",
+          "position": "RightField"
+        },
+        {
+          "name": "Nelson Velázquez",
+          "position": "CenterField"
+        },
+        {
+          "name": "Brandon Hughes",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "HitByPitch": {
+        "batter": "Rafael Ortega",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Rafael Ortega",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Willson Contreras",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Bryson Stott",
+          "Didi Gregorius"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Ortega",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Rafael Ortega"
+        ],
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alec Bohm",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Matt Vierling",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ian Happ",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Rhys Hoskins"
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Didi Gregorius"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yairo Muñoz",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Yairo Muñoz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Bryson Stott",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Rafael Ortega"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alfonso Rivas III",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Nick Castellanos"
+        ],
+        "movements": [
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christopher Morel",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Nick Castellanos"
+        ],
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Ortega",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Rhys Hoskins"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Ortega",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alec Bohm",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Vierling",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Willson Contreras",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Ian Happ",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Yairo Muñoz"
+        ],
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yairo Muñoz",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Patrick Wisdom"
+        ],
+        "movements": [
+          {
+            "runner": "Yairo Muñoz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bryson Stott",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Alfonso Rivas III"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alfonso Rivas III",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Christopher Morel",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christopher Morel",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rafael Ortega",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Ortega",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Willson Contreras",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Willson Contreras",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ian Happ",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Willson Contreras",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Willson Contreras",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Jeurys Familia",
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Jeurys Familia",
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Jeurys Familia",
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alfonso Rivas III",
+        "pitcher": "Jeurys Familia",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christopher Morel",
+        "pitcher": "Corey Knebel",
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Rafael Ortega",
+        "pitcher": "Corey Knebel",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Ortega",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Willson Contreras",
+        "pitcher": "Corey Knebel",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Corey Knebel",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ian Happ",
+        "pitcher": "Corey Knebel",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Vierling",
+        "pitcher": "Brandon Hughes",
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Brandon Hughes",
+        "fielders": [
+          "Alfonso Rivas III"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yairo Muñoz",
+        "pitcher": "Brandon Hughes",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Yairo Muñoz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Matt Vierling",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bryson Stott",
+        "pitcher": "Brandon Hughes",
+        "fielders": [
+          "Alfonso Rivas III"
+        ],
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Nick Nelson",
+        "fielders": [
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Nick Nelson",
+        "fielders": [
+          "Yairo Muñoz"
+        ],
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Nick Nelson",
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alfonso Rivas III",
+        "pitcher": "Nick Nelson",
+        "movements": [
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Scott Effross",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Scott Effross",
+        "fielders": [
+          "Patrick Wisdom"
+        ],
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Scott Effross",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christopher Morel",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Christopher Morel",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Willson Contreras",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "P.J. Higgins",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ian Happ",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "P.J. Higgins",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "P.J. Higgins",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "JoJo Romero",
+        "fielders": [
+          "Yairo Muñoz"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "JoJo Romero",
+        "fielders": [
+          "Didi Gregorius",
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Rowan Wick",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Rowan Wick",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Vierling",
+        "pitcher": "Rowan Wick",
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Rowan Wick",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Garrett Stubbs",
+        "fielders": [
+          "Yairo Muñoz"
+        ],
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alfonso Rivas III",
+        "pitcher": "Garrett Stubbs",
+        "movements": [
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christopher Morel",
+        "pitcher": "Garrett Stubbs",
+        "movements": [
+          {
+            "runner": "Christopher Morel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "Garrett Stubbs",
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Alfonso Rivas III",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Christopher Morel",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "P.J. Higgins",
+        "pitcher": "Garrett Stubbs",
+        "movements": [
+          {
+            "runner": "P.J. Higgins",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Garrett Stubbs",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "P.J. Higgins",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ian Happ",
+        "pitcher": "Garrett Stubbs",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Garrett Stubbs",
+        "fielders": [
+          "Didi Gregorius",
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Odúbel Herrera",
+        "pitcher": "Erich Uelmen",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Odúbel Herrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Johan Camargo",
+        "pitcher": "Erich Uelmen",
+        "fielders": [
+          "Christopher Morel"
+        ],
+        "movements": [
+          {
+            "runner": "Johan Camargo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Darick Hall",
+        "pitcher": "Erich Uelmen",
+        "movements": [
+          {
+            "runner": "Darick Hall",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Erich Uelmen",
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Erich Uelmen",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1493 @@
+{
+  "context": {
+    "game_pk": 662716,
+    "date": {
+      "year": 2022,
+      "month": 5,
+      "day": 1
+    },
+    "venue_name": "Dodger Stadium",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 73,
+      "wind_speed": 5
+    },
+    "home_team": {
+      "id": 119,
+      "players": [
+        {
+          "name": "Justin Turner",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Clayton Kershaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Freddie Freeman",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Craig Kimbrel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daniel Hudson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Muncy",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Tommy Kahnle",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hanser Alberto",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Austin Barnes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mookie Betts",
+          "position": "RightField"
+        },
+        {
+          "name": "Reyes Moronta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trea Turner",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Carson Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Taylor",
+          "position": "LeftField"
+        },
+        {
+          "name": "Walker Buehler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edwin Ríos",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Evan Phillips",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Julio Urías",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Bellinger",
+          "position": "CenterField"
+        },
+        {
+          "name": "Phil Bickford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach McKinstry",
+          "position": "RightField"
+        },
+        {
+          "name": "Brusdar Graterol",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Gonsolin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gavin Lux",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Catcher"
+        },
+        {
+          "name": "Justin Bruihl",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Vesia",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Michael Pineda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wily Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robbie Grossman",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Drew Hutchison",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dustin Garneau",
+          "position": "Catcher"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jacob Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "LeftField"
+        },
+        {
+          "name": "Austin Meadows",
+          "position": "RightField"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Derek Hill",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alex Lange",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Akil Baddoo",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tarik Skubal",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Vest",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Torkelson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Beau Brieske",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Javier Báez",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Meadows",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Harold Castro",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mookie Betts",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trea Turner",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Will Smith",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Justin Turner",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Robbie Grossman"
+        ],
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Hanser Alberto"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Hanser Alberto",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Hanser Alberto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Lux",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Hanser Alberto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Mookie Betts",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Hanser Alberto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Hanser Alberto",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Lux",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Lux",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Lux",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trea Turner",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Will Smith",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Meadows",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Harold Castro",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Justin Turner",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Akil Baddoo"
+        ],
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Eric Haase",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Gavin Lux",
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Hanser Alberto",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Hanser Alberto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gavin Lux",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Eduardo Rodriguez"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Eduardo Rodriguez"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Austin Meadows",
+        "pitcher": "Walker Buehler",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Walker Buehler",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trea Turner",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Smith",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Tommy Kahnle",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Tommy Kahnle",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Tommy Kahnle",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Justin Turner",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Chris Taylor",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Chris Taylor",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Chris Taylor",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Hanser Alberto",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Akil Baddoo"
+        ],
+        "movements": [
+          {
+            "runner": "Hanser Alberto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Gavin Lux",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Drew Hutchison",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eric Haase",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Drew Hutchison",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trea Turner",
+        "pitcher": "Drew Hutchison",
+        "fielders": [
+          "Akil Baddoo"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Smith",
+        "pitcher": "Drew Hutchison",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Javier Báez",
+        "pitcher": "Phil Bickford",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Meadows",
+        "pitcher": "Phil Bickford",
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Phil Bickford",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Phil Bickford",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Phil Bickford",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Justin Turner",
+        "pitcher": "Andrew Chafin",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Andrew Chafin",
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Andrew Chafin",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Justin Bruihl",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Justin Bruihl",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Willi Castro",
+        "pitcher": "Justin Bruihl",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eric Haase",
+        "pitcher": "Craig Kimbrel",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Javier Báez",
+        "pitcher": "Craig Kimbrel",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Austin Meadows",
+        "pitcher": "Craig Kimbrel",
+        "fielders": [
+          "Hanser Alberto"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

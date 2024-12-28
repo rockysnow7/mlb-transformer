@@ -1,0 +1,1612 @@
+{
+  "context": {
+    "game_pk": 661680,
+    "date": {
+      "year": 2022,
+      "month": 6,
+      "day": 11
+    },
+    "venue_name": "Target Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 72,
+      "wind_speed": 7
+    },
+    "home_team": {
+      "id": 142,
+      "players": [
+        {
+          "name": "Joe Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Archer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gio Urshela",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Caleb Thielbar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chi Chi González",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Polanco",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Gary Sánchez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Max Kepler",
+          "position": "RightField"
+        },
+        {
+          "name": "Dylan Bundy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jharel Cotton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Duffey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Correa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Byron Buxton",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Nick Gordon",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Emilio Pagán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Griffin Jax",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Arraez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Trevor Megill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Devin Smeltzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jhoan Duran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cole Sands",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jovani Moran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Larnach",
+          "position": "LeftField"
+        },
+        {
+          "name": "Gilberto Celestino",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jose Miranda",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ryan Jeffers",
+          "position": "Catcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 139,
+      "players": [
+        {
+          "name": "Corey Kluber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shawn Armstrong",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brooks Raley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Bard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jason Adam",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Kiermaier",
+          "position": "CenterField"
+        },
+        {
+          "name": "Ji Man Choi",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jeffrey Springs",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Wisler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Colin Poche",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brett Phillips",
+          "position": "RightField"
+        },
+        {
+          "name": "Manuel Margot",
+          "position": "LeftField"
+        },
+        {
+          "name": "Harold Ramírez",
+          "position": "RightField"
+        },
+        {
+          "name": "Francisco Mejía",
+          "position": "Catcher"
+        },
+        {
+          "name": "Yandy Díaz",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "René Pinto",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jalen Beeks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew Rasmussen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Vidal Bruján",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Shane McClanahan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Randy Arozarena",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Shane Baz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Isaac Paredes",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Taylor Walls",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Calvin Faucher",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Chi Chi González",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Manuel Margot",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Manuel Margot",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Manuel Margot",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Manuel Margot",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ji Man Choi",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Ji Man Choi",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ji Man Choi",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Randy Arozarena",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Randy Arozarena",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Manuel Margot",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ji Man Choi",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Randy Arozarena",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Taylor Walls",
+        "pitcher": "Chi Chi González",
+        "fielders": [
+          "Luis Arraez"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Taylor Walls",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brett Phillips",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Brett Phillips",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Taylor Walls",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Taylor Walls",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "René Pinto",
+        "pitcher": "Chi Chi González",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "René Pinto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Shane Baz",
+        "fielders": [
+          "Shane Baz"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Shane Baz",
+        "fielders": [
+          "Vidal Bruján"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Shane Baz",
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vidal Bruján",
+        "pitcher": "Chi Chi González",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Vidal Bruján",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Manuel Margot",
+        "pitcher": "Chi Chi González",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Manuel Margot",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "CaughtStealing": {
+        "base": 2,
+        "runner": "Kevin Kiermaier",
+        "fielders": [
+          "Ryan Jeffers"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Max Kepler",
+        "pitcher": "Shane Baz",
+        "fielders": [
+          "Brett Phillips"
+        ],
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Shane Baz",
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Shane Baz",
+        "fielders": [
+          "Kevin Kiermaier"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ji Man Choi",
+        "pitcher": "Chi Chi González",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Ji Man Choi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gilberto Celestino",
+        "pitcher": "Shane Baz",
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nick Gordon",
+        "pitcher": "Shane Baz",
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Shane Baz",
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Gordon",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Luis Arraez",
+        "pitcher": "Shane Baz",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Gordon",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Shane Baz",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jose Miranda",
+        "pitcher": "Shane Baz",
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jorge Polanco",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jorge Polanco",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Miranda",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Max Kepler",
+        "pitcher": "Jalen Beeks",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Jalen Beeks",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Jalen Beeks",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gilberto Celestino",
+        "pitcher": "Jalen Beeks",
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Taylor Walls",
+        "pitcher": "Chi Chi González",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Taylor Walls",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brett Phillips",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Brett Phillips",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "René Pinto",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "René Pinto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Gordon",
+        "pitcher": "Brooks Raley",
+        "fielders": [
+          "Kevin Kiermaier"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Brooks Raley",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Arraez",
+        "pitcher": "Brooks Raley",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Brooks Raley",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Brooks Raley",
+        "fielders": [
+          "Kevin Kiermaier"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Vidal Bruján",
+        "pitcher": "Chi Chi González",
+        "movements": [
+          {
+            "runner": "Vidal Bruján",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Vidal Bruján",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Manuel Margot",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Vidal Bruján",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Manuel Margot",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Manuel Margot",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Max Kepler",
+        "pitcher": "Matt Wisler",
+        "fielders": [
+          "Kevin Kiermaier"
+        ],
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Matt Wisler",
+        "fielders": [
+          "Taylor Walls"
+        ],
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Matt Wisler",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ji Man Choi",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Ji Man Choi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Taylor Walls",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Taylor Walls",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Taylor Walls",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "René Pinto",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "René Pinto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Gilberto Celestino",
+        "pitcher": "Ryan Thompson",
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Gordon",
+        "pitcher": "Ryan Thompson",
+        "fielders": [
+          "Ji Man Choi"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Ryan Thompson",
+        "fielders": [
+          "Taylor Walls"
+        ],
+        "scoring_runner": "Ryan Jeffers",
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Arraez",
+        "pitcher": "Ryan Thompson",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Ryan Thompson",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Ryan Thompson",
+        "fielders": [
+          "Ryan Thompson"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Vidal Bruján",
+        "pitcher": "Jharel Cotton",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Vidal Bruján",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Jharel Cotton",
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Manuel Margot",
+        "pitcher": "Jharel Cotton",
+        "fielders": [
+          "Nick Gordon"
+        ],
+        "movements": [
+          {
+            "runner": "Manuel Margot",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Jharel Cotton",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ji Man Choi",
+        "pitcher": "Jharel Cotton",
+        "fielders": [
+          "Gilberto Celestino"
+        ],
+        "movements": [
+          {
+            "runner": "Ji Man Choi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Max Kepler",
+        "pitcher": "Shawn Armstrong",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Shawn Armstrong",
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Shawn Armstrong",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Gilberto Celestino",
+        "pitcher": "Shawn Armstrong",
+        "fielders": [
+          "Vidal Bruján",
+          "Taylor Walls"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Jhoan Duran",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Taylor Walls",
+        "pitcher": "Jhoan Duran",
+        "movements": [
+          {
+            "runner": "Taylor Walls",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Jhoan Duran",
+        "fielders": [
+          "Nick Gordon"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Francisco Mejía",
+        "pitcher": "Jhoan Duran",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Mejía",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Gordon",
+        "pitcher": "Shawn Armstrong",
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Shawn Armstrong",
+        "fielders": [
+          "Vidal Bruján",
+          "Taylor Walls"
+        ],
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Shawn Armstrong",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Vidal Bruján",
+        "pitcher": "Emilio Pagán",
+        "movements": [
+          {
+            "runner": "Vidal Bruján",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Emilio Pagán",
+        "fielders": [
+          "Luis Arraez"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manuel Margot",
+        "pitcher": "Emilio Pagán",
+        "movements": [
+          {
+            "runner": "Manuel Margot",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

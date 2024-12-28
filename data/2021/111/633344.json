@@ -1,0 +1,1701 @@
+{
+  "context": {
+    "game_pk": 633344,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 10
+    },
+    "venue_name": "Fenway Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 70,
+      "wind_speed": 12
+    },
+    "home_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Adam Ottavino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.D. Martinez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Marwin Gonzalez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Brandon Workman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Martín Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Vázquez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "CenterField"
+        },
+        {
+          "name": "Garrett Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Brice",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Renfroe",
+          "position": "RightField"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yacksel Ríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Plawecki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hirokazu Sawamura",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Arroyo",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Darwinzon Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Chavis",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Josh Taylor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Bobby Dalbec",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Garrett Whitlock",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 143,
+      "players": [
+        {
+          "name": "Brandon Kintzler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew McCutchen",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jean Segura",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Matt Moore",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brad Miller",
+          "position": "LeftField"
+        },
+        {
+          "name": "Didi Gregorius",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Bryce Harper",
+          "position": "RightField"
+        },
+        {
+          "name": "Zack Wheeler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ronald Torreyes",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "J.T. Realmuto",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Vince Velasquez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Héctor Neris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Knapp",
+          "position": "Catcher"
+        },
+        {
+          "name": "Archie Bradley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Nola",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Travis Jankowski",
+          "position": "LeftField"
+        },
+        {
+          "name": "Zach Eflin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Alvarado",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ranger Suárez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Connor Brogdon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rhys Hoskins",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Enyel De Los Santos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bailey Falter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Williams",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alec Bohm",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "JD Hammer",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "HomeRun": {
+        "batter": "Jean Segura",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Bryce Harper",
+        "pitcher": "Martín Pérez",
+        "fielders": [
+          "Christian Arroyo",
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrew McCutchen",
+        "pitcher": "Martín Pérez",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew McCutchen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Bryce Harper"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Luke Williams"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Bryce Harper"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Alec Bohm",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luke Williams",
+        "pitcher": "Martín Pérez",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Williams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ronald Torreyes",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jean Segura",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Matt Moore",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Jean Segura"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Rhys Hoskins"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Jean Segura"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bryce Harper",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Andrew McCutchen",
+        "pitcher": "Martín Pérez",
+        "fielders": [
+          "Bobby Dalbec"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew McCutchen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Martín Pérez",
+        "fielders": [
+          "Bobby Dalbec"
+        ],
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Matt Moore",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Rhys Hoskins"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Matt Moore",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Bryce Harper"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Matt Moore",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 1,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Matt Moore",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Andrew McCutchen"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luke Williams",
+        "pitcher": "Martín Pérez",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Williams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronald Torreyes",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Jean Segura",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Knapp",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Matt Moore",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Bryce Harper"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Rhys Hoskins"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Matt Moore",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bryce Harper",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Christian Vázquez"
+        ],
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew McCutchen",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew McCutchen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Matt Moore",
+        "fielders": [
+          "Luke Williams"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Matt Moore",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Héctor Neris",
+        "fielders": [
+          "Alec Bohm",
+          "Jean Segura"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alec Bohm",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Luke Williams",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luke Williams",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ronald Torreyes",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Bailey Falter",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Bailey Falter",
+        "fielders": [
+          "Andrew McCutchen"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Bailey Falter",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jean Segura",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PickoffCaughtStealing": {
+        "base": 2,
+        "runner": "Jean Segura",
+        "fielders": [
+          "Josh Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Bailey Falter",
+        "fielders": [
+          "Ronald Torreyes"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Bailey Falter",
+        "fielders": [
+          "Ronald Torreyes"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Bailey Falter",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bryce Harper",
+        "pitcher": "Josh Taylor",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrew McCutchen",
+        "pitcher": "Josh Taylor",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew McCutchen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Josh Taylor",
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew McCutchen",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew McCutchen",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Josh Taylor",
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Luke Williams",
+        "pitcher": "Brandon Workman",
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Didi Gregorius",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luke Williams",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronald Torreyes",
+        "pitcher": "Brandon Workman",
+        "movements": [
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Didi Gregorius",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Luke Williams",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Brandon Workman",
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Luke Williams",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jean Segura",
+        "pitcher": "Austin Brice",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knapp",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knapp",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Luke Williams",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Austin Brice",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Bryce Harper",
+        "pitcher": "Austin Brice",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jean Segura",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jean Segura",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knapp",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrew McCutchen",
+        "pitcher": "Austin Brice",
+        "movements": [
+          {
+            "runner": "Andrew McCutchen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Austin Brice",
+        "fielders": [
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Austin Brice",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Enrique Hernández",
+        "pitcher": "JD Hammer",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "JD Hammer",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "J.D. Martinez",
+        "pitcher": "JD Hammer",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael Chavis",
+        "pitcher": "JD Hammer",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Devers",
+        "pitcher": "JD Hammer",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "JD Hammer",
+        "fielders": [
+          "Luke Williams"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luke Williams",
+        "pitcher": "Austin Brice",
+        "movements": [
+          {
+            "runner": "Luke Williams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ronald Torreyes",
+        "pitcher": "Austin Brice",
+        "movements": [
+          {
+            "runner": "Ronald Torreyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Austin Brice",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Connor Brogdon",
+        "fielders": [
+          "Jean Segura"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kevin Plawecki",
+        "pitcher": "Connor Brogdon",
+        "fielders": [
+          "Andrew McCutchen"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Connor Brogdon",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

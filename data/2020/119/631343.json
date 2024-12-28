@@ -1,0 +1,1453 @@
+{
+  "context": {
+    "game_pk": 631343,
+    "date": {
+      "year": 2020,
+      "month": 8,
+      "day": 8
+    },
+    "venue_name": "Dodger Stadium",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 76,
+      "wind_speed": 8
+    },
+    "home_team": {
+      "id": 119,
+      "players": [
+        {
+          "name": "Kenley Jansen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Turner",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jake McGee",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Clayton Kershaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Scott Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pedro Báez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ross Stripling",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dylan Floro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Max Muncy",
+          "position": "FirstBase"
+        },
+        {
+          "name": "AJ Pollock",
+          "position": "LeftField"
+        },
+        {
+          "name": "Joc Pederson",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Blake Treinen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Barnes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mookie Betts",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Beaty",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Corey Seager",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Chris Taylor",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Walker Buehler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edwin Ríos",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Julio Urías",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Bellinger",
+          "position": "CenterField"
+        },
+        {
+          "name": "Dennis Santana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Caleb Ferguson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brusdar Graterol",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dustin May",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Catcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 137,
+      "players": [
+        {
+          "name": "Evan Longoria",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Hunter Pence",
+          "position": "LeftField"
+        },
+        {
+          "name": "Tony Watson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Johnny Cueto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Donovan Solano",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Pablo Sandoval",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Brandon Belt",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Wilmer Flores",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Tyler Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Crawford",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alex Dickerson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Sam Selman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Darin Ruf",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Mike Yastrzemski",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kevin Gausman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wandy Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Slater",
+          "position": "RightField"
+        },
+        {
+          "name": "Andrew Suárez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Heineman",
+          "position": "Catcher"
+        },
+        {
+          "name": "Shaun Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Gott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mauricio Dubón",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tyler Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chadwick Tromp",
+          "position": "Catcher"
+        },
+        {
+          "name": "Logan Webb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Conner Menez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Caleb Baragar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rico Garcia",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Lineout": {
+        "batter": "Austin Slater",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Donovan Solano",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Evan Longoria",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Evan Longoria",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Hunter Pence",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Pence",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Joc Pederson",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Austin Slater"
+        ],
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Johnny Cueto",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Mike Yastrzemski"
+        ],
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Darin Ruf",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Darin Ruf",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chadwick Tromp",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Chadwick Tromp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mauricio Dubón",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Mauricio Dubón",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Justin Turner",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Mauricio Dubón"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Max Muncy",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Mike Yastrzemski"
+        ],
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "AJ Pollock",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Austin Slater"
+        ],
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Austin Slater",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Evan Longoria",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Chris Taylor",
+        "pitcher": "Johnny Cueto",
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Johnny Cueto",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Barnes",
+        "pitcher": "Johnny Cueto",
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Joc Pederson",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Mike Yastrzemski"
+        ],
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Pence",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Hunter Pence",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Darin Ruf",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Darin Ruf",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chadwick Tromp",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Chadwick Tromp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Austin Slater"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Mike Yastrzemski"
+        ],
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Justin Turner",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Mauricio Dubón"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Mauricio Dubón",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Mauricio Dubón",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Austin Slater",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Donovan Solano",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Evan Longoria",
+        "pitcher": "Brusdar Graterol",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Brusdar Graterol",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Max Muncy",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Hunter Pence"
+        ],
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "AJ Pollock",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Austin Slater"
+        ],
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Wilmer Flores"
+        ],
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Hunter Pence",
+        "pitcher": "Brusdar Graterol",
+        "movements": [
+          {
+            "runner": "Hunter Pence",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Darin Ruf",
+        "pitcher": "Brusdar Graterol",
+        "movements": [
+          {
+            "runner": "Hunter Pence",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Darin Ruf",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Chadwick Tromp",
+        "pitcher": "Brusdar Graterol",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Chadwick Tromp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Hunter Pence",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Darin Ruf",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Mauricio Dubón",
+        "pitcher": "Brusdar Graterol",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "scoring_runner": "Hunter Pence",
+        "movements": [
+          {
+            "runner": "Mauricio Dubón",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Hunter Pence",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Slater",
+        "pitcher": "Brusdar Graterol",
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Johnny Cueto",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Barnes",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Mauricio Dubón"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joc Pederson",
+        "pitcher": "Johnny Cueto",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Mookie Betts",
+        "pitcher": "Johnny Cueto",
+        "fielders": [
+          "Evan Longoria"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Johnny Cueto",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Justin Turner",
+        "pitcher": "Johnny Cueto",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Joc Pederson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Max Muncy",
+        "pitcher": "Tony Watson",
+        "fielders": [
+          "Chadwick Tromp"
+        ],
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Dylan Floro",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Dylan Floro",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Evan Longoria",
+        "pitcher": "Dylan Floro",
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Dylan Floro",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "AJ Pollock",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "Hunter Pence"
+        ],
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "Evan Longoria"
+        ],
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Tyler Rogers",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Pablo Sandoval",
+        "pitcher": "Pedro Báez",
+        "movements": [
+          {
+            "runner": "Pablo Sandoval",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Darin Ruf",
+        "pitcher": "Pedro Báez",
+        "movements": [
+          {
+            "runner": "Darin Ruf",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Chadwick Tromp",
+        "pitcher": "Pedro Báez",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Chadwick Tromp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Beaty",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "Tyler Rogers"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Beaty",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Joc Pederson",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "Evan Longoria"
+        ],
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "Mauricio Dubón"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mauricio Dubón",
+        "pitcher": "Joe Kelly",
+        "movements": [
+          {
+            "runner": "Mauricio Dubón",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Slater",
+        "pitcher": "Joe Kelly",
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Donovan Solano",
+        "pitcher": "Joe Kelly",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Joe Kelly",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Trevor Gott",
+        "fielders": [
+          "Mauricio Dubón"
+        ],
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Justin Turner",
+        "pitcher": "Trevor Gott",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Max Muncy",
+        "pitcher": "Trevor Gott",
+        "fielders": [
+          "Evan Longoria"
+        ],
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "AJ Pollock",
+        "pitcher": "Trevor Gott",
+        "fielders": [
+          "Mike Yastrzemski"
+        ],
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

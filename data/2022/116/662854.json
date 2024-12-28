@@ -1,0 +1,1591 @@
+{
+  "context": {
+    "game_pk": 662854,
+    "date": {
+      "year": 2022,
+      "month": 5,
+      "day": 30
+    },
+    "venue_name": "Comerica Park",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 85,
+      "wind_speed": 12
+    },
+    "home_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Wily Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jacob Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "Catcher"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "LeftField"
+        },
+        {
+          "name": "Drew Carlton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Faedo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Derek Hill",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alex Lange",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elvin Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daz Cameron",
+          "position": "RightField"
+        },
+        {
+          "name": "Kody Clemens",
+          "position": "LeftField"
+        },
+        {
+          "name": "Rony García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tarik Skubal",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jason Foley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Torkelson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Beau Brieske",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 142,
+      "players": [
+        {
+          "name": "Joe Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Archer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gio Urshela",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Caleb Thielbar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Minaya",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Polanco",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Gary Sánchez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Max Kepler",
+          "position": "RightField"
+        },
+        {
+          "name": "Dylan Bundy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Duffey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Correa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Byron Buxton",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Nick Gordon",
+          "position": "CenterField"
+        },
+        {
+          "name": "Bailey Ober",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emilio Pagán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Griffin Jax",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Arraez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Trevor Megill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Devin Smeltzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jhoan Duran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jovani Moran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Larnach",
+          "position": "RightField"
+        },
+        {
+          "name": "Kyle Garlick",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jose Miranda",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ryan Jeffers",
+          "position": "DesignatedHitter"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Luis Arraez",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Kyle Garlick",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Javier Báez",
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kyle Garlick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Harold Castro",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Luis Arraez"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Javier Báez",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Gio Urshela",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "scoring_runner": "Trevor Larnach",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Trevor Larnach",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jose Miranda",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gio Urshela",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Gordon",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Spencer Torkelson"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gio Urshela",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Miranda",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Daz Cameron"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Jose Miranda"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Willi Castro",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Daz Cameron",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Gio Urshela"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Daz Cameron",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Garlick",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Kyle Garlick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Jose Miranda"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Derek Hill",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Derek Hill",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Harold Castro",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Nick Gordon"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Javier Báez",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Kyle Garlick"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gio Urshela",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jose Miranda",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Gio Urshela",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Gordon",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Willi Castro",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Daz Cameron",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Nick Gordon"
+        ],
+        "movements": [
+          {
+            "runner": "Daz Cameron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Gio Urshela"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Derek Hill",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Derek Hill",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Garlick",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Garlick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Willi Castro",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Gio Urshela"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Daz Cameron"
+        ],
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Beau Brieske",
+        "fielders": [
+          "Spencer Torkelson"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Gio Urshela",
+        "pitcher": "Beau Brieske",
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Joe Jiménez",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Daz Cameron",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Kyle Garlick"
+        ],
+        "movements": [
+          {
+            "runner": "Daz Cameron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Derek Hill",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Derek Hill",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Harold Castro",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Luis Arraez"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Gordon",
+        "pitcher": "Joe Jiménez",
+        "fielders": [
+          "Spencer Torkelson"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Arraez",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Garlick",
+        "pitcher": "Joe Jiménez",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Garlick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Joe Smith",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Javier Báez",
+        "pitcher": "Joe Smith",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Joe Smith",
+        "fielders": [
+          "Luis Arraez"
+        ],
+        "scoring_runner": "Jeimer Candelario",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Joe Smith",
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Willi Castro",
+        "pitcher": "Joe Smith",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Daz Cameron",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Daz Cameron",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Gio Urshela",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gary Sánchez",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Gary Sánchez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Spencer Torkelson"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Derek Hill",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Derek Hill",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Derek Hill",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Javier Báez",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Derek Hill",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Derek Hill",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Gordon",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "Nick Gordon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Derek Hill"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Garlick",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Daz Cameron"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Garlick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

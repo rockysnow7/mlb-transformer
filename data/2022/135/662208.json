@@ -1,0 +1,1420 @@
+{
+  "context": {
+    "game_pk": 662208,
+    "date": {
+      "year": 2022,
+      "month": 9,
+      "day": 30
+    },
+    "venue_name": "Petco Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 68,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 135,
+      "players": [
+        {
+          "name": "Luis García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Craig Stammen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yu Darvish",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Nola",
+          "position": "Catcher"
+        },
+        {
+          "name": "Wil Myers",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Pierce Johnson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Drury",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Manny Machado",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jorge Alfaro",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jurickson Profar",
+          "position": "LeftField"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Mike Clevinger",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Musgrove",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Snell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Martinez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Wilson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Hader",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Cronenworth",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Sean Manaea",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Azocar",
+          "position": "RightField"
+        },
+        {
+          "name": "Brandon Dixon",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Tim Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robert Suarez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Grisham",
+          "position": "CenterField"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "RightField"
+        },
+        {
+          "name": "Luis Campusano",
+          "position": "Catcher"
+        },
+        {
+          "name": "Adrian Morejon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ha-Seong Kim",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 145,
+      "players": [
+        {
+          "name": "Johnny Cueto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lance Lynn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elvis Andrus",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jake Diekman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yasmani Grandal",
+          "position": "Catcher"
+        },
+        {
+          "name": "Liam Hendriks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Harrison",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Leury García",
+          "position": "Shortstop"
+        },
+        {
+          "name": "José Abreu",
+          "position": "FirstBase"
+        },
+        {
+          "name": "AJ Pollock",
+          "position": "LeftField"
+        },
+        {
+          "name": "Mark Payton",
+          "position": "LeftField"
+        },
+        {
+          "name": "Vince Velasquez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Bummer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Giolito",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kendall Graveman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Ruiz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reynaldo López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Engel",
+          "position": "CenterField"
+        },
+        {
+          "name": "Eloy Jiménez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Carlos Pérez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Dylan Cease",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gavin Sheets",
+          "position": "RightField"
+        },
+        {
+          "name": "Yoán Moncada",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Davis Martin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Romy Gonzalez",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake Burger",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jimmy Lambert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Vaughn",
+          "position": "LeftField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mark Payton",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Payton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "José Abreu",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juan Soto",
+        "pitcher": "Davis Martin",
+        "fielders": [
+          "Josh Harrison"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Sheets",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gavin Sheets",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Yoán Moncada",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Pérez",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Harrison",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Davis Martin",
+        "fielders": [
+          "Mark Payton"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Brandon Drury",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Bell",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Drury",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Davis Martin",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Austin Nola",
+        "pitcher": "Davis Martin",
+        "fielders": [
+          "Carlos Pérez"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mark Payton",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Payton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Abreu",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Davis Martin",
+        "fielders": [
+          "Yoán Moncada"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Sheets",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carlos Pérez",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Harrison",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Brandon Drury",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mark Payton",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mark Payton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "José Abreu",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Brandon Drury"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Nola",
+        "pitcher": "Davis Martin",
+        "fielders": [
+          "José Abreu"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Davis Martin",
+        "fielders": [
+          "Josh Harrison"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Juan Soto",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jurickson Profar",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jurickson Profar",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Yu Darvish",
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Yoán Moncada",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carlos Pérez",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Josh Harrison",
+        "pitcher": "Yu Darvish",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Manny Machado",
+        "pitcher": "Davis Martin",
+        "fielders": [
+          "José Abreu"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brandon Drury",
+        "pitcher": "Davis Martin",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Joe Kelly",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Luis García",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mark Payton",
+        "pitcher": "Luis García",
+        "movements": [
+          {
+            "runner": "Mark Payton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Abreu",
+        "pitcher": "Luis García",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Kendall Graveman",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Nola",
+        "pitcher": "Kendall Graveman",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Kendall Graveman",
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Kendall Graveman",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Aaron Bummer",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Robert Suarez",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Robert Suarez",
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Robert Suarez",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Manny Machado",
+        "pitcher": "Jimmy Lambert",
+        "fielders": [
+          "Jimmy Lambert"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Jimmy Lambert",
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Drury",
+        "pitcher": "Jimmy Lambert",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Jimmy Lambert",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adam Engel",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Pérez",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Harrison",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Liam Hendriks",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Nola",
+        "pitcher": "Liam Hendriks",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wil Myers",
+        "pitcher": "Liam Hendriks",
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

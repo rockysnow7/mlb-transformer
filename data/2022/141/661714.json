@@ -1,0 +1,1486 @@
+{
+  "context": {
+    "game_pk": 661714,
+    "date": {
+      "year": 2022,
+      "month": 7,
+      "day": 28
+    },
+    "venue_name": "Rogers Centre",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 80,
+      "wind_speed": 17
+    },
+    "home_team": {
+      "id": 141,
+      "players": [
+        {
+          "name": "David Phelps",
+          "position": "Pitcher"
+        },
+        {
+          "name": "George Springer",
+          "position": "RightField"
+        },
+        {
+          "name": "Ross Stripling",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yimi García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yusei Kikuchi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Gausman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Romano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bradley Zimmer",
+          "position": "CenterField"
+        },
+        {
+          "name": "Raimel Tapia",
+          "position": "RightField"
+        },
+        {
+          "name": "Teoscar Hernández",
+          "position": "RightField"
+        },
+        {
+          "name": "Anthony Banda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Berríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cavan Biggio",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Zack Collins",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tim Mayza",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Cimber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Danny Jansen",
+          "position": "Catcher"
+        },
+        {
+          "name": "Matt Chapman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Bo Bichette",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alek Manoah",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Castillo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lourdes Gurriel Jr.",
+          "position": "LeftField"
+        },
+        {
+          "name": "Santiago Espinal",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Trevor Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejandro Kirk",
+          "position": "DesignatedHitter"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Cisnero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robbie Grossman",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Drew Hutchison",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Michael Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "Catcher"
+        },
+        {
+          "name": "Victor Reyes",
+          "position": "RightField"
+        },
+        {
+          "name": "Tyler Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "CenterField"
+        },
+        {
+          "name": "Bryan Garcia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Lange",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kody Clemens",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Akil Baddoo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Tarik Skubal",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Angel De Jesus",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jason Foley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Vest",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Riley Greene",
+          "position": "CenterField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Yusei Kikuchi",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Javier Báez",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eric Haase",
+        "pitcher": "Yusei Kikuchi",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "George Springer",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alejandro Kirk",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Alejandro Kirk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Bo Bichette",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Willi Castro",
+        "pitcher": "Yusei Kikuchi",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Yusei Kikuchi",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Robbie Grossman"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Jonathan Schoop",
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Yusei Kikuchi",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Yusei Kikuchi",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Javier Báez",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Danny Jansen",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "George Springer",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alejandro Kirk",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Alejandro Kirk",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Bo Bichette",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Eric Haase",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "Santiago Espinal"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "George Springer"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "Yusei Kikuchi"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Matt Chapman",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Danny Jansen",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Willi Castro",
+        "pitcher": "Yusei Kikuchi",
+        "fielders": [
+          "George Springer"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Yusei Kikuchi",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Yusei Kikuchi",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "George Springer",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Will Vest",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alejandro Kirk",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "Alejandro Kirk",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bo Bichette",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alejandro Kirk",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Adam Cimber",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Javier Báez",
+        "pitcher": "Adam Cimber",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Adam Cimber",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Eric Haase",
+        "pitcher": "Adam Cimber",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Angel De Jesus",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Matt Chapman",
+        "pitcher": "Angel De Jesus",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Angel De Jesus",
+        "fielders": [
+          "Angel De Jesus"
+        ],
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Danny Jansen",
+        "pitcher": "Angel De Jesus",
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "George Springer",
+        "pitcher": "Angel De Jesus",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Tim Mayza",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Tim Mayza",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Willi Castro",
+        "pitcher": "Tim Mayza",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Harold Castro",
+        "pitcher": "Tim Mayza",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Angel De Jesus",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Alejandro Kirk",
+        "pitcher": "Angel De Jesus",
+        "movements": [
+          {
+            "runner": "Alejandro Kirk",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bo Bichette",
+        "pitcher": "Angel De Jesus",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alejandro Kirk",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "José Cisnero",
+        "fielders": [
+          "Javier Báez",
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Victor Reyes",
+        "pitcher": "Yimi García",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Yimi García",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Javier Báez",
+        "pitcher": "Yimi García",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Yimi García",
+        "fielders": [
+          "George Springer"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Eric Haase",
+        "pitcher": "Yimi García",
+        "fielders": [
+          "George Springer"
+        ],
+        "scoring_runner": "Robbie Grossman",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Reyes",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Jordan Romano",
+        "fielders": [
+          "Santiago Espinal"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Chapman",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Alex Lange"
+        ],
+        "runner": "Lourdes Gurriel Jr.",
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Danny Jansen",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Robbie Grossman"
+        ],
+        "scoring_runner": "Lourdes Gurriel Jr.",
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "George Springer",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Jordan Romano",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willi Castro",
+        "pitcher": "Jordan Romano",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Harold Castro",
+        "pitcher": "Jordan Romano",
+        "fielders": [
+          "Raimel Tapia"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

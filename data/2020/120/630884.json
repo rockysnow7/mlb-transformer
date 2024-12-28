@@ -1,0 +1,1557 @@
+{
+  "context": {
+    "game_pk": 630884,
+    "date": {
+      "year": 2020,
+      "month": 9,
+      "day": 21
+    },
+    "venue_name": "Nationals Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 64,
+      "wind_speed": 3
+    },
+    "home_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "Aníbal Sánchez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kurt Suzuki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Asdrúbal Cabrera",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Max Scherzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Harris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Paolo Espino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Thames",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Yan Gomes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Josh Harrison",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Daniel Hudson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brock Holt",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Michael A. Taylor",
+          "position": "CenterField"
+        },
+        {
+          "name": "Wander Suero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erick Fedde",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trea Turner",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Ryne Harper",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Voth",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yadiel Hernandez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle McGowin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor Robles",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrew Stevenson",
+          "position": "RightField"
+        },
+        {
+          "name": "Ben Braymer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "LeftField"
+        },
+        {
+          "name": "Carter Kieboom",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jake Noll",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Luis García Jr.",
+          "position": "SecondBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 143,
+      "players": [
+        {
+          "name": "Blake Parker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew McCutchen",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jay Bruce",
+          "position": "RightField"
+        },
+        {
+          "name": "David Phelps",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Hunter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jean Segura",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Brandon Workman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Didi Gregorius",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Bryce Harper",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Zack Wheeler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Hale",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.T. Realmuto",
+          "position": "Catcher"
+        },
+        {
+          "name": "Vince Velasquez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Héctor Neris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Phil Gosselin",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Andrew Knapp",
+          "position": "Catcher"
+        },
+        {
+          "name": "Roman Quinn",
+          "position": "CenterField"
+        },
+        {
+          "name": "Adam Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Nola",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Eflin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Connor Brogdon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Haseley",
+          "position": "CenterField"
+        },
+        {
+          "name": "Scott Kingery",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Alec Bohm",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Rafael Marchán",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ramón Rosso",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mickey Moniak",
+          "position": "LeftField"
+        },
+        {
+          "name": "JoJo Romero",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Adam Haseley",
+        "pitcher": "Aníbal Sánchez",
+        "fielders": [
+          "Carter Kieboom"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Haseley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bryce Harper",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alec Bohm",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "CaughtStealing": {
+        "base": 2,
+        "runner": "Alec Bohm",
+        "fielders": [
+          "Kurt Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Andrew Stevenson",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Andrew Stevenson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trea Turner",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Jay Bruce"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Andrew Stevenson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Soto",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Asdrúbal Cabrera",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Stevenson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Brock Holt",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Didi Gregorius"
+        ],
+        "movements": [
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brock Holt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Brock Holt",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brock Holt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jean Segura",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jay Bruce",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jay Bruce",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Aníbal Sánchez",
+        "fielders": [
+          "Carter Kieboom"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Carter Kieboom",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Carter Kieboom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Victor Robles",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Robles",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Stevenson",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Andrew Stevenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trea Turner",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Scott Kingery",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Scott Kingery",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Roman Quinn",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Roman Quinn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Adam Haseley",
+        "pitcher": "Aníbal Sánchez",
+        "fielders": [
+          "Aníbal Sánchez",
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Scott Kingery",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Adam Haseley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Soto",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Asdrúbal Cabrera",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brock Holt",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Didi Gregorius"
+        ],
+        "movements": [
+          {
+            "runner": "Brock Holt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Didi Gregorius"
+        ],
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bryce Harper",
+        "pitcher": "Aníbal Sánchez",
+        "fielders": [
+          "Carter Kieboom"
+        ],
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alec Bohm",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jean Segura",
+        "pitcher": "Aníbal Sánchez",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jay Bruce",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Jay Bruce",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Scott Kingery"
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Carter Kieboom",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Carter Kieboom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Robles",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Aníbal Sánchez",
+        "fielders": [
+          "Asdrúbal Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Scott Kingery",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Scott Kingery",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Mickey Moniak",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Mickey Moniak",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Adam Haseley",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Adam Haseley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mickey Moniak",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mickey Moniak",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bryce Harper",
+        "pitcher": "Aníbal Sánchez",
+        "movements": [
+          {
+            "runner": "Mickey Moniak",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Adam Haseley",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Stevenson",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Scott Kingery"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Stevenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trea Turner",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Jay Bruce"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juan Soto",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Scott Kingery"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Alec Bohm",
+        "pitcher": "Wander Suero",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Wander Suero",
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jean Segura",
+        "pitcher": "Wander Suero",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jay Bruce",
+        "pitcher": "Wander Suero",
+        "fielders": [
+          "Wander Suero"
+        ],
+        "movements": [
+          {
+            "runner": "Jay Bruce",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Asdrúbal Cabrera",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brock Holt",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Brock Holt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Adam Haseley"
+        ],
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Zack Wheeler",
+        "fielders": [
+          "Andrew Knapp"
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brock Holt",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Carter Kieboom",
+        "pitcher": "Zack Wheeler",
+        "movements": [
+          {
+            "runner": "Carter Kieboom",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Victor Robles",
+        "pitcher": "Blake Parker",
+        "movements": [
+          {
+            "runner": "Brock Holt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Harrison",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Stevenson",
+        "pitcher": "Blake Parker",
+        "movements": [
+          {
+            "runner": "Andrew Stevenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Scott Kingery",
+        "pitcher": "Kyle Finnegan",
+        "fielders": [
+          "Asdrúbal Cabrera",
+          "Asdrúbal Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "Scott Kingery",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Andrew Knapp",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mickey Moniak",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Mickey Moniak",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adam Haseley",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Adam Haseley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trea Turner",
+        "pitcher": "Blake Parker",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Juan Soto",
+        "pitcher": "Blake Parker",
+        "fielders": [
+          "Mickey Moniak"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Asdrúbal Cabrera",
+        "pitcher": "Blake Parker",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brock Holt",
+        "pitcher": "Blake Parker",
+        "movements": [
+          {
+            "runner": "Brock Holt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brock Holt",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Asdrúbal Cabrera",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Ramón Rosso",
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brock Holt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Ramón Rosso",
+        "fielders": [
+          "Scott Kingery"
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bryce Harper",
+        "pitcher": "Will Harris",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Will Harris",
+        "fielders": [
+          "Josh Harrison"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Didi Gregorius",
+        "pitcher": "Will Harris",
+        "movements": [
+          {
+            "runner": "Didi Gregorius",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Harrison",
+        "pitcher": "Ramón Rosso",
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Victor Robles",
+        "pitcher": "Ramón Rosso",
+        "fielders": [
+          "Mickey Moniak"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrew Stevenson",
+        "pitcher": "Ramón Rosso",
+        "fielders": [
+          "Mickey Moniak"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Stevenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jean Segura",
+        "pitcher": "Daniel Hudson",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jay Bruce",
+        "pitcher": "Daniel Hudson",
+        "fielders": [
+          "Asdrúbal Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "Jay Bruce",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrew Knapp",
+        "pitcher": "Daniel Hudson",
+        "movements": [
+          {
+            "runner": "Andrew Knapp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Scott Kingery",
+        "pitcher": "Daniel Hudson",
+        "movements": [
+          {
+            "runner": "Scott Kingery",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knapp",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mickey Moniak",
+        "pitcher": "Daniel Hudson",
+        "movements": [
+          {
+            "runner": "Mickey Moniak",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

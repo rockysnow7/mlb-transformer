@@ -1,0 +1,1458 @@
+{
+  "context": {
+    "game_pk": 632208,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 10
+    },
+    "venue_name": "Rogers Centre",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 86,
+      "wind_speed": 8
+    },
+    "home_team": {
+      "id": 141,
+      "players": [
+        {
+          "name": "Rafael Dolis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brad Hand",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marcus Semien",
+          "position": "SecondBase"
+        },
+        {
+          "name": "George Springer",
+          "position": "CenterField"
+        },
+        {
+          "name": "Randal Grichuk",
+          "position": "RightField"
+        },
+        {
+          "name": "Hyun Jin Ryu",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ross Stripling",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Matz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corey Dickerson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Breyvic Valera",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Robbie Ray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Romano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Teoscar Hernández",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Berríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reese McGuire",
+          "position": "Catcher"
+        },
+        {
+          "name": "Patrick Murphy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tayler Saucedo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Cimber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Thornton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Bo Bichette",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alek Manoah",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lourdes Gurriel Jr.",
+          "position": "LeftField"
+        },
+        {
+          "name": "Santiago Espinal",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Kirby Snead",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejandro Kirk",
+          "position": "Catcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 108,
+      "players": [
+        {
+          "name": "Kurt Suzuki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Junior Guerra",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Upton",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jose Quintana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Lagares",
+          "position": "RightField"
+        },
+        {
+          "name": "Max Stassi",
+          "position": "Catcher"
+        },
+        {
+          "name": "Sam Selman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Iglesias",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Mike Mayers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Eaton",
+          "position": "RightField"
+        },
+        {
+          "name": "Phil Gosselin",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Dylan Bundy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jack Mayfield",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Slegers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jaime Barria",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Quijada",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shohei Ohtani",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Suarez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Sandoval",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Fletcher",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jo Adell",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brandon Marsh",
+          "position": "CenterField"
+        },
+        {
+          "name": "Chris Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reid Detmers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Packy Naughton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Warren",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "David Fletcher",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Marcus Semien",
+          "Marcus Semien"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Phil Gosselin",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Phil Gosselin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Marcus Semien",
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "George Springer",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "Jack Mayfield"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Marcus Semien",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Justin Upton",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Steven Matz"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Upton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jo Adell",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Jo Adell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Max Stassi",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Lagares",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jack Mayfield",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Reese McGuire"
+        ],
+        "movements": [
+          {
+            "runner": "Jack Mayfield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Corey Dickerson",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Corey Dickerson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "Jack Mayfield"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Breyvic Valera",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Breyvic Valera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Randal Grichuk",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Reese McGuire",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "Phil Gosselin"
+        ],
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Phil Gosselin",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Phil Gosselin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Phil Gosselin",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Justin Upton",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Justin Upton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Phil Gosselin",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jo Adell",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Justin Upton",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jo Adell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "George Springer",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "Jo Adell"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Marcus Semien",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "Jo Adell"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "Juan Lagares"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Stassi",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Lagares",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jack Mayfield",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jack Mayfield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Steven Matz"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Corey Dickerson",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Dickerson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Breyvic Valera",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Breyvic Valera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Randal Grichuk",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Reese McGuire",
+        "pitcher": "Chris Rodriguez",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Breyvic Valera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "George Springer",
+        "pitcher": "Chris Rodriguez",
+        "fielders": [
+          "Jack Mayfield",
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Randal Grichuk"
+        ],
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Phil Gosselin",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Steven Matz"
+        ],
+        "movements": [
+          {
+            "runner": "Phil Gosselin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Justin Upton",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Justin Upton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Jo Adell",
+        "pitcher": "Trent Thornton",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Jo Adell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jo Adell",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Justin Upton",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Stassi",
+        "pitcher": "Trent Thornton",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Austin Warren",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Marcus Semien",
+        "pitcher": "Austin Warren",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Bo Bichette",
+        "pitcher": "Austin Warren",
+        "fielders": [
+          "Phil Gosselin"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Austin Warren",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Marcus Semien",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Corey Dickerson",
+        "pitcher": "Austin Warren",
+        "movements": [
+          {
+            "runner": "Corey Dickerson",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Austin Warren",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Juan Lagares",
+        "pitcher": "Trent Thornton",
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Jack Mayfield",
+        "pitcher": "Trent Thornton",
+        "fielders": [
+          "Breyvic Valera"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jack Mayfield",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "David Fletcher",
+        "pitcher": "Trent Thornton",
+        "fielders": [
+          "Marcus Semien",
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Jack Mayfield",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juan Lagares",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Rafael Dolis",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Phil Gosselin",
+        "pitcher": "Rafael Dolis",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Phil Gosselin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Lagares",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Rafael Dolis",
+        "movements": [
+          {
+            "runner": "Phil Gosselin",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Justin Upton",
+        "pitcher": "Rafael Dolis",
+        "fielders": [
+          "Corey Dickerson"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Upton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Breyvic Valera",
+        "pitcher": "Junior Guerra",
+        "fielders": [
+          "Junior Guerra"
+        ],
+        "movements": [
+          {
+            "runner": "Breyvic Valera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Reese McGuire",
+        "pitcher": "Junior Guerra",
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "George Springer",
+        "pitcher": "Junior Guerra",
+        "fielders": [
+          "Jack Mayfield",
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jo Adell",
+        "pitcher": "Tayler Saucedo",
+        "movements": [
+          {
+            "runner": "Jo Adell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Stassi",
+        "pitcher": "Tayler Saucedo",
+        "fielders": [
+          "Breyvic Valera"
+        ],
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juan Lagares",
+        "pitcher": "Tayler Saucedo",
+        "fielders": [
+          "Breyvic Valera"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Raisel Iglesias",
+        "fielders": [
+          "Jo Adell"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

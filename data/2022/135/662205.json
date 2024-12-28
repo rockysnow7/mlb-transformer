@@ -1,0 +1,1520 @@
+{
+  "context": {
+    "game_pk": 662205,
+    "date": {
+      "year": 2022,
+      "month": 9,
+      "day": 6
+    },
+    "venue_name": "Petco Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 79,
+      "wind_speed": 6
+    },
+    "home_team": {
+      "id": 135,
+      "players": [
+        {
+          "name": "Luis García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Nola",
+          "position": "Catcher"
+        },
+        {
+          "name": "Wil Myers",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Manny Machado",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jorge Alfaro",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jurickson Profar",
+          "position": "LeftField"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Mike Clevinger",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Musgrove",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Snell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Martinez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Beaty",
+          "position": "RightField"
+        },
+        {
+          "name": "Steven Wilson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nabil Crismatt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Hader",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Cronenworth",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Sean Manaea",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Azocar",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tim Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robert Suarez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reiss Knehr",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Grisham",
+          "position": "CenterField"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "RightField"
+        },
+        {
+          "name": "Eguy Rosario",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Luis Campusano",
+          "position": "Catcher"
+        },
+        {
+          "name": "Adrian Morejon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ha-Seong Kim",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 109,
+      "players": [
+        {
+          "name": "Ian Kennedy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mark Melancon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Madison Bumgarner",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Merrill Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Walker",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Joe Mantiply",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Caleb Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wilmer Difo",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Zach Davies",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ketel Marte",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Reyes Moronta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carson Kelly",
+          "position": "Catcher"
+        },
+        {
+          "name": "Keynan Middleton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sergio Alcántara",
+          "position": "Shortstop"
+        },
+        {
+          "name": "J.B. Bukauskas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Stone Garrett",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kevin Ginkel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emmanuel Rivera",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Daulton Varsho",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake McCarthy",
+          "position": "LeftField"
+        },
+        {
+          "name": "Zac Gallen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Rojas",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ryne Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cooper Hummel",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Geraldo Perdomo",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Tommy Henry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alek Thomas",
+          "position": "CenterField"
+        },
+        {
+          "name": "Corbin Carroll",
+          "position": "DesignatedHitter"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "HomeRun": {
+        "batter": "Josh Rojas",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Wil Myers"
+        ],
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Walker",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake McCarthy",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Jake McCarthy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Juan Soto",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Josh Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Manny Machado",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Corbin Carroll",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Corbin Carroll",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Carson Kelly",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Corbin Carroll",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Carson Kelly",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Alek Thomas",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jurickson Profar"
+        ],
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sergio Alcántara",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Sergio Alcántara"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Ketel Marte",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Christian Walker",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake McCarthy",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Joe Musgrove"
+        ],
+        "movements": [
+          {
+            "runner": "Jake McCarthy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Wil Myers",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Jake McCarthy"
+        ],
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Alek Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jorge Alfaro",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Daulton Varsho"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Corbin Carroll",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Corbin Carroll",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Carson Kelly",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Corbin Carroll",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Carson Kelly",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Alek Thomas",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Sergio Alcántara",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Carson Kelly",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Carson Kelly",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Joe Musgrove",
+        "fielders": [
+          "Jurickson Profar"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juan Soto",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Sergio Alcántara"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Manny Machado",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Jake McCarthy"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Christian Walker",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake McCarthy",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Jake McCarthy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Corbin Carroll",
+        "pitcher": "Joe Musgrove",
+        "movements": [
+          {
+            "runner": "Jake McCarthy",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jake McCarthy",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Corbin Carroll",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carson Kelly",
+        "pitcher": "Tim Hill",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Carson Kelly",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake McCarthy",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Corbin Carroll",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alek Thomas",
+        "pitcher": "Tim Hill",
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Bell",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Bell",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wil Myers",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Christian Walker"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Alfaro",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Merrill Kelly"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Sergio Alcántara",
+        "pitcher": "Tim Hill",
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Josh Rojas",
+        "pitcher": "Tim Hill",
+        "fielders": [
+          "Jake Cronenworth",
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Tim Hill",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juan Soto",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Sergio Alcántara"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Robert Suarez",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Christian Walker",
+        "pitcher": "Robert Suarez",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake McCarthy",
+        "pitcher": "Robert Suarez",
+        "movements": [
+          {
+            "runner": "Jake McCarthy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Josh Bell",
+        "pitcher": "Merrill Kelly",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Jake McCarthy"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Jake McCarthy"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Wil Myers",
+        "pitcher": "Merrill Kelly",
+        "fielders": [
+          "Alek Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Corbin Carroll",
+        "pitcher": "Luis García",
+        "fielders": [
+          "Wil Myers"
+        ],
+        "movements": [
+          {
+            "runner": "Corbin Carroll",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carson Kelly",
+        "pitcher": "Luis García",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Carson Kelly",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alek Thomas",
+        "pitcher": "Luis García",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "José Azocar",
+        "pitcher": "Kyle Nelson",
+        "movements": [
+          {
+            "runner": "José Azocar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jorge Alfaro",
+        "pitcher": "Kyle Nelson",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Kyle Nelson",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "José Azocar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "José Azocar",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Kyle Nelson",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Manny Machado",
+        "pitcher": "Reyes Moronta",
+        "fielders": [
+          "Christian Walker"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sergio Alcántara",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Wil Myers"
+        ],
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Bell",
+        "pitcher": "Ian Kennedy",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Ian Kennedy",
+        "fielders": [
+          "Josh Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Eguy Rosario",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Ian Kennedy",
+        "fielders": [
+          "Daulton Varsho"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Wil Myers",
+        "pitcher": "Ian Kennedy",
+        "movements": [
+          {
+            "runner": "Wil Myers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "José Azocar",
+        "pitcher": "Ian Kennedy",
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Wil Myers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "José Azocar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Alfaro",
+        "pitcher": "Ian Kennedy",
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Wil Myers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Wil Myers",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "José Azocar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

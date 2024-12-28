@@ -1,0 +1,1444 @@
+{
+  "context": {
+    "game_pk": 717985,
+    "date": {
+      "year": 2023,
+      "month": 5,
+      "day": 28
+    },
+    "venue_name": "Kauffman Stadium",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 79,
+      "wind_speed": 7
+    },
+    "home_team": {
+      "id": 118,
+      "players": [
+        {
+          "name": "Zack Greinke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Salvador Perez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jordan Lyles",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aroldis Chapman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Mayers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jackie Bradley Jr.",
+          "position": "CenterField"
+        },
+        {
+          "name": "Scott Barlow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Amir Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Cuas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Wittgren",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Duffy",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Josh Staumont",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edward Olivares",
+          "position": "LeftField"
+        },
+        {
+          "name": "Daniel Lynch IV",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brady Singer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Taylor Clarke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Freddy Fermin",
+          "position": "Catcher"
+        },
+        {
+          "name": "Nick Pratto",
+          "position": "FirstBase"
+        },
+        {
+          "name": "MJ Melendez",
+          "position": "RightField"
+        },
+        {
+          "name": "Nicky Lopez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Drew Waters",
+          "position": "LeftField"
+        },
+        {
+          "name": "Carlos Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Maikel Garcia",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Bobby Witt Jr.",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Vinnie Pasquantino",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Michael Massey",
+          "position": "SecondBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "Erasmo Ramírez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ildemaro Vargas",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corey Dickerson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Trevor Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrés Machado",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carl Edwards Jr.",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Meneses",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Harvey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chad Kuhl",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dominic Smith",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Riley Adams",
+          "position": "Catcher"
+        },
+        {
+          "name": "Michael Chavis",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Stone Garrett",
+          "position": "LeftField"
+        },
+        {
+          "name": "Lane Thomas",
+          "position": "RightField"
+        },
+        {
+          "name": "Keibert Ruiz",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jake Irvin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Thaddeus Ward",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mason Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "MacKenzie Gore",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Call",
+          "position": "CenterField"
+        },
+        {
+          "name": "Luis García Jr.",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Josiah Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "CJ Abrams",
+          "position": "Shortstop"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "Lane Thomas",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "Jackie Bradley Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joey Meneses",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Stone Garrett",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "Daniel Lynch IV"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Nick Pratto",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Nick Pratto",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Salvador Perez",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Michael Chavis"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Vinnie Pasquantino",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "MacKenzie Gore"
+        ],
+        "scoring_runner": "Vinnie Pasquantino",
+        "movements": [
+          {
+            "runner": "Nick Pratto",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "Bobby Witt Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael Chavis",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Riley Adams",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "MJ Melendez",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Alex Call"
+        ],
+        "movements": [
+          {
+            "runner": "MJ Melendez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Maikel Garcia",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Michael Chavis"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael Massey",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Michael Massey",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Call",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "Michael Massey"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Joey Meneses",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "MJ Melendez"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Edward Olivares",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Stone Garrett"
+        ],
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nick Pratto",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Nick Pratto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Salvador Perez",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Stone Garrett",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "Michael Massey"
+        ],
+        "movements": [
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Dominic Smith",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Smith",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Smith",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Michael Chavis",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Riley Adams",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alex Call",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Vinnie Pasquantino",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "MJ Melendez",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "MJ Melendez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "Michael Massey"
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Joey Meneses",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "MJ Melendez"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Stone Garrett",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "Edward Olivares"
+        ],
+        "movements": [
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Maikel Garcia",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Maikel Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Michael Massey",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Michael Massey",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Edward Olivares",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Dominic Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Dominic Smith",
+        "pitcher": "Daniel Lynch IV",
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Daniel Lynch IV",
+        "fielders": [
+          "Bobby Witt Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Michael Chavis",
+        "pitcher": "Josh Staumont",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Riley Adams",
+        "pitcher": "Josh Staumont",
+        "movements": [
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alex Call",
+        "pitcher": "Josh Staumont",
+        "fielders": [
+          "Nick Pratto"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Pratto",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Nick Pratto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Salvador Perez",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Michael Chavis"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Vinnie Pasquantino",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Alex Call"
+        ],
+        "movements": [
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Jose Cuas",
+        "fielders": [
+          "Edward Olivares"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Jose Cuas",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Joey Meneses",
+        "pitcher": "Jose Cuas",
+        "fielders": [
+          "MJ Melendez"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "MacKenzie Gore",
+        "fielders": [
+          "Ildemaro Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "MJ Melendez",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "MJ Melendez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Maikel Garcia",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Maikel Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael Massey",
+        "pitcher": "MacKenzie Gore",
+        "movements": [
+          {
+            "runner": "Michael Massey",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Stone Garrett",
+        "pitcher": "Aroldis Chapman",
+        "movements": [
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Dominic Smith",
+        "pitcher": "Aroldis Chapman",
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Stone Garrett",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Aroldis Chapman",
+        "fielders": [
+          "Bobby Witt Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Michael Chavis",
+        "pitcher": "Aroldis Chapman",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Riley Adams",
+        "pitcher": "Aroldis Chapman",
+        "movements": [
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Alex Call",
+        "pitcher": "Aroldis Chapman",
+        "fielders": [
+          "Bobby Witt Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Edward Olivares",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Michael Chavis"
+        ],
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Pratto",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Nick Pratto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Vinnie Pasquantino",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Alex Call"
+        ],
+        "movements": [
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Michael Massey"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joey Meneses",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Stone Garrett",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Drew Waters"
+        ],
+        "movements": [
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "MJ Melendez",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Dominic Smith"
+        ],
+        "movements": [
+          {
+            "runner": "MJ Melendez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "MJ Melendez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Maikel Garcia",
+        "pitcher": "Chad Kuhl",
+        "fielders": [
+          "Michael Chavis"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Michael Massey",
+        "pitcher": "Chad Kuhl",
+        "movements": [
+          {
+            "runner": "Michael Massey",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "MJ Melendez",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

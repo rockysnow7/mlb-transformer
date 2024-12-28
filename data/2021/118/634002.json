@@ -1,0 +1,1413 @@
+{
+  "context": {
+    "game_pk": 634002,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 23
+    },
+    "venue_name": "Kauffman Stadium",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 76,
+      "wind_speed": 7
+    },
+    "home_team": {
+      "id": 118,
+      "players": [
+        {
+          "name": "Ervin Santana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wade Davis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Santana",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Mike Minor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarrod Dyson",
+          "position": "CenterField"
+        },
+        {
+          "name": "Greg Holland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Salvador Perez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Michael A. Taylor",
+          "position": "CenterField"
+        },
+        {
+          "name": "Whit Merrifield",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Hanser Alberto",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Cam Gallagher",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jakob Junis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Scott Barlow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Zimmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Staumont",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Newberry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Soler",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake Brentz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brad Keller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kelvin Gutiérrez",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Andrew Benintendi",
+          "position": "LeftField"
+        },
+        {
+          "name": "Ryan O'Hearn",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Kris Bubic",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brady Singer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nicky Lopez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Tyler Zuber",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Wilson Ramos",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Cisnero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robbie Grossman",
+          "position": "RightField"
+        },
+        {
+          "name": "José Ureña",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Matthew Boyd",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Niko Goodrum",
+          "position": "Shortstop"
+        },
+        {
+          "name": "JaCoby Jones",
+          "position": "CenterField"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Michael Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Turnbull",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Funkhouser",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nomar Mazara",
+          "position": "RightField"
+        },
+        {
+          "name": "Tyler Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bryan Garcia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Casey Mize",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Rogers",
+          "position": "Catcher"
+        },
+        {
+          "name": "Akil Baddoo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Tarik Skubal",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Michael A. Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eric Haase",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Niko Goodrum",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Eric Haase",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Niko Goodrum",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Wilson Ramos",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Ryan O'Hearn"
+        ],
+        "movements": [
+          {
+            "runner": "Wilson Ramos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "JaCoby Jones",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "JaCoby Jones",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Niko Goodrum"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Miguel Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Rogers",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Jorge Soler"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Jorge Soler"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Robbie Grossman"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kelvin Gutiérrez",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan O'Hearn",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Ryan O'Hearn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Jorge Soler"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Eric Haase",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Michael A. Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Niko Goodrum",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Niko Goodrum",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Soler",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "JaCoby Jones"
+        ],
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Miguel Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wilson Ramos",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Kelvin Gutiérrez"
+        ],
+        "movements": [
+          {
+            "runner": "Wilson Ramos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "JaCoby Jones",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "JaCoby Jones",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jake Rogers",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Michael A. Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Robbie Grossman"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Salvador Perez",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "RunnerOut": {
+        "runner": "Andrew Benintendi",
+        "fielders": [
+          "Jake Rogers"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Kris Bubic",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Nicky Lopez",
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eric Haase",
+        "pitcher": "Kris Bubic",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kelvin Gutiérrez",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan O'Hearn",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "JaCoby Jones"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan O'Hearn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jorge Soler",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Niko Goodrum",
+        "pitcher": "Tyler Zuber",
+        "movements": [
+          {
+            "runner": "Niko Goodrum",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wilson Ramos",
+        "pitcher": "Tyler Zuber",
+        "movements": [
+          {
+            "runner": "Wilson Ramos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "JaCoby Jones",
+        "pitcher": "Tyler Zuber",
+        "movements": [
+          {
+            "runner": "Niko Goodrum",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "JaCoby Jones",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Rogers",
+        "pitcher": "Tyler Zuber",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Tyler Zuber",
+        "fielders": [
+          "Tyler Zuber"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Robbie Grossman"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "scoring_runner": "Miguel Cabrera",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eric Haase",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Salvador Perez",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Kelvin Gutiérrez",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFlyDoublePlay": {
+        "batter": "Hanser Alberto",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Robbie Grossman",
+          "Robbie Grossman"
+        ],
+        "scoring_runner": "Hanser Alberto",
+        "movements": [
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Hanser Alberto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Niko Goodrum",
+        "pitcher": "Kyle Zimmer",
+        "movements": [
+          {
+            "runner": "Niko Goodrum",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wilson Ramos",
+        "pitcher": "Kyle Zimmer",
+        "fielders": [
+          "Kyle Zimmer"
+        ],
+        "movements": [
+          {
+            "runner": "Wilson Ramos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "JaCoby Jones",
+        "pitcher": "Kyle Zimmer",
+        "movements": [
+          {
+            "runner": "JaCoby Jones",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jorge Soler",
+        "pitcher": "José Cisnero",
+        "fielders": [
+          "JaCoby Jones"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "José Cisnero",
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nicky Lopez",
+        "pitcher": "José Cisnero",
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Rogers",
+        "pitcher": "Kyle Zimmer",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Kyle Zimmer",
+        "fielders": [
+          "Jorge Soler"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Kyle Zimmer",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Carlos Santana",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1831 @@
+{
+  "context": {
+    "game_pk": 661693,
+    "date": {
+      "year": 2022,
+      "month": 6,
+      "day": 7
+    },
+    "venue_name": "Target Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 69,
+      "wind_speed": 3
+    },
+    "home_team": {
+      "id": 142,
+      "players": [
+        {
+          "name": "Joe Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Archer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gio Urshela",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Caleb Thielbar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Minaya",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Polanco",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Gary Sánchez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Max Kepler",
+          "position": "RightField"
+        },
+        {
+          "name": "Dylan Bundy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Duffey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Byron Buxton",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Nick Gordon",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Emilio Pagán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Griffin Jax",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Arraez",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jermaine Palacios",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Trevor Megill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Devin Smeltzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jhoan Duran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cole Sands",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jovani Moran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Larnach",
+          "position": "LeftField"
+        },
+        {
+          "name": "Gilberto Celestino",
+          "position": "CenterField"
+        },
+        {
+          "name": "Yennier Cano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Miranda",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ryan Jeffers",
+          "position": "Catcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 147,
+      "players": [
+        {
+          "name": "Lucas Luetge",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marwin Gonzalez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Josh Donaldson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "DJ LeMahieu",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Anthony Rizzo",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Gerrit Cole",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Hicks",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Higashioka",
+          "position": "Catcher"
+        },
+        {
+          "name": "Manny Bañuelos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Carpenter",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Aaron Judge",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jameson Taillon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wandy Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Clay Holmes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Gallo",
+          "position": "RightField"
+        },
+        {
+          "name": "Miguel Castro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Severino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Trevino",
+          "position": "Catcher"
+        },
+        {
+          "name": "Nestor Cortes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Isiah Kiner-Falefa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Gleyber Torres",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Michael King",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Montgomery",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Clarke Schmidt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ron Marinaccio",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Aaron Judge",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Cole Sands",
+        "fielders": [
+          "Gio Urshela"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Aaron Hicks",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Aaron Hicks",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Cole Sands",
+        "fielders": [
+          "Gilberto Celestino"
+        ],
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Isiah Kiner-Falefa"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Byron Buxton",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Byron Buxton",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Max Kepler",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Joey Gallo"
+        ],
+        "scoring_runner": "Byron Buxton",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Byron Buxton",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Anthony Rizzo",
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Cole Sands",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Joey Gallo",
+        "pitcher": "Cole Sands",
+        "fielders": [
+          "Gio Urshela"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Aaron Judge",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Gio Urshela",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gilberto Celestino",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Cole Sands",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Aaron Hicks",
+        "pitcher": "Cole Sands",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Aaron Hicks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Cole Sands",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jermaine Palacios",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Isiah Kiner-Falefa"
+        ],
+        "movements": [
+          {
+            "runner": "Jermaine Palacios",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Arraez",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Max Kepler",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Cole Sands",
+        "fielders": [
+          "Gio Urshela"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Gallo",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Aaron Judge",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Gallo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Gallo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Cole Sands",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Joey Gallo"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gio Urshela",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gio Urshela",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gilberto Celestino",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gio Urshela",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Jermaine Palacios",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Aaron Judge"
+        ],
+        "scoring_runner": "Gio Urshela",
+        "movements": [
+          {
+            "runner": "Jermaine Palacios",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gio Urshela",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Arraez",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Aaron Hicks",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Aaron Hicks",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jose Trevino",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Aaron Hicks",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joey Gallo",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Aaron Hicks",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Trevino",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Aaron Hicks",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Trevino",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Gallo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Aaron Judge",
+        "pitcher": "Yennier Cano",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Max Kepler",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Lucas Luetge",
+        "fielders": [
+          "Lucas Luetge",
+          "Joey Gallo"
+        ],
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Lucas Luetge",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Gio Urshela",
+        "pitcher": "Lucas Luetge",
+        "fielders": [
+          "Aaron Judge"
+        ],
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Yennier Cano",
+        "fielders": [
+          "Jermaine Palacios"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Yennier Cano",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Yennier Cano",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Aaron Hicks",
+        "pitcher": "Yennier Cano",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Aaron Hicks",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Yennier Cano",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gilberto Celestino",
+        "pitcher": "Lucas Luetge",
+        "fielders": [
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jermaine Palacios",
+        "pitcher": "Lucas Luetge",
+        "movements": [
+          {
+            "runner": "Jermaine Palacios",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Lucas Luetge",
+        "fielders": [
+          "Joey Gallo"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Wandy Peralta",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Tyler Duffey",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Gallo",
+        "pitcher": "Tyler Duffey",
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "Tyler Duffey",
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Aaron Judge",
+        "pitcher": "Tyler Duffey",
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Tyler Duffey",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Aaron Judge",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Tyler Duffey",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Wandy Peralta",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Max Kepler",
+        "pitcher": "Wandy Peralta",
+        "fielders": [
+          "Anthony Rizzo",
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Wandy Peralta",
+        "fielders": [
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Jermaine Palacios"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Aaron Hicks",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Aaron Hicks",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Aaron Hicks",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jose Trevino",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Aaron Hicks",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Aaron Hicks",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Gallo",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Trevino",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Aaron Judge",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Jermaine Palacios"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Ron Marinaccio",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gio Urshela",
+        "pitcher": "Ron Marinaccio",
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gilberto Celestino",
+        "pitcher": "Ron Marinaccio",
+        "movements": [
+          {
+            "runner": "Gilberto Celestino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jermaine Palacios",
+        "pitcher": "Ron Marinaccio",
+        "movements": [
+          {
+            "runner": "Jermaine Palacios",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Gary Sánchez"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Miranda",
+        "pitcher": "Ron Marinaccio",
+        "movements": [
+          {
+            "runner": "Jose Miranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Byron Buxton",
+        "pitcher": "Ron Marinaccio",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Ron Marinaccio",
+        "fielders": [
+          "Joey Gallo"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Kepler",
+        "pitcher": "Ron Marinaccio",
+        "fielders": [
+          "Isiah Kiner-Falefa"
+        ],
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

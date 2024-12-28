@@ -1,0 +1,1626 @@
+{
+  "context": {
+    "game_pk": 663101,
+    "date": {
+      "year": 2022,
+      "month": 5,
+      "day": 9
+    },
+    "venue_name": "Great American Ball Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 78,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Tommy Pham",
+          "position": "LeftField"
+        },
+        {
+          "name": "Hunter Strickland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Albert Almora Jr.",
+          "position": "CenterField"
+        },
+        {
+          "name": "Luis Cessa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Farmer",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Tyler Naquin",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brandon Drury",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Colin Moran",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Aramis Garcia",
+          "position": "Catcher"
+        },
+        {
+          "name": "Art Warren",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Sims",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Reynolds",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Luis Castillo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Mahle",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeff Hoffman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Connor Overton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Santillan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Stephenson",
+          "position": "Catcher"
+        },
+        {
+          "name": "Dauri Moreta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejo Lopez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Greene",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ronnie Dawson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Joel Kuhnel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "TJ Friedl",
+          "position": "RightField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 158,
+      "players": [
+        {
+          "name": "Lorenzo Cain",
+          "position": "CenterField"
+        },
+        {
+          "name": "Brad Boxberger",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kolten Wong",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Omar Narváez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hoby Milner",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Renfroe",
+          "position": "RightField"
+        },
+        {
+          "name": "Christian Yelich",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jandel Gustave",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor Caratini",
+          "position": "Catcher"
+        },
+        {
+          "name": "Adrian Houser",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Woodruff",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Perdomo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jace Peterson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brent Suter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyrone Taylor",
+          "position": "CenterField"
+        },
+        {
+          "name": "Josh Hader",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Gott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Lauer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rowdy Tellez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Devin Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Freddy Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willy Adames",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Luis Urías",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Corbin Burnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Brosseau",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Alec Bettinger",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Ashby",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Kolten Wong",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Willy Adames",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Brandon Drury",
+          "Matt Reynolds"
+        ],
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Drury",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Brandon Woodruff",
+        "fielders": [
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Luis Urías",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Matt Reynolds"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Colin Moran",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Brandon Woodruff",
+        "fielders": [
+          "Luis Urías"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Omar Narváez",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Colin Moran"
+        ],
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tyrone Taylor",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Albert Almora Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jace Peterson",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Matt Reynolds"
+        ],
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Albert Almora Jr.",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Reynolds",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Brandon Woodruff",
+        "fielders": [
+          "Christian Yelich"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brandon Drury",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Reynolds",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tommy Pham",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Drury",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Colin Moran",
+        "pitcher": "Brandon Woodruff",
+        "fielders": [
+          "Kolten Wong"
+        ],
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Kolten Wong",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willy Adames",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Christian Yelich",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kolten Wong",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis Urías",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Brandon Woodruff",
+        "fielders": [
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Brandon Woodruff",
+        "fielders": [
+          "Omar Narváez",
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Omar Narváez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyrone Taylor",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jace Peterson",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kolten Wong",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Willy Adames",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Kyle Farmer",
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Albert Almora Jr.",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Reynolds",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "TJ Friedl",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Reynolds",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Brandon Drury",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Reynolds",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tommy Pham",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Colin Moran",
+        "pitcher": "Brandon Woodruff",
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Trevor Gott",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Trevor Gott",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Trevor Gott",
+        "fielders": [
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Urías",
+        "pitcher": "Luis Cessa",
+        "movements": [
+          {
+            "runner": "Luis Urías",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Luis Cessa",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Omar Narváez",
+        "pitcher": "Luis Cessa",
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Urías",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyrone Taylor",
+        "pitcher": "Luis Cessa",
+        "movements": [
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Urías",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Urías",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Omar Narváez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jace Peterson",
+        "pitcher": "Alexis Díaz",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Omar Narváez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Omar Narváez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kolten Wong",
+        "pitcher": "Alexis Díaz",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Albert Almora Jr.",
+        "pitcher": "Jandel Gustave",
+        "movements": [
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Reynolds",
+        "pitcher": "Jandel Gustave",
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Jandel Gustave",
+        "fielders": [
+          "Kolten Wong"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Drury",
+        "pitcher": "Jandel Gustave",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tommy Pham",
+        "pitcher": "Jandel Gustave",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Colin Moran",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willy Adames",
+        "pitcher": "Alexis Díaz",
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Alexis Díaz",
+        "fielders": [
+          "Colin Moran"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Alexis Díaz",
+        "fielders": [
+          "Albert Almora Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Naquin",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Albert Almora Jr.",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Reynolds",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Hoby Milner",
+        "fielders": [
+          "Kolten Wong"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Luis Urías",
+        "pitcher": "Jeff Hoffman",
+        "fielders": [
+          "Colin Moran"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Jeff Hoffman",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Omar Narváez",
+        "pitcher": "Jeff Hoffman",
+        "fielders": [
+          "Albert Almora Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Drury",
+        "pitcher": "Brad Boxberger",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Brad Boxberger",
+        "fielders": [
+          "Tyrone Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Colin Moran",
+        "pitcher": "Brad Boxberger",
+        "fielders": [
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Colin Moran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyrone Taylor",
+        "pitcher": "Joel Kuhnel",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jace Peterson",
+        "pitcher": "Joel Kuhnel",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kolten Wong",
+        "pitcher": "Joel Kuhnel",
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

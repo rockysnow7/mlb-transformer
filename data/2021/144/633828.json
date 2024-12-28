@@ -1,0 +1,1570 @@
+{
+  "context": {
+    "game_pk": 633828,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 5
+    },
+    "venue_name": "Truist Park",
+    "weather": {
+      "condition": "Overcast",
+      "temperature": 76,
+      "wind_speed": 6
+    },
+    "home_team": {
+      "id": 144,
+      "players": [
+        {
+          "name": "Charlie Morton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Martin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Tomlin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pablo Sandoval",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Ehire Adrianza",
+          "position": "LeftField"
+        },
+        {
+          "name": "Abraham Almonte",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Freddie Freeman",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ender Inciarte",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tyler Matzek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Jackson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew Smyly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevan Smith",
+          "position": "Catcher"
+        },
+        {
+          "name": "Max Fried",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dansby Swanson",
+          "position": "Shortstop"
+        },
+        {
+          "name": "A.J. Minter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Guillermo Heredia",
+          "position": "LeftField"
+        },
+        {
+          "name": "Ozzie Albies",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Edgar Santana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tucker Davidson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sean Newcomb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jacob Webb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ronald Acuña Jr.",
+          "position": "RightField"
+        },
+        {
+          "name": "William Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Austin Riley",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ian Anderson",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 119,
+      "players": [
+        {
+          "name": "Albert Pujols",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Kenley Jansen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Price",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Turner",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Clayton Kershaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nate Jones",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jimmy Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Bauer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Muncy",
+          "position": "FirstBase"
+        },
+        {
+          "name": "AJ Pollock",
+          "position": "LeftField"
+        },
+        {
+          "name": "Blake Treinen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Barnes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mookie Betts",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Beaty",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Chris Taylor",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Walker Buehler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor González",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Julio Urías",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Bellinger",
+          "position": "CenterField"
+        },
+        {
+          "name": "Phil Bickford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach McKinstry",
+          "position": "LeftField"
+        },
+        {
+          "name": "Yoshi Tsutsugo",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Gavin Lux",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mitch White",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "HitByPitch": {
+        "batter": "Mookie Betts",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Justin Turner",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Charlie Morton",
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Beaty",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Beaty",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Gavin Lux"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gavin Lux",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Barnes",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Riley",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Clayton Kershaw",
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Clayton Kershaw",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Clayton Kershaw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Justin Turner",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Guillermo Heredia",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Guillermo Heredia",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kevan Smith",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Kevan Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Charlie Morton",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Charlie Morton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Guillermo Heredia",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Guillermo Heredia",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Guillermo Heredia",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Riley",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Chris Taylor",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Beaty",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Matt Beaty",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Chris Taylor",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Lux",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Chris Taylor",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Beaty",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Dansby Swanson",
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Chris Taylor",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Beaty",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Austin Barnes",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Beaty",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Clayton Kershaw",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Clayton Kershaw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Guillermo Heredia",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Guillermo Heredia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevan Smith",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Kevan Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Charlie Morton",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Charlie Morton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Justin Turner",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Charlie Morton",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Charlie Morton",
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Riley",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Gavin Lux"
+        ],
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "AJ Pollock",
+        "pitcher": "A.J. Minter",
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Gavin Lux",
+        "pitcher": "A.J. Minter",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Albert Pujols",
+        "pitcher": "A.J. Minter",
+        "movements": [
+          {
+            "runner": "Albert Pujols",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Barnes",
+        "pitcher": "A.J. Minter",
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Guillermo Heredia",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Gavin Lux"
+        ],
+        "movements": [
+          {
+            "runner": "Guillermo Heredia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevan Smith",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Kevan Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Luke Jackson",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Mookie Betts",
+        "pitcher": "Luke Jackson",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Justin Turner",
+        "pitcher": "Luke Jackson",
+        "fielders": [
+          "Guillermo Heredia"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Tyler Matzek",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Tyler Matzek",
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Abraham Almonte",
+        "pitcher": "Blake Treinen",
+        "movements": [
+          {
+            "runner": "Abraham Almonte",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Blake Treinen",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Blake Treinen",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Blake Treinen",
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Riley",
+        "pitcher": "Blake Treinen",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Blake Treinen",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Blake Treinen",
+        "fielders": [
+          "Blake Treinen"
+        ],
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "AJ Pollock",
+        "pitcher": "Chris Martin",
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Gavin Lux",
+        "pitcher": "Chris Martin",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Albert Pujols",
+        "pitcher": "Chris Martin",
+        "fielders": [
+          "Guillermo Heredia"
+        ],
+        "movements": [
+          {
+            "runner": "Albert Pujols",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Barnes",
+        "pitcher": "Chris Martin",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Guillermo Heredia",
+        "pitcher": "Phil Bickford",
+        "movements": [
+          {
+            "runner": "Guillermo Heredia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kevan Smith",
+        "pitcher": "Phil Bickford",
+        "movements": [
+          {
+            "runner": "Kevan Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Pablo Sandoval",
+        "pitcher": "Phil Bickford",
+        "fielders": [
+          "Gavin Lux",
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Kevan Smith",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Pablo Sandoval",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Smith",
+        "pitcher": "Will Smith",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Will Smith",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Justin Turner",
+        "pitcher": "Will Smith",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

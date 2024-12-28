@@ -1,0 +1,1516 @@
+{
+  "context": {
+    "game_pk": 662916,
+    "date": {
+      "year": 2022,
+      "month": 8,
+      "day": 24
+    },
+    "venue_name": "Comerica Park",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 83,
+      "wind_speed": 5
+    },
+    "home_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Cisnero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Drew Hutchison",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "Catcher"
+        },
+        {
+          "name": "Victor Reyes",
+          "position": "RightField"
+        },
+        {
+          "name": "Tyler Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alex Lange",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kody Clemens",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Matt Manning",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Akil Baddoo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Zack Short",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jason Foley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Vest",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kerry Carpenter",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Garrett Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Riley Greene",
+          "position": "CenterField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 137,
+      "players": [
+        {
+          "name": "Evan Longoria",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Alex Cobb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wilmer Flores",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brandon Crawford",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Mike Yastrzemski",
+          "position": "CenterField"
+        },
+        {
+          "name": "Joc Pederson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jakob Junis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Slater",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Tommy La Stella",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "John Brebbia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.D. Davis",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Jarlín García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Rodón",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dominic Leone",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Young",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Wood",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zack Littell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Thairo Estrada",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Austin Wynns",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Tyler Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Logan Webb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Thomas Szapucki",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Bart",
+          "position": "Catcher"
+        },
+        {
+          "name": "LaMonte Wade Jr.",
+          "position": "RightField"
+        },
+        {
+          "name": "Camilo Doval",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bryce Johnson",
+          "position": "CenterField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Tommy La Stella",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Tommy La Stella",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Akil Baddoo"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joc Pederson",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy La Stella",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy La Stella",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Evan Longoria",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Riley Greene",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Thairo Estrada"
+        ],
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kody Clemens",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Kody Clemens",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Thairo Estrada",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Kody Clemens"
+        ],
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willi Castro",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Wilmer Flores"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kerry Carpenter",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Wilmer Flores"
+        ],
+        "movements": [
+          {
+            "runner": "Kerry Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Bart",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Joey Bart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tommy La Stella",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Kody Clemens"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy La Stella",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Joey Bart",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Joey Bart",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Matt Manning"
+        ],
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Evan Longoria"
+        ],
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Riley Greene",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Joc Pederson",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Evan Longoria",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Joc Pederson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Thairo Estrada",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Brandon Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Kody Clemens",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Kody Clemens",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Harold Castro",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Wilmer Flores"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kody Clemens",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Willi Castro",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Mike Yastrzemski"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Bart",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Bart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tommy La Stella",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Kody Clemens"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy La Stella",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Matt Manning",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kerry Carpenter",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Joc Pederson"
+        ],
+        "movements": [
+          {
+            "runner": "Kerry Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Riley Greene",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Victor Reyes",
+        "pitcher": "Logan Webb",
+        "fielders": [
+          "Brandon Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Akil Baddoo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Akil Baddoo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kody Clemens",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Kody Clemens",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Akil Baddoo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Reyes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Harold Castro",
+        "pitcher": "Logan Webb",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kody Clemens",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kody Clemens",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Reyes",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Reyes",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Willi Castro",
+        "pitcher": "Thomas Szapucki",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Castro",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Castro",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kody Clemens",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kerry Carpenter",
+        "pitcher": "Thomas Szapucki",
+        "fielders": [
+          "Thairo Estrada"
+        ],
+        "movements": [
+          {
+            "runner": "Kerry Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joc Pederson",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Evan Longoria",
+        "pitcher": "Matt Manning",
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Thomas Szapucki",
+        "fielders": [
+          "Evan Longoria"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Thomas Szapucki",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Thomas Szapucki",
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Thairo Estrada",
+        "pitcher": "Will Vest",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mike Yastrzemski",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Bart",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "Joey Bart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tommy La Stella",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "Tommy La Stella",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Yastrzemski",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Bart",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Will Vest",
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Riley Greene",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Victor Reyes",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Riley Greene",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kody Clemens",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Kody Clemens",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joc Pederson",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Evan Longoria",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Thairo Estrada",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kerry Carpenter",
+        "pitcher": "Zack Littell",
+        "movements": [
+          {
+            "runner": "Kerry Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Zack Littell",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Zack Littell",
+        "fielders": [
+          "Brandon Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Austin Slater",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Joey Bart",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Slater",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Joey Bart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Wynns",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Wynns",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

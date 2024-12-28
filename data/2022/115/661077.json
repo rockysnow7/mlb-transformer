@@ -1,0 +1,1759 @@
+{
+  "context": {
+    "game_pk": 661077,
+    "date": {
+      "year": 2022,
+      "month": 7,
+      "day": 28
+    },
+    "venue_name": "Coors Field",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 76,
+      "wind_speed": 4
+    },
+    "home_team": {
+      "id": 115,
+      "players": [
+        {
+          "name": "Daniel Bard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Charlie Blackmon",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Alex Colomé",
+          "position": "Pitcher"
+        },
+        {
+          "name": "C.J. Cron",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Randal Grichuk",
+          "position": "RightField"
+        },
+        {
+          "name": "Elias Díaz",
+          "position": "Catcher"
+        },
+        {
+          "name": "José Ureña",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Iglesias",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Kris Bryant",
+          "position": "LeftField"
+        },
+        {
+          "name": "Robert Stephenson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Gomber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yonathan Daza",
+          "position": "CenterField"
+        },
+        {
+          "name": "Kyle Freeland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Estévez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Germán Márquez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Antonio Senzatela",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Hampson",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Chad Kuhl",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan McMahon",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jake Bird",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Gilbreath",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Hilliard",
+          "position": "LeftField"
+        },
+        {
+          "name": "Connor Joe",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brian Serven",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brendan Rodgers",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Justin Lawrence",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 119,
+      "players": [
+        {
+          "name": "David Price",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Turner",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Clayton Kershaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Freddie Freeman",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Craig Kimbrel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Heaney",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Lamb",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Max Muncy",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Trayce Thompson",
+          "position": "RightField"
+        },
+        {
+          "name": "Hanser Alberto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Reed",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Barnes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mookie Betts",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Trea Turner",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Yency Almonte",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Evan Phillips",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Julio Urías",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Bellinger",
+          "position": "CenterField"
+        },
+        {
+          "name": "Phil Bickford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach McKinstry",
+          "position": "LeftField"
+        },
+        {
+          "name": "Caleb Ferguson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Gonsolin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gavin Lux",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Catcher"
+        },
+        {
+          "name": "Alex Vesia",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Flyout": {
+        "batter": "Mookie Betts",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Yonathan Daza"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trea Turner",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Freddie Freeman",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Will Smith",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Kris Bryant"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Lamb",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Lamb",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gavin Lux",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "José Ureña"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Connor Joe",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Connor Joe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Tyler Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Kris Bryant",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "C.J. Cron",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Max Muncy",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Cody Bellinger",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Zach McKinstry",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Connor Joe",
+          "Connor Joe"
+        ],
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Mookie Betts",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Ryan McMahon"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Trea Turner",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Zach McKinstry",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Zach McKinstry",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Bellinger",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Freddie Freeman",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Will Smith",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Lamb",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Jake Lamb",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Gavin Lux",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Kris Bryant"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Rodgers",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elias Díaz",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Zach McKinstry"
+        ],
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Tyler Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Muncy",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Connor Joe"
+        ],
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Zach McKinstry",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "Ryan McMahon"
+        ],
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yonathan Daza",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Yonathan Daza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Connor Joe",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Connor Joe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Tyler Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mookie Betts",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trea Turner",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Freddie Freeman",
+        "pitcher": "José Ureña",
+        "fielders": [
+          "José Ureña"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Will Smith",
+        "pitcher": "José Ureña",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Lamb",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Jake Lamb",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Lux",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Will Smith",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Muncy",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Brendan Rodgers"
+        ],
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Will Smith",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Lux",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Lux",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Lux",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Will Smith",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Brendan Rodgers"
+        ],
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Kris Bryant",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "C.J. Cron",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Rodgers",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kris Bryant",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Elias Díaz",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Gavin Lux"
+        ],
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trea Turner",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ryan McMahon"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yonathan Daza",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Yonathan Daza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Connor Joe",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Tyler Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Connor Joe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Will Smith",
+        "pitcher": "Justin Lawrence",
+        "fielders": [
+          "Yonathan Daza"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Lamb",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Jake Lamb",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Gavin Lux",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Muncy",
+        "pitcher": "Justin Lawrence",
+        "fielders": [
+          "Brendan Rodgers"
+        ],
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kris Bryant",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Gavin Lux"
+        ],
+        "movements": [
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "C.J. Cron",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Justin Lawrence",
+        "fielders": [
+          "Connor Joe"
+        ],
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mookie Betts",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Zach McKinstry",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trayce Thompson",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Trayce Thompson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Zach McKinstry",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Smith",
+        "pitcher": "Justin Lawrence",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Rodgers",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Tyler Anderson",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Elias Díaz",
+        "pitcher": "Tyler Anderson",
+        "fielders": [
+          "Max Muncy",
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Lamb",
+        "pitcher": "Jake Bird",
+        "fielders": [
+          "Yonathan Daza"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Lamb",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Lux",
+        "pitcher": "Jake Bird",
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Muncy",
+        "pitcher": "Jake Bird",
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Jake Bird",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Jake Reed",
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yonathan Daza",
+        "pitcher": "Jake Reed",
+        "movements": [
+          {
+            "runner": "Yonathan Daza",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan McMahon",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Connor Joe",
+        "pitcher": "Jake Reed",
+        "fielders": [
+          "Cody Bellinger"
+        ],
+        "movements": [
+          {
+            "runner": "Connor Joe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan McMahon",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Garrett Hampson",
+        "pitcher": "Jake Reed",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Garrett Hampson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Sam Hilliard",
+        "pitcher": "Jake Reed",
+        "fielders": [
+          "Zach McKinstry"
+        ],
+        "movements": [
+          {
+            "runner": "Sam Hilliard",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Brian Serven",
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Mookie Betts",
+        "pitcher": "Brian Serven",
+        "fielders": [
+          "Brendan Rodgers",
+          "Brendan Rodgers"
+        ],
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trayce Thompson",
+        "pitcher": "Brian Serven",
+        "fielders": [
+          "Randal Grichuk"
+        ],
+        "movements": [
+          {
+            "runner": "Trayce Thompson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brian Serven",
+        "pitcher": "Hanser Alberto",
+        "fielders": [
+          "Zach McKinstry"
+        ],
+        "movements": [
+          {
+            "runner": "Brian Serven",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Rodgers",
+        "pitcher": "Hanser Alberto",
+        "movements": [
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Hanser Alberto",
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brendan Rodgers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elias Díaz",
+        "pitcher": "Hanser Alberto",
+        "fielders": [
+          "Trayce Thompson"
+        ],
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Hanser Alberto",
+        "fielders": [
+          "Zach McKinstry"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

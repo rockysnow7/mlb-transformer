@@ -1,0 +1,1936 @@
+{
+  "context": {
+    "game_pk": 717906,
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 3
+    },
+    "venue_name": "Great American Ball Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 91,
+      "wind_speed": 7
+    },
+    "home_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Fernando Cruz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Maile",
+          "position": "Catcher"
+        },
+        {
+          "name": "Curt Casali",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ben Lively",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Weaver",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Sims",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Newman",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Alex Young",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Fraley",
+          "position": "RightField"
+        },
+        {
+          "name": "Kevin Herget",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Stuart Fairchild",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jonathan India",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Tyler Stephenson",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Ian Gibaut",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Benson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Spencer Steer",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Hunter Greene",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Graham Ashcraft",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Senzel",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Eduardo Salazar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Barrero",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Matt McLain",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Brandon Williamson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "TJ Hopkins",
+          "position": "PinchHitter"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 158,
+      "players": [
+        {
+          "name": "Julio Teheran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hoby Milner",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jon Singleton",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Christian Yelich",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brian Anderson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Victor Caratini",
+          "position": "Catcher"
+        },
+        {
+          "name": "Adrian Houser",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joel Payamps",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Colin Rea",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rowdy Tellez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Devin Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Freddy Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Abraham Toro",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andruw Monasterio",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Trevor Megill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Peter Strzelecki",
+          "position": "Pitcher"
+        },
+        {
+          "name": "William Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Blake Perkins",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake Cousins",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elvis Peguero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brice Turang",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Bryse Wilson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corbin Burnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Brosseau",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Owen Miller",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Joey Wiemer",
+          "position": "CenterField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Christian Yelich",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Owen Miller",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Owen Miller",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "William Contreras",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brian Anderson",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Matt McLain"
+        ],
+        "movements": [
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Blake Perkins"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt McLain",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jonathan India",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Christian Yelich"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Fraley",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Spencer Steer",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Fraley",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Senzel",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jon Singleton",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Spencer Steer"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Singleton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andruw Monasterio",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joey Wiemer",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wiemer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Blake Perkins",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Blake Perkins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wiemer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Yelich",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wiemer",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wiemer",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Blake Perkins",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Blake Perkins",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Owen Miller",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Nick Senzel",
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Blake Perkins",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Owen Miller",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Will Benson"
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Brian Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Benson",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Curt Casali",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Owen Miller"
+        ],
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "William Contreras",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brian Anderson",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jon Singleton",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Jon Singleton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "William Contreras",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brian Anderson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Andruw Monasterio",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Spencer Steer"
+        ],
+        "movements": [
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joey Wiemer",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brian Anderson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jon Singleton",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wiemer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Blake Perkins",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Blake Perkins",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brian Anderson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jon Singleton",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wiemer",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Owen Miller",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Owen Miller",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Brian Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Matt McLain",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan India",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Andruw Monasterio"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jake Fraley",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Spencer Steer",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Blake Perkins"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "William Contreras",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brian Anderson",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jon Singleton",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Singleton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andruw Monasterio",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Will Benson"
+        ],
+        "movements": [
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Senzel",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Will Benson",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Curt Casali",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Jon Singleton"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Wiemer",
+        "pitcher": "Eduardo Salazar",
+        "movements": [
+          {
+            "runner": "Joey Wiemer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Blake Perkins",
+        "pitcher": "Eduardo Salazar",
+        "fielders": [
+          "Will Benson"
+        ],
+        "movements": [
+          {
+            "runner": "Blake Perkins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Eduardo Salazar",
+        "fielders": [
+          "Eduardo Salazar",
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Wiemer",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt McLain",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Brian Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan India",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Fraley",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Spencer Steer",
+        "pitcher": "Colin Rea",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Senzel",
+        "pitcher": "Colin Rea",
+        "fielders": [
+          "Brian Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Owen Miller",
+        "pitcher": "Eduardo Salazar",
+        "movements": [
+          {
+            "runner": "Owen Miller",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Eduardo Salazar",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "William Contreras",
+        "pitcher": "Eduardo Salazar",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Brian Anderson",
+        "pitcher": "Eduardo Salazar",
+        "fielders": [
+          "Matt McLain"
+        ],
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Will Benson",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Curt Casali",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Will Benson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Kevin Newman",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Blake Perkins"
+        ],
+        "scoring_runner": "Will Benson",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Will Benson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Matt McLain",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Trevor Megill"
+        ],
+        "scoring_runner": "Curt Casali",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Curt Casali",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan India",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Curt Casali",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Trevor Megill",
+        "fielders": [
+          "Owen Miller"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jon Singleton",
+        "pitcher": "Eduardo Salazar",
+        "fielders": [
+          "Jake Fraley"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Singleton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andruw Monasterio",
+        "pitcher": "Eduardo Salazar",
+        "fielders": [
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Joey Wiemer",
+        "pitcher": "Eduardo Salazar",
+        "fielders": [
+          "Jake Fraley"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Wiemer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Spencer Steer",
+        "pitcher": "Bryse Wilson",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Nick Senzel",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Andruw Monasterio",
+          "Owen Miller"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Jon Singleton"
+        ],
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Blake Perkins",
+        "pitcher": "Kevin Herget",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Blake Perkins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Kevin Herget",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Owen Miller",
+        "pitcher": "Kevin Herget",
+        "fielders": [
+          "Matt McLain"
+        ],
+        "movements": [
+          {
+            "runner": "Owen Miller",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Will Benson",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Jon Singleton"
+        ],
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Curt Casali",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Joey Wiemer"
+        ],
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kevin Newman",
+        "pitcher": "Bryse Wilson",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt McLain",
+        "pitcher": "Bryse Wilson",
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Newman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jonathan India",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Andruw Monasterio"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Kevin Herget",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "William Contreras",
+        "pitcher": "Kevin Herget",
+        "fielders": [
+          "Kevin Newman",
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brian Anderson",
+        "pitcher": "Kevin Herget",
+        "fielders": [
+          "Kevin Herget"
+        ],
+        "movements": [
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jake Fraley",
+        "pitcher": "Jake Cousins",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Spencer Steer",
+        "pitcher": "Jake Cousins",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Fraley",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Senzel",
+        "pitcher": "Jake Cousins",
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Devin Williams",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Will Benson",
+        "pitcher": "Devin Williams",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Senzel",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "TJ Hopkins",
+        "pitcher": "Devin Williams",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Senzel",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Will Benson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Hopkins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Devin Williams",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt McLain",
+        "pitcher": "Devin Williams",
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

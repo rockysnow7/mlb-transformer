@@ -1,0 +1,1760 @@
+{
+  "context": {
+    "game_pk": 633532,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 22
+    },
+    "venue_name": "Globe Life Field",
+    "weather": {
+      "condition": "Roof Closed",
+      "temperature": 72,
+      "wind_speed": 0
+    },
+    "home_team": {
+      "id": 140,
+      "players": [
+        {
+          "name": "Ian Kennedy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Gibson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Charlie Culberson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jordan Lyles",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joely Rodríguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brock Holt",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Mike Foltynewicz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Patton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Gallo",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Taylor Hearn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Sborz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Trevino",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andy Ibáñez",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Willie Calhoun",
+          "position": "LeftField"
+        },
+        {
+          "name": "Dane Dunning",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonah Heim",
+          "position": "Catcher"
+        },
+        {
+          "name": "Eli White",
+          "position": "RightField"
+        },
+        {
+          "name": "Isiah Kiner-Falefa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Brett Martin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kolby Allard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Demarcus Evans",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Adolis García",
+          "position": "CenterField"
+        },
+        {
+          "name": "John King",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Solak",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Brett de Geus",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 133,
+      "players": [
+        {
+          "name": "Yusmeiro Petit",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elvis Andrus",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jed Lowrie",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Sergio Romo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Deolis Guerra",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Diekman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mitch Moreland",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Burch Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cam Bedrosian",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mark Canha",
+          "position": "LeftField"
+        },
+        {
+          "name": "Frankie Montas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Bassitt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aramis Garcia",
+          "position": "Catcher"
+        },
+        {
+          "name": "Cole Irvin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "James Kaprielian",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Skye Bolt",
+          "position": "CenterField"
+        },
+        {
+          "name": "Matt Olson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Sean Manaea",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chad Pinder",
+          "position": "RightField"
+        },
+        {
+          "name": "Lou Trivino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Domingo Acevedo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Chapman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ramón Laureano",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Seth Brown",
+          "position": "RightField"
+        },
+        {
+          "name": "Sean Murphy",
+          "position": "Catcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Mark Canha",
+        "pitcher": "Taylor Hearn",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Matt Chapman",
+        "pitcher": "Taylor Hearn",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Mark Canha",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Olson",
+        "pitcher": "Taylor Hearn",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Taylor Hearn",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chad Pinder",
+        "pitcher": "Taylor Hearn",
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Taylor Hearn",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sean Murphy",
+        "pitcher": "Taylor Hearn",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jed Lowrie",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Brett de Geus",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jed Lowrie",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jed Lowrie",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Skye Bolt",
+        "pitcher": "Brett de Geus",
+        "movements": [
+          {
+            "runner": "Skye Bolt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eli White",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Eli White",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Adolis García",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Mark Canha",
+        "pitcher": "Brett de Geus",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Brett de Geus",
+        "fielders": [
+          "Nick Solak"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mark Canha",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Olson",
+        "pitcher": "Brett de Geus",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Brett de Geus",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chad Pinder",
+        "pitcher": "Brett de Geus",
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Brett de Geus",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Gallo",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andy Ibáñez",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Nick Solak",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Elvis Andrus",
+          "Jed Lowrie"
+        ],
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Solak",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Sean Murphy",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Skye Bolt",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Andy Ibáñez"
+        ],
+        "movements": [
+          {
+            "runner": "Skye Bolt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mark Canha",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Chapman",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Olson",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Charlie Culberson"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Andy Ibáñez"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Willie Calhoun",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Skye Bolt"
+        ],
+        "movements": [
+          {
+            "runner": "Willie Calhoun",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Skye Bolt"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Charlie Culberson",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Charlie Culberson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Charlie Culberson",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Chad Pinder",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Isiah Kiner-Falefa"
+        ],
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Charlie Culberson"
+        ],
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Sean Murphy",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eli White",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Eli White",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adolis García",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Gallo",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Cole Irvin"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eli White",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Andy Ibáñez",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Skye Bolt",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Skye Bolt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mark Canha",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Nick Solak",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Nick Solak",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Willie Calhoun",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Willie Calhoun",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Solak",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Solak",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Chad Pinder"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Charlie Culberson",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Charlie Culberson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Willie Calhoun",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Willie Calhoun",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Skye Bolt"
+        ],
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Charlie Culberson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eli White",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Eli White",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Eli White",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Charlie Culberson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Adolis García",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Eli White",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joey Gallo",
+        "pitcher": "Cole Irvin",
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andy Ibáñez",
+        "pitcher": "Cole Irvin",
+        "fielders": [
+          "Jed Lowrie"
+        ],
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Olson",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Isiah Kiner-Falefa"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Isiah Kiner-Falefa"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Chad Pinder",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Charlie Culberson"
+        ],
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Solak",
+        "pitcher": "Burch Smith",
+        "fielders": [
+          "Chad Pinder"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Solak",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Willie Calhoun",
+        "pitcher": "Burch Smith",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Willie Calhoun",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Burch Smith",
+        "fielders": [
+          "Skye Bolt"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Sean Murphy",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Willie Calhoun"
+        ],
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Willie Calhoun"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Charlie Culberson",
+        "pitcher": "Sergio Romo",
+        "movements": [
+          {
+            "runner": "Charlie Culberson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Sergio Romo",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Eli White",
+        "pitcher": "Sergio Romo",
+        "movements": [
+          {
+            "runner": "Eli White",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Adolis García",
+        "pitcher": "Sergio Romo",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Skye Bolt",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Andy Ibáñez"
+        ],
+        "movements": [
+          {
+            "runner": "Skye Bolt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mark Canha",
+        "pitcher": "Jordan Lyles",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mark Canha",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Jordan Lyles",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Joey Gallo",
+        "pitcher": "Jake Diekman",
+        "movements": [
+          {
+            "runner": "Joey Gallo",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andy Ibáñez",
+        "pitcher": "Jake Diekman",
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nick Solak",
+        "pitcher": "Jake Diekman",
+        "movements": [
+          {
+            "runner": "Nick Solak",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Willie Calhoun",
+        "pitcher": "Jake Diekman",
+        "movements": [
+          {
+            "runner": "Nick Solak",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Willie Calhoun",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Lou Trivino",
+        "fielders": [
+          "Skye Bolt"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Matt Olson",
+        "pitcher": "Demarcus Evans",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Demarcus Evans",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chad Pinder",
+        "pitcher": "Demarcus Evans",
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jed Lowrie",
+        "pitcher": "Demarcus Evans",
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Sean Murphy",
+        "pitcher": "Demarcus Evans",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jed Lowrie",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jed Lowrie",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jed Lowrie",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Demarcus Evans",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Skye Bolt",
+        "pitcher": "Demarcus Evans",
+        "movements": [
+          {
+            "runner": "Skye Bolt",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mark Canha",
+        "pitcher": "Spencer Patton",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Charlie Culberson",
+        "pitcher": "Deolis Guerra",
+        "fielders": [
+          "Deolis Guerra"
+        ],
+        "movements": [
+          {
+            "runner": "Charlie Culberson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Deolis Guerra",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eli White",
+        "pitcher": "Deolis Guerra",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Eli White",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

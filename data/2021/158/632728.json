@@ -1,0 +1,1578 @@
+{
+  "context": {
+    "game_pk": 632728,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 24
+    },
+    "venue_name": "American Family Field",
+    "weather": {
+      "condition": "Roof Closed",
+      "temperature": 72,
+      "wind_speed": 0
+    },
+    "home_team": {
+      "id": 158,
+      "players": [
+        {
+          "name": "Manny Piña",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Lorenzo Cain",
+          "position": "CenterField"
+        },
+        {
+          "name": "Brett Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brad Boxberger",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Strickland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Avisaíl García",
+          "position": "RightField"
+        },
+        {
+          "name": "Kolten Wong",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Omar Narváez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hoby Milner",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Yelich",
+          "position": "LeftField"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jackie Bradley Jr.",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Adrian Houser",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Woodruff",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jace Peterson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Brent Suter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pablo Reyes",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Josh Hader",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Lauer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rowdy Tellez",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Devin Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willy Adames",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Luis Urías",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jake Cousins",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corbin Burnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Ashby",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Joey Votto",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Justin Wilson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wade Miley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Moustakas",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Sonny Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Lorenzen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eugenio Suárez",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Luis Cessa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kyle Farmer",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Mychal Givens",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Naquin",
+          "position": "CenterField"
+        },
+        {
+          "name": "Nick Castellanos",
+          "position": "RightField"
+        },
+        {
+          "name": "Aristides Aquino",
+          "position": "LeftField"
+        },
+        {
+          "name": "Amir Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Sims",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tejay Antone",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Castillo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Mahle",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeff Hoffman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Santillan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan India",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tyler Stephenson",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Shogo Akiyama",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jose Barrero",
+          "position": "Shortstop"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Jonathan India",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Kolten Wong",
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Kolten Wong"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kolten Wong",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Willy Adames",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Yelich",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Willy Adames",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Avisaíl García",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Shogo Akiyama"
+        ],
+        "scoring_runner": "Willy Adames",
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Willy Adames",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Omar Narváez",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis Urías",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Luis Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Votto",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Mike Moustakas",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Christian Yelich"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Moustakas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Lorenzo Cain"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Lorenzo Cain",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Mike Moustakas"
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Lorenzo Cain",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Corbin Burnes",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Tucker Barnhart"
+        ],
+        "runner": "Lorenzo Cain",
+        "movements": [
+          {
+            "runner": "Corbin Burnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Lorenzo Cain",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kolten Wong",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Nick Castellanos"
+        ],
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Shogo Akiyama",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Corbin Burnes"
+        ],
+        "movements": [
+          {
+            "runner": "Shogo Akiyama",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tyler Mahle",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Avisaíl García"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Mahle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jonathan India",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Luis Urías"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jace Peterson",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Tyler Mahle"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Avisaíl García",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Omar Narváez",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Jonathan India"
+        ],
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Naquin",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joey Votto",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mike Moustakas",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Mike Moustakas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Naquin",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Votto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Votto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Moustakas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Lorenzo Cain"
+        ],
+        "scoring_runner": "Joey Votto",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Joey Votto",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shogo Akiyama",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Shogo Akiyama",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyler Mahle",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Luis Urías"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Mahle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis Urías",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Shogo Akiyama"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lorenzo Cain",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Lorenzo Cain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan India",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Christian Yelich"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Votto",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Corbin Burnes",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Corbin Burnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kolten Wong",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Shogo Akiyama"
+        ],
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jace Peterson",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Mike Moustakas",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Mike Moustakas",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Corbin Burnes",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Moustakas",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Shogo Akiyama",
+        "pitcher": "Corbin Burnes",
+        "fielders": [
+          "Rowdy Tellez",
+          "Rowdy Tellez"
+        ],
+        "movements": [
+          {
+            "runner": "Shogo Akiyama",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Avisaíl García",
+        "pitcher": "Tyler Mahle",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Omar Narváez",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Urías",
+        "pitcher": "Tyler Mahle",
+        "movements": [
+          {
+            "runner": "Luis Urías",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Omar Narváez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jonathan India",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Hunter Strickland",
+        "fielders": [
+          "Kolten Wong"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Hunter Strickland",
+        "fielders": [
+          "Luis Urías"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lorenzo Cain",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Lorenzo Cain",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Manny Piña",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Lorenzo Cain",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kolten Wong",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Lorenzo Cain",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Lorenzo Cain",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Manny Piña",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jace Peterson",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Kolten Wong",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Christian Yelich",
+        "pitcher": "Mychal Givens",
+        "fielders": [
+          "Nick Castellanos"
+        ],
+        "scoring_runner": "Kolten Wong",
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kolten Wong",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Manny Piña",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Avisaíl García",
+        "pitcher": "Mychal Givens",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "scoring_runner": "Avisaíl García",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kolten Wong",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Omar Narváez",
+        "pitcher": "Mychal Givens",
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jace Peterson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jace Peterson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis Urías",
+        "pitcher": "Mychal Givens",
+        "movements": [
+          {
+            "runner": "Luis Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Votto",
+        "pitcher": "Devin Williams",
+        "fielders": [
+          "Kolten Wong"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mike Moustakas",
+        "pitcher": "Devin Williams",
+        "fielders": [
+          "Devin Williams"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Moustakas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Devin Williams",
+        "fielders": [
+          "Christian Yelich"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rowdy Tellez",
+        "pitcher": "Luis Cessa",
+        "movements": [
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Lorenzo Cain",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Lorenzo Cain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Tucker Barnhart"
+        ],
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Kolten Wong",
+        "pitcher": "Luis Cessa",
+        "movements": [
+          {
+            "runner": "Kolten Wong",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Rowdy Tellez",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jace Peterson",
+        "pitcher": "Amir Garrett",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Josh Hader",
+        "fielders": [
+          "Josh Hader"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Josh Hader",
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Josh Hader",
+        "fielders": [
+          "Rowdy Tellez"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1611 @@
+{
+  "context": {
+    "game_pk": 633442,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 3
+    },
+    "venue_name": "Comerica Park",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 79,
+      "wind_speed": 11
+    },
+    "home_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Wily Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erasmo Ramírez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Cisnero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robbie Grossman",
+          "position": "RightField"
+        },
+        {
+          "name": "José Ureña",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Funkhouser",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nomar Mazara",
+          "position": "RightField"
+        },
+        {
+          "name": "Victor Reyes",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tyler Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bryan Garcia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Casey Mize",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daz Cameron",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Matt Manning",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Rogers",
+          "position": "Catcher"
+        },
+        {
+          "name": "Akil Baddoo",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tarik Skubal",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zack Short",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 145,
+      "players": [
+        {
+          "name": "Lance Lynn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yasmani Grandal",
+          "position": "Catcher"
+        },
+        {
+          "name": "Liam Hendriks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Leury García",
+          "position": "RightField"
+        },
+        {
+          "name": "José Abreu",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brian Goodwin",
+          "position": "CenterField"
+        },
+        {
+          "name": "Billy Hamilton",
+          "position": "CenterField"
+        },
+        {
+          "name": "Dallas Keuchel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Eaton",
+          "position": "RightField"
+        },
+        {
+          "name": "Jace Fry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Rodón",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Giolito",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Ruiz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Burr",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tim Anderson",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Zack Collins",
+          "position": "Catcher"
+        },
+        {
+          "name": "Matt Foster",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dylan Cease",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Kopech",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gavin Sheets",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Yoán Moncada",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Danny Mendick",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jake Burger",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Codi Heuer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Crochet",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Vaughn",
+          "position": "LeftField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "Tim Anderson",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tim Anderson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Abreu",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tim Anderson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Leury García",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Zack Short",
+          "Zack Short"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Leury García",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Burger",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Jake Burger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Jake Burger"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Billy Hamilton",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Billy Hamilton",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Zack Collins",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Akil Baddoo"
+        ],
+        "movements": [
+          {
+            "runner": "Zack Collins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Billy Hamilton",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Danny Mendick",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Danny Mendick",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tim Anderson",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eric Haase",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Tim Anderson",
+          "Danny Mendick"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Zack Short",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Danny Mendick"
+        ],
+        "movements": [
+          {
+            "runner": "Zack Short",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Abreu",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Eric Haase"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Leury García",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Leury García",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Burger",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Robbie Grossman"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Burger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Rogers",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Leury García"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Gavin Sheets"
+        ],
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Billy Hamilton",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Billy Hamilton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Zack Collins",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Zack Collins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Danny Mendick",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Mendick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Leury García"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Eric Haase",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Zack Short",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Zack Short",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Tim Anderson",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Tarik Skubal",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tim Anderson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Abreu",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tim Anderson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Leury García",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Leury García",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Burger",
+        "pitcher": "Tarik Skubal",
+        "movements": [
+          {
+            "runner": "Jake Burger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Willi Castro",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Rogers",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Willi Castro",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Willi Castro",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Rogers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Rogers",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Willi Castro",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Akil Baddoo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Akil Baddoo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Akil Baddoo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Ryan Burr",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eric Haase",
+        "pitcher": "Ryan Burr",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Ryan Burr",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Zack Short",
+        "pitcher": "Ryan Burr",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Zack Short",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willi Castro",
+        "pitcher": "Ryan Burr",
+        "fielders": [
+          "Danny Mendick"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Billy Hamilton",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Billy Hamilton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Zack Collins",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Zack Collins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Danny Mendick",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Danny Mendick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Rogers",
+        "pitcher": "Jace Fry",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Jace Fry",
+        "fielders": [
+          "Danny Mendick"
+        ],
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Jace Fry",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tim Anderson",
+        "pitcher": "José Cisnero",
+        "fielders": [
+          "Robbie Grossman"
+        ],
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Gavin Sheets",
+        "pitcher": "José Cisnero",
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "José Abreu",
+        "pitcher": "José Cisnero",
+        "fielders": [
+          "Zack Short",
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Jace Fry",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Jace Fry",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Eric Haase",
+        "pitcher": "Jace Fry",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Daz Cameron",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Jace Fry",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Zack Short",
+        "pitcher": "Jace Fry",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Zack Short",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Matt Foster",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Rogers",
+        "pitcher": "Matt Foster",
+        "fielders": [
+          "Billy Hamilton"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Kyle Funkhouser",
+        "fielders": [
+          "Zack Short"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Leury García",
+        "pitcher": "Kyle Funkhouser",
+        "movements": [
+          {
+            "runner": "Leury García",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Jake Burger",
+        "pitcher": "Kyle Funkhouser",
+        "fielders": [
+          "Willi Castro",
+          "Zack Short"
+        ],
+        "movements": [
+          {
+            "runner": "Leury García",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Burger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Akil Baddoo",
+        "pitcher": "Matt Foster",
+        "fielders": [
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Akil Baddoo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Matt Foster",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Matt Foster",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Daz Cameron",
+        "pitcher": "Matt Foster",
+        "movements": [
+          {
+            "runner": "Daz Cameron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Billy Hamilton",
+        "pitcher": "Buck Farmer",
+        "movements": [
+          {
+            "runner": "Billy Hamilton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Zack Collins",
+        "pitcher": "Buck Farmer",
+        "movements": [
+          {
+            "runner": "Zack Collins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Danny Mendick",
+        "pitcher": "Buck Farmer",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Mendick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

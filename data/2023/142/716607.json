@@ -1,0 +1,1586 @@
+{
+  "context": {
+    "game_pk": 716607,
+    "date": {
+      "year": 2023,
+      "month": 9,
+      "day": 13
+    },
+    "venue_name": "Target Field",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 60,
+      "wind_speed": 4
+    },
+    "home_team": {
+      "id": 142,
+      "players": [
+        {
+          "name": "Donovan Solano",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Sonny Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Vázquez",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Kyle Farmer",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Dylan Floro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dallas Keuchel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Caleb Thielbar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Polanco",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Max Kepler",
+          "position": "RightField"
+        },
+        {
+          "name": "Carlos Correa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Kenta Maeda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pablo López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emilio Pagán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Griffin Jax",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jordan Luplow",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Joe Ryan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jhoan Duran",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Stevenson",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Alex Kirilloff",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Edouard Julien",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Royce Lewis",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Matt Wallner",
+          "position": "LeftField"
+        },
+        {
+          "name": "Josh Winder",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Jeffers",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kody Funderburk",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Louie Varland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brent Headrick",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 139,
+      "players": [
+        {
+          "name": "Jake Diekman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erasmo Ramírez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Bethancourt",
+          "position": "Catcher"
+        },
+        {
+          "name": "Shawn Armstrong",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Kittredge",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robert Stephenson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Devenski",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Glasnow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Eflin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Colin Poche",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Ramírez",
+          "position": "RightField"
+        },
+        {
+          "name": "Zack Littell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yandy Díaz",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Aaron Civale",
+          "position": "Pitcher"
+        },
+        {
+          "name": "René Pinto",
+          "position": "Catcher"
+        },
+        {
+          "name": "Vidal Bruján",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Brandon Lowe",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Pete Fairbanks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Aranda",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Josh Lowe",
+          "position": "RightField"
+        },
+        {
+          "name": "Randy Arozarena",
+          "position": "LeftField"
+        },
+        {
+          "name": "Luke Raley",
+          "position": "CenterField"
+        },
+        {
+          "name": "Isaac Paredes",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Taylor Walls",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Taj Bradley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Osleivis Basabe",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Curtis Mead",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Kevin Kelly",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Strikeout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Royce Lewis"
+        ],
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Edouard Julien",
+        "pitcher": "Taj Bradley",
+        "fielders": [
+          "Osleivis Basabe"
+        ],
+        "movements": [
+          {
+            "runner": "Edouard Julien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Royce Lewis",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Royce Lewis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Kepler",
+        "pitcher": "Taj Bradley",
+        "fielders": [
+          "Yandy Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Curtis Mead",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Curtis Mead",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Josh Lowe",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Royce Lewis"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Osleivis Basabe",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Dallas Keuchel"
+        ],
+        "movements": [
+          {
+            "runner": "Curtis Mead",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Osleivis Basabe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Osleivis Basabe",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Osleivis Basabe",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Vidal Bruján",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Royce Lewis"
+        ],
+        "scoring_runner": "Christian Bethancourt",
+        "movements": [
+          {
+            "runner": "Osleivis Basabe",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Vidal Bruján",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Vidal Bruján",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Vidal Bruján",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alex Kirilloff",
+        "pitcher": "Taj Bradley",
+        "fielders": [
+          "Vidal Bruján"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Curtis Mead",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Curtis Mead",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Isaac Paredes",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Isaac Paredes",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Lowe",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Osleivis Basabe",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Curtis Mead",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Osleivis Basabe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Dallas Keuchel"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Matt Wallner",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Matt Wallner",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Edouard Julien",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Edouard Julien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Royce Lewis",
+        "pitcher": "Taj Bradley",
+        "fielders": [
+          "Josh Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Royce Lewis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Kepler",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vidal Bruján",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Edouard Julien"
+        ],
+        "movements": [
+          {
+            "runner": "Vidal Bruján",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Dallas Keuchel",
+        "fielders": [
+          "Royce Lewis"
+        ],
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alex Kirilloff",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willi Castro",
+        "pitcher": "Taj Bradley",
+        "fielders": [
+          "Yandy Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Wallner",
+        "pitcher": "Taj Bradley",
+        "fielders": [
+          "Vidal Bruján"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Wallner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Dallas Keuchel",
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Curtis Mead",
+        "pitcher": "Dylan Floro",
+        "fielders": [
+          "Dylan Floro",
+          "Royce Lewis"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Curtis Mead",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Isaac Paredes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Josh Lowe",
+        "pitcher": "Dylan Floro",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Edouard Julien",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Edouard Julien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Taj Bradley",
+        "movements": [
+          {
+            "runner": "Edouard Julien",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Royce Lewis",
+        "pitcher": "Taj Bradley",
+        "fielders": [
+          "Taj Bradley"
+        ],
+        "movements": [
+          {
+            "runner": "Edouard Julien",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jorge Polanco",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Royce Lewis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Max Kepler",
+        "pitcher": "Jake Diekman",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Edouard Julien",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jorge Polanco",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Jake Diekman",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Osleivis Basabe",
+        "pitcher": "Emilio Pagán",
+        "movements": [
+          {
+            "runner": "Osleivis Basabe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Emilio Pagán",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Vidal Bruján",
+        "pitcher": "Emilio Pagán",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Vidal Bruján",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Shawn Armstrong",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Willi Castro",
+        "pitcher": "Shawn Armstrong",
+        "fielders": [
+          "Harold Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Matt Wallner",
+        "pitcher": "Shawn Armstrong",
+        "fielders": [
+          "Josh Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Wallner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Emilio Pagán",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Emilio Pagán",
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Emilio Pagán",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Emilio Pagán",
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Curtis Mead",
+        "pitcher": "Emilio Pagán",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Curtis Mead",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Kevin Kelly",
+        "fielders": [
+          "Vidal Bruján"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "StrikeoutDoublePlay": {
+        "batter": "Edouard Julien",
+        "pitcher": "Kevin Kelly",
+        "fielders": [
+          "Christian Bethancourt",
+          "Christian Bethancourt"
+        ],
+        "movements": [
+          {
+            "runner": "Edouard Julien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Kevin Kelly",
+        "fielders": [
+          "Osleivis Basabe"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Lowe",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Osleivis Basabe",
+        "pitcher": "Caleb Thielbar",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Osleivis Basabe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Royce Lewis",
+        "pitcher": "Kevin Kelly",
+        "fielders": [
+          "Randy Arozarena"
+        ],
+        "movements": [
+          {
+            "runner": "Royce Lewis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Kepler",
+        "pitcher": "Kevin Kelly",
+        "fielders": [
+          "Osleivis Basabe"
+        ],
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Donovan Solano",
+        "pitcher": "Kevin Kelly",
+        "fielders": [
+          "Vidal Bruján"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Kevin Kelly",
+        "fielders": [
+          "Randy Arozarena"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Aranda",
+        "pitcher": "Griffin Jax",
+        "movements": [
+          {
+            "runner": "Jonathan Aranda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Griffin Jax",
+        "fielders": [
+          "Edouard Julien"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Griffin Jax",
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Griffin Jax",
+        "fielders": [
+          "Royce Lewis"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Willi Castro",
+        "pitcher": "Colin Poche",
+        "fielders": [
+          "Yandy Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jordan Luplow",
+        "pitcher": "Colin Poche",
+        "movements": [
+          {
+            "runner": "Jordan Luplow",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Colin Poche",
+        "fielders": [
+          "Luke Raley"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Stevenson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Robert Stephenson",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

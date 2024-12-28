@@ -1,0 +1,1566 @@
+{
+  "context": {
+    "game_pk": 633156,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 25
+    },
+    "venue_name": "Oriole Park at Camden Yards",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 88,
+      "wind_speed": 6
+    },
+    "home_team": {
+      "id": 110,
+      "players": [
+        {
+          "name": "César Valdez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Harvey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Plutko",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Maikel Franco",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Pedro Severino",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ramón Urías",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Jorge López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "John Means",
+          "position": "Pitcher"
+        },
+        {
+          "name": "DJ Stewart",
+          "position": "RightField"
+        },
+        {
+          "name": "Dillon Tate",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shaun Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Conner Greene",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trey Mancini",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Cole Sulser",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pat Valaika",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Domingo Leyba",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Austin Wynns",
+          "position": "Catcher"
+        },
+        {
+          "name": "Paul Fry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Wells",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cedric Mullins",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tanner Scott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spenser Watkins",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Mountcastle",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ryan McKenna",
+          "position": "LeftField"
+        },
+        {
+          "name": "Thomas Eshelman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Hays",
+          "position": "PinchHitter"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "René Rivera",
+          "position": "Catcher"
+        },
+        {
+          "name": "Alcides Escobar",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jon Lester",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Scherzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gerardo Parra",
+          "position": "RightField"
+        },
+        {
+          "name": "Ryan Zimmerman",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Paolo Espino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brad Hand",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Harrison",
+          "position": "LeftField"
+        },
+        {
+          "name": "Daniel Hudson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wander Suero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Erick Fedde",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trea Turner",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Ryne Harper",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Voth",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Clay",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jefry Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yadiel Hernandez",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor Robles",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrew Stevenson",
+          "position": "CenterField"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "RightField"
+        },
+        {
+          "name": "Carter Kieboom",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Tres Barrera",
+          "position": "Catcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "HitByPitch": {
+        "batter": "Alcides Escobar",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trea Turner",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alcides Escobar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Soto",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Josh Bell",
+        "pitcher": "John Means",
+        "fielders": [
+          "Pat Valaika"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Ryan Zimmerman",
+        "pitcher": "John Means",
+        "fielders": [
+          "Maikel Franco",
+          "Maikel Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alcides Escobar",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Zimmerman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Josh Harrison",
+        "pitcher": "John Means",
+        "fielders": [
+          "John Means"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Zimmerman",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Trey Mancini",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Trey Mancini",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "DJ Stewart",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carter Kieboom",
+        "pitcher": "John Means",
+        "fielders": [
+          "Cedric Mullins"
+        ],
+        "movements": [
+          {
+            "runner": "Carter Kieboom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "René Rivera",
+        "pitcher": "John Means",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "René Rivera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Victor Robles",
+        "pitcher": "John Means",
+        "fielders": [
+          "Maikel Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Maikel Franco",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ryan McKenna",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Josh Harrison"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan McKenna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Domingo Leyba",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Domingo Leyba",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Pat Valaika",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Pat Valaika",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Wynns",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Wynns",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alcides Escobar",
+        "pitcher": "John Means",
+        "fielders": [
+          "DJ Stewart"
+        ],
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Trea Turner",
+        "pitcher": "John Means",
+        "fielders": [
+          "Cedric Mullins"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juan Soto",
+        "pitcher": "John Means",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trey Mancini",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Trey Mancini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Bell",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Ryan Zimmerman",
+        "pitcher": "John Means",
+        "fielders": [
+          "Pat Valaika",
+          "Domingo Leyba"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan Zimmerman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Harrison",
+        "pitcher": "John Means",
+        "fielders": [
+          "Pat Valaika"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "DJ Stewart",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Maikel Franco",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ryan McKenna",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Ryan McKenna",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Domingo Leyba",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Domingo Leyba",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carter Kieboom",
+        "pitcher": "John Means",
+        "fielders": [
+          "Cedric Mullins"
+        ],
+        "movements": [
+          {
+            "runner": "Carter Kieboom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "René Rivera",
+        "pitcher": "John Means",
+        "fielders": [
+          "Pat Valaika"
+        ],
+        "movements": [
+          {
+            "runner": "René Rivera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Victor Robles",
+        "pitcher": "John Means",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Pat Valaika",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Pat Valaika",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Wynns",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Victor Robles"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Wynns",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Trea Turner",
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Pat Valaika",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Alcides Escobar",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trea Turner",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alcides Escobar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Juan Soto",
+        "pitcher": "John Means",
+        "fielders": [
+          "Cedric Mullins"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ryan Zimmerman",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Ryan Zimmerman",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Alcides Escobar",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Trea Turner",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Josh Harrison",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carter Kieboom",
+        "pitcher": "John Means",
+        "fielders": [
+          "DJ Stewart"
+        ],
+        "movements": [
+          {
+            "runner": "Carter Kieboom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trey Mancini",
+        "pitcher": "Kyle Finnegan",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Trey Mancini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Kyle Finnegan",
+        "fielders": [
+          "Carter Kieboom"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "DJ Stewart",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Maikel Franco",
+        "pitcher": "Kyle Finnegan",
+        "fielders": [
+          "Kyle Finnegan"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "René Rivera",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "René Rivera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Victor Robles",
+        "pitcher": "John Means",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Alcides Escobar",
+        "pitcher": "John Means",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trea Turner",
+        "pitcher": "Paul Fry",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan McKenna",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Ryan McKenna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Domingo Leyba",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Domingo Leyba",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Pat Valaika",
+        "pitcher": "Kyle Finnegan",
+        "movements": [
+          {
+            "runner": "Pat Valaika",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Wynns",
+        "pitcher": "Daniel Hudson",
+        "movements": [
+          {
+            "runner": "Austin Wynns",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Paul Fry",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Bell",
+        "pitcher": "Paul Fry",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Zimmerman",
+        "pitcher": "Paul Fry",
+        "movements": [
+          {
+            "runner": "Ryan Zimmerman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Harrison",
+        "pitcher": "Paul Fry",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Harrison",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Carter Kieboom",
+        "pitcher": "César Valdez",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Harrison",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Carter Kieboom",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yadiel Hernandez",
+        "pitcher": "César Valdez",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "Yadiel Hernandez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Daniel Hudson",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trey Mancini",
+        "pitcher": "Daniel Hudson",
+        "movements": [
+          {
+            "runner": "Trey Mancini",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Cedric Mullins",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Daniel Hudson",
+        "fielders": [
+          "Alcides Escobar",
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Trey Mancini",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Cedric Mullins",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "DJ Stewart",
+        "pitcher": "Daniel Hudson",
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Victor Robles",
+        "pitcher": "César Valdez",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alcides Escobar",
+        "pitcher": "César Valdez",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trea Turner",
+        "pitcher": "César Valdez",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Soto",
+        "pitcher": "César Valdez",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Bell",
+        "pitcher": "Cole Sulser",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Maikel Franco",
+        "pitcher": "Brad Hand",
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ryan McKenna",
+        "pitcher": "Brad Hand",
+        "movements": [
+          {
+            "runner": "Ryan McKenna",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Maikel Franco",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Maikel Franco",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Austin Hays",
+        "pitcher": "Brad Hand",
+        "movements": [
+          {
+            "runner": "Ryan McKenna",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Pat Valaika",
+        "pitcher": "Brad Hand",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "scoring_runner": "Ryan McKenna",
+        "movements": [
+          {
+            "runner": "Pat Valaika",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan McKenna",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Maikel Franco",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Ramón Urías",
+        "pitcher": "Brad Hand",
+        "fielders": [
+          "Carter Kieboom"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan McKenna",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

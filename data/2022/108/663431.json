@@ -1,0 +1,1358 @@
+{
+  "context": {
+    "game_pk": 663431,
+    "date": {
+      "year": 2022,
+      "month": 5,
+      "day": 6
+    },
+    "venue_name": "Angel Stadium",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 71,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 108,
+      "players": [
+        {
+          "name": "Kurt Suzuki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Anthony Rendon",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Max Stassi",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mike Trout",
+          "position": "CenterField"
+        },
+        {
+          "name": "Michael Lorenzen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Loup",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Tepera",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Noah Syndergaard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Mayers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jack Mayfield",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Taylor Ward",
+          "position": "RightField"
+        },
+        {
+          "name": "Andrew Velazquez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jimmy Herget",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Wade",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jaime Barria",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jhonathan Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shohei Ohtani",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Oliver Ortega",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Sandoval",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Fletcher",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jared Walsh",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Elvis Peguero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Marsh",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kenny Rosenberg",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reid Detmers",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "Nelson Cruz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Alcides Escobar",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Paolo Espino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "César Hernández",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Steve Cishek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erasmo Ramírez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dee Strange-Gordon",
+          "position": "Outfield"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Sanchez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Maikel Franco",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrés Machado",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Erick Fedde",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Voth",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yadiel Hernandez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Víctor Arano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor Robles",
+          "position": "CenterField"
+        },
+        {
+          "name": "Riley Adams",
+          "position": "Catcher"
+        },
+        {
+          "name": "Lane Thomas",
+          "position": "LeftField"
+        },
+        {
+          "name": "Keibert Ruiz",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tanner Rainey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "RightField"
+        },
+        {
+          "name": "Joan Adon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josiah Gray",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "César Hernández",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Juan Soto",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "Brandon Marsh"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Bell",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "David Fletcher",
+          "Tyler Wade"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Taylor Ward",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mike Trout",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Mike Trout",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Taylor Ward",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Joan Adon",
+        "fielders": [
+          "César Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Trout",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Taylor Ward",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Maikel Franco",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "Anthony Rendon"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "Tyler Wade"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Marsh",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Joan Adon",
+        "fielders": [
+          "Josh Bell"
+        ],
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "BuntGroundout": {
+        "batter": "Tyler Wade",
+        "pitcher": "Joan Adon",
+        "fielders": [
+          "Joan Adon"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Wade",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Robles",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Alcides Escobar",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "César Hernández",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Soto",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Bell",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "Taylor Ward"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Joan Adon",
+        "fielders": [
+          "Alcides Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Taylor Ward",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mike Trout",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Mike Trout",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Maikel Franco",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "Mike Trout"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lane Thomas",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Maikel Franco",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Victor Robles",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "Jared Walsh"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Joan Adon",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Marsh",
+        "pitcher": "Joan Adon",
+        "fielders": [
+          "Joan Adon"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alcides Escobar",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "César Hernández",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Jhonathan Díaz",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Josh Bell",
+        "pitcher": "Jhonathan Díaz",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Joan Adon",
+        "fielders": [
+          "Alcides Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tyler Wade",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Tyler Wade",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Fletcher",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Tyler Wade",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Wade",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Taylor Ward",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Mike Trout",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Mike Trout",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Wade",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "David Fletcher",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Taylor Ward",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Joan Adon",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Joan Adon",
+        "fielders": [
+          "Alcides Escobar",
+          "César Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Oliver Ortega",
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Maikel Franco",
+        "pitcher": "Oliver Ortega",
+        "fielders": [
+          "Tyler Wade",
+          "Tyler Wade"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Oliver Ortega",
+        "fielders": [
+          "Brandon Marsh"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Austin Voth",
+        "fielders": [
+          "Lane Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Marsh",
+        "pitcher": "Austin Voth",
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Austin Voth",
+        "fielders": [
+          "Maikel Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Ryan Tepera",
+        "fielders": [
+          "Mike Trout"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Victor Robles",
+        "pitcher": "Ryan Tepera",
+        "fielders": [
+          "Brandon Marsh"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alcides Escobar",
+        "pitcher": "Ryan Tepera",
+        "fielders": [
+          "Mike Trout"
+        ],
+        "movements": [
+          {
+            "runner": "Alcides Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Wade",
+        "pitcher": "Víctor Arano",
+        "movements": [
+          {
+            "runner": "Tyler Wade",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "David Fletcher",
+        "pitcher": "Víctor Arano",
+        "movements": [
+          {
+            "runner": "Tyler Wade",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Taylor Ward",
+        "pitcher": "Víctor Arano",
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mike Trout",
+        "pitcher": "Víctor Arano",
+        "movements": [
+          {
+            "runner": "Mike Trout",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "César Hernández",
+        "pitcher": "Aaron Loup",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Aaron Loup",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Josh Bell",
+        "pitcher": "Aaron Loup",
+        "fielders": [
+          "Mike Trout"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Alcides Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jared Walsh",
+        "pitcher": "Paolo Espino",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brandon Marsh",
+        "pitcher": "Paolo Espino",
+        "fielders": [
+          "Lane Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Raisel Iglesias",
+        "fielders": [
+          "Anthony Rendon"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Maikel Franco",
+        "pitcher": "Raisel Iglesias",
+        "fielders": [
+          "Brandon Marsh"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

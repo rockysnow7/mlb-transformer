@@ -1,0 +1,1687 @@
+{
+  "context": {
+    "game_pk": 717631,
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 24
+    },
+    "venue_name": "Great American Ball Park",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 86,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Joey Votto",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Fernando Cruz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Maile",
+          "position": "Catcher"
+        },
+        {
+          "name": "Curt Casali",
+          "position": "Catcher"
+        },
+        {
+          "name": "Luke Weaver",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Sims",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Silvino Bracho",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Newman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Alex Young",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Fraley",
+          "position": "RightField"
+        },
+        {
+          "name": "Daniel Duarte",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan India",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Tyler Stephenson",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ian Gibaut",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Benson",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Spencer Steer",
+          "position": "LeftField"
+        },
+        {
+          "name": "Graham Ashcraft",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Senzel",
+          "position": "RightField"
+        },
+        {
+          "name": "TJ Friedl",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrew Abbott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt McLain",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Brandon Williamson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elly De La Cruz",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 144,
+      "players": [
+        {
+          "name": "Charlie Morton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kirby Yates",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Travis d'Arnaud",
+          "position": "Catcher"
+        },
+        {
+          "name": "Marcell Ozuna",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Collin McHugh",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Tonkin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eddie Rosario",
+          "position": "LeftField"
+        },
+        {
+          "name": "Orlando Arcia",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Kevin Pillar",
+          "position": "LeftField"
+        },
+        {
+          "name": "Ben Heller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "A.J. Minter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Olson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Nick Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chadwick Tromp",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ozzie Albies",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Sam Hilliard",
+          "position": "CenterField"
+        },
+        {
+          "name": "Ronald Acuña Jr.",
+          "position": "RightField"
+        },
+        {
+          "name": "Austin Riley",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Sean Murphy",
+          "position": "Catcher"
+        },
+        {
+          "name": "Michael Harris II",
+          "position": "CenterField"
+        },
+        {
+          "name": "Spencer Strider",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bryce Elder",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jared Shuster",
+          "position": "Pitcher"
+        },
+        {
+          "name": "AJ Smith-Shawver",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "HitByPitch": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "CatcherInterference": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Curt Casali"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Riley",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt Olson",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kevin Newman",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt McLain",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Ronald Acuña Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Jonathan India",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Michael Harris II",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eddie Rosario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Spencer Steer",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Votto",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nick Senzel",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Riley",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Spencer Steer"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Matt Olson",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "TJ Friedl",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Curt Casali",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Ronald Acuña Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Matt McLain",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan India",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Michael Harris II",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Graham Ashcraft"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Austin Riley",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Matt Olson",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Spencer Steer",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Votto",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Nick Senzel",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "TJ Friedl",
+        "pitcher": "Jared Shuster",
+        "fielders": [
+          "Travis d'Arnaud"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Curt Casali",
+        "pitcher": "Jared Shuster",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Senzel",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Senzel",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Michael Tonkin",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Fernando Cruz",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Fernando Cruz",
+        "fielders": [
+          "Matt McLain",
+          "Matt McLain"
+        ],
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt McLain",
+        "pitcher": "Michael Tonkin",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan India",
+        "pitcher": "Michael Tonkin",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Michael Tonkin",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Spencer Steer",
+        "pitcher": "Michael Tonkin",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Michael Harris II",
+        "pitcher": "Fernando Cruz",
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Fernando Cruz",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Michael Harris II",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Fernando Cruz",
+        "fielders": [
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Michael Harris II",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Riley",
+        "pitcher": "Fernando Cruz",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Joey Votto",
+        "pitcher": "Michael Tonkin",
+        "fielders": [
+          "Travis d'Arnaud"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nick Senzel",
+        "pitcher": "Michael Tonkin",
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Michael Tonkin",
+        "fielders": [
+          "Ronald Acuña Jr.",
+          "Ronald Acuña Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Michael Tonkin",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Olson",
+        "pitcher": "Alex Young",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Alex Young",
+        "fielders": [
+          "Jake Fraley"
+        ],
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Daniel Duarte",
+        "fielders": [
+          "Daniel Duarte"
+        ],
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Nick Anderson",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt McLain",
+        "pitcher": "Nick Anderson",
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jonathan India",
+        "pitcher": "Nick Anderson",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Nick Anderson",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Michael Harris II",
+        "pitcher": "Silvino Bracho",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Silvino Bracho",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Silvino Bracho",
+        "fielders": [
+          "Spencer Steer"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Riley",
+        "pitcher": "Silvino Bracho",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Spencer Steer",
+        "pitcher": "A.J. Minter",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Votto",
+        "pitcher": "A.J. Minter",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luke Maile",
+        "pitcher": "A.J. Minter",
+        "movements": [
+          {
+            "runner": "Luke Maile",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Olson",
+        "pitcher": "Silvino Bracho",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Silvino Bracho",
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Silvino Bracho",
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Silvino Bracho",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Silvino Bracho",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jake Fraley",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Will Benson",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt McLain",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan India",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

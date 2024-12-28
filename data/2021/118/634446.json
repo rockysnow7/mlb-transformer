@@ -1,0 +1,1727 @@
+{
+  "context": {
+    "game_pk": 634446,
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 21
+    },
+    "venue_name": "Kauffman Stadium",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 46,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 118,
+      "players": [
+        {
+          "name": "Ervin Santana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wade Davis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Santana",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Mike Minor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarrod Dyson",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Danny Duffy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Greg Holland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Salvador Perez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Michael A. Taylor",
+          "position": "CenterField"
+        },
+        {
+          "name": "Whit Merrifield",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Hanser Alberto",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Cam Gallagher",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jakob Junis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Scott Barlow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Zimmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Staumont",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Newberry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Soler",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jake Brentz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Dozier",
+          "position": "RightField"
+        },
+        {
+          "name": "Brad Keller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Benintendi",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brady Singer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Isbel",
+          "position": "RightField"
+        },
+        {
+          "name": "Nicky Lopez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Tyler Zuber",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 139,
+      "players": [
+        {
+          "name": "Rich Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Strickland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Kittredge",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Zunino",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kevin Kiermaier",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jeffrey Springs",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Glasnow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Mazza",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Wacha",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brett Phillips",
+          "position": "RightField"
+        },
+        {
+          "name": "Joey Wendle",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Manuel Margot",
+          "position": "LeftField"
+        },
+        {
+          "name": "Austin Meadows",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brent Honeywell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Yarbrough",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Francisco Mejía",
+          "position": "Catcher"
+        },
+        {
+          "name": "Willy Adames",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Yandy Díaz",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Diego Castillo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yoshi Tsutsugo",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brandon Lowe",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Randy Arozarena",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Mike Brosseau",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Trevor Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Fleming",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Austin Meadows",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Joey Wendle",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wendle",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Francisco Mejía",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Francisco Mejía",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Willy Adames",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Brandon Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Carlos Santana",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Yandy Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brett Phillips",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Brett Phillips",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "StrikeoutDoublePlay": {
+        "batter": "Austin Meadows",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Salvador Perez",
+          "Salvador Perez"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brett Phillips",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Soler",
+        "pitcher": "Michael Wacha",
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Michael Wacha",
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jorge Soler",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Michael Wacha"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Brett Phillips"
+        ],
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Isbel",
+        "pitcher": "Michael Wacha",
+        "movements": [
+          {
+            "runner": "Kyle Isbel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Wendle",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Kyle Isbel"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Michael A. Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Michael Wacha",
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Yandy Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Brett Phillips"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Brett Phillips"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Francisco Mejía",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Mejía",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Willy Adames",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Michael A. Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jorge Soler",
+        "pitcher": "Michael Wacha",
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Brett Phillips"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Brett Phillips"
+        ],
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brett Phillips",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Brett Phillips",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Austin Meadows",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Brett Phillips",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brett Phillips",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brett Phillips",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Austin Meadows",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Meadows",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Joey Wendle",
+        "pitcher": "Jakob Junis",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "scoring_runner": "Austin Meadows",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Austin Meadows",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Jakob Junis",
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Isbel",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Yandy Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Isbel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Josh Staumont",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Josh Staumont",
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Francisco Mejía",
+        "pitcher": "Josh Staumont",
+        "fielders": [
+          "Kyle Isbel"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Mejía",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willy Adames",
+        "pitcher": "Josh Staumont",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Michael Wacha",
+        "fielders": [
+          "Brett Phillips"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Salvador Perez",
+        "pitcher": "Michael Wacha",
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Salvador Perez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jorge Soler",
+        "pitcher": "Michael Wacha",
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Jeffrey Springs",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brett Phillips",
+        "pitcher": "Josh Staumont",
+        "movements": [
+          {
+            "runner": "Brett Phillips",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Austin Meadows",
+        "pitcher": "Josh Staumont",
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brett Phillips",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brett Phillips",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Josh Staumont",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Wendle",
+        "pitcher": "Jake Brentz",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Jake Brentz",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Jeffrey Springs",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Jeffrey Springs",
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Hanser Alberto",
+        "pitcher": "Jeffrey Springs",
+        "movements": [
+          {
+            "runner": "Hanser Alberto",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Jeffrey Springs",
+        "fielders": [
+          "Yandy Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Ryan Thompson",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "scoring_runner": "Whit Merrifield",
+        "movements": [
+          {
+            "runner": "Hanser Alberto",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Carlos Santana",
+        "pitcher": "Ryan Thompson",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Ryan Thompson",
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Jake Brentz",
+        "fielders": [
+          "Jake Brentz"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kevin Kiermaier",
+        "pitcher": "Jake Brentz",
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Kiermaier",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Willy Adames",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Michael A. Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Randy Arozarena",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brett Phillips",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Brett Phillips",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Soler",
+        "pitcher": "Ryan Thompson",
+        "fielders": [
+          "Brandon Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Ryan Thompson",
+        "fielders": [
+          "Brandon Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Ryan Thompson",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Meadows",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Joey Wendle",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Manuel Margot",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Manuel Margot",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Michael A. Taylor",
+        "pitcher": "Diego Castillo",
+        "movements": [
+          {
+            "runner": "Michael A. Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Hanser Alberto",
+        "pitcher": "Diego Castillo",
+        "fielders": [
+          "Diego Castillo"
+        ],
+        "runner": "Hanser Alberto",
+        "movements": [
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Hanser Alberto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Diego Castillo",
+        "fielders": [
+          "Diego Castillo"
+        ],
+        "runner": "Nicky Lopez",
+        "movements": [
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Diego Castillo",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nicky Lopez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Carlos Santana",
+        "pitcher": "Diego Castillo",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Salvador Perez",
+        "pitcher": "Diego Castillo",
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nicky Lopez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1619 @@
+{
+  "context": {
+    "game_pk": 662873,
+    "date": {
+      "year": 2022,
+      "month": 5,
+      "day": 11
+    },
+    "venue_name": "Comerica Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 79,
+      "wind_speed": 0
+    },
+    "home_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Michael Pineda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wily Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robbie Grossman",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jacob Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "Catcher"
+        },
+        {
+          "name": "Austin Meadows",
+          "position": "RightField"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "LeftField"
+        },
+        {
+          "name": "Derek Hill",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alex Lange",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rony García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Wentz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tarik Skubal",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Vest",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Torkelson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Beau Brieske",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 133,
+      "players": [
+        {
+          "name": "Elvis Andrus",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jed Lowrie",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Justin Grimm",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Bethancourt",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Adam Kolarek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Frankie Montas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Moll",
+          "position": "Pitcher"
+        },
+        {
+          "name": "James Kaprielian",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Paul Blackburn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chad Pinder",
+          "position": "LeftField"
+        },
+        {
+          "name": "A.J. Puk",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daulton Jefferies",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sheldon Neuse",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Lou Trivino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Barrera",
+          "position": "RightField"
+        },
+        {
+          "name": "Domingo Acevedo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Kemp",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Zach Logue",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ramón Laureano",
+          "position": "RightField"
+        },
+        {
+          "name": "Seth Brown",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Cristian Pache",
+          "position": "CenterField"
+        },
+        {
+          "name": "Dany Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Jackson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sean Murphy",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kirby Snead",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Smith",
+          "position": "ThirdBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Tony Kemp",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Sheldon Neuse",
+        "pitcher": "Joey Wentz",
+        "fielders": [
+          "Spencer Torkelson"
+        ],
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sheldon Neuse",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Chad Pinder",
+        "pitcher": "Joey Wentz",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "scoring_runner": "Chad Pinder",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Chad Pinder",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Sean Murphy",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Chad Pinder",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Joey Wentz",
+        "fielders": [
+          "Joey Wentz"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Meadows",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Cristian Pache"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Javier Báez",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Kevin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Smith",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Kevin Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cristian Pache",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Cristian Pache",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Tony Kemp",
+        "pitcher": "Joey Wentz",
+        "fielders": [
+          "Derek Hill"
+        ],
+        "scoring_runner": "Elvis Andrus",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PickoffCaughtStealing": {
+        "base": 2,
+        "runner": "Cristian Pache",
+        "fielders": [
+          "Joey Wentz"
+        ],
+        "movements": [
+          {
+            "runner": "Cristian Pache",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Willi Castro",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Sheldon Neuse",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Sheldon Neuse",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Chad Pinder",
+        "pitcher": "Joey Wentz",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Sean Murphy",
+        "pitcher": "Joey Wentz",
+        "fielders": [
+          "Derek Hill"
+        ],
+        "scoring_runner": "Sheldon Neuse",
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Sheldon Neuse",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Kevin Smith",
+        "pitcher": "Joey Wentz",
+        "movements": [
+          {
+            "runner": "Kevin Smith",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Wily Peralta",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Derek Hill",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Derek Hill",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Meadows",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Cristian Pache",
+        "pitcher": "Wily Peralta",
+        "movements": [
+          {
+            "runner": "Cristian Pache",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Wily Peralta",
+        "fielders": [
+          "Derek Hill"
+        ],
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Sheldon Neuse",
+        "pitcher": "Wily Peralta",
+        "fielders": [
+          "Derek Hill"
+        ],
+        "movements": [
+          {
+            "runner": "Sheldon Neuse",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Chad Pinder",
+        "pitcher": "Wily Peralta",
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Chad Pinder",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cristian Pache",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cristian Pache",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sean Murphy",
+        "pitcher": "Wily Peralta",
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Chad Pinder"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Wily Peralta",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Wily Peralta",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Kevin Smith",
+        "pitcher": "Wily Peralta",
+        "fielders": [
+          "Jonathan Schoop",
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kevin Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Wily Peralta",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Cristian Pache",
+        "pitcher": "Wily Peralta",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Cristian Pache",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Kevin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Cristian Pache"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Derek Hill",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Derek Hill",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Meadows",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sheldon Neuse",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Sheldon Neuse",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Chad Pinder",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Alex Lange"
+        ],
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Javier Báez",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Sean Murphy"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Chad Pinder"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Zach Logue",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Sean Murphy",
+        "pitcher": "Jacob Barnes",
+        "fielders": [
+          "Jacob Barnes"
+        ],
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Jacob Barnes",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Jacob Barnes",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Willi Castro",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Kevin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Zach Logue",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Smith",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "Kevin Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Cristian Pache",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Cristian Pache",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Austin Meadows"
+        ],
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Derek Hill",
+        "pitcher": "Sam Moll",
+        "movements": [
+          {
+            "runner": "Derek Hill",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Austin Meadows",
+        "pitcher": "Sam Moll",
+        "fielders": [
+          "Kevin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Meadows",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Javier Báez",
+        "pitcher": "Sam Moll",
+        "fielders": [
+          "Kevin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sheldon Neuse",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "Sheldon Neuse",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chad Pinder",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "Chad Pinder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sean Murphy",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "Sheldon Neuse",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sheldon Neuse",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Bethancourt",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Bethancourt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Sean Murphy",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Smith",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Justin Grimm",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Justin Grimm",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Justin Grimm",
+        "fielders": [
+          "Kevin Smith",
+          "Kevin Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willi Castro",
+        "pitcher": "Justin Grimm",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

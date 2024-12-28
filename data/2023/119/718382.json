@@ -1,0 +1,1624 @@
+{
+  "context": {
+    "game_pk": 718382,
+    "date": {
+      "year": 2023,
+      "month": 4,
+      "day": 28
+    },
+    "venue_name": "Dodger Stadium",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 62,
+      "wind_speed": 5
+    },
+    "home_team": {
+      "id": 119,
+      "players": [
+        {
+          "name": "David Peralta",
+          "position": "LeftField"
+        },
+        {
+          "name": "Clayton Kershaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Freddie Freeman",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jason Heyward",
+          "position": "CenterField"
+        },
+        {
+          "name": "Shelby Miller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Muncy",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Trayce Thompson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Noah Syndergaard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Barnes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mookie Betts",
+          "position": "RightField"
+        },
+        {
+          "name": "Chris Taylor",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Yency Almonte",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Evan Phillips",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor González",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Julio Urías",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Phil Bickford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Wynns",
+          "position": "Catcher"
+        },
+        {
+          "name": "Caleb Ferguson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brusdar Graterol",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Gonsolin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dustin May",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Smith",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Miguel Vargas",
+          "position": "SecondBase"
+        },
+        {
+          "name": "James Outman",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alex Vesia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Busch",
+          "position": "ThirdBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 138,
+      "players": [
+        {
+          "name": "Paul Goldschmidt",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Nolan Arenado",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Steven Matz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Miles Mikolas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew VerHagen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willson Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Taylor Motter",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Giovanny Gallegos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Stratton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler O'Neill",
+          "position": "CenterField"
+        },
+        {
+          "name": "Génesis Cabrera",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jack Flaherty",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Montgomery",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Paul DeJong",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Lars Nootbaar",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake Woodford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Hicks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Helsley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dylan Carlson",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrew Knizner",
+          "position": "Catcher"
+        },
+        {
+          "name": "Zack Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "JoJo Romero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Edman",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Nolan Gorman",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Alec Burleson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brendan Donovan",
+          "position": "SecondBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nolan Gorman",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nolan Gorman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nolan Arenado",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "David Peralta"
+        ],
+        "movements": [
+          {
+            "runner": "Nolan Arenado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Willson Contreras",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "Jason Heyward"
+        ],
+        "scoring_runner": "Willson Contreras",
+        "movements": [
+          {
+            "runner": "Nolan Gorman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nolan Gorman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alec Burleson",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "David Peralta"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Burleson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Mookie Betts",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Will Smith",
+        "pitcher": "Jack Flaherty",
+        "fielders": [
+          "Paul DeJong"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Max Muncy",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jason Heyward",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Will Smith",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Will Smith",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "James Outman",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "James Outman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Miguel Vargas",
+        "pitcher": "Jack Flaherty",
+        "fielders": [
+          "Paul DeJong"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Paul DeJong",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Paul DeJong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brendan Donovan",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "James Outman"
+        ],
+        "movements": [
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "David Peralta",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Barnes",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Jack Flaherty",
+        "fielders": [
+          "Lars Nootbaar"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nolan Gorman",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Nolan Gorman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Nolan Arenado",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "Jason Heyward"
+        ],
+        "movements": [
+          {
+            "runner": "Nolan Arenado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Will Smith",
+        "pitcher": "Jack Flaherty",
+        "fielders": [
+          "Dylan Carlson"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Max Muncy",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jason Heyward",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "James Outman",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "James Outman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Vargas",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Miguel Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Alec Burleson",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "Jason Heyward"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Burleson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Paul DeJong",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Paul DeJong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Donovan",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Peralta",
+        "pitcher": "Jack Flaherty",
+        "fielders": [
+          "Nolan Arenado"
+        ],
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Barnes",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Jack Flaherty",
+        "fielders": [
+          "Nolan Arenado"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Dustin May",
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nolan Gorman",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "David Peralta"
+        ],
+        "movements": [
+          {
+            "runner": "Nolan Gorman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nolan Arenado",
+        "pitcher": "Dustin May",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nolan Arenado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Jack Flaherty",
+        "fielders": [
+          "Lars Nootbaar"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Will Smith",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Max Muncy",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "CatcherInterference": {
+        "batter": "Jason Heyward",
+        "pitcher": "Jack Flaherty",
+        "fielders": [
+          "Willson Contreras"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "James Outman",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jason Heyward",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "James Outman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Vargas",
+        "pitcher": "Jack Flaherty",
+        "movements": [
+          {
+            "runner": "Miguel Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chris Taylor",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Caleb Ferguson",
+        "fielders": [
+          "Miguel Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alec Burleson",
+        "pitcher": "Caleb Ferguson",
+        "fielders": [
+          "Miguel Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Burleson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Paul DeJong",
+        "pitcher": "Caleb Ferguson",
+        "movements": [
+          {
+            "runner": "Paul DeJong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Austin Barnes",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mookie Betts",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Freddie Freeman",
+        "pitcher": "JoJo Romero",
+        "fielders": [
+          "JoJo Romero"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Austin Barnes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Will Smith",
+        "pitcher": "JoJo Romero",
+        "fielders": [
+          "Dylan Carlson"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Donovan",
+        "pitcher": "Victor González",
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Victor González",
+        "fielders": [
+          "Max Muncy",
+          "Miguel Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Victor González",
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Brusdar Graterol",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Max Muncy",
+        "pitcher": "JoJo Romero",
+        "fielders": [
+          "Lars Nootbaar"
+        ],
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Trayce Thompson",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "Trayce Thompson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "James Outman",
+        "pitcher": "JoJo Romero",
+        "movements": [
+          {
+            "runner": "James Outman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Miguel Vargas",
+        "pitcher": "Chris Stratton",
+        "movements": [
+          {
+            "runner": "Miguel Vargas",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Trayce Thompson",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Chris Stratton",
+        "fielders": [
+          "Lars Nootbaar"
+        ],
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nolan Gorman",
+        "pitcher": "Shelby Miller",
+        "movements": [
+          {
+            "runner": "Nolan Gorman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nolan Arenado",
+        "pitcher": "Shelby Miller",
+        "fielders": [
+          "Trayce Thompson"
+        ],
+        "movements": [
+          {
+            "runner": "Nolan Arenado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Shelby Miller",
+        "fielders": [
+          "James Outman"
+        ],
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alec Burleson",
+        "pitcher": "Shelby Miller",
+        "fielders": [
+          "Miguel Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Burleson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Barnes",
+        "pitcher": "Chris Stratton",
+        "fielders": [
+          "Lars Nootbaar"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Mookie Betts",
+        "pitcher": "Chris Stratton",
+        "fielders": [
+          "Paul Goldschmidt"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Chris Stratton",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Will Smith",
+        "pitcher": "Chris Stratton",
+        "fielders": [
+          "Lars Nootbaar"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Paul DeJong",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Paul DeJong",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tommy Edman",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Paul DeJong",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Paul DeJong",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Paul DeJong",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Dylan Carlson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Alex Vesia",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nolan Gorman",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Nolan Gorman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1906 @@
+{
+  "context": {
+    "game_pk": 716457,
+    "date": {
+      "year": 2023,
+      "month": 9,
+      "day": 23
+    },
+    "venue_name": "Petco Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 70,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 135,
+      "players": [
+        {
+          "name": "Rich Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Manny Machado",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jurickson Profar",
+          "position": "RightField"
+        },
+        {
+          "name": "Ji Man Choi",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Scott Barlow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Snell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Martinez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seth Lugo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Wacha",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Hader",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Azocar",
+          "position": "CenterField"
+        },
+        {
+          "name": "Garrett Cooper",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Pedro Avila",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robert Suarez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Waldron",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Grisham",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jose Espada",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brett Sullivan",
+          "position": "Catcher"
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "position": "CenterField"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "LeftField"
+        },
+        {
+          "name": "Eguy Rosario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Luis Campusano",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ha-Seong Kim",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tom Cosgrove",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matthew Batten",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ray Kerr",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 138,
+      "players": [
+        {
+          "name": "Adam Wainwright",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Paul Goldschmidt",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Miles Mikolas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew VerHagen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juniel Querecuto",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Casey Lawrence",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Suárez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jacob Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dakota Hudson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Yepez",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Lars Nootbaar",
+          "position": "CenterField"
+        },
+        {
+          "name": "Luken Baker",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jake Woodford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Helsley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Fermín",
+          "position": "SecondBase"
+        },
+        {
+          "name": "John King",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Knizner",
+          "position": "Catcher"
+        },
+        {
+          "name": "Zack Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Edman",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Matthew Liberatore",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andre Pallante",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Iván Herrera",
+          "position": "Catcher"
+        },
+        {
+          "name": "Michael Siani",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Irving Lopez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Richie Palacios",
+          "position": "LeftField"
+        },
+        {
+          "name": "Drew Rom",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Walker",
+          "position": "RightField"
+        },
+        {
+          "name": "Masyn Winn",
+          "position": "Shortstop"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Tommy Edman",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jordan Walker",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Jordan Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Richie Palacios",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Richie Palacios",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Jake Woodford",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Lars Nootbaar"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Juan Soto",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Richie Palacios"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Manny Machado",
+        "pitcher": "Jake Woodford",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis Campusano",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Masyn Winn"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Campusano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Luken Baker",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Luken Baker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Irving Lopez",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Irving Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Richie Palacios"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ji Man Choi",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Paul Goldschmidt"
+        ],
+        "movements": [
+          {
+            "runner": "Ji Man Choi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matthew Batten",
+        "pitcher": "Jake Woodford",
+        "movements": [
+          {
+            "runner": "Matthew Batten",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Paul Goldschmidt"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Masyn Winn",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Masyn Winn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tommy Edman",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jordan Walker",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Jordan Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Jake Woodford",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Jake Woodford",
+        "movements": [
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Juan Soto",
+        "pitcher": "Jake Woodford",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Manny Machado",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Richie Palacios"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Luis Campusano",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Masyn Winn"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Campusano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Richie Palacios",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Ji Man Choi"
+        ],
+        "movements": [
+          {
+            "runner": "Richie Palacios",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Luken Baker",
+        "pitcher": "Nick Martinez",
+        "movements": [
+          {
+            "runner": "Luken Baker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Nick Martinez",
+        "fielders": [
+          "Matthew Batten",
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Luken Baker",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Masyn Winn"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ji Man Choi",
+        "pitcher": "Jake Woodford",
+        "fielders": [
+          "Jake Woodford"
+        ],
+        "movements": [
+          {
+            "runner": "Ji Man Choi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matthew Batten",
+        "pitcher": "Jake Woodford",
+        "movements": [
+          {
+            "runner": "Matthew Batten",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Andre Pallante",
+        "fielders": [
+          "Tommy Edman"
+        ],
+        "movements": [
+          {
+            "runner": "Matthew Batten",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Irving Lopez",
+        "pitcher": "Pedro Avila",
+        "fielders": [
+          "Luis Campusano"
+        ],
+        "movements": [
+          {
+            "runner": "Irving Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Masyn Winn",
+        "pitcher": "Pedro Avila",
+        "movements": [
+          {
+            "runner": "Masyn Winn",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Pedro Avila",
+        "fielders": [
+          "Ha-Seong Kim",
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Masyn Winn",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Andre Pallante",
+        "fielders": [
+          "Masyn Winn"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Andre Pallante",
+        "movements": [
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Soto",
+        "pitcher": "Andre Pallante",
+        "movements": [
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Manny Machado",
+        "pitcher": "Andre Pallante",
+        "fielders": [
+          "Masyn Winn",
+          "Tommy Edman"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tommy Edman",
+        "pitcher": "Pedro Avila",
+        "fielders": [
+          "Ji Man Choi"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Pedro Avila",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jordan Walker",
+        "pitcher": "Pedro Avila",
+        "movements": [
+          {
+            "runner": "Jordan Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Campusano",
+        "pitcher": "Jacob Barnes",
+        "movements": [
+          {
+            "runner": "Luis Campusano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Campusano",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Jacob Barnes",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Garrett Cooper",
+        "pitcher": "Jacob Barnes",
+        "fielders": [
+          "Irving Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Garrett Cooper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matthew Batten",
+        "pitcher": "Jacob Barnes",
+        "fielders": [
+          "Masyn Winn"
+        ],
+        "movements": [
+          {
+            "runner": "Matthew Batten",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Richie Palacios",
+        "pitcher": "Pedro Avila",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Richie Palacios",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Luken Baker",
+        "pitcher": "Pedro Avila",
+        "movements": [
+          {
+            "runner": "Luken Baker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Pedro Avila",
+        "movements": [
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luken Baker",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Irving Lopez",
+        "pitcher": "Pedro Avila",
+        "movements": [
+          {
+            "runner": "Irving Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Masyn Winn",
+        "pitcher": "Pedro Avila",
+        "movements": [
+          {
+            "runner": "Masyn Winn",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Masyn Winn",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knizner",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Luken Baker",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Tom Cosgrove",
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tommy Edman",
+        "pitcher": "Tom Cosgrove",
+        "fielders": [
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "José Azocar",
+        "pitcher": "John King",
+        "fielders": [
+          "Jordan Walker"
+        ],
+        "movements": [
+          {
+            "runner": "José Azocar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "John King",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "John King",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Juan Soto",
+        "pitcher": "John King",
+        "fielders": [
+          "John King",
+          "Masyn Winn"
+        ],
+        "movements": [
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Robert Suarez",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jordan Walker",
+        "pitcher": "Robert Suarez",
+        "fielders": [
+          "Matthew Batten"
+        ],
+        "movements": [
+          {
+            "runner": "Jordan Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Richie Palacios",
+        "pitcher": "Robert Suarez",
+        "fielders": [
+          "Matthew Batten"
+        ],
+        "movements": [
+          {
+            "runner": "Richie Palacios",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Drew VerHagen",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis Campusano",
+        "pitcher": "Drew VerHagen",
+        "fielders": [
+          "Irving Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Campusano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Drew VerHagen",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PickoffCaughtStealing": {
+        "base": 2,
+        "runner": "Ha-Seong Kim",
+        "fielders": [
+          "Ryan Helsley"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luken Baker",
+        "pitcher": "Josh Hader",
+        "fielders": [
+          "Matthew Batten"
+        ],
+        "movements": [
+          {
+            "runner": "Luken Baker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Josh Hader",
+        "movements": [
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Yepez",
+        "pitcher": "Josh Hader",
+        "movements": [
+          {
+            "runner": "Juan Yepez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Garrett Cooper",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "Garrett Cooper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matthew Batten",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "Eguy Rosario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matthew Batten",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "Eguy Rosario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Matthew Batten",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Ryan Helsley",
+        "fielders": [
+          "Juniel Querecuto",
+          "Juniel Querecuto"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eguy Rosario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matthew Batten",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Masyn Winn",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Masyn Winn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Lars Nootbaar",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Jurickson Profar"
+        ],
+        "movements": [
+          {
+            "runner": "Lars Nootbaar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juniel Querecuto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tommy Edman",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Manny Machado",
+        "pitcher": "Casey Lawrence",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Luis Campusano",
+        "pitcher": "Casey Lawrence",
+        "fielders": [
+          "Juniel Querecuto",
+          "Tommy Edman"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Campusano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Casey Lawrence",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eguy Rosario",
+        "pitcher": "Casey Lawrence",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Eguy Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jordan Walker",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Jordan Walker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy Edman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Richie Palacios",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Jurickson Profar"
+        ],
+        "scoring_runner": "Paul Goldschmidt",
+        "movements": [
+          {
+            "runner": "Richie Palacios",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy Edman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luken Baker",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Luken Baker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jordan Walker",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "scoring_runner": "Michael Siani",
+        "movements": [
+          {
+            "runner": "Jordan Walker",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Michael Siani",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jordan Walker",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juniel Querecuto",
+        "pitcher": "Ray Kerr",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Juniel Querecuto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matthew Batten",
+        "pitcher": "Casey Lawrence",
+        "fielders": [
+          "Juniel Querecuto"
+        ],
+        "movements": [
+          {
+            "runner": "Matthew Batten",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Casey Lawrence",
+        "fielders": [
+          "Juniel Querecuto"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Casey Lawrence",
+        "fielders": [
+          "Juniel Querecuto"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

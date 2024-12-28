@@ -1,0 +1,1863 @@
+{
+  "context": {
+    "game_pk": 716738,
+    "date": {
+      "year": 2023,
+      "month": 9,
+      "day": 3
+    },
+    "venue_name": "Great American Ball Park",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 84,
+      "wind_speed": 8
+    },
+    "home_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Derek Law",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Maile",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hunter Renfroe",
+          "position": "RightField"
+        },
+        {
+          "name": "Chasen Shreve",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Moll",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Martini",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Lucas Sims",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tejay Antone",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Fraley",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Daniel Duarte",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Stuart Fairchild",
+          "position": "LeftField"
+        },
+        {
+          "name": "Tyler Stephenson",
+          "position": "Catcher"
+        },
+        {
+          "name": "Brett Kennedy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harrison Bader",
+          "position": "CenterField"
+        },
+        {
+          "name": "Ian Gibaut",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Benson",
+          "position": "RightField"
+        },
+        {
+          "name": "Spencer Steer",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Nick Senzel",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "TJ Friedl",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrew Abbott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lyon Richardson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Noelvi Marte",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Elly De La Cruz",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Connor Phillips",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carson Spiers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Encarnacion-Strand",
+          "position": "FirstBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 112,
+      "players": [
+        {
+          "name": "Yan Gomes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kyle Hendricks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shane Greene",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew Smyly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jameson Taillon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jose Cuas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dansby Swanson",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Patrick Wisdom",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Keegan Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adbert Alzolay",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Bellinger",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Mark Leiter Jr.",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Tauchman",
+          "position": "CenterField"
+        },
+        {
+          "name": "Justin Steele",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Julian Merryweather",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nico Hoerner",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Nick Madrigal",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ian Happ",
+          "position": "LeftField"
+        },
+        {
+          "name": "Miguel Amaya",
+          "position": "Catcher"
+        },
+        {
+          "name": "Javier Assad",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christopher Morel",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Hayden Wesneski",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Miles Mastrobuoni",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Alexander Canario",
+          "position": "CenterField"
+        },
+        {
+          "name": "Seiya Suzuki",
+          "position": "RightField"
+        },
+        {
+          "name": "Daniel Palencia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Wicks",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Mike Tauchman",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Mike Tauchman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ian Happ",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Carson Spiers",
+        "fielders": [
+          "Will Benson"
+        ],
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Martini",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Nick Martini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "TJ Friedl",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Spencer Steer",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Miguel Amaya",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Miguel Amaya",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mike Tauchman",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Mike Tauchman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Madrigal",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Madrigal",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Amaya",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Amaya",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFlyDoublePlay": {
+        "batter": "Ian Happ",
+        "pitcher": "Carson Spiers",
+        "fielders": [
+          "TJ Friedl",
+          "TJ Friedl"
+        ],
+        "scoring_runner": "Mike Tauchman",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Amaya",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Will Benson",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Will Benson",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Noelvi Marte",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Noelvi Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Harrison Bader",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Martini",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Nick Martini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Carson Spiers",
+        "fielders": [
+          "Spencer Steer"
+        ],
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Spencer Steer",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Carson Spiers",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Amaya",
+        "pitcher": "Carson Spiers",
+        "movements": [
+          {
+            "runner": "Miguel Amaya",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Will Benson",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Noelvi Marte",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Noelvi Marte",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mike Tauchman",
+        "pitcher": "Chasen Shreve",
+        "movements": [
+          {
+            "runner": "Mike Tauchman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Chasen Shreve",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Ian Happ",
+        "pitcher": "Chasen Shreve",
+        "fielders": [
+          "Christian Encarnacion-Strand"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Harrison Bader",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Martini",
+        "pitcher": "Jameson Taillon",
+        "fielders": [
+          "Miguel Amaya",
+          "Mike Tauchman"
+        ],
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Martini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "TJ Friedl",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Spencer Steer",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Chasen Shreve",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Lucas Sims",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Lucas Sims",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Lucas Sims",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Lucas Sims",
+        "fielders": [
+          "Will Benson"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Benson",
+        "pitcher": "Jameson Taillon",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Daniel Palencia",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Noelvi Marte",
+        "pitcher": "Daniel Palencia",
+        "movements": [
+          {
+            "runner": "Noelvi Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Miguel Amaya",
+        "pitcher": "Ian Gibaut",
+        "fielders": [
+          "Will Benson"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Amaya",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mike Tauchman",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Mike Tauchman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ian Happ",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Daniel Palencia",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Nick Martini",
+        "pitcher": "Daniel Palencia",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Martini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Daniel Palencia",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Derek Law",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Derek Law",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Dansby Swanson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dansby Swanson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Derek Law",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Alexis Díaz",
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Dansby Swanson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Miles Mastrobuoni",
+        "pitcher": "Alexis Díaz",
+        "fielders": [
+          "Alexis Díaz"
+        ],
+        "runner": "Jeimer Candelario",
+        "movements": [
+          {
+            "runner": "Miles Mastrobuoni",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Madrigal",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mike Tauchman",
+        "pitcher": "Alexis Díaz",
+        "movements": [
+          {
+            "runner": "Mike Tauchman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Madrigal",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Madrigal",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Miles Mastrobuoni",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Miles Mastrobuoni",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Brett Kennedy",
+        "fielders": [
+          "Spencer Steer"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ian Happ",
+        "pitcher": "Brett Kennedy",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Brett Kennedy",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "scoring_runner": "Miles Mastrobuoni",
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miles Mastrobuoni",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Brett Kennedy",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Brett Kennedy",
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Spencer Steer",
+        "pitcher": "Keegan Thompson",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Keegan Thompson",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Keegan Thompson",
+        "fielders": [
+          "Mike Tauchman"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Will Benson",
+        "pitcher": "Keegan Thompson",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Keegan Thompson",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Noelvi Marte",
+        "pitcher": "Keegan Thompson",
+        "movements": [
+          {
+            "runner": "Noelvi Marte",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Will Benson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Keegan Thompson",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Brett Kennedy",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nick Madrigal",
+        "pitcher": "Brett Kennedy",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Madrigal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yan Gomes",
+        "pitcher": "Brett Kennedy",
+        "fielders": [
+          "Noelvi Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Mike Tauchman",
+        "pitcher": "Brett Kennedy",
+        "movements": [
+          {
+            "runner": "Mike Tauchman",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Brett Kennedy",
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ian Happ",
+        "pitcher": "Brett Kennedy",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Tauchman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Cody Bellinger",
+        "pitcher": "Brett Kennedy",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Cody Bellinger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Martini",
+        "pitcher": "Shane Greene",
+        "movements": [
+          {
+            "runner": "Nick Martini",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Shane Greene",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Spencer Steer",
+        "pitcher": "Shane Greene",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Shane Greene",
+        "fielders": [
+          "Mike Tauchman"
+        ],
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

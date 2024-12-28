@@ -1,0 +1,1559 @@
+{
+  "context": {
+    "game_pk": 662917,
+    "date": {
+      "year": 2022,
+      "month": 8,
+      "day": 20
+    },
+    "venue_name": "Comerica Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 80,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Cisnero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Drew Hutchison",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Victor Reyes",
+          "position": "LeftField"
+        },
+        {
+          "name": "Tyler Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "RightField"
+        },
+        {
+          "name": "Alex Lange",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kody Clemens",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Matt Manning",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Akil Baddoo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jason Foley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Vest",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kerry Carpenter",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Garrett Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Riley Greene",
+          "position": "CenterField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 108,
+      "players": [
+        {
+          "name": "Kurt Suzuki",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Jesse Chavez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Stassi",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mike Trout",
+          "position": "CenterField"
+        },
+        {
+          "name": "Aaron Loup",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Tepera",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Mayers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Phil Gosselin",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Taylor Ward",
+          "position": "RightField"
+        },
+        {
+          "name": "Andrew Velazquez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jimmy Herget",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Magneuris Sierra",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Jaime Barria",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Quijada",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Rengifo",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Tucker Davidson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Touki Toussaint",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shohei Ohtani",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Suarez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Sandoval",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Fletcher",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jared Walsh",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jo Adell",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jose Rojas",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Reid Detmers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Wantz",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mike Trout",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Harold Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Trout",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Taylor Ward",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "David Fletcher",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jo Adell",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "Jo Adell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Riley Greene",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Willi Castro",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Eric Haase",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Taylor Ward"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Max Stassi",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Andrew Velazquez",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Andrew Velazquez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Mike Trout",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Mike Trout",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Harold Castro",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Castro",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Castro",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Victor Reyes",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Riley Greene",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Reyes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Willi Castro",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Reyes",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Riley Greene",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Javier Báez",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Jared Walsh"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Taylor Ward",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Fletcher",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Jo Adell",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "scoring_runner": "Luis Rengifo",
+        "movements": [
+          {
+            "runner": "Jo Adell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jared Walsh",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Kody Clemens"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Eric Haase",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Harold Castro",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Reid Detmers"
+        ],
+        "runner": "Eric Haase",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eric Haase",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Taylor Ward"
+        ],
+        "scoring_runner": "Eric Haase",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eric Haase",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Kody Clemens",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Kody Clemens",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Andrew Velazquez"
+        ],
+        "movements": [
+          {
+            "runner": "Kody Clemens",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Mike Trout"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Max Stassi",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "BuntGroundout": {
+        "batter": "Andrew Velazquez",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Velazquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Riley Greene",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Willi Castro",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Andrew Velazquez"
+        ],
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Javier Báez",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Jo Adell"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eric Haase",
+        "pitcher": "Reid Detmers",
+        "fielders": [
+          "Luis Rengifo"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mike Trout",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Trout",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Taylor Ward",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Castro",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kody Clemens",
+        "pitcher": "Reid Detmers",
+        "movements": [
+          {
+            "runner": "Kody Clemens",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Jaime Barria",
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Victor Reyes",
+        "pitcher": "Jaime Barria",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Reyes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kody Clemens",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kody Clemens",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Riley Greene",
+        "pitcher": "Jaime Barria",
+        "fielders": [
+          "Jared Walsh"
+        ],
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jo Adell",
+        "pitcher": "Tyler Alexander",
+        "movements": [
+          {
+            "runner": "Jo Adell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "BuntGroundout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jo Adell",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Max Stassi",
+        "pitcher": "Tyler Alexander",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willi Castro",
+        "pitcher": "Jaime Barria",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Javier Báez",
+        "pitcher": "Jaime Barria",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Eric Haase",
+        "pitcher": "Jaime Barria",
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Harold Castro",
+        "pitcher": "Jaime Barria",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrew Velazquez",
+        "pitcher": "Alex Lange",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Velazquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mike Trout",
+        "pitcher": "Alex Lange",
+        "movements": [
+          {
+            "runner": "Mike Trout",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Jaime Barria",
+        "fielders": [
+          "Andrew Velazquez"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kody Clemens",
+        "pitcher": "Jaime Barria",
+        "movements": [
+          {
+            "runner": "Kody Clemens",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tucker Barnhart",
+        "pitcher": "Jaime Barria",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Tucker Barnhart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Taylor Ward",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "David Fletcher",
+        "pitcher": "Joe Jiménez",
+        "fielders": [
+          "Riley Greene"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Aaron Loup",
+        "fielders": [
+          "Aaron Loup"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Riley Greene",
+        "pitcher": "Aaron Loup",
+        "fielders": [
+          "Luis Rengifo"
+        ],
+        "movements": [
+          {
+            "runner": "Riley Greene",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Willi Castro",
+        "pitcher": "Aaron Loup",
+        "fielders": [
+          "Taylor Ward"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jo Adell",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Harold Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Jo Adell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Gregory Soto",
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Max Stassi",
+        "pitcher": "Gregory Soto",
+        "fielders": [
+          "Javier Báez",
+          "Kody Clemens"
+        ],
+        "movements": [
+          {
+            "runner": "Magneuris Sierra",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

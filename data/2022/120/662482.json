@@ -1,0 +1,1581 @@
+{
+  "context": {
+    "game_pk": 662482,
+    "date": {
+      "year": 2022,
+      "month": 7,
+      "day": 2
+    },
+    "venue_name": "Nationals Park",
+    "weather": {
+      "condition": "Overcast",
+      "temperature": 89,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "Nelson Cruz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Alcides Escobar",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Ehire Adrianza",
+          "position": "LeftField"
+        },
+        {
+          "name": "Paolo Espino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "César Hernández",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Steve Cishek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erasmo Ramírez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Maikel Franco",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrés Machado",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Carl Edwards Jr.",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erick Fedde",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yadiel Hernandez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor Robles",
+          "position": "CenterField"
+        },
+        {
+          "name": "Lane Thomas",
+          "position": "CenterField"
+        },
+        {
+          "name": "Reed Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Keibert Ruiz",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tanner Rainey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "RightField"
+        },
+        {
+          "name": "Mason Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tres Barrera",
+          "position": "Catcher"
+        },
+        {
+          "name": "Luis García Jr.",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jackson Tetreault",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josiah Gray",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 146,
+      "players": [
+        {
+          "name": "Miguel Rojas",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Avisaíl García",
+          "position": "RightField"
+        },
+        {
+          "name": "Jesús Aguilar",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Anthony Bass",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jon Berti",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Richard Bleier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dylan Floro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Billy Hamilton",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Steven Okert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brian Anderson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jacob Stallings",
+          "position": "Catcher"
+        },
+        {
+          "name": "Joey Wendle",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Pablo López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daniel Castano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jimmy Yacabonis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Cooper",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Sandy Alcantara",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Pop",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bryan De La Cruz",
+          "position": "LeftField"
+        },
+        {
+          "name": "Tanner Scott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jesús Sánchez",
+          "position": "CenterField"
+        },
+        {
+          "name": "Nick Fortes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Luke Williams",
+          "position": "LeftField"
+        },
+        {
+          "name": "Braxton Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Nance",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Rogers",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Jon Berti",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Garrett Cooper",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Garrett Cooper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jon Berti",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jon Berti",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Maikel Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Avisaíl García",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "César Hernández",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Juan Soto",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Josh Bell",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Brian Anderson",
+          "Jon Berti"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brian Anderson",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Fortes",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Brian Anderson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Victor Robles"
+        ],
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jon Berti",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Victor Robles"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Jon Berti"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Maikel Franco",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lane Thomas",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Lane Thomas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Cruz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Cruz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Bryan De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tres Barrera",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "Tres Barrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tres Barrera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Lane Thomas",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Cruz",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Victor Robles",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Jesús Aguilar"
+        ],
+        "movements": [
+          {
+            "runner": "Tres Barrera",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Garrett Cooper",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Garrett Cooper",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Jackson Tetreault"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Garrett Cooper",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Avisaíl García",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Garrett Cooper",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Brian Anderson",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "César Hernández",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Juan Soto",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Jesús Aguilar",
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Bell",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Jon Berti"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Nick Fortes",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Victor Robles"
+        ],
+        "scoring_runner": "Nick Fortes",
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Fortes",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Jon Berti",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Garrett Cooper",
+        "pitcher": "Jackson Tetreault",
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Garrett Cooper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Jackson Tetreault",
+        "fielders": [
+          "Maikel Franco",
+          "Maikel Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Brian Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Maikel Franco",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Lane Thomas",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Andrés Machado",
+        "fielders": [
+          "Lane Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Avisaíl García",
+        "pitcher": "Andrés Machado",
+        "fielders": [
+          "Andrés Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brian Anderson",
+        "pitcher": "Andrés Machado",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Tres Barrera",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Tres Barrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Victor Robles",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "César Hernández",
+        "pitcher": "Daniel Castano",
+        "fielders": [
+          "Brian Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Fortes",
+        "pitcher": "Andrés Machado",
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Andrés Machado",
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Andrés Machado",
+        "fielders": [
+          "Maikel Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jon Berti",
+        "pitcher": "Andrés Machado",
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Garrett Cooper",
+        "pitcher": "Andrés Machado",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Garrett Cooper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Juan Soto",
+        "pitcher": "Daniel Castano",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Bell",
+        "pitcher": "Zach Pop",
+        "fielders": [
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Zach Pop",
+        "fielders": [
+          "Bryan De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Maikel Franco",
+        "pitcher": "Zach Pop",
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Reed Garrett",
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Reed Garrett",
+        "fielders": [
+          "Lane Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Avisaíl García",
+        "pitcher": "Reed Garrett",
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brian Anderson",
+        "pitcher": "Reed Garrett",
+        "movements": [
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nick Fortes",
+        "pitcher": "Reed Garrett",
+        "fielders": [
+          "Maikel Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Lane Thomas",
+        "pitcher": "Anthony Bass",
+        "fielders": [
+          "Nick Fortes"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis García Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yadiel Hernandez",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Yadiel Hernandez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "César Hernández",
+        "pitcher": "Anthony Bass",
+        "fielders": [
+          "Avisaíl García"
+        ],
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "César Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jon Berti",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "César Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Steven Okert",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Steven Okert",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Steven Okert",
+        "fielders": [
+          "Bryan De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Garrett Cooper",
+        "pitcher": "Steve Cishek",
+        "movements": [
+          {
+            "runner": "Garrett Cooper",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Steve Cishek",
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Maikel Franco",
+        "pitcher": "Tanner Scott",
+        "fielders": [
+          "Jon Berti"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lane Thomas",
+        "pitcher": "Tanner Scott",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Tanner Scott",
+        "fielders": [
+          "Jesús Aguilar"
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Lane Thomas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Tanner Scott",
+        "fielders": [
+          "Jesús Sánchez"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

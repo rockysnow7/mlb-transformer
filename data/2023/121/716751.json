@@ -1,0 +1,1673 @@
+{
+  "context": {
+    "game_pk": 716751,
+    "date": {
+      "year": 2023,
+      "month": 9,
+      "day": 2
+    },
+    "venue_name": "Citi Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 71,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 121,
+      "players": [
+        {
+          "name": "Carlos Carrasco",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Ottavino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Quintana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rafael Ortega",
+          "position": "CenterField"
+        },
+        {
+          "name": "Brooks Raley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Omar Narváez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Francisco Lindor",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Daniel Vogelbach",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brandon Nimmo",
+          "position": "CenterField"
+        },
+        {
+          "name": "DJ Stewart",
+          "position": "RightField"
+        },
+        {
+          "name": "Drew Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pete Alonso",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Phil Bickford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Gott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tim Locastro",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Jeff McNeil",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jeff Brigham",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tylor Megill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Peterson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sean Reid-Foley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Araúz",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Mark Vientos",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Kodai Senga",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Buttó",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ronny Mauricio",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Francisco Alvarez",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Brett Baty",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Grant Hartwig",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 136,
+      "players": [
+        {
+          "name": "Eugenio Suárez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Luke Weaver",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Teoscar Hernández",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Dominic Leone",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Castillo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Topa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.P. Crawford",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Tayler Saucedo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gabe Speier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Ford",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brian O'Keefe",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andrés Muñoz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Thornton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Isaiah Campbell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cal Raleigh",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ty France",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Sam Haggerty",
+          "position": "LeftField"
+        },
+        {
+          "name": "Dylan Moore",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Brash",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Rojas",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Logan Gilbert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "George Kirby",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Caballero",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Julio Rodríguez",
+          "position": "CenterField"
+        },
+        {
+          "name": "Bryce Miller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dominic Canzone",
+          "position": "RightField"
+        },
+        {
+          "name": "Cade Marlowe",
+          "position": "LeftField"
+        },
+        {
+          "name": "Bryan Woo",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "J.P. Crawford",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Julio Rodríguez",
+        "pitcher": "David Peterson",
+        "fielders": [
+          "Francisco Lindor"
+        ],
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Julio Rodríguez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "David Peterson",
+        "fielders": [
+          "Francisco Lindor",
+          "Ronny Mauricio"
+        ],
+        "movements": [
+          {
+            "runner": "Julio Rodríguez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "J.P. Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Pete Alonso",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cal Raleigh",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "Cal Raleigh",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ty France",
+        "pitcher": "David Peterson",
+        "fielders": [
+          "Ronny Mauricio"
+        ],
+        "movements": [
+          {
+            "runner": "Ty France",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Cal Raleigh",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dylan Moore",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "Dylan Moore",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Sam Haggerty",
+        "pitcher": "David Peterson",
+        "fielders": [
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Sam Haggerty",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Daniel Vogelbach",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Sam Haggerty"
+        ],
+        "movements": [
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "DJ Stewart",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "J.P. Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Mark Vientos",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Dylan Moore"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Vientos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Caballero",
+        "pitcher": "David Peterson",
+        "fielders": [
+          "Mark Vientos"
+        ],
+        "movements": [
+          {
+            "runner": "José Caballero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.P. Crawford",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Julio Rodríguez",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "Julio Rodríguez",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "J.P. Crawford",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Julio Rodríguez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cal Raleigh",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "Cal Raleigh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Omar Narváez",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronny Mauricio",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Ronny Mauricio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Ronny Mauricio",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Dylan Moore"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ty France",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "Ty France",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dylan Moore",
+        "pitcher": "David Peterson",
+        "fielders": [
+          "DJ Stewart"
+        ],
+        "movements": [
+          {
+            "runner": "Dylan Moore",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Sam Haggerty",
+        "pitcher": "David Peterson",
+        "fielders": [
+          "DJ Stewart"
+        ],
+        "movements": [
+          {
+            "runner": "Sam Haggerty",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "José Caballero",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "José Caballero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Pete Alonso",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Daniel Vogelbach",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "DJ Stewart",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Pete Alonso",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mark Vientos",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Mark Vientos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Omar Narváez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronny Mauricio",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Ronny Mauricio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Mark Vientos",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "J.P. Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Ty France"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "J.P. Crawford",
+        "pitcher": "David Peterson",
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Julio Rodríguez",
+        "pitcher": "Grant Hartwig",
+        "fielders": [
+          "Ronny Mauricio"
+        ],
+        "movements": [
+          {
+            "runner": "Julio Rodríguez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "J.P. Crawford",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Grant Hartwig",
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "J.P. Crawford",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Grant Hartwig",
+        "fielders": [
+          "DJ Stewart"
+        ],
+        "scoring_runner": "J.P. Crawford",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "J.P. Crawford",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cal Raleigh",
+        "pitcher": "Grant Hartwig",
+        "movements": [
+          {
+            "runner": "Cal Raleigh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Dylan Moore"
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jeff McNeil",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Daniel Vogelbach",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "José Caballero"
+        ],
+        "movements": [
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "DJ Stewart",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Ty France"
+        ],
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Ty France",
+        "pitcher": "Grant Hartwig",
+        "movements": [
+          {
+            "runner": "Ty France",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Dominic Canzone",
+        "pitcher": "Grant Hartwig",
+        "movements": [
+          {
+            "runner": "Dominic Canzone",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Mike Ford",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sam Haggerty",
+        "pitcher": "Grant Hartwig",
+        "movements": [
+          {
+            "runner": "Sam Haggerty",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "José Caballero",
+        "pitcher": "Sean Reid-Foley",
+        "movements": [
+          {
+            "runner": "José Caballero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Sam Haggerty",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.P. Crawford",
+        "pitcher": "Sean Reid-Foley",
+        "movements": [
+          {
+            "runner": "Sam Haggerty",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Julio Rodríguez",
+        "pitcher": "Sean Reid-Foley",
+        "fielders": [
+          "Mark Vientos"
+        ],
+        "movements": [
+          {
+            "runner": "Julio Rodríguez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Sam Haggerty",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Sean Reid-Foley",
+        "movements": [
+          {
+            "runner": "Julio Rodríguez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Mark Vientos",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Mark Vientos",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Omar Narváez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ronny Mauricio",
+        "pitcher": "Gabe Speier",
+        "movements": [
+          {
+            "runner": "Ronny Mauricio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Gabe Speier",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Gabe Speier",
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Omar Narváez",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Gabe Speier",
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Matt Brash",
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Phil Bickford",
+        "fielders": [
+          "DJ Stewart"
+        ],
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Cal Raleigh",
+        "pitcher": "Phil Bickford",
+        "fielders": [
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Cal Raleigh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mike Ford",
+        "pitcher": "Phil Bickford",
+        "movements": [
+          {
+            "runner": "Mike Ford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Daniel Vogelbach",
+        "pitcher": "Matt Brash",
+        "fielders": [
+          "Mike Ford"
+        ],
+        "movements": [
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "DJ Stewart",
+        "pitcher": "Matt Brash",
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Mark Vientos",
+        "pitcher": "Matt Brash",
+        "movements": [
+          {
+            "runner": "Mark Vientos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Omar Narváez",
+        "pitcher": "Matt Brash",
+        "fielders": [
+          "Dominic Canzone"
+        ],
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Dominic Canzone",
+        "pitcher": "Trevor Gott",
+        "fielders": [
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Canzone",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Sam Haggerty",
+        "pitcher": "Trevor Gott",
+        "fielders": [
+          "DJ Stewart"
+        ],
+        "movements": [
+          {
+            "runner": "Sam Haggerty",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Trevor Gott",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ronny Mauricio",
+        "pitcher": "Tayler Saucedo",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Ronny Mauricio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Tayler Saucedo",
+        "fielders": [
+          "Julio Rodríguez"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Tayler Saucedo",
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Tayler Saucedo",
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Justin Topa",
+        "fielders": [
+          "Justin Topa"
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "J.P. Crawford",
+        "pitcher": "Adam Ottavino",
+        "movements": [
+          {
+            "runner": "J.P. Crawford",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Julio Rodríguez",
+        "pitcher": "Adam Ottavino",
+        "movements": [
+          {
+            "runner": "Julio Rodríguez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Adam Ottavino",
+        "fielders": [
+          "Jonathan Araúz"
+        ],
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Adam Ottavino",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Daniel Vogelbach",
+        "pitcher": "Justin Topa",
+        "movements": [
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "DJ Stewart",
+        "pitcher": "Justin Topa",
+        "movements": [
+          {
+            "runner": "DJ Stewart",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Brett Baty",
+        "pitcher": "Justin Topa",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Brett Baty",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Francisco Alvarez",
+        "pitcher": "Justin Topa",
+        "fielders": [
+          "Justin Topa"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Alvarez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

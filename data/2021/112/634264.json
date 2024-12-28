@@ -1,0 +1,1282 @@
+{
+  "context": {
+    "game_pk": 634264,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 4
+    },
+    "venue_name": "Wrigley Field",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 52,
+      "wind_speed": 3
+    },
+    "home_team": {
+      "id": 112,
+      "players": [
+        {
+          "name": "Jason Heyward",
+          "position": "RightField"
+        },
+        {
+          "name": "Craig Kimbrel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Anthony Rizzo",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Eric Sogard",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Kyle Hendricks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ildemaro Vargas",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jake Marisnick",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tony Wolters",
+          "position": "Catcher"
+        },
+        {
+          "name": "Rex Brothers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Tepera",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willson Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kris Bryant",
+          "position": "RightField"
+        },
+        {
+          "name": "Joc Pederson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Trevor Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Ryan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Dillon Maples",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Davies",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alec Mills",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Duffy",
+          "position": "LeftField"
+        },
+        {
+          "name": "David Bote",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Keegan Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kohl Stewart",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adbert Alzolay",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Steele",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ian Happ",
+          "position": "CenterField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 119,
+      "players": [
+        {
+          "name": "Kenley Jansen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Turner",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Clayton Kershaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jimmy Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Bauer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Muncy",
+          "position": "FirstBase"
+        },
+        {
+          "name": "AJ Pollock",
+          "position": "LeftField"
+        },
+        {
+          "name": "Austin Barnes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mookie Betts",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Beaty",
+          "position": "LeftField"
+        },
+        {
+          "name": "Corey Seager",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Chris Taylor",
+          "position": "CenterField"
+        },
+        {
+          "name": "Walker Buehler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edwin Ríos",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Victor González",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Julio Urías",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sheldon Neuse",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Dennis Santana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Keibert Ruiz",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Garrett Cleavinger",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gavin Lux",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mitch White",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Raley",
+          "position": "LeftField"
+        },
+        {
+          "name": "Alex Vesia",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "FieldError": {
+        "batter": "Mookie Betts",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Corey Seager",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez",
+          "David Bote"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Justin Turner",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Kris Bryant",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kris Bryant",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Javier Báez",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Duffy",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "David Bote",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Duffy",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Duffy",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Clayton Kershaw",
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Marisnick",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Hendricks",
+        "pitcher": "Clayton Kershaw",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Hendricks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Max Muncy",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "AJ Pollock",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Jake Marisnick"
+        ],
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Lux",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Barnes",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Willson Contreras",
+        "pitcher": "Dennis Santana",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Kris Bryant",
+        "pitcher": "Dennis Santana",
+        "fielders": [
+          "Justin Turner",
+          "Gavin Lux"
+        ],
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kris Bryant",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Dennis Santana",
+        "fielders": [
+          "AJ Pollock"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Javier Báez",
+        "pitcher": "Dennis Santana",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dennis Santana",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Dennis Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mookie Betts",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Corey Seager",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Matt Duffy"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Justin Turner",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Muncy",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Duffy",
+        "pitcher": "Dennis Santana",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "David Bote",
+        "pitcher": "Dennis Santana",
+        "fielders": [
+          "AJ Pollock"
+        ],
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Dennis Santana",
+        "movements": [
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Dennis Santana",
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Marisnick",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Marisnick",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Hendricks",
+        "pitcher": "Dennis Santana",
+        "fielders": [
+          "Austin Barnes",
+          "Dennis Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Marisnick",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Hendricks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Chris Taylor",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Jake Marisnick"
+        ],
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "AJ Pollock",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Lux",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Barnes",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Lux",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Edwin Ríos",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Edwin Ríos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Jimmy Nelson",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kris Bryant",
+        "pitcher": "Jimmy Nelson",
+        "movements": [
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Jimmy Nelson",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Jake Marisnick"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Corey Seager",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "David Bote"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Justin Turner",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Duffy",
+        "pitcher": "Alex Vesia",
+        "fielders": [
+          "Gavin Lux"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "David Bote",
+        "pitcher": "Alex Vesia",
+        "fielders": [
+          "Austin Barnes"
+        ],
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Muncy",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Chris Taylor",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "AJ Pollock",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Matt Duffy"
+        ],
+        "movements": [
+          {
+            "runner": "AJ Pollock",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Gavin Lux",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Chris Taylor",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gavin Lux",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Alex Vesia",
+        "fielders": [
+          "Chris Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Hendricks",
+        "pitcher": "Alex Vesia",
+        "movements": [
+          {
+            "runner": "Kyle Hendricks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Alex Vesia",
+        "fielders": [
+          "AJ Pollock"
+        ],
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Austin Barnes",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Willson Contreras"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Barnes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mookie Betts",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Corey Seager",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez",
+          "Javier Báez",
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mookie Betts",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Justin Turner",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Javier Báez",
+          "Ildemaro Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Seager",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1757 @@
+{
+  "context": {
+    "game_pk": 717495,
+    "date": {
+      "year": 2023,
+      "month": 7,
+      "day": 4
+    },
+    "venue_name": "Progressive Field",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 82,
+      "wind_speed": 6
+    },
+    "home_team": {
+      "id": 114,
+      "players": [
+        {
+          "name": "Cam Gallagher",
+          "position": "Catcher"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "FirstBase"
+        },
+        {
+          "name": "José Ramírez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Cal Quantrill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Amed Rosario",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Josh Naylor",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Aaron Civale",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Hentges",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Enyel De Los Santos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emmanuel Clase",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Stephan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Myles Straw",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrés Giménez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bo Naylor",
+          "position": "Catcher"
+        },
+        {
+          "name": "Gavin Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eli Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shane Bieber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Freeman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Gabriel Arias",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Xzavion Curry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tanner Bibee",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Sandlin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Kwan",
+          "position": "LeftField"
+        },
+        {
+          "name": "David Fry",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tim Herrin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Brennan",
+          "position": "RightField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 144,
+      "players": [
+        {
+          "name": "Charlie Morton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kirby Yates",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Charlie Culberson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Travis d'Arnaud",
+          "position": "Catcher"
+        },
+        {
+          "name": "Marcell Ozuna",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Collin McHugh",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Tonkin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eddie Rosario",
+          "position": "LeftField"
+        },
+        {
+          "name": "Orlando Arcia",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Kevin Pillar",
+          "position": "LeftField"
+        },
+        {
+          "name": "Ben Heller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "A.J. Minter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Olson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Nick Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ozzie Albies",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Michael Soroka",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Hilliard",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Ronald Acuña Jr.",
+          "position": "RightField"
+        },
+        {
+          "name": "Kolby Allard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Riley",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Sean Murphy",
+          "position": "Catcher"
+        },
+        {
+          "name": "Michael Harris II",
+          "position": "CenterField"
+        },
+        {
+          "name": "Spencer Strider",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bryce Elder",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "CatcherInterference": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Cam Gallagher"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Riley",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Olson",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "David Fry"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Kolby Allard",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Kolby Allard",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Ramírez",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Michael Harris II",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Josh Bell"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Bell",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Michael Harris II"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Ronald Acuña Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "David Fry",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Michael Harris II"
+        ],
+        "movements": [
+          {
+            "runner": "David Fry",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Austin Riley",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Amed Rosario",
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Freeman",
+        "pitcher": "Kolby Allard",
+        "movements": [
+          {
+            "runner": "Tyler Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Myles Straw",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cam Gallagher",
+        "pitcher": "Kolby Allard",
+        "movements": [
+          {
+            "runner": "Cam Gallagher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Steven Kwan",
+        "pitcher": "Kolby Allard",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Freeman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Amed Rosario",
+        "pitcher": "Kolby Allard",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Freeman",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "José Ramírez",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Ronald Acuña Jr."
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Olson",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Josh Bell",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Matt Olson"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Michael Harris II"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "David Fry",
+        "pitcher": "Kolby Allard",
+        "movements": [
+          {
+            "runner": "David Fry",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyler Freeman",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Michael Harris II",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "David Fry"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Riley",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Olson",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Riley",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Eli Morgan",
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Myles Straw",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Ronald Acuña Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Cam Gallagher",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Cam Gallagher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Kolby Allard",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Michael Harris II",
+        "pitcher": "Eli Morgan",
+        "fielders": [
+          "Tyler Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Eli Morgan",
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Eli Morgan",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Riley",
+        "pitcher": "Eli Morgan",
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Amed Rosario",
+        "pitcher": "Kolby Allard",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "José Ramírez",
+        "pitcher": "Collin McHugh",
+        "fielders": [
+          "Ronald Acuña Jr."
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Bell",
+        "pitcher": "Collin McHugh",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Collin McHugh",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "David Fry",
+        "pitcher": "Collin McHugh",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "David Fry",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Olson",
+        "pitcher": "Nick Sandlin",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Nick Sandlin",
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Nick Sandlin",
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Nick Sandlin",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Freeman",
+        "pitcher": "Kirby Yates",
+        "movements": [
+          {
+            "runner": "Tyler Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Myles Straw",
+        "pitcher": "Kirby Yates",
+        "fielders": [
+          "Austin Riley"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Freeman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Will Brennan",
+        "pitcher": "Kirby Yates",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Steven Kwan",
+        "pitcher": "Kirby Yates",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Freeman",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Amed Rosario",
+        "pitcher": "Kirby Yates",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Ramírez",
+        "pitcher": "Kirby Yates",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Orlando Arcia",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Michael Harris II",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Tyler Freeman",
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Orlando Arcia",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Michael Harris II",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ronald Acuña Jr.",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Ronald Acuña Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Bell",
+        "pitcher": "Joe Jiménez",
+        "fielders": [
+          "Ozzie Albies"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Fry",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "David Fry",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andrés Giménez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler Freeman",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Tyler Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Myles Straw",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "David Fry",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ozzie Albies",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Ozzie Albies",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Riley",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Riley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Olson",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Travis d'Arnaud",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Travis d'Arnaud",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Will Brennan",
+        "pitcher": "Nick Anderson",
+        "fielders": [
+          "Michael Harris II"
+        ],
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Nick Anderson",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Nick Anderson",
+        "fielders": [
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marcell Ozuna",
+        "pitcher": "Enyel De Los Santos",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "Marcell Ozuna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Sam Hilliard",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Enyel De Los Santos",
+        "fielders": [
+          "Myles Straw",
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Sam Hilliard",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "José Ramírez",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Raisel Iglesias",
+        "fielders": [
+          "Raisel Iglesias",
+          "Orlando Arcia"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Amed Rosario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Fry",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "David Fry",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Amed Rosario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Andrés Giménez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

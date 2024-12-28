@@ -1,0 +1,1482 @@
+{
+  "context": {
+    "game_pk": 715749,
+    "date": {
+      "year": 2022,
+      "month": 10,
+      "day": 18
+    },
+    "venue_name": "Yankee Stadium",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 57,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 147,
+      "players": [
+        {
+          "name": "Lucas Luetge",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marwin Gonzalez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Josh Donaldson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Anthony Rizzo",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Gerrit Cole",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Hicks",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Higashioka",
+          "position": "Catcher"
+        },
+        {
+          "name": "Matt Carpenter",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Aaron Judge",
+          "position": "RightField"
+        },
+        {
+          "name": "Jameson Taillon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Domingo Germán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wandy Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Clay Holmes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Miguel Castro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Severino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Trevino",
+          "position": "Catcher"
+        },
+        {
+          "name": "Nestor Cortes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tim Locastro",
+          "position": "CenterField"
+        },
+        {
+          "name": "Lou Trivino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Loáisiga",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Isiah Kiner-Falefa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Gleyber Torres",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Clarke Schmidt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harrison Bader",
+          "position": "CenterField"
+        },
+        {
+          "name": "Oswaldo Cabrera",
+          "position": "LeftField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 114,
+      "players": [
+        {
+          "name": "Luke Maile",
+          "position": "Catcher"
+        },
+        {
+          "name": "Austin Hedges",
+          "position": "Catcher"
+        },
+        {
+          "name": "José Ramírez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Cal Quantrill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Amed Rosario",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Josh Naylor",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Aaron Civale",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Hentges",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Oscar Gonzalez",
+          "position": "RightField"
+        },
+        {
+          "name": "Enyel De Los Santos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emmanuel Clase",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Triston McKenzie",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Morris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Stephan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Myles Straw",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrés Giménez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Will Benson",
+          "position": "CenterField"
+        },
+        {
+          "name": "Bo Naylor",
+          "position": "Catcher"
+        },
+        {
+          "name": "Zach Plesac",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eli Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shane Bieber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gabriel Arias",
+          "position": "FirstBase"
+        },
+        {
+          "name": "James Karinchak",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Kwan",
+          "position": "LeftField"
+        },
+        {
+          "name": "Owen Miller",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Will Brennan",
+          "position": "LeftField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Steven Kwan",
+        "pitcher": "Nestor Cortes",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "BuntPopOut": {
+        "batter": "Amed Rosario",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Jose Trevino"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "José Ramírez",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Oswaldo Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Oscar Gonzalez",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Gleyber Torres",
+        "pitcher": "Aaron Civale",
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Aaron Judge",
+        "pitcher": "Aaron Civale",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Aaron Civale",
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Aaron Civale",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Gleyber Torres",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Aaron Civale",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Oswaldo Cabrera",
+        "pitcher": "Sam Hentges",
+        "movements": [
+          {
+            "runner": "Oswaldo Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Harrison Bader",
+        "pitcher": "Sam Hentges",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Sam Hentges",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Aaron Judge"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Nestor Cortes",
+        "movements": [
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Nestor Cortes",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Aaron Hicks",
+        "pitcher": "Sam Hentges",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Aaron Hicks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Gleyber Torres",
+        "pitcher": "Sam Hentges",
+        "fielders": [
+          "Oscar Gonzalez"
+        ],
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Aaron Judge",
+        "pitcher": "Sam Hentges",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "Sam Hentges",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Hedges",
+        "pitcher": "Nestor Cortes",
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Myles Straw",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Steven Kwan",
+        "pitcher": "Nestor Cortes",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Hedges",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Amed Rosario",
+        "pitcher": "Nestor Cortes",
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "José Ramírez",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Harrison Bader"
+        ],
+        "scoring_runner": "Steven Kwan",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Hedges",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Oscar Gonzalez",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Marwin Gonzalez"
+        ],
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Oswaldo Cabrera",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "Oswaldo Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Oswaldo Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Aaron Judge"
+        ],
+        "movements": [
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Harrison Bader",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Hedges",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Harrison Bader"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Myles Straw",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Aaron Judge"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Gleyber Torres",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Aaron Judge",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gleyber Torres",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "James Karinchak",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Amed Rosario",
+        "pitcher": "Jonathan Loáisiga",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Ramírez",
+        "pitcher": "Jonathan Loáisiga",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Amed Rosario",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Oscar Gonzalez",
+        "pitcher": "Jonathan Loáisiga",
+        "fielders": [
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Amed Rosario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "José Ramírez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Jonathan Loáisiga",
+        "fielders": [
+          "Oswaldo Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Jonathan Loáisiga",
+        "movements": [
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Oswaldo Cabrera",
+        "pitcher": "James Karinchak",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Oswaldo Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Harrison Bader",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jose Trevino",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Harrison Bader",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Carpenter",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Matt Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gleyber Torres",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Jonathan Loáisiga",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Owen Miller",
+        "pitcher": "Jonathan Loáisiga",
+        "movements": [
+          {
+            "runner": "Owen Miller",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Myles Straw",
+        "pitcher": "Jonathan Loáisiga",
+        "fielders": [
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Owen Miller",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Jonathan Loáisiga",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Aaron Judge",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Anthony Rizzo",
+        "pitcher": "James Karinchak",
+        "fielders": [
+          "Andrés Giménez",
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Anthony Rizzo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "James Karinchak",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Clay Holmes",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Ramírez",
+        "pitcher": "Clay Holmes",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Oscar Gonzalez",
+        "pitcher": "Clay Holmes",
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Oswaldo Cabrera",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Oswaldo Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Harrison Bader",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Trevino",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Trevino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Harrison Bader",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Isiah Kiner-Falefa",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Gleyber Torres",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Isiah Kiner-Falefa",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Wandy Peralta",
+        "fielders": [
+          "Anthony Rizzo"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Wandy Peralta",
+        "movements": [
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Wandy Peralta",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luke Maile",
+        "pitcher": "Wandy Peralta",
+        "movements": [
+          {
+            "runner": "Luke Maile",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Gabriel Arias",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Myles Straw",
+        "pitcher": "Wandy Peralta",
+        "fielders": [
+          "Isiah Kiner-Falefa"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Maile",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    }
+  ]
+}

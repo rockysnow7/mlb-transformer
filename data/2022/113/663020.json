@@ -1,0 +1,1564 @@
+{
+  "context": {
+    "game_pk": 663020,
+    "date": {
+      "year": 2022,
+      "month": 8,
+      "day": 15
+    },
+    "venue_name": "Great American Ball Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 79,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Ross Detwiler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Donovan Solano",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Joey Votto",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Mike Minor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Romine",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hunter Strickland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Albert Almora Jr.",
+          "position": "CenterField"
+        },
+        {
+          "name": "Luis Cessa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Farmer",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Aristides Aquino",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Reynolds",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jake Fraley",
+          "position": "LeftField"
+        },
+        {
+          "name": "Justin Dunn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "T.J. Zeuch",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Papierski",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jonathan India",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Ian Gibaut",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejo Lopez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reiver Sanmartin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Lodolo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Graham Ashcraft",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Senzel",
+          "position": "CenterField"
+        },
+        {
+          "name": "Joel Kuhnel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Barrero",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 143,
+      "players": [
+        {
+          "name": "Kyle Gibson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Robertson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jean Segura",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Brad Hand",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zack Wheeler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Bellatti",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Castellanos",
+          "position": "RightField"
+        },
+        {
+          "name": "J.T. Realmuto",
+          "position": "Catcher"
+        },
+        {
+          "name": "Noah Syndergaard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Stubbs",
+          "position": "Catcher"
+        },
+        {
+          "name": "Aaron Nola",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Alvarado",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seranthony Domínguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ranger Suárez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edmundo Sosa",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Connor Brogdon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Coonrod",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rhys Hoskins",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Nick Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Schwarber",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Matt Vierling",
+          "position": "LeftField"
+        },
+        {
+          "name": "Alec Bohm",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Nick Maton",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brandon Marsh",
+          "position": "CenterField"
+        },
+        {
+          "name": "Darick Hall",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Bryson Stott",
+          "position": "Shortstop"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Bryson Stott",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alec Bohm",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Matt Reynolds"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Brandon Marsh"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Joey Votto",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Nick Castellanos"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jean Segura",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Albert Almora Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brandon Marsh",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Matt Vierling",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jake Fraley"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Albert Almora Jr.",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Reynolds",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Edmundo Sosa"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Barrero",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Jose Barrero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Matt Reynolds",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Michael Papierski",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Michael Papierski",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Reynolds",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Rhys Hoskins"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bryson Stott",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jake Fraley"
+        ],
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Alec Bohm",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jose Barrero"
+        ],
+        "scoring_runner": "Bryson Stott",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bryson Stott",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jean Segura",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jean Segura",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brandon Marsh",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Joey Votto",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Albert Almora Jr.",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Vierling",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Matt Reynolds"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bryson Stott",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Matt Reynolds"
+        ],
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Matt Reynolds",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Barrero",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Edmundo Sosa"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Barrero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jean Segura",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jean Segura",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jean Segura",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Marsh",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Michael Papierski",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Edmundo Sosa"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Papierski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Jean Segura"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Donovan Solano",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Vierling",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bryson Stott",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Ian Gibaut",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Joey Votto",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Brandon Marsh"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Albert Almora Jr.",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Reynolds",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jean Segura",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Marsh",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Marsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Jose Barrero",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Bryson Stott",
+          "Jean Segura"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jose Barrero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Michael Papierski",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Rhys Hoskins"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Papierski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Vierling",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Matt Reynolds"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bryson Stott",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rhys Hoskins",
+        "pitcher": "Luis Cessa",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Rhys Hoskins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jake Fraley",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Donovan Solano",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Farmer",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Joey Votto",
+        "pitcher": "David Robertson",
+        "fielders": [
+          "Jean Segura",
+          "Edmundo Sosa"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Hunter Strickland",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jean Segura",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "Jean Segura",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Albert Almora Jr.",
+        "pitcher": "Seranthony Domínguez",
+        "movements": [
+          {
+            "runner": "Albert Almora Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Reynolds",
+        "pitcher": "Seranthony Domínguez",
+        "fielders": [
+          "Edmundo Sosa"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Reynolds",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Seranthony Domínguez",
+        "fielders": [
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

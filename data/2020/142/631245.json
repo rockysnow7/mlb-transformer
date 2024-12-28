@@ -1,0 +1,1520 @@
+{
+  "context": {
+    "game_pk": 631245,
+    "date": {
+      "year": 2020,
+      "month": 9,
+      "day": 26
+    },
+    "venue_name": "Target Field",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 69,
+      "wind_speed": 5
+    },
+    "home_team": {
+      "id": 142,
+      "players": [
+        {
+          "name": "Nelson Cruz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Rich Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Clippard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Avila",
+          "position": "Catcher"
+        },
+        {
+          "name": "Sergio Romo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ehire Adrianza",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Michael Pineda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marwin Gonzalez",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Josh Donaldson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Trevor May",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Taylor Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Caleb Thielbar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eddie Rosario",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jorge Polanco",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Miguel Sanó",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jake Cave",
+          "position": "CenterField"
+        },
+        {
+          "name": "Max Kepler",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Wisler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Duffey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Berríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Byron Buxton",
+          "position": "CenterField"
+        },
+        {
+          "name": "Kenta Maeda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mitch Garver",
+          "position": "Catcher"
+        },
+        {
+          "name": "Luis Arraez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Devin Smeltzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Alcala",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Stashak",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Jeffers",
+          "position": "Catcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Joey Votto",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Wade Miley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Moustakas",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Freddy Galvis",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Anthony DeSclafani",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sonny Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Bauer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Lorenzen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eugenio Suárez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kyle Farmer",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brian Goodwin",
+          "position": "LeftField"
+        },
+        {
+          "name": "Curt Casali",
+          "position": "Catcher"
+        },
+        {
+          "name": "Nick Castellanos",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Robert Stephenson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Archie Bradley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aristides Aquino",
+          "position": "RightField"
+        },
+        {
+          "name": "Sal Romano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Amir Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Sims",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jesse Winker",
+          "position": "RightField"
+        },
+        {
+          "name": "Tejay Antone",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Castillo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Mahle",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Senzel",
+          "position": "CenterField"
+        },
+        {
+          "name": "Shogo Akiyama",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jose Barrero",
+          "position": "Shortstop"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Shogo Akiyama",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Shogo Akiyama",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jesse Winker",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Shogo Akiyama",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jesse Winker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Joey Votto",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Shogo Akiyama",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jesse Winker",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Mike Moustakas",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "scoring_runner": "Jesse Winker",
+        "movements": [
+          {
+            "runner": "Mike Moustakas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jesse Winker",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Freddy Galvis",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Freddy Galvis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brian Goodwin",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Brian Goodwin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Kepler",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Freddy Galvis"
+        ],
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Luis Arraez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Cave",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Curt Casali",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Max Kepler"
+        ],
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Shogo Akiyama",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Shogo Akiyama",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jesse Winker",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Michael Pineda"
+        ],
+        "movements": [
+          {
+            "runner": "Jesse Winker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Shogo Akiyama"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Votto",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Votto",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mike Moustakas",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Moustakas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Freddy Galvis",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Freddy Galvis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Max Kepler",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Luis Arraez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Eugenio Suárez"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Cave",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Luis Castillo"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brian Goodwin",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Brian Goodwin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Jake Cave"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Curt Casali",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Luis Castillo",
+        "fielders": [
+          "Luis Castillo"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Luis Castillo",
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Shogo Akiyama",
+        "pitcher": "Tyler Clippard",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Shogo Akiyama",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jesse Winker",
+        "pitcher": "Tyler Clippard",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Jesse Winker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Votto",
+        "pitcher": "Tyler Clippard",
+        "fielders": [
+          "Marwin Gonzalez"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Max Kepler",
+        "pitcher": "Anthony DeSclafani",
+        "movements": [
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Luis Arraez",
+        "pitcher": "Anthony DeSclafani",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Anthony DeSclafani",
+        "fielders": [
+          "Shogo Akiyama"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Anthony DeSclafani",
+        "fielders": [
+          "Freddy Galvis"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Cave",
+        "pitcher": "Anthony DeSclafani",
+        "fielders": [
+          "Shogo Akiyama"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Cody Stashak",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mike Moustakas",
+        "pitcher": "Cody Stashak",
+        "fielders": [
+          "Jake Cave"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Moustakas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Freddy Galvis",
+        "pitcher": "Cody Stashak",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Freddy Galvis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Anthony DeSclafani",
+        "fielders": [
+          "Shogo Akiyama"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Anthony DeSclafani",
+        "fielders": [
+          "Joey Votto"
+        ],
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Anthony DeSclafani",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brian Goodwin",
+        "pitcher": "Cody Stashak",
+        "movements": [
+          {
+            "runner": "Brian Goodwin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Cody Stashak",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brian Goodwin",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Curt Casali",
+        "pitcher": "Cody Stashak",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brian Goodwin",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brian Goodwin",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Votto",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eugenio Suárez",
+        "pitcher": "Taylor Rogers",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Eugenio Suárez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Anthony DeSclafani",
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Max Kepler",
+        "pitcher": "Anthony DeSclafani",
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Arraez",
+        "pitcher": "Anthony DeSclafani",
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFlyDoublePlay": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Anthony DeSclafani",
+        "fielders": [
+          "Nick Senzel",
+          "Nick Senzel"
+        ],
+        "scoring_runner": "Luis Arraez",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Max Kepler",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Anthony DeSclafani",
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mike Moustakas",
+        "pitcher": "Taylor Rogers",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Mike Moustakas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Freddy Galvis",
+        "pitcher": "Taylor Rogers",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Freddy Galvis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Barrero",
+        "pitcher": "Tyler Duffey",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Barrero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Jake Cave",
+        "pitcher": "Robert Stephenson",
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Robert Stephenson",
+        "fielders": [
+          "Curt Casali",
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Robert Stephenson",
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Tyler Duffey",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Curt Casali",
+        "pitcher": "Tyler Duffey",
+        "movements": [
+          {
+            "runner": "Curt Casali",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Senzel",
+        "pitcher": "Tyler Duffey",
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

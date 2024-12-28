@@ -1,0 +1,1574 @@
+{
+  "context": {
+    "game_pk": 662469,
+    "date": {
+      "year": 2022,
+      "month": 8,
+      "day": 26
+    },
+    "venue_name": "Nationals Park",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 87,
+      "wind_speed": 4
+    },
+    "home_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "Aníbal Sánchez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nelson Cruz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jake McGee",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Paolo Espino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "César Hernández",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Steve Cishek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erasmo Ramírez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ildemaro Vargas",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Voit",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Carl Edwards Jr.",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Erick Fedde",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Meneses",
+          "position": "RightField"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Harvey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joshua Palacios",
+          "position": "RightField"
+        },
+        {
+          "name": "Víctor Arano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor Robles",
+          "position": "CenterField"
+        },
+        {
+          "name": "Riley Adams",
+          "position": "Catcher"
+        },
+        {
+          "name": "Lane Thomas",
+          "position": "LeftField"
+        },
+        {
+          "name": "Reed Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Keibert Ruiz",
+          "position": "Catcher"
+        },
+        {
+          "name": "Alex Call",
+          "position": "LeftField"
+        },
+        {
+          "name": "Luis García Jr.",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Cade Cavalli",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josiah Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "CJ Abrams",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Ross Detwiler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Donovan Solano",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Mike Minor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Romine",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hunter Strickland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Cessa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Farmer",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Art Warren",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aristides Aquino",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake Fraley",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Chuckie Robinson",
+          "position": "Catcher"
+        },
+        {
+          "name": "Justin Dunn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Stuart Fairchild",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jonathan India",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Ian Gibaut",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dauri Moreta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejo Lopez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reiver Sanmartin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Lodolo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Senzel",
+          "position": "CenterField"
+        },
+        {
+          "name": "Joel Kuhnel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "TJ Friedl",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jose Barrero",
+          "position": "Shortstop"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Cade Cavalli",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Jonathan India",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Donovan Solano",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "TJ Friedl",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Lane Thomas",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jose Barrero"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Meneses",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jose Barrero"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jose Barrero",
+        "pitcher": "Cade Cavalli",
+        "fielders": [
+          "Joey Meneses"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Barrero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chuckie Robinson",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Chuckie Robinson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "CaughtStealing": {
+        "base": 2,
+        "runner": "Stuart Fairchild",
+        "fielders": [
+          "Keibert Ruiz"
+        ],
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luke Voit",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jonathan India"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "CJ Abrams",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jonathan India"
+        ],
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan India",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Donovan Solano",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Victor Robles",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Lane Thomas",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jonathan India"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Meneses",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Barrero",
+        "pitcher": "Cade Cavalli",
+        "fielders": [
+          "Joey Meneses"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Barrero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Chuckie Robinson",
+        "pitcher": "Cade Cavalli",
+        "fielders": [
+          "Luke Voit"
+        ],
+        "movements": [
+          {
+            "runner": "Chuckie Robinson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Cade Cavalli",
+        "fielders": [
+          "Lane Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luke Voit",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "CJ Abrams",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jonathan India",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Cade Cavalli",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "TJ Friedl",
+        "pitcher": "Cade Cavalli",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Erasmo Ramírez",
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Aristides Aquino",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Donovan Solano",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Erasmo Ramírez",
+        "fielders": [
+          "Ildemaro Vargas"
+        ],
+        "scoring_runner": "Stuart Fairchild",
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Barrero",
+        "pitcher": "Erasmo Ramírez",
+        "movements": [
+          {
+            "runner": "Jose Barrero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Victor Robles",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Mike Minor"
+        ],
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chuckie Robinson",
+        "pitcher": "Erasmo Ramírez",
+        "movements": [
+          {
+            "runner": "Chuckie Robinson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Erasmo Ramírez",
+        "fielders": [
+          "Victor Robles"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan India",
+        "pitcher": "Erasmo Ramírez",
+        "fielders": [
+          "Ildemaro Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Meneses",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Luke Voit",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Donovan Solano"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Erasmo Ramírez",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Erasmo Ramírez",
+        "fielders": [
+          "Luke Voit"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "TJ Friedl",
+        "pitcher": "Erasmo Ramírez",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Erasmo Ramírez",
+        "fielders": [
+          "Luke Voit"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "CJ Abrams",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "Jose Barrero"
+        ],
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Mike Minor",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Robles",
+        "pitcher": "Mike Minor",
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Barrero",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Barrero",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chuckie Robinson",
+        "pitcher": "Steve Cishek",
+        "movements": [
+          {
+            "runner": "Chuckie Robinson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Lane Thomas",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis García Jr.",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "Luis García Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Meneses",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Lane Thomas",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luke Voit",
+        "pitcher": "Hunter Strickland",
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Meneses",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Meneses",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Hunter Strickland",
+        "fielders": [
+          "Jonathan India",
+          "Jose Barrero"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Jake McGee",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan India",
+        "pitcher": "Jake McGee",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Jake McGee",
+        "fielders": [
+          "Luis García Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Jake McGee",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Keibert Ruiz",
+        "pitcher": "Buck Farmer",
+        "fielders": [
+          "Donovan Solano"
+        ],
+        "movements": [
+          {
+            "runner": "Keibert Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "CJ Abrams",
+        "pitcher": "Buck Farmer",
+        "fielders": [
+          "Chuckie Robinson"
+        ],
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Buck Farmer",
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Victor Robles",
+        "pitcher": "Buck Farmer",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Robles",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

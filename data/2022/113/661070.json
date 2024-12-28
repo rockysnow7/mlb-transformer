@@ -1,0 +1,1388 @@
+{
+  "context": {
+    "game_pk": 661070,
+    "date": {
+      "year": 2022,
+      "month": 9,
+      "day": 21
+    },
+    "venue_name": "Great American Ball Park",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 90,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Donovan Solano",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Chase Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Fernando Cruz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Romine",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hunter Strickland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Cessa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Farmer",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Derek Law",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aristides Aquino",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Reynolds",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jake Fraley",
+          "position": "LeftField"
+        },
+        {
+          "name": "Chuckie Robinson",
+          "position": "Catcher"
+        },
+        {
+          "name": "Stuart Fairchild",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jonathan India",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Ian Gibaut",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dauri Moreta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejo Lopez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reiver Sanmartin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Lodolo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Steer",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Hunter Greene",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joel Kuhnel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "TJ Friedl",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Michael Siani",
+          "position": "Outfield"
+        },
+        {
+          "name": "Jose Barrero",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Rich Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Abraham Almonte",
+          "position": "Outfield"
+        },
+        {
+          "name": "Tommy Pham",
+          "position": "LeftField"
+        },
+        {
+          "name": "J.D. Martinez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Ryan Brasier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Matt Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Wacha",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rob Refsnyder",
+          "position": "CenterField"
+        },
+        {
+          "name": "Matt Strahm",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Arroyo",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Reese McGuire",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tyler Danish",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yu Chang",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "RightField"
+        },
+        {
+          "name": "Connor Wong",
+          "position": "Catcher"
+        },
+        {
+          "name": "Connor Seabold",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eduard Bazardo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "John Schreiber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Triston Casas",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Kaleb Ort",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zack Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brayan Bello",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Frank German",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "HitByPitch": {
+        "batter": "Tommy Pham",
+        "pitcher": "Chase Anderson",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Jake Fraley"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Donovan Solano"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan India",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Triston Casas",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Triston Casas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Chase Anderson",
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Donovan Solano",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Triston Casas"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Alejo Lopez",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Alejo Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Reese McGuire",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Jake Fraley"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Chase Anderson",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Chuckie Robinson",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Chuckie Robinson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan India",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rafael Devers",
+        "pitcher": "Chase Anderson",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Chase Anderson",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "scoring_runner": "Rafael Devers",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Chase Anderson",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "CaughtStealing": {
+        "base": 2,
+        "runner": "Xander Bogaerts",
+        "fielders": [
+          "Chuckie Robinson"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Fraley",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Fraley",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Donovan Solano",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Triston Casas",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Triston Casas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Chase Anderson",
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Reese McGuire",
+        "pitcher": "Chase Anderson",
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Chase Anderson",
+        "fielders": [
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alejo Lopez",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Triston Casas"
+        ],
+        "movements": [
+          {
+            "runner": "Alejo Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chuckie Robinson",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Chuckie Robinson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "TJ Friedl",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan India",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Connor Seabold",
+        "movements": [
+          {
+            "runner": "Jonathan India",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Connor Seabold",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Fernando Cruz",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Fernando Cruz",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Fernando Cruz",
+        "fielders": [
+          "Alejo Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Donovan Solano",
+        "pitcher": "Eduard Bazardo",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Eduard Bazardo",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alejo Lopez",
+        "pitcher": "Eduard Bazardo",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "Alejo Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Reiver Sanmartin",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Reiver Sanmartin",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Triston Casas",
+        "pitcher": "Reiver Sanmartin",
+        "fielders": [
+          "Reiver Sanmartin",
+          "Alejo Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Triston Casas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Tyler Danish",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Chuckie Robinson",
+        "pitcher": "Tyler Danish",
+        "movements": [
+          {
+            "runner": "Chuckie Robinson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Tyler Danish",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Jonathan India",
+        "pitcher": "Tyler Danish",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Chuckie Robinson",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan India",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Derek Law",
+        "fielders": [
+          "Donovan Solano"
+        ],
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Reese McGuire",
+        "pitcher": "Derek Law",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Derek Law",
+        "fielders": [
+          "Aristides Aquino"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Farmer",
+        "pitcher": "Frank German",
+        "fielders": [
+          "Triston Casas"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Farmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Fraley",
+        "pitcher": "Frank German",
+        "movements": [
+          {
+            "runner": "Jake Fraley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Donovan Solano",
+        "pitcher": "Frank German",
+        "movements": [
+          {
+            "runner": "Donovan Solano",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Aristides Aquino",
+        "pitcher": "Frank German",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Aristides Aquino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Derek Law",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rafael Devers",
+        "pitcher": "Derek Law",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Derek Law",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Alexis Díaz",
+        "fielders": [
+          "Alexis Díaz",
+          "Kyle Farmer"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

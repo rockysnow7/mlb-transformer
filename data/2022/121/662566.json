@@ -1,0 +1,1662 @@
+{
+  "context": {
+    "game_pk": 662566,
+    "date": {
+      "year": 2022,
+      "month": 5,
+      "day": 17
+    },
+    "venue_name": "Citi Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 74,
+      "wind_speed": 12
+    },
+    "home_team": {
+      "id": 121,
+      "players": [
+        {
+          "name": "Max Scherzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Carrasco",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Ottavino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eduardo Escobar",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Joely Rodríguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mark Canha",
+          "position": "RightField"
+        },
+        {
+          "name": "Chasen Shreve",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Taijuan Walker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Francisco Lindor",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jake Reed",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Bassitt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.D. Davis",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brandon Nimmo",
+          "position": "CenterField"
+        },
+        {
+          "name": "Seth Lugo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Travis Jankowski",
+          "position": "CenterField"
+        },
+        {
+          "name": "Edwin Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tomás Nido",
+          "position": "Catcher"
+        },
+        {
+          "name": "Drew Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pete Alonso",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Luis Guillorme",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Gosuke Katoh",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Dominic Smith",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Jeff McNeil",
+          "position": "LeftField"
+        },
+        {
+          "name": "Adonis Medina",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Mazeika",
+          "position": "Catcher"
+        },
+        {
+          "name": "Stephen Nogosek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Colin Holderman",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 138,
+      "players": [
+        {
+          "name": "Albert Pujols",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Adam Wainwright",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yadier Molina",
+          "position": "Catcher"
+        },
+        {
+          "name": "Paul Goldschmidt",
+          "position": "FirstBase"
+        },
+        {
+          "name": "T.J. McFarland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nolan Arenado",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Steven Matz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Miles Mikolas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew VerHagen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corey Dickerson",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Giovanny Gallegos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Wittgren",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edmundo Sosa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Dakota Hudson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler O'Neill",
+          "position": "LeftField"
+        },
+        {
+          "name": "Génesis Cabrera",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Yepez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jordan Hicks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harrison Bader",
+          "position": "CenterField"
+        },
+        {
+          "name": "Ryan Helsley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dylan Carlson",
+          "position": "RightField"
+        },
+        {
+          "name": "Andrew Knizner",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tommy Edman",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Andre Pallante",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Walsh",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Packy Naughton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brendan Donovan",
+          "position": "ThirdBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Tommy Edman",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brendan Donovan",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Travis Jankowski"
+        ],
+        "movements": [
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Brendan Donovan"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Mark Canha",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Brendan Donovan"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Dylan Carlson"
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Corey Dickerson",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Corey Dickerson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler O'Neill",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Tyler O'Neill",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Travis Jankowski"
+        ],
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eduardo Escobar",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Steven Matz"
+        ],
+        "movements": [
+          {
+            "runner": "Eduardo Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Harrison Bader"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Harrison Bader",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Eduardo Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Tommy Edman",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Eduardo Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tomás Nido",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Tomás Nido",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mark Canha",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Harrison Bader"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brendan Donovan",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brendan Donovan",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brendan Donovan",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Francisco Lindor"
+        ],
+        "movements": [
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Corey Dickerson",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Corey Dickerson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler O'Neill",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Tyler O'Neill",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Eduardo Escobar"
+        ],
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Dylan Carlson"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Eduardo Escobar",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Eduardo Escobar",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Steven Matz",
+        "fielders": [
+          "Brendan Donovan"
+        ],
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Harrison Bader",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Tommy Edman",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knizner",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brendan Donovan",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy Edman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brendan Donovan",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Corey Dickerson",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Corey Dickerson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tyler O'Neill",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler O'Neill",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tomás Nido",
+        "pitcher": "Steven Matz",
+        "movements": [
+          {
+            "runner": "Tomás Nido",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Adonis Medina",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Harrison Bader",
+        "pitcher": "Adonis Medina",
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Adonis Medina",
+        "fielders": [
+          "Adonis Medina"
+        ],
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Harrison Bader",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Tommy Edman",
+        "pitcher": "Adonis Medina",
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brendan Donovan",
+        "pitcher": "Adonis Medina",
+        "movements": [
+          {
+            "runner": "Tommy Edman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brendan Donovan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Andre Pallante",
+        "fielders": [
+          "Tommy Edman"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Mark Canha",
+        "pitcher": "Andre Pallante",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Andre Pallante",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Pete Alonso",
+        "pitcher": "Andre Pallante",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eduardo Escobar",
+        "pitcher": "Génesis Cabrera",
+        "movements": [
+          {
+            "runner": "Eduardo Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Génesis Cabrera",
+        "fielders": [
+          "Brendan Donovan"
+        ],
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Adonis Medina",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Adonis Medina",
+        "fielders": [
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Corey Dickerson",
+        "pitcher": "Adonis Medina",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Dickerson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Génesis Cabrera",
+        "fielders": [
+          "Génesis Cabrera"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Génesis Cabrera",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Tomás Nido",
+        "pitcher": "Génesis Cabrera",
+        "fielders": [
+          "Brendan Donovan",
+          "Brendan Donovan"
+        ],
+        "scoring_runner": "Tomás Nido",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tomás Nido",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Génesis Cabrera",
+        "fielders": [
+          "Edmundo Sosa"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler O'Neill",
+        "pitcher": "Adonis Medina",
+        "movements": [
+          {
+            "runner": "Tyler O'Neill",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Adonis Medina",
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Harrison Bader",
+        "pitcher": "Adonis Medina",
+        "fielders": [
+          "Travis Jankowski"
+        ],
+        "movements": [
+          {
+            "runner": "Harrison Bader",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrew Knizner",
+        "pitcher": "Adonis Medina",
+        "movements": [
+          {
+            "runner": "Andrew Knizner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Tommy Edman",
+        "pitcher": "Joely Rodríguez",
+        "fielders": [
+          "Francisco Lindor"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Knizner",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Edman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Mark Canha",
+        "pitcher": "Ryan Helsley",
+        "fielders": [
+          "Harrison Bader"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Ryan Helsley",
+        "fielders": [
+          "Tyler O'Neill"
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eduardo Escobar",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "Eduardo Escobar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": false
+          },
+          {
+            "runner": "Eduardo Escobar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Eduardo Escobar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Ryan Helsley",
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brendan Donovan",
+        "pitcher": "Joely Rodríguez",
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Paul Goldschmidt",
+        "pitcher": "Joely Rodríguez",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Paul Goldschmidt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Dylan Carlson",
+        "pitcher": "Joely Rodríguez",
+        "movements": [
+          {
+            "runner": "Brendan Donovan",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brendan Donovan",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Dylan Carlson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nolan Arenado",
+        "pitcher": "Adam Ottavino",
+        "movements": [
+          {
+            "runner": "Nolan Arenado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler O'Neill",
+        "pitcher": "Adam Ottavino",
+        "movements": [
+          {
+            "runner": "Tyler O'Neill",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brendan Donovan",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Dylan Carlson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dylan Carlson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Edmundo Sosa",
+        "pitcher": "Adam Ottavino",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Edmundo Sosa",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Giovanny Gallegos",
+        "fielders": [
+          "Giovanny Gallegos"
+        ],
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Dominic Smith",
+        "pitcher": "Giovanny Gallegos",
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Guillorme",
+        "pitcher": "Giovanny Gallegos",
+        "movements": [
+          {
+            "runner": "Luis Guillorme",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Smith",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mark Canha",
+        "pitcher": "Giovanny Gallegos",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Giovanny Gallegos",
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

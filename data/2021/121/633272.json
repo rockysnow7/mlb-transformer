@@ -1,0 +1,1760 @@
+{
+  "context": {
+    "game_pk": 633272,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 24
+    },
+    "venue_name": "Citi Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 77,
+      "wind_speed": 11
+    },
+    "home_team": {
+      "id": 121,
+      "players": [
+        {
+          "name": "Rich Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Villar",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Trevor May",
+          "position": "Pitcher"
+        },
+        {
+          "name": "James McCann",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jeurys Familia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Loup",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marcus Stroman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Drury",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Taijuan Walker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.D. Davis",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Brandon Nimmo",
+          "position": "CenterField"
+        },
+        {
+          "name": "Anthony Banda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seth Lugo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Pillar",
+          "position": "RightField"
+        },
+        {
+          "name": "Miguel Castro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edwin Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tomás Nido",
+          "position": "Catcher"
+        },
+        {
+          "name": "Drew Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pete Alonso",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Michael Conforto",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Luis Guillorme",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Dominic Smith",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jeff McNeil",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tylor Megill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yennsy Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Travis Blankenhorn",
+          "position": "PinchHitter"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 141,
+      "players": [
+        {
+          "name": "Rafael Dolis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marcus Semien",
+          "position": "SecondBase"
+        },
+        {
+          "name": "George Springer",
+          "position": "CenterField"
+        },
+        {
+          "name": "Randal Grichuk",
+          "position": "RightField"
+        },
+        {
+          "name": "Hyun Jin Ryu",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ross Stripling",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Matz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Breyvic Valera",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Robbie Ray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Romano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Teoscar Hernández",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jacob Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Borucki",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cavan Biggio",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Reese McGuire",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jonathan Davis",
+          "position": "CenterField"
+        },
+        {
+          "name": "Thomas Hatch",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tim Mayza",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tayler Saucedo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Cimber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Bo Bichette",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Lourdes Gurriel Jr.",
+          "position": "LeftField"
+        },
+        {
+          "name": "Santiago Espinal",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Trevor Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejandro Kirk",
+          "position": "Catcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Flyout": {
+        "batter": "George Springer",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Dominic Smith"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "J.D. Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Bo Bichette",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Pete Alonso",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "James McCann",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "James McCann",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Pete Alonso",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Luis Guillorme"
+        ],
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Reese McGuire",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Hyun Jin Ryu",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Kevin Pillar"
+        ],
+        "movements": [
+          {
+            "runner": "Hyun Jin Ryu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Villar",
+        "pitcher": "Hyun Jin Ryu",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Villar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kevin Pillar",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Kevin Pillar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Luis Guillorme",
+        "pitcher": "Hyun Jin Ryu",
+        "fielders": [
+          "Vladimir Guerrero Jr.",
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Pillar",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Guillorme",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "George Springer",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "J.D. Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bo Bichette",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Jonathan Villar"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Taijuan Walker",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Taijuan Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Hyun Jin Ryu",
+        "fielders": [
+          "George Springer"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Reese McGuire",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Jonathan Villar",
+          "Jonathan Villar"
+        ],
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Hyun Jin Ryu",
+        "pitcher": "Taijuan Walker",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Hyun Jin Ryu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Hyun Jin Ryu",
+        "fielders": [
+          "George Springer"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.D. Davis",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "James McCann",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "James McCann",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Davis",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Jonathan Villar",
+        "pitcher": "Hyun Jin Ryu",
+        "fielders": [
+          "Cavan Biggio",
+          "Marcus Semien"
+        ],
+        "movements": [
+          {
+            "runner": "James McCann",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan Villar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "George Springer",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Marcus Semien",
+        "pitcher": "Taijuan Walker",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "George Springer",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bo Bichette",
+        "pitcher": "Miguel Castro",
+        "fielders": [
+          "Luis Guillorme"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Miguel Castro",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Miguel Castro",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Miguel Castro",
+        "fielders": [
+          "J.D. Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Reese McGuire",
+        "pitcher": "Miguel Castro",
+        "fielders": [
+          "Luis Guillorme"
+        ],
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Kevin Pillar",
+        "pitcher": "Hyun Jin Ryu",
+        "fielders": [
+          "Vladimir Guerrero Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Pillar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Guillorme",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Luis Guillorme",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Brandon Drury",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Brandon Drury",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Guillorme",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Guillorme",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Drury",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Pete Alonso",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Drury",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Dominic Smith",
+        "pitcher": "Hyun Jin Ryu",
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Pete Alonso",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Trevor Richards",
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "James McCann",
+        "pitcher": "Trevor Richards",
+        "movements": [
+          {
+            "runner": "James McCann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Yennsy Díaz",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "George Springer",
+        "pitcher": "Yennsy Díaz",
+        "fielders": [
+          "Jonathan Villar"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Yennsy Díaz",
+        "fielders": [
+          "Kevin Pillar"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonathan Villar",
+        "pitcher": "Trevor Richards",
+        "movements": [
+          {
+            "runner": "Jonathan Villar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Pillar",
+        "pitcher": "Trevor Richards",
+        "movements": [
+          {
+            "runner": "Kevin Pillar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Luis Guillorme",
+        "pitcher": "Tim Mayza",
+        "fielders": [
+          "Marcus Semien"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Villar",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Guillorme",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Travis Blankenhorn",
+        "pitcher": "Tim Mayza",
+        "movements": [
+          {
+            "runner": "Travis Blankenhorn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Drew Smith",
+        "fielders": [
+          "Kevin Pillar"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Bo Bichette",
+        "pitcher": "Drew Smith",
+        "movements": [
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Drew Smith",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Drew Smith",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Breyvic Valera",
+        "pitcher": "Drew Smith",
+        "movements": [
+          {
+            "runner": "Breyvic Valera",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Reese McGuire",
+        "pitcher": "Drew Smith",
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Tayler Saucedo",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Pete Alonso",
+        "pitcher": "Tayler Saucedo",
+        "fielders": [
+          "Marcus Semien",
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Dominic Smith",
+        "pitcher": "Tayler Saucedo",
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Adam Cimber",
+        "fielders": [
+          "Bo Bichette"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Drew Smith",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "George Springer",
+        "pitcher": "Drew Smith",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Drew Smith",
+        "fielders": [
+          "Luis Guillorme"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "James McCann",
+        "pitcher": "Adam Cimber",
+        "fielders": [
+          "Adam Cimber"
+        ],
+        "movements": [
+          {
+            "runner": "James McCann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jonathan Villar",
+        "pitcher": "Adam Cimber",
+        "fielders": [
+          "Teoscar Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Villar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Pillar",
+        "pitcher": "Adam Cimber",
+        "fielders": [
+          "Marcus Semien"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Pillar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Marcus Semien",
+        "pitcher": "Anthony Banda",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bo Bichette",
+        "pitcher": "Anthony Banda",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Marcus Semien",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Marcus Semien",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Teoscar Hernández",
+        "pitcher": "Anthony Banda",
+        "movements": [
+          {
+            "runner": "Teoscar Hernández",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Bichette",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Anthony Banda",
+        "fielders": [
+          "J.D. Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Randal Grichuk",
+        "pitcher": "Anthony Banda",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Randal Grichuk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Reese McGuire",
+        "pitcher": "Anthony Banda",
+        "movements": [
+          {
+            "runner": "Reese McGuire",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Anthony Banda",
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Reese McGuire",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "George Springer",
+        "pitcher": "Anthony Banda",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Guillorme",
+        "pitcher": "Rafael Dolis",
+        "movements": [
+          {
+            "runner": "Luis Guillorme",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Michael Conforto",
+        "pitcher": "Rafael Dolis",
+        "fielders": [
+          "Jonathan Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Conforto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Rafael Dolis",
+        "fielders": [
+          "Marcus Semien"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Guillorme",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Pete Alonso",
+        "pitcher": "Rafael Dolis",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Rafael Dolis",
+        "fielders": [
+          "Randal Grichuk"
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

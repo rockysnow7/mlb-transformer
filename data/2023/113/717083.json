@@ -1,0 +1,1384 @@
+{
+  "context": {
+    "game_pk": 717083,
+    "date": {
+      "year": 2023,
+      "month": 8,
+      "day": 8
+    },
+    "venue_name": "Great American Ball Park",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 81,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Joey Votto",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Fernando Cruz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Derek Law",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Maile",
+          "position": "Catcher"
+        },
+        {
+          "name": "Sam Moll",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Weaver",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Sims",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Newman",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Alex Young",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Stuart Fairchild",
+          "position": "RightField"
+        },
+        {
+          "name": "Tyler Stephenson",
+          "position": "Catcher"
+        },
+        {
+          "name": "Brett Kennedy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ian Gibaut",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Benson",
+          "position": "RightField"
+        },
+        {
+          "name": "Spencer Steer",
+          "position": "LeftField"
+        },
+        {
+          "name": "Graham Ashcraft",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Senzel",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "TJ Friedl",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrew Abbott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt McLain",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Brandon Williamson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elly De La Cruz",
+          "position": "Shortstop"
+        },
+        {
+          "name": "TJ Hopkins",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Christian Encarnacion-Strand",
+          "position": "FirstBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 146,
+      "players": [
+        {
+          "name": "Johnny Cueto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yuli Gurriel",
+          "position": "FirstBase"
+        },
+        {
+          "name": "David Robertson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Avisaíl García",
+          "position": "RightField"
+        },
+        {
+          "name": "Jon Berti",
+          "position": "LeftField"
+        },
+        {
+          "name": "Steven Okert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jorge López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jacob Stallings",
+          "position": "Catcher"
+        },
+        {
+          "name": "Joey Wendle",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Huascar Brazobán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Soler",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "A.J. Puk",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sandy Alcantara",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Arraez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bryan De La Cruz",
+          "position": "RightField"
+        },
+        {
+          "name": "Tanner Scott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jesús Sánchez",
+          "position": "RightField"
+        },
+        {
+          "name": "Nick Fortes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "position": "CenterField"
+        },
+        {
+          "name": "Braxton Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jesús Luzardo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "George Soriano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Burger",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrew Nardi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eury Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Euri Montero",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Jorge Soler",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Luke Weaver",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jazz Chisholm Jr.",
+        "pitcher": "Luke Weaver",
+        "fielders": [
+          "Luke Maile"
+        ],
+        "movements": [
+          {
+            "runner": "Jazz Chisholm Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "BuntGroundout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Braxton Garrett"
+        ],
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Senzel",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Jake Burger"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Matt McLain",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Jazz Chisholm Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Luke Weaver",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jake Burger",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Jake Burger",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Joey Wendle",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Burger",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Burger",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Fortes",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wendle",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jorge Soler",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Luke Weaver",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Spencer Steer",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "TJ Friedl",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Newman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Newman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "CaughtStealing": {
+        "base": 3,
+        "runner": "TJ Friedl",
+        "fielders": [
+          "Nick Fortes"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jazz Chisholm Jr.",
+        "pitcher": "Luke Weaver",
+        "fielders": [
+          "Christian Encarnacion-Strand"
+        ],
+        "movements": [
+          {
+            "runner": "Jazz Chisholm Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Jake Burger"
+        ],
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luke Maile",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "Luke Maile",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Nick Senzel",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luke Maile",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Matt McLain",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Jazz Chisholm Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jake Burger",
+        "pitcher": "Luke Weaver",
+        "fielders": [
+          "Luke Maile"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Burger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Wendle",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Spencer Steer",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Jake Burger"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nick Fortes",
+        "pitcher": "Luke Weaver",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Soler",
+        "pitcher": "Luke Weaver",
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Luis Arraez",
+        "pitcher": "Sam Moll",
+        "fielders": [
+          "Matt McLain",
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Braxton Garrett",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luke Maile",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Maile",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Luis Arraez"
+        ],
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Senzel",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Josh Bell",
+        "pitcher": "Sam Moll",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jazz Chisholm Jr.",
+        "pitcher": "Sam Moll",
+        "fielders": [
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Jazz Chisholm Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Sam Moll",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jon Berti",
+        "pitcher": "Buck Farmer",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt McLain",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Jazz Chisholm Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Spencer Steer",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Braxton Garrett",
+        "fielders": [
+          "Jake Burger"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Burger",
+        "pitcher": "Buck Farmer",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Burger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Wendle",
+        "pitcher": "Buck Farmer",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Nick Fortes",
+        "pitcher": "Buck Farmer",
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jorge Soler",
+        "pitcher": "Lucas Sims",
+        "movements": [
+          {
+            "runner": "Jorge Soler",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Fortes",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luis Arraez",
+        "pitcher": "Lucas Sims",
+        "fielders": [
+          "Spencer Steer"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Arraez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Andrew Nardi",
+        "fielders": [
+          "Bryan De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Andrew Nardi",
+        "fielders": [
+          "Luis Arraez"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Andrew Nardi",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Fernando Cruz",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jazz Chisholm Jr.",
+        "pitcher": "Fernando Cruz",
+        "movements": [
+          {
+            "runner": "Jazz Chisholm Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Fernando Cruz",
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luke Maile",
+        "pitcher": "Tanner Scott",
+        "fielders": [
+          "Jazz Chisholm Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Luke Maile",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Tanner Scott",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Senzel",
+        "pitcher": "Tanner Scott",
+        "movements": [
+          {
+            "runner": "Nick Senzel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jon Berti",
+        "pitcher": "Derek Law",
+        "fielders": [
+          "Christian Encarnacion-Strand"
+        ],
+        "movements": [
+          {
+            "runner": "Jon Berti",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Burger",
+        "pitcher": "Derek Law",
+        "fielders": [
+          "Nick Senzel"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Burger",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Joey Wendle",
+        "pitcher": "Derek Law",
+        "fielders": [
+          "TJ Friedl"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt McLain",
+        "pitcher": "David Robertson",
+        "fielders": [
+          "Jazz Chisholm Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Spencer Steer",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joey Votto",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

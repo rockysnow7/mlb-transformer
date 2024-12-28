@@ -1,0 +1,1673 @@
+{
+  "context": {
+    "game_pk": 662357,
+    "date": {
+      "year": 2022,
+      "month": 7,
+      "day": 24
+    },
+    "venue_name": "PNC Park",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 89,
+      "wind_speed": 13
+    },
+    "home_team": {
+      "id": 134,
+      "players": [
+        {
+          "name": "Jose Quintana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Manny Bañuelos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Marisnick",
+          "position": "LeftField"
+        },
+        {
+          "name": "Ben Gamel",
+          "position": "LeftField"
+        },
+        {
+          "name": "Tyler Beede",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dillon Peters",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Stratton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Newman",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Duane Underwood Jr.",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Heineman",
+          "position": "Catcher"
+        },
+        {
+          "name": "Wil Crowe",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jason Delay",
+          "position": "Catcher"
+        },
+        {
+          "name": "Josh VanMeter",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Greg Allen",
+          "position": "CenterField"
+        },
+        {
+          "name": "Michael Chavis",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Mitch Keller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yoshi Tsutsugo",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Diego A. Castillo",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Yerry De Los Santos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ke'Bryan Hayes",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "JT Brubaker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Oneil Cruz",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Cal Mitchell",
+          "position": "RightField"
+        },
+        {
+          "name": "Bryse Wilson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Bednar",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 146,
+      "players": [
+        {
+          "name": "Miguel Rojas",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Avisaíl García",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jesús Aguilar",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Anthony Bass",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Richard Bleier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willians Astudillo",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Dylan Floro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Billy Hamilton",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Steven Okert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jacob Stallings",
+          "position": "Catcher"
+        },
+        {
+          "name": "Joey Wendle",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Huascar Brazobán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pablo López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Cooper",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Sandy Alcantara",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Pop",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bryan De La Cruz",
+          "position": "RightField"
+        },
+        {
+          "name": "Jeff Brigham",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Holloway",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tanner Scott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jesús Sánchez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Nick Fortes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Luke Williams",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Braxton Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "JJ Bleday",
+          "position": "CenterField"
+        },
+        {
+          "name": "Trevor Rogers",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Joey Wendle",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Ke'Bryan Hayes",
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh VanMeter",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Avisaíl García",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "JJ Bleday",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Josh VanMeter"
+        ],
+        "movements": [
+          {
+            "runner": "JJ Bleday",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ben Gamel",
+        "pitcher": "Sandy Alcantara",
+        "fielders": [
+          "Willians Astudillo"
+        ],
+        "movements": [
+          {
+            "runner": "Ben Gamel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Cal Mitchell",
+        "pitcher": "Sandy Alcantara",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Cal Mitchell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Greg Allen",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Greg Allen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Willians Astudillo",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Josh VanMeter"
+        ],
+        "movements": [
+          {
+            "runner": "Willians Astudillo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jacob Stallings",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Jacob Stallings",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Wendle",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Josh VanMeter"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Oneil Cruz",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Oneil Cruz",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Jason Delay",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Jason Delay",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Sandy Alcantara",
+        "fielders": [
+          "Joey Wendle"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh VanMeter",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Jason Delay",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh VanMeter",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Avisaíl García",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ben Gamel",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Ben Gamel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cal Mitchell",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Cal Mitchell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Greg Allen",
+        "pitcher": "Sandy Alcantara",
+        "fielders": [
+          "JJ Bleday"
+        ],
+        "movements": [
+          {
+            "runner": "Greg Allen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Oneil Cruz",
+        "pitcher": "Sandy Alcantara",
+        "fielders": [
+          "Jesús Aguilar"
+        ],
+        "movements": [
+          {
+            "runner": "Oneil Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "JJ Bleday",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Greg Allen"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Willians Astudillo",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Oneil Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Willians Astudillo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jason Delay",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Jason Delay",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Sandy Alcantara",
+        "fielders": [
+          "Willians Astudillo"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Jacob Stallings",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Jacob Stallings",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Wendle",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jacob Stallings",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Ke'Bryan Hayes"
+        ],
+        "runner": "Jacob Stallings",
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jacob Stallings",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wendle",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Mitch Keller",
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wendle",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jacob Stallings",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Avisaíl García",
+        "pitcher": "Mitch Keller",
+        "fielders": [
+          "Kevin Newman",
+          "Oneil Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh VanMeter",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Josh VanMeter",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Josh VanMeter",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh VanMeter",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Ben Gamel",
+        "pitcher": "Sandy Alcantara",
+        "fielders": [
+          "JJ Bleday"
+        ],
+        "scoring_runner": "Ben Gamel",
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ben Gamel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Josh VanMeter",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cal Mitchell",
+        "pitcher": "Sandy Alcantara",
+        "movements": [
+          {
+            "runner": "Cal Mitchell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Greg Allen",
+        "pitcher": "Sandy Alcantara",
+        "fielders": [
+          "Jesús Aguilar"
+        ],
+        "movements": [
+          {
+            "runner": "Greg Allen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "JJ Bleday",
+        "pitcher": "Manny Bañuelos",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Manny Bañuelos",
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Manny Bañuelos",
+        "fielders": [
+          "Josh VanMeter"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Oneil Cruz",
+        "pitcher": "Huascar Brazobán",
+        "movements": [
+          {
+            "runner": "Oneil Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Huascar Brazobán",
+        "fielders": [
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jason Delay",
+        "pitcher": "Huascar Brazobán",
+        "movements": [
+          {
+            "runner": "Jason Delay",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Huascar Brazobán",
+        "fielders": [
+          "Willians Astudillo"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willians Astudillo",
+        "pitcher": "Yerry De Los Santos",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Willians Astudillo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jacob Stallings",
+        "pitcher": "Yerry De Los Santos",
+        "movements": [
+          {
+            "runner": "Jacob Stallings",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Joey Wendle",
+        "pitcher": "Yerry De Los Santos",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Jacob Stallings",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Yerry De Los Santos",
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Wendle",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Michael Chavis",
+        "pitcher": "Steven Okert",
+        "fielders": [
+          "JJ Bleday"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Steven Okert",
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ben Gamel",
+        "pitcher": "Steven Okert",
+        "movements": [
+          {
+            "runner": "Ben Gamel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Duane Underwood Jr.",
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Avisaíl García",
+        "pitcher": "Duane Underwood Jr.",
+        "fielders": [
+          "Ben Gamel"
+        ],
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "JJ Bleday",
+        "pitcher": "Duane Underwood Jr.",
+        "movements": [
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bryan De La Cruz",
+        "pitcher": "Duane Underwood Jr.",
+        "movements": [
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "JJ Bleday",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jesús Sánchez",
+        "pitcher": "Duane Underwood Jr.",
+        "movements": [
+          {
+            "runner": "Jesús Sánchez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bryan De La Cruz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willians Astudillo",
+        "pitcher": "Duane Underwood Jr.",
+        "fielders": [
+          "Ke'Bryan Hayes"
+        ],
+        "movements": [
+          {
+            "runner": "Willians Astudillo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cal Mitchell",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Cal Mitchell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Greg Allen",
+        "pitcher": "Anthony Bass",
+        "fielders": [
+          "Jesús Aguilar"
+        ],
+        "movements": [
+          {
+            "runner": "Greg Allen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Greg Allen",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cal Mitchell",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cal Mitchell",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Oneil Cruz",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Oneil Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yoshi Tsutsugo",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Yoshi Tsutsugo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Greg Allen",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Cal Mitchell",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Diego A. Castillo",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Diego A. Castillo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Anthony Bass",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Fortes",
+        "pitcher": "David Bednar",
+        "movements": [
+          {
+            "runner": "Nick Fortes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Fortes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luke Williams",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Joey Wendle",
+        "pitcher": "David Bednar",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Wendle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Fortes",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Rojas",
+        "pitcher": "David Bednar",
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Fortes",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "David Bednar",
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Avisaíl García",
+        "pitcher": "David Bednar",
+        "movements": [
+          {
+            "runner": "Avisaíl García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael Chavis",
+        "pitcher": "Jeff Brigham",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ke'Bryan Hayes",
+        "pitcher": "Jeff Brigham",
+        "fielders": [
+          "Bryan De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Ke'Bryan Hayes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kevin Newman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ben Gamel",
+        "pitcher": "Jeff Brigham",
+        "movements": [
+          {
+            "runner": "Ben Gamel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cal Mitchell",
+        "pitcher": "Jeff Brigham",
+        "movements": [
+          {
+            "runner": "Cal Mitchell",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kevin Newman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ben Gamel",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ben Gamel",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Greg Allen",
+        "pitcher": "Jeff Brigham",
+        "movements": [
+          {
+            "runner": "Greg Allen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1622 @@
+{
+  "context": {
+    "game_pk": 717435,
+    "date": {
+      "year": 2023,
+      "month": 7,
+      "day": 9
+    },
+    "venue_name": "Fenway Park",
+    "weather": {
+      "condition": "Cloudy",
+      "temperature": 80,
+      "wind_speed": 12
+    },
+    "home_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Kenley Jansen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Martin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Turner",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Joely Rodríguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "CenterField"
+        },
+        {
+          "name": "James Paxton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Duvall",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jorge Alfaro",
+          "position": "Catcher"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tayler Scott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rob Refsnyder",
+          "position": "LeftField"
+        },
+        {
+          "name": "Christian Arroyo",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Yu Chang",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "RightField"
+        },
+        {
+          "name": "Connor Wong",
+          "position": "Catcher"
+        },
+        {
+          "name": "Brennan Bernardino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Murphy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Winckowski",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Triston Casas",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Kutter Crawford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brayan Bello",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarren Duran",
+          "position": "LeftField"
+        },
+        {
+          "name": "Joe Jacques",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Walter",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Masataka Yoshida",
+          "position": "DesignatedHitter"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 133,
+      "players": [
+        {
+          "name": "Manny Piña",
+          "position": "Catcher"
+        },
+        {
+          "name": "Trevor May",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Moll",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jace Peterson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Paul Blackburn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Thomas",
+          "position": "RightField"
+        },
+        {
+          "name": "Tyler Wade",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Tony Kemp",
+          "position": "LeftField"
+        },
+        {
+          "name": "Austin Pruitt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aledmys Díaz",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Shintaro Fujinami",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hogan Harris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Richard Lovelady",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seth Brown",
+          "position": "RightField"
+        },
+        {
+          "name": "Luis Medina",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Angel Felipe",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brent Rooker",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Lucas Erceg",
+          "position": "Pitcher"
+        },
+        {
+          "name": "JJ Bleday",
+          "position": "CenterField"
+        },
+        {
+          "name": "Shea Langeliers",
+          "position": "Catcher"
+        },
+        {
+          "name": "Nick Allen",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Sam Long",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Diaz",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Ryan Noda",
+          "position": "FirstBase"
+        },
+        {
+          "name": "JP Sears",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ken Waldichuk",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Tayler Scott",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ryan Noda",
+        "pitcher": "Tayler Scott",
+        "movements": [
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Brown",
+        "pitcher": "Tayler Scott",
+        "fielders": [
+          "Jorge Alfaro",
+          "Tayler Scott"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Noda",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Noda",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Brent Rooker",
+        "pitcher": "Tayler Scott",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "JJ Bleday",
+        "pitcher": "Tayler Scott",
+        "movements": [
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brent Rooker",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Justin Turner",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Ryan Noda"
+        ],
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rafael Devers",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Adam Duvall",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Cody Thomas"
+        ],
+        "scoring_runner": "Rob Refsnyder",
+        "movements": [
+          {
+            "runner": "Adam Duvall",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Jace Peterson"
+        ],
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cody Thomas",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Cody Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Manny Piña",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jace Peterson",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tyler Wade",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jace Peterson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Wade",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Chris Murphy",
+        "fielders": [
+          "Justin Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jace Peterson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Wade",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ryan Noda",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Wade",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seth Brown",
+        "pitcher": "Chris Murphy",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jorge Alfaro",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Enrique Hernández",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Jace Peterson"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yu Chang",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Tyler Wade"
+        ],
+        "movements": [
+          {
+            "runner": "Yu Chang",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brent Rooker",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "JJ Bleday",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Cody Thomas",
+        "pitcher": "Chris Murphy",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cody Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brent Rooker",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Manny Piña",
+        "pitcher": "Chris Murphy",
+        "fielders": [
+          "Yu Chang"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Justin Turner",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Rafael Devers",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Adam Duvall",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Adam Duvall",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jace Peterson",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyler Wade",
+        "pitcher": "Chris Murphy",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Wade",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tony Kemp",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Noda",
+        "pitcher": "Chris Murphy",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jorge Alfaro",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Cody Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Christian Arroyo",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Jace Peterson",
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Brown",
+        "pitcher": "Josh Winckowski",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Brent Rooker",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "JJ Bleday",
+        "pitcher": "Josh Winckowski",
+        "fielders": [
+          "Yu Chang"
+        ],
+        "movements": [
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cody Thomas",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Cody Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Yu Chang",
+        "pitcher": "JP Sears",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Yu Chang",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Justin Turner",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Devers",
+        "pitcher": "JP Sears",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Manny Piña",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jace Peterson",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Manny Piña",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "BuntPopOut": {
+        "batter": "Tyler Wade",
+        "pitcher": "Josh Winckowski",
+        "fielders": [
+          "Jorge Alfaro"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Wade",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Josh Winckowski",
+        "fielders": [
+          "Justin Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Manny Piña",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Noda",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Adam Duvall",
+        "pitcher": "Paul Blackburn",
+        "movements": [
+          {
+            "runner": "Adam Duvall",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "Paul Blackburn",
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jorge Alfaro",
+        "pitcher": "Paul Blackburn",
+        "fielders": [
+          "Cody Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Paul Blackburn",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Paul Blackburn",
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Yu Chang",
+        "pitcher": "Paul Blackburn",
+        "movements": [
+          {
+            "runner": "Yu Chang",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Paul Blackburn",
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seth Brown",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brent Rooker",
+        "pitcher": "Josh Winckowski",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Seth Brown",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "JJ Bleday",
+        "pitcher": "Joely Rodríguez",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Seth Brown",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jordan Diaz",
+        "pitcher": "Joely Rodríguez",
+        "movements": [
+          {
+            "runner": "Jordan Diaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Piña",
+        "pitcher": "Joely Rodríguez",
+        "movements": [
+          {
+            "runner": "Manny Piña",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Justin Turner",
+        "pitcher": "Ken Waldichuk",
+        "fielders": [
+          "Jace Peterson"
+        ],
+        "movements": [
+          {
+            "runner": "Justin Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Rafael Devers",
+        "pitcher": "Ken Waldichuk",
+        "fielders": [
+          "Tyler Wade"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adam Duvall",
+        "pitcher": "Ken Waldichuk",
+        "movements": [
+          {
+            "runner": "Adam Duvall",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jace Peterson",
+        "pitcher": "Chris Martin",
+        "movements": [
+          {
+            "runner": "Jace Peterson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "BuntPopOut": {
+        "batter": "Tyler Wade",
+        "pitcher": "Chris Martin",
+        "fielders": [
+          "Justin Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Wade",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tony Kemp",
+        "pitcher": "Chris Martin",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jace Peterson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan Noda",
+        "pitcher": "Chris Martin",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Brown",
+        "pitcher": "Chris Martin",
+        "fielders": [
+          "Chris Martin"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Masataka Yoshida",
+        "pitcher": "Ken Waldichuk",
+        "movements": [
+          {
+            "runner": "Masataka Yoshida",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Alfaro",
+        "pitcher": "Ken Waldichuk",
+        "fielders": [
+          "Jace Peterson"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Alfaro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jarren Duran",
+        "pitcher": "Ken Waldichuk",
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jarren Duran",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Shintaro Fujinami",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yu Chang",
+        "pitcher": "Shintaro Fujinami",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Yu Chang",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brent Rooker",
+        "pitcher": "Kenley Jansen",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "JJ Bleday",
+        "pitcher": "Kenley Jansen",
+        "movements": [
+          {
+            "runner": "Nick Allen",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "JJ Bleday",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jordan Diaz",
+        "pitcher": "Kenley Jansen",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Jordan Diaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

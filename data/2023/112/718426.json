@@ -1,0 +1,1515 @@
+{
+  "context": {
+    "game_pk": 718426,
+    "date": {
+      "year": 2023,
+      "month": 4,
+      "day": 25
+    },
+    "venue_name": "Wrigley Field",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 41,
+      "wind_speed": 13
+    },
+    "home_team": {
+      "id": 112,
+      "players": [
+        {
+          "name": "Brad Boxberger",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yan Gomes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Eric Hosmer",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Tucker Barnhart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Marcus Stroman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew Smyly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Torrens",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Dansby Swanson",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Michael Rucker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edwin Ríos",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Patrick Wisdom",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Keegan Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adbert Alzolay",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trey Mancini",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Mark Leiter Jr.",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Steele",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Julian Merryweather",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nico Hoerner",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Nick Madrigal",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ian Happ",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jeremiah Estrada",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hayden Wesneski",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seiya Suzuki",
+          "position": "RightField"
+        },
+        {
+          "name": "Nelson Velázquez",
+          "position": "CenterField"
+        },
+        {
+          "name": "Brandon Hughes",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 135,
+      "players": [
+        {
+          "name": "Nelson Cruz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Luis García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Nola",
+          "position": "Catcher"
+        },
+        {
+          "name": "Matt Carpenter",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Manny Machado",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Rougned Odor",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Joe Musgrove",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Snell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Martinez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seth Lugo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Wacha",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Wilson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Hader",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Cronenworth",
+          "position": "FirstBase"
+        },
+        {
+          "name": "José Azocar",
+          "position": "RightField"
+        },
+        {
+          "name": "Brent Honeywell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tim Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trent Grisham",
+          "position": "CenterField"
+        },
+        {
+          "name": "Brett Sullivan",
+          "position": "Catcher"
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "position": "RightField"
+        },
+        {
+          "name": "Juan Soto",
+          "position": "LeftField"
+        },
+        {
+          "name": "Ha-Seong Kim",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Ryan Weathers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ray Kerr",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "StrikeoutDoublePlay": {
+        "batter": "Juan Soto",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Yan Gomes",
+          "Yan Gomes"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Manny Machado",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Fernando Tatis Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ian Happ",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Fernando Tatis Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Carpenter",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Matt Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Trey Mancini",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Trey Mancini",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Yan Gomes",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Trey Mancini",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Nola",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Dansby Swanson"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Trent Grisham",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Soto",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Manny Machado",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ian Happ",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Nelson Velázquez"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Trey Mancini",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Trey Mancini",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yan Gomes",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Trey Mancini",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Xander Bogaerts",
+          "Ha-Seong Kim"
+        ],
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Trey Mancini",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Carpenter",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Matt Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Nola",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Justin Steele",
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Patrick Wisdom"
+        ],
+        "movements": [
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ian Happ",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Blake Snell",
+        "fielders": [
+          "Fernando Tatis Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Blake Snell",
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Juan Soto",
+        "pitcher": "Justin Steele",
+        "fielders": [
+          "Ian Happ"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Manny Machado",
+        "pitcher": "Adbert Alzolay",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Adbert Alzolay",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Luis García",
+        "fielders": [
+          "Jake Cronenworth"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trey Mancini",
+        "pitcher": "Luis García",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Trey Mancini",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yan Gomes",
+        "pitcher": "Luis García",
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "Luis García",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Mark Leiter Jr.",
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Mark Leiter Jr.",
+        "fielders": [
+          "Patrick Wisdom"
+        ],
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Matt Carpenter",
+        "pitcher": "Mark Leiter Jr.",
+        "movements": [
+          {
+            "runner": "Matt Carpenter",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Austin Nola",
+        "pitcher": "Mark Leiter Jr.",
+        "movements": [
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Trent Grisham",
+        "pitcher": "Mark Leiter Jr.",
+        "fielders": [
+          "Patrick Wisdom"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Ryan Weathers",
+        "fielders": [
+          "Fernando Tatis Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Ryan Weathers",
+        "fielders": [
+          "Trent Grisham"
+        ],
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ian Happ",
+        "pitcher": "Ryan Weathers",
+        "fielders": [
+          "Ryan Weathers"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Keegan Thompson",
+        "movements": [
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Juan Soto",
+        "pitcher": "Keegan Thompson",
+        "fielders": [
+          "Patrick Wisdom"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Soto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Manny Machado",
+        "pitcher": "Keegan Thompson",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Keegan Thompson",
+        "movements": [
+          {
+            "runner": "Manny Machado",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Cronenworth",
+        "pitcher": "Keegan Thompson",
+        "fielders": [
+          "Seiya Suzuki"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cronenworth",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seiya Suzuki",
+        "pitcher": "Steven Wilson",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Seiya Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Steven Wilson",
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Eric Hosmer",
+        "pitcher": "Steven Wilson",
+        "fielders": [
+          "Juan Soto"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Hosmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Trey Mancini",
+        "pitcher": "Steven Wilson",
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Trey Mancini",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yan Gomes",
+        "pitcher": "Steven Wilson",
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Trey Mancini",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Trey Mancini",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nelson Velázquez",
+        "pitcher": "Steven Wilson",
+        "movements": [
+          {
+            "runner": "Yan Gomes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "Nico Hoerner",
+        "pitcher": "Ray Kerr",
+        "movements": [
+          {
+            "runner": "Nico Hoerner",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Trey Mancini",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Yan Gomes",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Velázquez",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dansby Swanson",
+        "pitcher": "Ray Kerr",
+        "fielders": [
+          "Manny Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Dansby Swanson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ha-Seong Kim",
+        "pitcher": "Michael Rucker",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Carpenter",
+        "pitcher": "Michael Rucker",
+        "fielders": [
+          "Nico Hoerner"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Austin Nola",
+        "pitcher": "Michael Rucker",
+        "movements": [
+          {
+            "runner": "Ha-Seong Kim",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Nola",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Trent Grisham",
+        "pitcher": "Michael Rucker",
+        "fielders": [
+          "Yan Gomes"
+        ],
+        "movements": [
+          {
+            "runner": "Trent Grisham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Fernando Tatis Jr.",
+        "pitcher": "Michael Rucker",
+        "movements": [
+          {
+            "runner": "Fernando Tatis Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1403 @@
+{
+  "context": {
+    "game_pk": 716979,
+    "date": {
+      "year": 2023,
+      "month": 8,
+      "day": 15
+    },
+    "venue_name": "Dodger Stadium",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 77,
+      "wind_speed": 4
+    },
+    "home_team": {
+      "id": 119,
+      "players": [
+        {
+          "name": "David Peralta",
+          "position": "LeftField"
+        },
+        {
+          "name": "Lance Lynn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Clayton Kershaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Miguel Rojas",
+          "position": "Shortstop"
+        },
+        {
+          "name": "J.D. Martinez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Ryan Brasier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Freddie Freeman",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jason Heyward",
+          "position": "RightField"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "LeftField"
+        },
+        {
+          "name": "Max Muncy",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Austin Barnes",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mookie Betts",
+          "position": "RightField"
+        },
+        {
+          "name": "Chris Taylor",
+          "position": "LeftField"
+        },
+        {
+          "name": "Evan Phillips",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Victor González",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Julio Urías",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Yarbrough",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Amed Rosario",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Caleb Ferguson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brusdar Graterol",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Gonsolin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Catcher"
+        },
+        {
+          "name": "Bobby Miller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gus Varland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "James Outman",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alex Vesia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Pepiot",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 158,
+      "players": [
+        {
+          "name": "Carlos Santana",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Wade Miley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hoby Milner",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mark Canha",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Christian Yelich",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brian Anderson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Victor Caratini",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adrian Houser",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Woodruff",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joel Payamps",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyrone Taylor",
+          "position": "RightField"
+        },
+        {
+          "name": "Devin Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Freddy Peralta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willy Adames",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Abraham Toro",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andruw Monasterio",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Trevor Megill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "William Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Elvis Peguero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brice Turang",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bryse Wilson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corbin Burnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Abner Uribe",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sal Frelick",
+          "position": "CenterField"
+        },
+        {
+          "name": "Joey Wiemer",
+          "position": "CenterField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Christian Yelich",
+        "pitcher": "Bobby Miller",
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "William Contreras",
+        "pitcher": "Bobby Miller",
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "James Outman"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Sal Frelick",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Mookie Betts",
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Yelich",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Sal Frelick",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Willy Adames",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Andruw Monasterio"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Will Smith",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Tyrone Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mark Canha",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Jason Heyward"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andruw Monasterio",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "James Outman"
+        ],
+        "movements": [
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brice Turang",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Brice Turang",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Muncy",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Peralta",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Brice Turang"
+        ],
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyrone Taylor",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Bobby Miller"
+        ],
+        "movements": [
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "William Contreras",
+        "pitcher": "Bobby Miller",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jason Heyward",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Sal Frelick"
+        ],
+        "movements": [
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "James Outman",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "James Outman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Andruw Monasterio"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sal Frelick",
+        "pitcher": "Bobby Miller",
+        "movements": [
+          {
+            "runner": "Sal Frelick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willy Adames",
+        "pitcher": "Bobby Miller",
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mookie Betts",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Brice Turang",
+          "Brice Turang"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Will Smith",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "William Contreras"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Muncy",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mark Canha",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andruw Monasterio",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brice Turang",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Brice Turang",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Peralta",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "David Peralta",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jason Heyward",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "Jason Heyward",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "David Peralta",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "James Outman",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "James Outman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "David Peralta",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jason Heyward",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mookie Betts",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Sal Frelick"
+        ],
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Tyrone Taylor",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "James Outman"
+        ],
+        "movements": [
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Bobby Miller",
+        "fielders": [
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "William Contreras",
+        "pitcher": "Bobby Miller",
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Andruw Monasterio"
+        ],
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Will Smith",
+        "pitcher": "Adrian Houser",
+        "fielders": [
+          "Andruw Monasterio"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Max Muncy",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Will Smith",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Adrian Houser",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Will Smith",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Max Muncy",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Amed Rosario",
+        "pitcher": "Hoby Milner",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "James Outman",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "James Outman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Hoby Milner",
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "James Outman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mookie Betts",
+        "pitcher": "Bryse Wilson",
+        "movements": [
+          {
+            "runner": "Mookie Betts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "James Outman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "James Outman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Rojas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Freddie Freeman",
+        "pitcher": "Bryse Wilson",
+        "movements": [
+          {
+            "runner": "Freddie Freeman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Carlos Santana",
+        "pitcher": "Ryan Yarbrough",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Sal Frelick",
+        "pitcher": "Ryan Yarbrough",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Sal Frelick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willy Adames",
+        "pitcher": "Ryan Yarbrough",
+        "movements": [
+          {
+            "runner": "Willy Adames",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Mark Canha",
+        "pitcher": "Ryan Yarbrough",
+        "fielders": [
+          "Freddie Freeman"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Will Smith",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Tyrone Taylor"
+        ],
+        "movements": [
+          {
+            "runner": "Will Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Max Muncy",
+        "pitcher": "Bryse Wilson",
+        "movements": [
+          {
+            "runner": "Max Muncy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Sal Frelick"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Bryse Wilson",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andruw Monasterio",
+        "pitcher": "Ryan Yarbrough",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Andruw Monasterio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brian Anderson",
+        "pitcher": "Ryan Yarbrough",
+        "fielders": [
+          "Mookie Betts"
+        ],
+        "movements": [
+          {
+            "runner": "Brian Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyrone Taylor",
+        "pitcher": "Ryan Yarbrough",
+        "fielders": [
+          "Max Muncy"
+        ],
+        "movements": [
+          {
+            "runner": "Tyrone Taylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Willy Adames"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "James Outman",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Sal Frelick"
+        ],
+        "movements": [
+          {
+            "runner": "James Outman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Miguel Rojas",
+        "pitcher": "Bryse Wilson",
+        "fielders": [
+          "Christian Yelich"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Yelich",
+        "pitcher": "Ryan Yarbrough",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Yelich",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "William Contreras",
+        "pitcher": "Ryan Yarbrough",
+        "fielders": [
+          "Miguel Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "William Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Ryan Yarbrough",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

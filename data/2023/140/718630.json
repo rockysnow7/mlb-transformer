@@ -1,0 +1,1515 @@
+{
+  "context": {
+    "game_pk": 718630,
+    "date": {
+      "year": 2023,
+      "month": 4,
+      "day": 10
+    },
+    "venue_name": "Globe Life Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 73,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 140,
+      "players": [
+        {
+          "name": "Ian Kennedy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sandy León",
+          "position": "Catcher"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Martín Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robbie Grossman",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brad Miller",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Marcus Semien",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Andrew Heaney",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jon Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jacob deGrom",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Leclerc",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Corey Seager",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Travis Jankowski",
+          "position": "CenterField"
+        },
+        {
+          "name": "Taylor Hearn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dane Dunning",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonah Heim",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jonathan Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brock Burke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Cole Ragans",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adolis García",
+          "position": "RightField"
+        },
+        {
+          "name": "Bubba Thompson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Josh Smith",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Josh Jung",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ezequiel Duran",
+          "position": "SecondBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 118,
+      "players": [
+        {
+          "name": "Zack Greinke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Salvador Perez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jordan Lyles",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aroldis Chapman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jackie Bradley Jr.",
+          "position": "CenterField"
+        },
+        {
+          "name": "Scott Barlow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Amir Garrett",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Franmil Reyes",
+          "position": "RightField"
+        },
+        {
+          "name": "Jose Cuas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Duffy",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Hunter Dozier",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brad Keller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Yarbrough",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edward Olivares",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kris Bubic",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brady Singer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Taylor Clarke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Isbel",
+          "position": "CenterField"
+        },
+        {
+          "name": "MJ Melendez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Dylan Coleman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nicky Lopez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Carlos Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bobby Witt Jr.",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Nate Eaton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Vinnie Pasquantino",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Michael Massey",
+          "position": "SecondBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Edward Olivares",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Vinnie Pasquantino",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Salvador Perez",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Salvador Perez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Duffy",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Corey Seager",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Hunter Dozier"
+        ],
+        "movements": [
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adolis García",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nate Eaton",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Nate Eaton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jonah Heim",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Josh Smith",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Edward Olivares"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bubba Thompson",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Salvador Perez"
+        ],
+        "movements": [
+          {
+            "runner": "Bubba Thompson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Edward Olivares",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Vinnie Pasquantino",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Marcus Semien",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Bobby Witt Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Corey Seager",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Travis Jankowski",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Travis Jankowski",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Marcus Semien",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Corey Seager",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Corey Seager",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Marcus Semien",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Adolis García",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Nate Eaton"
+        ],
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt Duffy",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Nathaniel Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jonah Heim",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Smith",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Hunter Dozier"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bubba Thompson",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Bubba Thompson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Zack Greinke",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Marcus Semien"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nate Eaton",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Nate Eaton",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Travis Jankowski"
+        ],
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Nate Eaton",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Edward Olivares",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Nathaniel Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Corey Seager",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Nate Eaton"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Hunter Dozier"
+        ],
+        "movements": [
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Adolis García",
+        "pitcher": "Zack Greinke",
+        "fielders": [
+          "Edward Olivares"
+        ],
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vinnie Pasquantino",
+        "pitcher": "Brock Burke",
+        "fielders": [
+          "Corey Seager"
+        ],
+        "movements": [
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Brock Burke",
+        "fielders": [
+          "Josh Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt Duffy",
+        "pitcher": "Brock Burke",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Dylan Coleman",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jonah Heim",
+        "pitcher": "Dylan Coleman",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Smith",
+        "pitcher": "Dylan Coleman",
+        "movements": [
+          {
+            "runner": "Josh Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Bubba Thompson",
+        "pitcher": "Dylan Coleman",
+        "movements": [
+          {
+            "runner": "Bubba Thompson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Robbie Grossman",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jonah Heim",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Dylan Coleman",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bubba Thompson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jonah Heim",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Marcus Semien",
+        "pitcher": "Dylan Coleman",
+        "fielders": [
+          "Hunter Dozier"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Corey Seager",
+        "pitcher": "Dylan Coleman",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Dylan Coleman",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Corey Seager",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Adolis García",
+        "pitcher": "Jose Cuas",
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Travis Jankowski",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Corey Seager",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Robbie Grossman",
+        "pitcher": "Jose Cuas",
+        "movements": [
+          {
+            "runner": "Robbie Grossman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Brock Burke",
+        "fielders": [
+          "Corey Seager"
+        ],
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Brock Burke",
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nate Eaton",
+        "pitcher": "Brock Burke",
+        "movements": [
+          {
+            "runner": "Nate Eaton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jackie Bradley Jr.",
+        "pitcher": "Brock Burke",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Jackie Bradley Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonah Heim",
+        "pitcher": "Jose Cuas",
+        "fielders": [
+          "Michael Massey"
+        ],
+        "movements": [
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Smith",
+        "pitcher": "Jose Cuas",
+        "fielders": [
+          "Jackie Bradley Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Josh Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bubba Thompson",
+        "pitcher": "Jose Cuas",
+        "fielders": [
+          "Nate Eaton"
+        ],
+        "movements": [
+          {
+            "runner": "Bubba Thompson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Dane Dunning",
+        "fielders": [
+          "Brad Miller"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Edward Olivares",
+        "pitcher": "Dane Dunning",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Vinnie Pasquantino",
+        "pitcher": "Dane Dunning",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Vinnie Pasquantino",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Dane Dunning",
+        "fielders": [
+          "Travis Jankowski"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Nate Eaton",
+        "fielders": [
+          "Michael Massey"
+        ],
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ezequiel Duran",
+        "pitcher": "Nate Eaton",
+        "movements": [
+          {
+            "runner": "Ezequiel Duran",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Corey Seager",
+        "pitcher": "Nate Eaton",
+        "movements": [
+          {
+            "runner": "Corey Seager",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ezequiel Duran",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brad Miller",
+        "pitcher": "Nate Eaton",
+        "fielders": [
+          "Edward Olivares"
+        ],
+        "movements": [
+          {
+            "runner": "Brad Miller",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adolis García",
+        "pitcher": "Nate Eaton",
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Michael Massey",
+        "pitcher": "Dane Dunning",
+        "fielders": [
+          "Bubba Thompson"
+        ],
+        "movements": [
+          {
+            "runner": "Michael Massey",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Dane Dunning",
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Dane Dunning",
+        "fielders": [
+          "Bubba Thompson"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1723 @@
+{
+  "context": {
+    "game_pk": 632737,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 28
+    },
+    "venue_name": "Progressive Field",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 85,
+      "wind_speed": 6
+    },
+    "home_team": {
+      "id": 114,
+      "players": [
+        {
+          "name": "Blake Parker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wilson Ramos",
+          "position": "Catcher"
+        },
+        {
+          "name": "Bryan Shaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Hedges",
+          "position": "Catcher"
+        },
+        {
+          "name": "Bradley Zimmer",
+          "position": "RightField"
+        },
+        {
+          "name": "José Ramírez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Franmil Reyes",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Cal Quantrill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Garza",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Wittgren",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Young",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Óscar Mercado",
+          "position": "LeftField"
+        },
+        {
+          "name": "Amed Rosario",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Yu Chang",
+          "position": "FirstBase"
+        },
+        {
+          "name": "J.C. Mejía",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bobby Bradley",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Sam Hentges",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emmanuel Clase",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Logan Allen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Stephan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Myles Straw",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrés Giménez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Zach Plesac",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eli Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daniel Johnson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Owen Miller",
+          "position": "SecondBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Adam Ottavino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.D. Martinez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Chris Sale",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Martín Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Travis Shaw",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Christian Vázquez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hansel Robles",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Plawecki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Hirokazu Sawamura",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yairo Muñoz",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Austin Davis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tanner Houck",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Schwarber",
+          "position": "LeftField"
+        },
+        {
+          "name": "Josh Taylor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "RightField"
+        },
+        {
+          "name": "Jonathan Araúz",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bobby Dalbec",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Garrett Whitlock",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarren Duran",
+          "position": "CenterField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "BuntPopOut": {
+        "batter": "Jarren Duran",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Cal Quantrill"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Myles Straw",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "José Ramírez",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Jarren Duran"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Bradley Zimmer"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Travis Shaw",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Bobby Bradley"
+        ],
+        "movements": [
+          {
+            "runner": "Travis Shaw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bobby Bradley",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Austin Hedges",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Daniel Johnson",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Daniel Johnson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bobby Bradley",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Myles Straw",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Araúz",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Jonathan Araúz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "José Ramírez",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rafael Devers",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Travis Shaw"
+        ],
+        "movements": [
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bobby Bradley",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Austin Hedges",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Daniel Johnson",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Daniel Johnson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Travis Shaw",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Travis Shaw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Jonathan Araúz",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jonathan Araúz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Daniel Johnson"
+        ],
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Jarren Duran"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Myles Straw",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Jonathan Araúz"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "José Ramírez",
+        "pitcher": "Nathan Eovaldi",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Nathan Eovaldi",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Josh Taylor",
+        "movements": [
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Bradley",
+        "pitcher": "Josh Taylor",
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Hedges",
+        "pitcher": "Josh Taylor",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Travis Shaw",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "runner": "Alex Verdugo",
+        "movements": [
+          {
+            "runner": "Travis Shaw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jonathan Araúz",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Araúz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Daniel Johnson"
+        ],
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Óscar Mercado",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "Óscar Mercado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "Óscar Mercado",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "BuntPopOut": {
+        "batter": "Myles Straw",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Hirokazu Sawamura"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Hirokazu Sawamura"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Óscar Mercado",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Andrés Giménez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "José Ramírez",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Bryan Shaw",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Bryan Shaw",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Bryan Shaw",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rafael Devers",
+        "pitcher": "Bryan Shaw",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Bryan Shaw",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Austin Davis",
+        "movements": [
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bobby Bradley",
+        "pitcher": "Austin Davis",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Hedges",
+        "pitcher": "Austin Davis",
+        "fielders": [
+          "Austin Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Óscar Mercado",
+        "pitcher": "Garrett Richards",
+        "fielders": [
+          "Alex Verdugo"
+        ],
+        "movements": [
+          {
+            "runner": "Óscar Mercado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Travis Shaw",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Bobby Bradley"
+        ],
+        "movements": [
+          {
+            "runner": "Travis Shaw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonathan Araúz",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Jonathan Araúz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jarren Duran",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Jarren Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Myles Straw",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "José Ramírez",
+        "pitcher": "Garrett Whitlock",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Nick Wittgren",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jarren Duran",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Nick Wittgren",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jarren Duran",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Nick Wittgren",
+        "fielders": [
+          "Bobby Bradley"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rafael Devers",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Alex Young",
+        "fielders": [
+          "Andrés Giménez",
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Franmil Reyes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Bradley",
+        "pitcher": "Martín Pérez",
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Hedges",
+        "pitcher": "Adam Ottavino",
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Óscar Mercado",
+        "pitcher": "Adam Ottavino",
+        "movements": [
+          {
+            "runner": "Óscar Mercado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "José Ramírez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Franmil Reyes",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Adam Ottavino",
+        "fielders": [
+          "Jonathan Araúz"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

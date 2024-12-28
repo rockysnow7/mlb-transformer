@@ -1,0 +1,1816 @@
+{
+  "context": {
+    "game_pk": 716941,
+    "date": {
+      "year": 2023,
+      "month": 8,
+      "day": 19
+    },
+    "venue_name": "Nationals Park",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 80,
+      "wind_speed": 5
+    },
+    "home_team": {
+      "id": 120,
+      "players": [
+        {
+          "name": "Ildemaro Vargas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Corbin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrés Machado",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Weems",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Meneses",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Kyle Finnegan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Harvey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dominic Smith",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Riley Adams",
+          "position": "Catcher"
+        },
+        {
+          "name": "Michael Chavis",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Stone Garrett",
+          "position": "LeftField"
+        },
+        {
+          "name": "Lane Thomas",
+          "position": "RightField"
+        },
+        {
+          "name": "Keibert Ruiz",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jake Irvin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Blake Rutherford",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jake Alu",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "MacKenzie Gore",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeter Downs",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Alex Call",
+          "position": "CenterField"
+        },
+        {
+          "name": "Joan Adon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cory Abbott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robert Garcia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose A. Ferrer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josiah Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "CJ Abrams",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 143,
+      "players": [
+        {
+          "name": "Craig Kimbrel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Lorenzen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bryce Harper",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Zack Wheeler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Bellatti",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Castellanos",
+          "position": "RightField"
+        },
+        {
+          "name": "Dylan Covey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.T. Realmuto",
+          "position": "Catcher"
+        },
+        {
+          "name": "Taijuan Walker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Cave",
+          "position": "RightField"
+        },
+        {
+          "name": "Garrett Stubbs",
+          "position": "Catcher"
+        },
+        {
+          "name": "Aaron Nola",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trea Turner",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Matt Strahm",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seranthony Domínguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Edmundo Sosa",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Weston Wilson",
+          "position": "LeftField"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cristopher Sánchez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeff Hoffman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis F. Ortiz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Schwarber",
+          "position": "LeftField"
+        },
+        {
+          "name": "Alec Bohm",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Rodolfo Castro",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Johan Rojas",
+          "position": "CenterField"
+        },
+        {
+          "name": "Bryson Stott",
+          "position": "SecondBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Alec Bohm",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "CJ Abrams",
+          "Michael Chavis"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Bryce Harper",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "CJ Abrams",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Johan Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lane Thomas",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Meneses",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Lane Thomas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Stone Garrett",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Alec Bohm",
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bryson Stott",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "Dominic Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trea Turner",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "Ildemaro Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Jake Cave",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Johan Rojas",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Johan Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Riley Adams",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Alec Bohm"
+        ],
+        "movements": [
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "Dominic Smith"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Bryce Harper",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "Ildemaro Vargas"
+        ],
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael Chavis",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Call",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Nick Castellanos"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "CJ Abrams",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bryson Stott",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trea Turner",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bryson Stott",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bryson Stott",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Cave",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "Alex Call"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Lane Thomas",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joey Meneses",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Lane Thomas",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Stone Garrett",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Jake Cave"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Riley Adams",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Smith",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Smith",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Johan Rojas",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Johan Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "Alex Call"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Michael Chavis",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Michael Chavis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alex Call",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "CJ Abrams",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bryce Harper",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bryson Stott",
+        "pitcher": "Jake Irvin",
+        "fielders": [
+          "Alex Call"
+        ],
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trea Turner",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Castellanos",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Cave",
+        "pitcher": "Jake Irvin",
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Joey Meneses",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Trea Turner"
+        ],
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Stone Garrett",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Meneses",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Riley Adams",
+        "pitcher": "Cristopher Sánchez",
+        "movements": [
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Stone Garrett",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Stone Garrett",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Meneses",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Joey Meneses",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Cristopher Sánchez",
+        "fielders": [
+          "Alec Bohm"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Johan Rojas",
+        "pitcher": "Jose A. Ferrer",
+        "movements": [
+          {
+            "runner": "Johan Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Jose A. Ferrer",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alec Bohm",
+        "pitcher": "Jose A. Ferrer",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Bryce Harper",
+        "pitcher": "Jose A. Ferrer",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Andrés Machado",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "BuntGroundout": {
+        "batter": "Bryson Stott",
+        "pitcher": "Andrés Machado",
+        "fielders": [
+          "Andrés Machado"
+        ],
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Alu",
+        "pitcher": "Seranthony Domínguez",
+        "fielders": [
+          "Bryson Stott"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Alu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Call",
+        "pitcher": "Seranthony Domínguez",
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Call",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "CJ Abrams",
+        "pitcher": "Seranthony Domínguez",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "CJ Abrams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Lane Thomas",
+        "pitcher": "Seranthony Domínguez",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Lane Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Trea Turner",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jake Cave",
+        "pitcher": "Cory Abbott",
+        "fielders": [
+          "Jake Alu"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Johan Rojas",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "Johan Rojas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kyle Schwarber",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Johan Rojas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Johan Rojas",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alec Bohm",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Johan Rojas",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Bryce Harper",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Nick Castellanos",
+        "pitcher": "Cory Abbott",
+        "fielders": [
+          "Lane Thomas"
+        ],
+        "scoring_runner": "Kyle Schwarber",
+        "movements": [
+          {
+            "runner": "Nick Castellanos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kyle Schwarber",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Bryson Stott",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Alec Bohm",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Trea Turner",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "Trea Turner",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.T. Realmuto",
+        "pitcher": "Cory Abbott",
+        "movements": [
+          {
+            "runner": "J.T. Realmuto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Meneses",
+        "pitcher": "Andrew Bellatti",
+        "movements": [
+          {
+            "runner": "Joey Meneses",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Stone Garrett",
+        "pitcher": "Andrew Bellatti",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Stone Garrett",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dominic Smith",
+        "pitcher": "Andrew Bellatti",
+        "fielders": [
+          "Kyle Schwarber"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Smith",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jake Cave",
+        "pitcher": "Ildemaro Vargas",
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Johan Rojas",
+        "pitcher": "Ildemaro Vargas",
+        "movements": [
+          {
+            "runner": "Johan Rojas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Weston Wilson",
+        "pitcher": "Ildemaro Vargas",
+        "fielders": [
+          "Alex Call"
+        ],
+        "movements": [
+          {
+            "runner": "Weston Wilson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alec Bohm",
+        "pitcher": "Ildemaro Vargas",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Alec Bohm",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Bryce Harper",
+        "pitcher": "Ildemaro Vargas",
+        "movements": [
+          {
+            "runner": "Johan Rojas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rodolfo Castro",
+        "pitcher": "Ildemaro Vargas",
+        "movements": [
+          {
+            "runner": "Rodolfo Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Johan Rojas",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Bryce Harper",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Bryson Stott",
+        "pitcher": "Ildemaro Vargas",
+        "fielders": [
+          "CJ Abrams"
+        ],
+        "movements": [
+          {
+            "runner": "Rodolfo Castro",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Bryson Stott",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Riley Adams",
+        "pitcher": "Luis F. Ortiz",
+        "movements": [
+          {
+            "runner": "Riley Adams",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ildemaro Vargas",
+        "pitcher": "Luis F. Ortiz",
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Jake Alu",
+        "pitcher": "Luis F. Ortiz",
+        "fielders": [
+          "Edmundo Sosa"
+        ],
+        "movements": [
+          {
+            "runner": "Ildemaro Vargas",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Alu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Call",
+        "pitcher": "Luis F. Ortiz",
+        "fielders": [
+          "Johan Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Call",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1465 @@
+{
+  "context": {
+    "game_pk": 718259,
+    "date": {
+      "year": 2023,
+      "month": 5,
+      "day": 8
+    },
+    "venue_name": "Oriole Park at Camden Yards",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 81,
+      "wind_speed": 8
+    },
+    "home_team": {
+      "id": 110,
+      "players": [
+        {
+          "name": "Kyle Gibson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Danny Coulombe",
+          "position": "Pitcher"
+        },
+        {
+          "name": "James McCann",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ramón Urías",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Austin Voth",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Torrens",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jorge Mateo",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Anthony Santander",
+          "position": "RightField"
+        },
+        {
+          "name": "Adam Frazier",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bryan Baker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Félix Bautista",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cedric Mullins",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Mike Baumann",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Mountcastle",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ryan McKenna",
+          "position": "CenterField"
+        },
+        {
+          "name": "Dean Kremer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yennier Cano",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adley Rutschman",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Kyle Stowers",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Keegan Akin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Wells",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Hays",
+          "position": "LeftField"
+        },
+        {
+          "name": "Cionel Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Grayson Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gunnar Henderson",
+          "position": "PinchHitter"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 139,
+      "players": [
+        {
+          "name": "Chase Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Bethancourt",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jason Adam",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Eflin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Colin Poche",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Manuel Margot",
+          "position": "CenterField"
+        },
+        {
+          "name": "Harold Ramírez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Yonny Chirinos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Francisco Mejía",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jose Siri",
+          "position": "CenterField"
+        },
+        {
+          "name": "Javy Guerra",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yandy Díaz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jalen Beeks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew Rasmussen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Thompson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shane McClanahan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Lowe",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Trevor Kelley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Lowe",
+          "position": "RightField"
+        },
+        {
+          "name": "Randy Arozarena",
+          "position": "LeftField"
+        },
+        {
+          "name": "Luke Raley",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Isaac Paredes",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Taylor Walls",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Josh Fleming",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wander Franco",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Kevin Kelly",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Wander Franco",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Wander Franco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Kyle Gibson"
+        ],
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Wander Franco",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Taylor Walls",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Taylor Walls",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Hays",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Anthony Santander",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Wander Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Josh Lowe",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Siri",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Jose Siri",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luke Raley",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Luke Raley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Francisco Mejía",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Mejía",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Mateo",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "James McCann",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "James McCann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Adam Frazier",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ramón Urías",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan McKenna",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Josh Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan McKenna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Anthony Santander"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Wander Franco",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Wander Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Adam Frazier"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Austin Hays",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Josh Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Taylor Walls",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Taylor Walls",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Lowe",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Jorge Mateo"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jose Siri",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Siri",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Anthony Santander",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Mateo",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Santander",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "James McCann",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Randy Arozarena"
+        ],
+        "movements": [
+          {
+            "runner": "James McCann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Adam Frazier",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Wander Franco",
+          "Wander Franco"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Anthony Santander",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luke Raley",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Raley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Francisco Mejía",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Mejía",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Wander Franco",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Wander Franco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Wander Franco",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Anthony Santander"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ramón Urías",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Ryan McKenna",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Wander Franco",
+          "Brandon Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan McKenna",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Hays",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Josh Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Taylor Walls",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "Taylor Walls",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Lowe",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Siri",
+        "pitcher": "Kyle Gibson",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Siri",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Anthony Santander",
+        "pitcher": "Shane McClanahan",
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Mateo",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Luke Raley"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Anthony Santander",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "James McCann",
+        "pitcher": "Shane McClanahan",
+        "fielders": [
+          "Wander Franco"
+        ],
+        "movements": [
+          {
+            "runner": "James McCann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luke Raley",
+        "pitcher": "Kyle Gibson",
+        "movements": [
+          {
+            "runner": "Luke Raley",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Francisco Mejía",
+        "pitcher": "Bryan Baker",
+        "movements": [
+          {
+            "runner": "Luke Raley",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Mejía",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Bryan Baker",
+        "movements": [
+          {
+            "runner": "Luke Raley",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Mejía",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFlyDoublePlay": {
+        "batter": "Wander Franco",
+        "pitcher": "Bryan Baker",
+        "fielders": [
+          "Ryan McKenna",
+          "Ryan McKenna"
+        ],
+        "scoring_runner": "Francisco Mejía",
+        "movements": [
+          {
+            "runner": "Wander Franco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Francisco Mejía",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Yandy Díaz",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Luke Raley",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Randy Arozarena",
+        "pitcher": "Bryan Baker",
+        "fielders": [
+          "Ramón Urías"
+        ],
+        "movements": [
+          {
+            "runner": "Randy Arozarena",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Adam Frazier",
+        "pitcher": "Colin Poche",
+        "fielders": [
+          "Randy Arozarena"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ramón Urías",
+        "pitcher": "Colin Poche",
+        "fielders": [
+          "Taylor Walls"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ryan McKenna",
+        "pitcher": "Colin Poche",
+        "movements": [
+          {
+            "runner": "Ryan McKenna",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Austin Hays",
+        "pitcher": "Colin Poche",
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan McKenna",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Colin Poche",
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brandon Lowe",
+        "pitcher": "Keegan Akin",
+        "fielders": [
+          "Ryan McKenna"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Taylor Walls",
+        "pitcher": "Keegan Akin",
+        "movements": [
+          {
+            "runner": "Taylor Walls",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Lowe",
+        "pitcher": "Keegan Akin",
+        "movements": [
+          {
+            "runner": "Josh Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Kevin Kelly",
+        "fielders": [
+          "Josh Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Anthony Santander",
+        "pitcher": "Kevin Kelly",
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Mateo",
+        "pitcher": "Kevin Kelly",
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Siri",
+        "pitcher": "Keegan Akin",
+        "movements": [
+          {
+            "runner": "Jose Siri",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Luke Raley",
+        "pitcher": "Keegan Akin",
+        "movements": [
+          {
+            "runner": "Luke Raley",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Francisco Mejía",
+        "pitcher": "Keegan Akin",
+        "fielders": [
+          "Anthony Santander"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Mejía",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Yandy Díaz",
+        "pitcher": "Keegan Akin",
+        "fielders": [
+          "Jorge Mateo"
+        ],
+        "movements": [
+          {
+            "runner": "Yandy Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Jason Adam",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adam Frazier",
+        "pitcher": "Jason Adam",
+        "movements": [
+          {
+            "runner": "Adam Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ramón Urías",
+        "pitcher": "Jason Adam",
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gunnar Henderson",
+        "pitcher": "Jason Adam",
+        "movements": [
+          {
+            "runner": "Gunnar Henderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

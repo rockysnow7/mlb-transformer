@@ -1,0 +1,1821 @@
+{
+  "context": {
+    "game_pk": 632980,
+    "date": {
+      "year": 2021,
+      "month": 8,
+      "day": 6
+    },
+    "venue_name": "Wrigley Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 83,
+      "wind_speed": 7
+    },
+    "home_team": {
+      "id": 112,
+      "players": [
+        {
+          "name": "Jake Arrieta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robinson Chirinos",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andrew Romine",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Rafael Ortega",
+          "position": "CenterField"
+        },
+        {
+          "name": "Kyle Hendricks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rex Brothers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willson Contreras",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kyle Ryan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dan Winkler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Davies",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Adam Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Rucker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alec Mills",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Wisdom",
+          "position": "LeftField"
+        },
+        {
+          "name": "Matt Duffy",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "David Bote",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Adbert Alzolay",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Johneshwy Fargas",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Sergio Alcántara",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Frank Schwindel",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Manuel Rodríguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Greg Deichmann",
+          "position": "RightField"
+        },
+        {
+          "name": "Trevor Megill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Jewell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ian Happ",
+          "position": "CenterField"
+        },
+        {
+          "name": "Codi Heuer",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 145,
+      "players": [
+        {
+          "name": "Lance Lynn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "César Hernández",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Craig Kimbrel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Liam Hendriks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Leury García",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "José Abreu",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brian Goodwin",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake Lamb",
+          "position": "LeftField"
+        },
+        {
+          "name": "Ryan Tepera",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dallas Keuchel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Rodón",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Bummer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Giolito",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Ruiz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Reynaldo López",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tim Anderson",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Zack Collins",
+          "position": "Catcher"
+        },
+        {
+          "name": "Adam Engel",
+          "position": "CenterField"
+        },
+        {
+          "name": "Eloy Jiménez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Dylan Cease",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Kopech",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gavin Sheets",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Yoán Moncada",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Seby Zavala",
+          "position": "Catcher"
+        },
+        {
+          "name": "Garrett Crochet",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrew Vaughn",
+          "position": "LeftField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Tim Anderson",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Andrew Romine"
+        ],
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Adam Engel",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Abreu",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Adam Engel",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Andrew Romine",
+          "Sergio Alcántara"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Ortega",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Rafael Ortega",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt Duffy",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ian Happ",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Sergio Alcántara"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Seby Zavala",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Seby Zavala",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Greg Deichmann",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "César Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Greg Deichmann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Romine",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "José Abreu"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Romine",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Robinson Chirinos",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "movements": [
+          {
+            "runner": "Robinson Chirinos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "César Hernández",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lance Lynn",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Sergio Alcántara"
+        ],
+        "movements": [
+          {
+            "runner": "Lance Lynn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tim Anderson",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Andrew Romine"
+        ],
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Sergio Alcántara",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Hendricks",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "Lance Lynn"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Hendricks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Rafael Ortega",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Rafael Ortega",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Duffy",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "César Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Adam Engel",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Abreu",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Adam Engel",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Adam Engel",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Matt Duffy"
+        ],
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seby Zavala",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Seby Zavala",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Seby Zavala",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "César Hernández",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lance Lynn",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Lance Lynn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ian Happ",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Greg Deichmann",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Greg Deichmann",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrew Romine",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Romine",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tim Anderson",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Adam Engel",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Andrew Romine"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Abreu",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Sergio Alcántara"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Robinson Chirinos",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Robinson Chirinos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Sergio Alcántara",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Hendricks",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Kyle Hendricks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rafael Ortega",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rafael Ortega",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Duffy",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Eloy Jiménez",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Greg Deichmann"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eloy Jiménez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Seby Zavala",
+        "pitcher": "Kyle Hendricks",
+        "fielders": [
+          "Sergio Alcántara"
+        ],
+        "scoring_runner": "Brian Goodwin",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brian Goodwin",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Seby Zavala",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "César Hernández",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Seby Zavala",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Lance Lynn",
+        "pitcher": "Kyle Hendricks",
+        "movements": [
+          {
+            "runner": "Lance Lynn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ian Happ",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "Adam Engel"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Greg Deichmann",
+        "pitcher": "Lance Lynn",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "movements": [
+          {
+            "runner": "Greg Deichmann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tim Anderson",
+        "pitcher": "Jake Jewell",
+        "fielders": [
+          "Matt Duffy"
+        ],
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Adam Engel",
+        "pitcher": "Jake Jewell",
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Abreu",
+        "pitcher": "Jake Jewell",
+        "fielders": [
+          "Andrew Romine"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brian Goodwin",
+        "pitcher": "Jake Jewell",
+        "movements": [
+          {
+            "runner": "Brian Goodwin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrew Romine",
+        "pitcher": "Lance Lynn",
+        "movements": [
+          {
+            "runner": "Andrew Romine",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Robinson Chirinos",
+        "pitcher": "Michael Kopech",
+        "movements": [
+          {
+            "runner": "Andrew Romine",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Robinson Chirinos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Sergio Alcántara",
+        "pitcher": "Michael Kopech",
+        "fielders": [
+          "Brian Goodwin"
+        ],
+        "movements": [
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Andrew Romine",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "David Bote",
+        "pitcher": "Michael Kopech",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "scoring_runner": "Andrew Romine",
+        "movements": [
+          {
+            "runner": "David Bote",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Andrew Romine",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Aaron Bummer",
+        "fielders": [
+          "Brian Goodwin"
+        ],
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seby Zavala",
+        "pitcher": "Trevor Megill",
+        "movements": [
+          {
+            "runner": "Seby Zavala",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "César Hernández",
+        "pitcher": "Kyle Ryan",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Seby Zavala",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Leury García",
+        "pitcher": "Kyle Ryan",
+        "movements": [
+          {
+            "runner": "Leury García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Duffy",
+        "pitcher": "Craig Kimbrel",
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ian Happ",
+        "pitcher": "Craig Kimbrel",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "movements": [
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Craig Kimbrel",
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Duffy",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Greg Deichmann",
+        "pitcher": "Craig Kimbrel",
+        "fielders": [
+          "Tim Anderson"
+        ],
+        "movements": [
+          {
+            "runner": "Greg Deichmann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Andrew Romine",
+        "pitcher": "Craig Kimbrel",
+        "movements": [
+          {
+            "runner": "Andrew Romine",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Duffy",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Frank Schwindel",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Robinson Chirinos",
+        "pitcher": "Craig Kimbrel",
+        "movements": [
+          {
+            "runner": "Robinson Chirinos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sergio Alcántara",
+        "pitcher": "Liam Hendriks",
+        "movements": [
+          {
+            "runner": "Johneshwy Fargas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sergio Alcántara",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tim Anderson",
+        "pitcher": "Codi Heuer",
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Adam Engel",
+        "pitcher": "Codi Heuer",
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "José Abreu",
+        "pitcher": "Codi Heuer",
+        "fielders": [
+          "Sergio Alcántara",
+          "Andrew Romine"
+        ],
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willson Contreras",
+        "pitcher": "Liam Hendriks",
+        "movements": [
+          {
+            "runner": "Willson Contreras",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Patrick Wisdom",
+        "pitcher": "Liam Hendriks",
+        "movements": [
+          {
+            "runner": "Patrick Wisdom",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Duffy",
+        "pitcher": "Liam Hendriks",
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ian Happ",
+        "pitcher": "Liam Hendriks",
+        "movements": [
+          {
+            "runner": "Matt Duffy",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Brian Goodwin",
+        "pitcher": "Manuel Rodríguez",
+        "movements": [
+          {
+            "runner": "Brian Goodwin",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "José Abreu",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Andrew Vaughn",
+        "pitcher": "Manuel Rodríguez",
+        "fielders": [
+          "Matt Duffy"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Yoán Moncada",
+        "pitcher": "Manuel Rodríguez",
+        "movements": [
+          {
+            "runner": "Yoán Moncada",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gavin Sheets",
+        "pitcher": "Manuel Rodríguez",
+        "movements": [
+          {
+            "runner": "Gavin Sheets",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andrew Vaughn",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Yoán Moncada",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "César Hernández",
+        "pitcher": "Michael Rucker",
+        "fielders": [
+          "Greg Deichmann"
+        ],
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Yoán Moncada",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Zack Collins",
+        "pitcher": "Michael Rucker",
+        "movements": [
+          {
+            "runner": "Zack Collins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tim Anderson",
+        "pitcher": "Michael Rucker",
+        "movements": [
+          {
+            "runner": "Tim Anderson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Yoán Moncada",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Gavin Sheets",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adam Engel",
+        "pitcher": "Michael Rucker",
+        "movements": [
+          {
+            "runner": "Adam Engel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Frank Schwindel",
+        "pitcher": "Garrett Crochet",
+        "movements": [
+          {
+            "runner": "Frank Schwindel",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ian Happ",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Greg Deichmann",
+        "pitcher": "Garrett Crochet",
+        "fielders": [
+          "Yoán Moncada"
+        ],
+        "movements": [
+          {
+            "runner": "Greg Deichmann",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrew Romine",
+        "pitcher": "Garrett Crochet",
+        "fielders": [
+          "Andrew Vaughn"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Romine",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Zach Davies",
+        "pitcher": "Garrett Crochet",
+        "fielders": [
+          "Adam Engel"
+        ],
+        "movements": [
+          {
+            "runner": "Zach Davies",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

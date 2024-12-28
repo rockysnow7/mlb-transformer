@@ -1,0 +1,1469 @@
+{
+  "context": {
+    "game_pk": 633385,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 7
+    },
+    "venue_name": "Angel Stadium",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 79,
+      "wind_speed": 6
+    },
+    "home_team": {
+      "id": 108,
+      "players": [
+        {
+          "name": "Kurt Suzuki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Junior Guerra",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Watson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Quintana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Lagares",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alex Cobb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steve Cishek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Stassi",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andrew Heaney",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Iglesias",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alex Claudio",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Mayers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Phil Gosselin",
+          "position": "LeftField"
+        },
+        {
+          "name": "Dylan Bundy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jack Mayfield",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Taylor Ward",
+          "position": "RightField"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aaron Slegers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Rengifo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Shohei Ohtani",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Suarez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Sandoval",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Fletcher",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jared Walsh",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jose Rojas",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrew Wantz",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Adam Ottavino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "J.D. Martinez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Marwin Gonzalez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Brandon Workman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Martín Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Andriese",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Vázquez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "CenterField"
+        },
+        {
+          "name": "Garrett Richards",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Renfroe",
+          "position": "RightField"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yacksel Ríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hirokazu Sawamura",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Arroyo",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Darwinzon Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Taylor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Connor Wong",
+          "position": "Catcher"
+        },
+        {
+          "name": "Bobby Dalbec",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Garrett Whitlock",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "David Fletcher",
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Fletcher",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "David Fletcher",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "David Fletcher",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "David Fletcher",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Phil Gosselin",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Phil Gosselin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Taylor Ward"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Taylor Ward",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Juan Lagares",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "David Fletcher",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Juan Lagares"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Taylor Ward"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Phil Gosselin",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Phil Gosselin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Taylor Ward",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Luis Rengifo"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Luis Rengifo"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Juan Lagares",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Vázquez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Phil Gosselin"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jared Walsh",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Phil Gosselin",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Eduardo Rodriguez"
+        ],
+        "movements": [
+          {
+            "runner": "Phil Gosselin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Eduardo Rodriguez",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Eduardo Rodriguez",
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Juan Lagares"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "Steve Cishek"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Steve Cishek",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "David Fletcher",
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Taylor Ward",
+        "pitcher": "Hirokazu Sawamura",
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Juan Lagares",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Xander Bogaerts",
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Hirokazu Sawamura",
+        "fielders": [
+          "Hunter Renfroe"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "Luis Rengifo"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Steve Cishek",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "Phil Gosselin"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Darwinzon Hernández",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Darwinzon Hernández",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jared Walsh",
+        "pitcher": "Darwinzon Hernández",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Phil Gosselin",
+        "pitcher": "Darwinzon Hernández",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Phil Gosselin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Triple": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Mike Mayers",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Mike Mayers",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Rafael Devers",
+        "pitcher": "Mike Mayers",
+        "fielders": [
+          "Jack Mayfield"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Renfroe",
+        "pitcher": "Mike Mayers",
+        "movements": [
+          {
+            "runner": "Hunter Renfroe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Mike Mayers",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kurt Suzuki",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Kurt Suzuki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Taylor Ward",
+        "pitcher": "Garrett Whitlock",
+        "movements": [
+          {
+            "runner": "Taylor Ward",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Vázquez",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Christian Vázquez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

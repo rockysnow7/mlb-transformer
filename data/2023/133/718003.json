@@ -1,0 +1,1542 @@
+{
+  "context": {
+    "game_pk": 718003,
+    "date": {
+      "year": 2023,
+      "month": 5,
+      "day": 27
+    },
+    "venue_name": "Oakland Coliseum",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 62,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 133,
+      "players": [
+        {
+          "name": "Carlos Pérez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jesús Aguilar",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Trevor May",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Moll",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jace Peterson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "James Kaprielian",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Kemp",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Austin Pruitt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aledmys Díaz",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ramón Laureano",
+          "position": "RightField"
+        },
+        {
+          "name": "Shintaro Fujinami",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hogan Harris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Richard Lovelady",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seth Brown",
+          "position": "LeftField"
+        },
+        {
+          "name": "Luis Medina",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Esteury Ruiz",
+          "position": "CenterField"
+        },
+        {
+          "name": "Brent Rooker",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Lucas Erceg",
+          "position": "Pitcher"
+        },
+        {
+          "name": "JJ Bleday",
+          "position": "LeftField"
+        },
+        {
+          "name": "Shea Langeliers",
+          "position": "Catcher"
+        },
+        {
+          "name": "Nick Allen",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Sam Long",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Acton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Noda",
+          "position": "FirstBase"
+        },
+        {
+          "name": "JP Sears",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 117,
+      "players": [
+        {
+          "name": "Martín Maldonado",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jose Altuve",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Ryan Pressly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Abreu",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ryne Stanek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Héctor Neris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rafael Montero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Bregman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "J.P. France",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mauricio Dubón",
+          "position": "LeftField"
+        },
+        {
+          "name": "Bryan Abreu",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brandon Bielak",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Parker Mushinski",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Seth Martinez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Tucker",
+          "position": "RightField"
+        },
+        {
+          "name": "César Salazar",
+          "position": "Catcher"
+        },
+        {
+          "name": "Phil Maton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Framber Valdez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cristian Javier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeremy Peña",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Corey Julks",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Yordan Alvarez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Yainer Diaz",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jake Meyers",
+          "position": "CenterField"
+        },
+        {
+          "name": "Chas McCormick",
+          "position": "CenterField"
+        },
+        {
+          "name": "Hunter Brown",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Jose Altuve",
+        "pitcher": "Austin Pruitt",
+        "movements": [
+          {
+            "runner": "Jose Altuve",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jeremy Peña",
+        "pitcher": "Austin Pruitt",
+        "movements": [
+          {
+            "runner": "Jeremy Peña",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Altuve",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yordan Alvarez",
+        "pitcher": "Austin Pruitt",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Yordan Alvarez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Bregman",
+        "pitcher": "Austin Pruitt",
+        "movements": [
+          {
+            "runner": "Alex Bregman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Tucker",
+        "pitcher": "Austin Pruitt",
+        "fielders": [
+          "Jesús Aguilar"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Tucker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Bregman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "José Abreu",
+        "pitcher": "Austin Pruitt",
+        "fielders": [
+          "Nick Allen"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Bregman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chas McCormick",
+        "pitcher": "Austin Pruitt",
+        "movements": [
+          {
+            "runner": "Chas McCormick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Esteury Ruiz",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Brown",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "José Abreu"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Corey Julks",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Julks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Martín Maldonado",
+        "pitcher": "Hogan Harris",
+        "movements": [
+          {
+            "runner": "Martín Maldonado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Jose Altuve",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Aledmys Díaz",
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Martín Maldonado",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jose Altuve",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Alex Bregman"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Aledmys Díaz",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Yordan Alvarez"
+        ],
+        "scoring_runner": "Aledmys Díaz",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Aledmys Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Shea Langeliers",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Alex Bregman"
+        ],
+        "movements": [
+          {
+            "runner": "Shea Langeliers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeremy Peña",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Aledmys Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Jeremy Peña",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Yordan Alvarez",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Yordan Alvarez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Bregman",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Esteury Ruiz"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Bregman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tony Kemp",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nick Allen",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Nick Allen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Esteury Ruiz",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Kyle Tucker"
+        ],
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seth Brown",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Chas McCormick"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Tucker",
+        "pitcher": "Hogan Harris",
+        "movements": [
+          {
+            "runner": "Kyle Tucker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "José Abreu",
+        "pitcher": "Hogan Harris",
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chas McCormick",
+        "pitcher": "Hogan Harris",
+        "movements": [
+          {
+            "runner": "Chas McCormick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Jeremy Peña"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Framber Valdez"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Aledmys Díaz",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Jeremy Peña"
+        ],
+        "movements": [
+          {
+            "runner": "Aledmys Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Corey Julks",
+        "pitcher": "Hogan Harris",
+        "movements": [
+          {
+            "runner": "Corey Julks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Martín Maldonado",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Martín Maldonado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Altuve",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Nick Allen"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Altuve",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Shea Langeliers",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Shea Langeliers",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Tony Kemp",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Alex Bregman"
+        ],
+        "runner": "Shea Langeliers",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Shea Langeliers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nick Allen",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Nick Allen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Esteury Ruiz",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Brent Rooker",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Nick Allen",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Brown",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "José Abreu"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jeremy Peña",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Jeremy Peña",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Yordan Alvarez",
+        "pitcher": "Hogan Harris",
+        "movements": [
+          {
+            "runner": "Yordan Alvarez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Bregman",
+        "pitcher": "Hogan Harris",
+        "movements": [
+          {
+            "runner": "Alex Bregman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Kyle Tucker",
+        "pitcher": "Hogan Harris",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Tucker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Kyle Tucker"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jesús Aguilar",
+        "pitcher": "Framber Valdez",
+        "fielders": [
+          "Chas McCormick"
+        ],
+        "movements": [
+          {
+            "runner": "Jesús Aguilar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Aledmys Díaz",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Aledmys Díaz",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shea Langeliers",
+        "pitcher": "Framber Valdez",
+        "movements": [
+          {
+            "runner": "Shea Langeliers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Abreu",
+        "pitcher": "Trevor May",
+        "fielders": [
+          "Aledmys Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Chas McCormick",
+        "pitcher": "Trevor May",
+        "movements": [
+          {
+            "runner": "Chas McCormick",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Corey Julks",
+        "pitcher": "Trevor May",
+        "movements": [
+          {
+            "runner": "Corey Julks",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Chas McCormick",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Martín Maldonado",
+        "pitcher": "Trevor May",
+        "fielders": [
+          "Aledmys Díaz",
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Julks",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Martín Maldonado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Phil Maton",
+        "fielders": [
+          "Jose Altuve"
+        ],
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Allen",
+        "pitcher": "Phil Maton",
+        "fielders": [
+          "Jeremy Peña"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Allen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Esteury Ruiz",
+        "pitcher": "Phil Maton",
+        "fielders": [
+          "José Abreu"
+        ],
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jose Altuve",
+        "pitcher": "Garrett Acton",
+        "movements": [
+          {
+            "runner": "Jose Altuve",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jeremy Peña",
+        "pitcher": "Garrett Acton",
+        "movements": [
+          {
+            "runner": "Jeremy Peña",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Altuve",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Yordan Alvarez",
+        "pitcher": "Garrett Acton",
+        "movements": [
+          {
+            "runner": "Yordan Alvarez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Alex Bregman",
+        "pitcher": "Garrett Acton",
+        "movements": [
+          {
+            "runner": "Alex Bregman",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Yordan Alvarez",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Yordan Alvarez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Altuve",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jeremy Peña",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kyle Tucker",
+        "pitcher": "Richard Lovelady",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Tucker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Bregman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "José Abreu",
+        "pitcher": "Richard Lovelady",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "scoring_runner": "Alex Bregman",
+        "movements": [
+          {
+            "runner": "José Abreu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Alex Bregman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Chas McCormick",
+        "pitcher": "Richard Lovelady",
+        "movements": [
+          {
+            "runner": "Chas McCormick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Brent Rooker",
+        "pitcher": "Bryan Abreu",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Seth Brown",
+        "pitcher": "Bryan Abreu",
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Bryan Abreu",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan Noda",
+        "pitcher": "Bryan Abreu",
+        "fielders": [
+          "Yordan Alvarez"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Noda",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Aledmys Díaz",
+        "pitcher": "Bryan Abreu",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Seth Brown",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Aledmys Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Shea Langeliers",
+        "pitcher": "Héctor Neris",
+        "movements": [
+          {
+            "runner": "Shea Langeliers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Seth Brown",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Seth Brown",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brent Rooker",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Aledmys Díaz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Héctor Neris",
+        "fielders": [
+          "Jose Altuve"
+        ],
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Corey Julks",
+        "pitcher": "Shintaro Fujinami",
+        "fielders": [
+          "Aledmys Díaz"
+        ],
+        "movements": [
+          {
+            "runner": "Corey Julks",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Martín Maldonado",
+        "pitcher": "Shintaro Fujinami",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Martín Maldonado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jose Altuve",
+        "pitcher": "Shintaro Fujinami",
+        "movements": [
+          {
+            "runner": "Jose Altuve",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Allen",
+        "pitcher": "Ryan Pressly",
+        "movements": [
+          {
+            "runner": "Nick Allen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Esteury Ruiz",
+        "pitcher": "Ryan Pressly",
+        "fielders": [
+          "Jeremy Peña"
+        ],
+        "movements": [
+          {
+            "runner": "Esteury Ruiz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Ryan Pressly",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

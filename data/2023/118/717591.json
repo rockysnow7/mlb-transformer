@@ -1,0 +1,1382 @@
+{
+  "context": {
+    "game_pk": 717591,
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 27
+    },
+    "venue_name": "Kauffman Stadium",
+    "weather": {
+      "condition": "Clear",
+      "temperature": 87,
+      "wind_speed": 8
+    },
+    "home_team": {
+      "id": 118,
+      "players": [
+        {
+          "name": "Zack Greinke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Salvador Perez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jordan Lyles",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aroldis Chapman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Scott Barlow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Cuas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brooks Kriske",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Wittgren",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Duffy",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Edward Olivares",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "James McArthur",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daniel Lynch IV",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brady Singer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Taylor Clarke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Isbel",
+          "position": "CenterField"
+        },
+        {
+          "name": "Freddy Fermin",
+          "position": "Catcher"
+        },
+        {
+          "name": "Nick Pratto",
+          "position": "FirstBase"
+        },
+        {
+          "name": "MJ Melendez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Samad Taylor",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "Nicky Lopez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Drew Waters",
+          "position": "RightField"
+        },
+        {
+          "name": "Carlos Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Maikel Garcia",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Bobby Witt Jr.",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Dairon Blanco",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Austin Cox",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 114,
+      "players": [
+        {
+          "name": "Cam Gallagher",
+          "position": "Catcher"
+        },
+        {
+          "name": "Josh Bell",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Ramírez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Amed Rosario",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Josh Naylor",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Aaron Civale",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Hentges",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Enyel De Los Santos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emmanuel Clase",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Stephan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Myles Straw",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrés Giménez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bo Naylor",
+          "position": "Catcher"
+        },
+        {
+          "name": "Gavin Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eli Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shane Bieber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Logan Allen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Freeman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Gabriel Arias",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Xzavion Curry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tanner Bibee",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Sandlin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Kwan",
+          "position": "LeftField"
+        },
+        {
+          "name": "David Fry",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tim Herrin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Brennan",
+          "position": "RightField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Nick Pratto"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Amed Rosario",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "José Ramírez",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Maikel Garcia"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Pratto",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Nick Pratto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "MJ Melendez",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Gavin Williams"
+        ],
+        "movements": [
+          {
+            "runner": "MJ Melendez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Will Brennan",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Myles Straw",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Bobby Witt Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Maikel Garcia",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Maikel Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Isbel",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Kyle Isbel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Edward Olivares",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Nick Pratto"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "MJ Melendez"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Bobby Witt Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Drew Waters",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Drew Waters",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Freddy Fermin",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Freddy Fermin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Nick Pratto",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Freddy Fermin",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nick Pratto",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "José Ramírez",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Bell",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Maikel Garcia"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "MJ Melendez",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "MJ Melendez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Maikel Garcia",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Isbel",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Isbel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Will Brennan",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Myles Straw",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Maikel Garcia",
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Kyle Isbel"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Edward Olivares",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Drew Waters",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Josh Naylor"
+        ],
+        "movements": [
+          {
+            "runner": "Drew Waters",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Steven Kwan",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Amed Rosario",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Bobby Witt Jr.",
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Ramírez",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Josh Naylor",
+        "pitcher": "Brady Singer",
+        "fielders": [
+          "Bobby Witt Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "José Ramírez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Brady Singer",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Freddy Fermin",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Freddy Fermin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nick Pratto",
+        "pitcher": "Gavin Williams",
+        "movements": [
+          {
+            "runner": "Nick Pratto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Carlos Hernández",
+        "fielders": [
+          "Kyle Isbel"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Will Brennan",
+        "pitcher": "Carlos Hernández",
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Myles Straw",
+        "pitcher": "Carlos Hernández",
+        "fielders": [
+          "Kyle Isbel"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Carlos Hernández",
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "MJ Melendez",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "MJ Melendez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Maikel Garcia",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Bo Naylor"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kyle Isbel",
+        "pitcher": "Gavin Williams",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "Kyle Isbel",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Aroldis Chapman",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Aroldis Chapman",
+        "fielders": [
+          "Kyle Isbel"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "José Ramírez",
+        "pitcher": "Aroldis Chapman",
+        "fielders": [
+          "Nick Pratto"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Edward Olivares",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Drew Waters",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Drew Waters",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Nicky Lopez",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Trevor Stephan",
+          "Trevor Stephan"
+        ],
+        "movements": [
+          {
+            "runner": "Dairon Blanco",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Dairon Blanco",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nicky Lopez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Freddy Fermin",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Bo Naylor",
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Nicky Lopez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Freddy Fermin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Naylor",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Bell",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Josh Bell",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Will Brennan",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Andrés Giménez",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Andrés Giménez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Gabriel Arias",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Myles Straw",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Nicky Lopez"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Will Brennan",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Drew Waters"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Pratto",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Gabriel Arias"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Pratto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bobby Witt Jr.",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Witt Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "MJ Melendez",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "MJ Melendez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Maikel Garcia",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Maikel Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

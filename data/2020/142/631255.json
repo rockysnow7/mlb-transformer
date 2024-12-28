@@ -1,0 +1,1383 @@
+{
+  "context": {
+    "game_pk": 631255,
+    "date": {
+      "year": 2020,
+      "month": 9,
+      "day": 7
+    },
+    "venue_name": "Target Field",
+    "weather": {
+      "condition": "Overcast",
+      "temperature": 58,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 142,
+      "players": [
+        {
+          "name": "Nelson Cruz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Rich Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Clippard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sergio Romo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ehire Adrianza",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Michael Pineda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Marwin Gonzalez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Josh Donaldson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Trevor May",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willians Astudillo",
+          "position": "Catcher"
+        },
+        {
+          "name": "Taylor Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Caleb Thielbar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eddie Rosario",
+          "position": "LeftField"
+        },
+        {
+          "name": "Jorge Polanco",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Miguel Sanó",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Jake Cave",
+          "position": "RightField"
+        },
+        {
+          "name": "Matt Wisler",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Duffey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Berríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Byron Buxton",
+          "position": "CenterField"
+        },
+        {
+          "name": "Kenta Maeda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Arraez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jorge Alcala",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cody Stashak",
+          "position": "Pitcher"
+        },
+        {
+          "name": "LaMonte Wade Jr.",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brent Rooker",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Randy Dobnak",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan Jeffers",
+          "position": "Catcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Austin Romine",
+          "position": "Catcher"
+        },
+        {
+          "name": "José Cisnero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Matthew Boyd",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Bonifacio",
+          "position": "RightField"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Michael Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Turnbull",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Grayson Greiner",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kyle Funkhouser",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christin Stewart",
+          "position": "LeftField"
+        },
+        {
+          "name": "Victor Reyes",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tyler Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Travis Demeritte",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sergio Alcántara",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Bryan Garcia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Derek Hill",
+          "position": "CenterField"
+        },
+        {
+          "name": "Casey Mize",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rony García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tarik Skubal",
+          "position": "Pitcher"
+        },
+        {
+          "name": "John Schreiber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Isaac Paredes",
+          "position": "ThirdBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "LaMonte Wade Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Jake Cave"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Isaac Paredes"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Isaac Paredes"
+        ],
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christin Stewart",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Christin Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Bonifacio",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Jorge Bonifacio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Jorge Bonifacio"
+        ],
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jake Cave",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Isaac Paredes"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Romine",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Romine",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Michael Fulmer",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brent Rooker",
+        "pitcher": "Michael Fulmer",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Daniel Norris",
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brent Rooker",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brent Rooker",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Eddie Rosario",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Daniel Norris",
+        "fielders": [
+          "Isaac Paredes"
+        ],
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Byron Buxton"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Willi Castro",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christin Stewart",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Eddie Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Christin Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Byron Buxton",
+        "pitcher": "Daniel Norris",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Cave",
+        "pitcher": "Daniel Norris",
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Daniel Norris",
+        "fielders": [
+          "Isaac Paredes"
+        ],
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Cave",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Daniel Norris",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Cave",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Daniel Norris",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jorge Bonifacio",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Bonifacio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Romine",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Austin Romine",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Jake Cave"
+        ],
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Daniel Norris",
+        "fielders": [
+          "Isaac Paredes"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Daniel Norris",
+        "fielders": [
+          "Daniel Norris"
+        ],
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Daniel Norris",
+        "fielders": [
+          "Jorge Bonifacio"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Ehire Adrianza"
+        ],
+        "movements": [
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Daniel Norris",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Byron Buxton",
+        "pitcher": "Daniel Norris",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Cave",
+        "pitcher": "Daniel Norris",
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ehire Adrianza",
+        "pitcher": "Daniel Norris",
+        "fielders": [
+          "Jonathan Schoop"
+        ],
+        "movements": [
+          {
+            "runner": "Ehire Adrianza",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Willi Castro",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christin Stewart",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Byron Buxton"
+        ],
+        "movements": [
+          {
+            "runner": "Christin Stewart",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Jorge Bonifacio",
+        "pitcher": "Michael Pineda",
+        "fielders": [
+          "Josh Donaldson",
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jorge Bonifacio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Romine",
+        "pitcher": "Michael Pineda",
+        "movements": [
+          {
+            "runner": "Austin Romine",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Jeffers",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Ryan Jeffers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Joe Jiménez",
+        "fielders": [
+          "Isaac Paredes"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brent Rooker",
+        "pitcher": "Joe Jiménez",
+        "movements": [
+          {
+            "runner": "Brent Rooker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Cody Stashak",
+        "fielders": [
+          "Byron Buxton"
+        ],
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Victor Reyes",
+        "pitcher": "Cody Stashak",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jonathan Schoop",
+        "pitcher": "Cody Stashak",
+        "fielders": [
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jonathan Schoop",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Cody Stashak",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Eddie Rosario",
+        "pitcher": "Rony García",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Eddie Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Marwin Gonzalez",
+        "pitcher": "Rony García",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Marwin Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Byron Buxton",
+        "pitcher": "Rony García",
+        "movements": [
+          {
+            "runner": "Byron Buxton",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jake Cave",
+        "pitcher": "Rony García",
+        "fielders": [
+          "Christin Stewart"
+        ],
+        "movements": [
+          {
+            "runner": "Jake Cave",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Travis Demeritte",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Travis Demeritte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

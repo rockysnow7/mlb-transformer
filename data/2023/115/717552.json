@@ -1,0 +1,1581 @@
+{
+  "context": {
+    "game_pk": 717552,
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 30
+    },
+    "venue_name": "Coors Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 66,
+      "wind_speed": 4
+    },
+    "home_team": {
+      "id": 115,
+      "players": [
+        {
+          "name": "Daniel Bard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chase Anderson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "C.J. Cron",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Brad Hand",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Randal Grichuk",
+          "position": "RightField"
+        },
+        {
+          "name": "Elias Díaz",
+          "position": "Catcher"
+        },
+        {
+          "name": "Matt Koch",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pierce Johnson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kris Bryant",
+          "position": "RightField"
+        },
+        {
+          "name": "Jurickson Profar",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Austin Gomber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Castro",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Kyle Freeland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ty Blach",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ryan McMahon",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Austin Wynns",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jake Bird",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Connor Seabold",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elehuris Montero",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Peter Lambert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Coco Montes",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Justin Lawrence",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nolan Jones",
+          "position": "LeftField"
+        },
+        {
+          "name": "Gavin Hollowell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ezequiel Tovar",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Brenton Doyle",
+          "position": "CenterField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Cisnero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Marisnick",
+          "position": "CenterField"
+        },
+        {
+          "name": "Michael Lorenzen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonathan Schoop",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Chasen Shreve",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Javier Báez",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andy Ibáñez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Tyler Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Lange",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Logue",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach McKinstry",
+          "position": "LeftField"
+        },
+        {
+          "name": "Tyler Nevin",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Matt Vierling",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tyler Holton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Manning",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Rogers",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mason Englert",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zack Short",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jason Foley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Torkelson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Kerry Carpenter",
+          "position": "RightField"
+        },
+        {
+          "name": "Reese Olson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brendan White",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Matt Vierling",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Kris Bryant"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andy Ibáñez",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Vierling",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Vierling",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Rogers",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kris Bryant",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Andy Ibáñez"
+        ],
+        "movements": [
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Elias Díaz",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ezequiel Tovar"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ezequiel Tovar"
+        ],
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Zack Short",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ezequiel Tovar"
+        ],
+        "movements": [
+          {
+            "runner": "Zack Short",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "C.J. Cron",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nolan Jones",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Nolan Jones",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "C.J. Cron",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ezequiel Tovar",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Ezequiel Tovar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "C.J. Cron",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nolan Jones",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Harold Castro",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Nolan Jones",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nolan Jones",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "C.J. Cron",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ezequiel Tovar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacBunt": {
+        "batter": "Brenton Doyle",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Michael Lorenzen"
+        ],
+        "runner": "Harold Castro",
+        "movements": [
+          {
+            "runner": "Ezequiel Tovar",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Castro",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brenton Doyle",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Castro",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Harold Castro",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brenton Doyle",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brenton Doyle",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Ezequiel Tovar",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Kris Bryant",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Javier Báez",
+          "Zack Short"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brenton Doyle",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Vierling",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Marisnick",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Marisnick",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ryan McMahon"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jake Marisnick",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andy Ibáñez",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ezequiel Tovar"
+        ],
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Elias Díaz",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "C.J. Cron",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Jake Rogers",
+          "Andy Ibáñez"
+        ],
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nolan Jones",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Spencer Torkelson"
+        ],
+        "movements": [
+          {
+            "runner": "Nolan Jones",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Javier Báez",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jake Rogers",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Javier Báez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Rogers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jake Rogers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Zack Short",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Brenton Doyle"
+        ],
+        "movements": [
+          {
+            "runner": "Zack Short",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Marisnick",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Jake Marisnick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt Vierling",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Harold Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ezequiel Tovar",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Ezequiel Tovar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Harold Castro",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Jake Marisnick"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brenton Doyle",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Brenton Doyle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "C.J. Cron"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andy Ibáñez",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Brenton Doyle"
+        ],
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Javier Báez",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ryan McMahon"
+        ],
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Michael Lorenzen",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kris Bryant",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elias Díaz",
+        "pitcher": "Michael Lorenzen",
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jake Rogers",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Jake Rogers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "C.J. Cron"
+        ],
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "C.J. Cron",
+        "pitcher": "Chasen Shreve",
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nolan Jones",
+        "pitcher": "Chasen Shreve",
+        "movements": [
+          {
+            "runner": "Nolan Jones",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "C.J. Cron",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ezequiel Tovar",
+        "pitcher": "Chasen Shreve",
+        "movements": [
+          {
+            "runner": "Ezequiel Tovar",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "C.J. Cron",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nolan Jones",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Harold Castro",
+        "pitcher": "Chasen Shreve",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brenton Doyle",
+        "pitcher": "Chasen Shreve",
+        "movements": [
+          {
+            "runner": "Brenton Doyle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Chasen Shreve",
+        "movements": [
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kris Bryant",
+        "pitcher": "Mason Englert",
+        "fielders": [
+          "Mason Englert"
+        ],
+        "movements": [
+          {
+            "runner": "Kris Bryant",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Zack Short",
+        "pitcher": "Austin Gomber",
+        "movements": [
+          {
+            "runner": "Zack Short",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Eric Haase",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ezequiel Tovar"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Matt Vierling",
+        "pitcher": "Austin Gomber",
+        "fielders": [
+          "Ezequiel Tovar",
+          "Harold Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Eric Haase",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Matt Vierling",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ryan McMahon",
+        "pitcher": "Mason Englert",
+        "movements": [
+          {
+            "runner": "Ryan McMahon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elias Díaz",
+        "pitcher": "Mason Englert",
+        "fielders": [
+          "Matt Vierling"
+        ],
+        "movements": [
+          {
+            "runner": "Elias Díaz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "C.J. Cron",
+        "pitcher": "Mason Englert",
+        "movements": [
+          {
+            "runner": "C.J. Cron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nolan Jones",
+        "pitcher": "Mason Englert",
+        "movements": [
+          {
+            "runner": "Nolan Jones",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Spencer Torkelson",
+        "pitcher": "Jake Bird",
+        "movements": [
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Andy Ibáñez",
+        "pitcher": "Jake Bird",
+        "movements": [
+          {
+            "runner": "Andy Ibáñez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Torkelson",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Javier Báez",
+        "pitcher": "Jake Bird",
+        "movements": [
+          {
+            "runner": "Javier Báez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kerry Carpenter",
+        "pitcher": "Jake Bird",
+        "movements": [
+          {
+            "runner": "Kerry Carpenter",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Jake Bird",
+        "fielders": [
+          "Ezequiel Tovar"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ezequiel Tovar",
+        "pitcher": "Mason Englert",
+        "fielders": [
+          "Kerry Carpenter"
+        ],
+        "movements": [
+          {
+            "runner": "Ezequiel Tovar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Harold Castro",
+        "pitcher": "Mason Englert",
+        "fielders": [
+          "Zach McKinstry"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Brenton Doyle",
+        "pitcher": "Mason Englert",
+        "fielders": [
+          "Javier Báez"
+        ],
+        "movements": [
+          {
+            "runner": "Brenton Doyle",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jurickson Profar",
+        "pitcher": "Mason Englert",
+        "movements": [
+          {
+            "runner": "Brenton Doyle",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jurickson Profar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Zach McKinstry",
+        "pitcher": "Pierce Johnson",
+        "movements": [
+          {
+            "runner": "Zach McKinstry",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Zack Short",
+        "pitcher": "Pierce Johnson",
+        "movements": [
+          {
+            "runner": "Zack Short",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Eric Haase",
+        "pitcher": "Pierce Johnson",
+        "fielders": [
+          "Ryan McMahon",
+          "Harold Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Zack Short",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Eric Haase",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

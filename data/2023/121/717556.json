@@ -1,0 +1,1577 @@
+{
+  "context": {
+    "game_pk": 717556,
+    "date": {
+      "year": 2023,
+      "month": 6,
+      "day": 30
+    },
+    "venue_name": "Citi Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 77,
+      "wind_speed": 8
+    },
+    "home_team": {
+      "id": 121,
+      "players": [
+        {
+          "name": "Justin Verlander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Max Scherzer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Carrasco",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adam Ottavino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Pham",
+          "position": "LeftField"
+        },
+        {
+          "name": "David Robertson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Starling Marte",
+          "position": "PinchRunner"
+        },
+        {
+          "name": "T.J. McFarland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brooks Raley",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Omar Narváez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Mark Canha",
+          "position": "RightField"
+        },
+        {
+          "name": "Francisco Lindor",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Daniel Vogelbach",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brandon Nimmo",
+          "position": "CenterField"
+        },
+        {
+          "name": "Dominic Leone",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Drew Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Pete Alonso",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Luis Guillorme",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Jeff McNeil",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jeff Brigham",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Peterson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Danny Mendick",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Kodai Senga",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Francisco Alvarez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brett Baty",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Grant Hartwig",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 137,
+      "players": [
+        {
+          "name": "Alex Cobb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wilmer Flores",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brandon Crawford",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Anthony DeSclafani",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ross Stripling",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Taylor Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joc Pederson",
+          "position": "RightField"
+        },
+        {
+          "name": "Jakob Junis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Slater",
+          "position": "LeftField"
+        },
+        {
+          "name": "J.D. Davis",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Alex Wood",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Conforto",
+          "position": "RightField"
+        },
+        {
+          "name": "Sean Manaea",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Thairo Estrada",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Tyler Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Logan Webb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Joey Bart",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tristan Beck",
+          "position": "Pitcher"
+        },
+        {
+          "name": "LaMonte Wade Jr.",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Blake Sabol",
+          "position": "LeftField"
+        },
+        {
+          "name": "Camilo Doval",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bryce Johnson",
+          "position": "CenterField"
+        },
+        {
+          "name": "Casey Schmitt",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Patrick Bailey",
+          "position": "Catcher"
+        },
+        {
+          "name": "Ryan Walker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Keaton Winn",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Matos",
+          "position": "RightField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Carlos Carrasco",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joc Pederson",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Daniel Vogelbach",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "Luis Matos"
+        ],
+        "movements": [
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Patrick Bailey",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Patrick Bailey",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Thairo Estrada",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Blake Sabol",
+        "pitcher": "Carlos Carrasco",
+        "fielders": [
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Blake Sabol",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Matos",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Luis Matos",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Blake Sabol",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Matos",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Matos",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Blake Sabol",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Blake Sabol",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Carlos Carrasco",
+        "fielders": [
+          "Francisco Lindor"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tommy Pham",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Brett Baty",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "LaMonte Wade Jr.",
+          "LaMonte Wade Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brett Baty",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Brett Baty",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mark Canha",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Omar Narváez",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "Luis Matos",
+          "Luis Matos"
+        ],
+        "scoring_runner": "Tommy Pham",
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Brett Baty",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "LaMonte Wade Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Joc Pederson",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Patrick Bailey",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Patrick Bailey",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Thairo Estrada",
+        "pitcher": "Carlos Carrasco",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "LaMonte Wade Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "Luis Matos"
+        ],
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Pete Alonso",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "Blake Sabol"
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Blake Sabol",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Blake Sabol",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luis Matos",
+        "pitcher": "Carlos Carrasco",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Matos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brandon Crawford",
+        "pitcher": "Carlos Carrasco",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "Brandon Crawford",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Daniel Vogelbach",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "J.D. Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Daniel Vogelbach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "Brandon Crawford"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brett Baty",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Brett Baty",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mark Canha",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "J.D. Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Carlos Carrasco",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Joc Pederson",
+        "pitcher": "Carlos Carrasco",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "J.D. Davis",
+        "pitcher": "Carlos Carrasco",
+        "fielders": [
+          "Francisco Lindor",
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Omar Narváez",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "Blake Sabol"
+        ],
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "Luis Matos"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Alex Cobb",
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Pete Alonso",
+        "pitcher": "Alex Cobb",
+        "fielders": [
+          "LaMonte Wade Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Patrick Bailey",
+        "pitcher": "Jeff Brigham",
+        "fielders": [
+          "Jeff McNeil"
+        ],
+        "movements": [
+          {
+            "runner": "Patrick Bailey",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Thairo Estrada",
+        "pitcher": "Jeff Brigham",
+        "fielders": [
+          "Tommy Pham"
+        ],
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Blake Sabol",
+        "pitcher": "Jeff Brigham",
+        "movements": [
+          {
+            "runner": "Blake Sabol",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Danny Mendick",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Danny Mendick",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Tommy Pham",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brett Baty",
+        "pitcher": "Taylor Rogers",
+        "movements": [
+          {
+            "runner": "Brett Baty",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mark Canha",
+        "pitcher": "Taylor Rogers",
+        "fielders": [
+          "Patrick Bailey"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Luis Matos",
+        "pitcher": "Jeff Brigham",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Matos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Casey Schmitt",
+        "pitcher": "Brooks Raley",
+        "movements": [
+          {
+            "runner": "Casey Schmitt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Brooks Raley",
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Omar Narváez",
+        "pitcher": "Sean Manaea",
+        "fielders": [
+          "Luis Matos"
+        ],
+        "movements": [
+          {
+            "runner": "Omar Narváez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Sean Manaea",
+        "movements": [
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Sean Manaea",
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeff McNeil",
+        "pitcher": "Sean Manaea",
+        "fielders": [
+          "Thairo Estrada"
+        ],
+        "movements": [
+          {
+            "runner": "Jeff McNeil",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Joc Pederson",
+        "pitcher": "David Robertson",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "J.D. Davis",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Patrick Bailey",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Patrick Bailey",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Joc Pederson",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Davis",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Thairo Estrada",
+        "pitcher": "David Robertson",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Thairo Estrada",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Blake Sabol",
+        "pitcher": "David Robertson",
+        "movements": [
+          {
+            "runner": "Blake Sabol",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luis Matos",
+        "pitcher": "David Robertson",
+        "fielders": [
+          "Brandon Nimmo"
+        ],
+        "movements": [
+          {
+            "runner": "Bryce Johnson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Matos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Pete Alonso",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "LaMonte Wade Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Pete Alonso",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Francisco Alvarez",
+        "pitcher": "Tyler Rogers",
+        "movements": [
+          {
+            "runner": "Francisco Alvarez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tommy Pham",
+        "pitcher": "Tyler Rogers",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Brett Baty",
+        "pitcher": "Tyler Rogers",
+        "fielders": [
+          "Bryce Johnson"
+        ],
+        "movements": [
+          {
+            "runner": "Brett Baty",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Casey Schmitt",
+        "pitcher": "Grant Hartwig",
+        "movements": [
+          {
+            "runner": "Casey Schmitt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "LaMonte Wade Jr.",
+        "pitcher": "Grant Hartwig",
+        "fielders": [
+          "Pete Alonso"
+        ],
+        "movements": [
+          {
+            "runner": "LaMonte Wade Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Casey Schmitt",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Wilmer Flores",
+        "pitcher": "Grant Hartwig",
+        "movements": [
+          {
+            "runner": "Casey Schmitt",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Wilmer Flores",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "Joc Pederson",
+        "pitcher": "Grant Hartwig",
+        "movements": [
+          {
+            "runner": "Joc Pederson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "J.D. Davis",
+        "pitcher": "Grant Hartwig",
+        "fielders": [
+          "Brett Baty"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Davis",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Mark Canha",
+        "pitcher": "Camilo Doval",
+        "fielders": [
+          "J.D. Davis"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Luis Guillorme",
+        "pitcher": "Camilo Doval",
+        "movements": [
+          {
+            "runner": "Luis Guillorme",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Nimmo",
+        "pitcher": "Camilo Doval",
+        "movements": [
+          {
+            "runner": "Starling Marte",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brandon Nimmo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

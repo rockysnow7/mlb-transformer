@@ -1,0 +1,1499 @@
+{
+  "context": {
+    "game_pk": 633306,
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 17
+    },
+    "venue_name": "Oakland Coliseum",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 75,
+      "wind_speed": 12
+    },
+    "home_team": {
+      "id": 133,
+      "players": [
+        {
+          "name": "Yusmeiro Petit",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elvis Andrus",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jed Lowrie",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Sergio Romo",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Deolis Guerra",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jake Diekman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mitch Moreland",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Stephen Piscotty",
+          "position": "RightField"
+        },
+        {
+          "name": "Burch Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mark Canha",
+          "position": "LeftField"
+        },
+        {
+          "name": "Frankie Montas",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sam Moll",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chris Bassitt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Aramis Garcia",
+          "position": "Catcher"
+        },
+        {
+          "name": "J.B. Wendelken",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jacob Wilson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Cole Irvin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "James Kaprielian",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Olson",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Sean Manaea",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lou Trivino",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Kemp",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Matt Chapman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ramón Laureano",
+          "position": "CenterField"
+        },
+        {
+          "name": "Seth Brown",
+          "position": "RightField"
+        },
+        {
+          "name": "Sean Murphy",
+          "position": "PinchHitter"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 114,
+      "players": [
+        {
+          "name": "Blake Parker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "César Hernández",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bryan Shaw",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Roberto Pérez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Austin Hedges",
+          "position": "Catcher"
+        },
+        {
+          "name": "DJ Johnson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Bradley Zimmer",
+          "position": "CenterField"
+        },
+        {
+          "name": "José Ramírez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Franmil Reyes",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Cal Quantrill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Justin Garza",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Wittgren",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Harold Ramírez",
+          "position": "LeftField"
+        },
+        {
+          "name": "Óscar Mercado",
+          "position": "RightField"
+        },
+        {
+          "name": "Amed Rosario",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Bobby Bradley",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Emmanuel Clase",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Triston McKenzie",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Stephan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Phil Maton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Plesac",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eli Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daniel Johnson",
+          "position": "RightField"
+        },
+        {
+          "name": "James Karinchak",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ernie Clement",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Nick Sandlin",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "César Hernández",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Amed Rosario",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "José Ramírez",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Bobby Bradley",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mark Canha",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Matt Olson",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Mitch Moreland",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Mitch Moreland",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Olson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Mark Canha"
+        ],
+        "movements": [
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Hedges",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Daniel Johnson"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seth Brown",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Aramis Garcia",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Aramis Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Daniel Johnson",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Daniel Johnson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "César Hernández",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Ramírez",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Daniel Johnson",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Mark Canha",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Cal Quantrill"
+        ],
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Olson",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mitch Moreland",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Mitch Moreland",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Bradley",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Seth Brown",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "César Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Hedges",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Daniel Johnson",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Daniel Johnson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "César Hernández",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Hedges",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Daniel Johnson",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Amed Rosario",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "scoring_runner": "César Hernández",
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "César Hernández",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Daniel Johnson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Ramírez",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Frankie Montas"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tony Kemp",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Aramis Garcia",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Aramis Garcia",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Mark Canha",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Aramis Garcia",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "José Ramírez",
+          "Austin Hedges"
+        ],
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Aramis Garcia",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Mark Canha",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Olson",
+        "pitcher": "Cal Quantrill",
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Mitch Moreland",
+        "pitcher": "Cal Quantrill",
+        "fielders": [
+          "Bradley Zimmer"
+        ],
+        "movements": [
+          {
+            "runner": "Mitch Moreland",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Elvis Andrus"
+        ],
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bobby Bradley",
+        "pitcher": "Frankie Montas",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Harold Ramírez",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Frankie Montas",
+        "movements": [
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Nick Sandlin",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Chapman",
+        "pitcher": "Nick Sandlin",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Seth Brown",
+        "pitcher": "Nick Sandlin",
+        "fielders": [
+          "Harold Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tony Kemp",
+        "pitcher": "Nick Sandlin",
+        "movements": [
+          {
+            "runner": "Tony Kemp",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Hedges",
+        "pitcher": "Deolis Guerra",
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Daniel Johnson",
+        "pitcher": "Deolis Guerra",
+        "movements": [
+          {
+            "runner": "Daniel Johnson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "César Hernández",
+        "pitcher": "Deolis Guerra",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Amed Rosario",
+        "pitcher": "Deolis Guerra",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Amed Rosario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Aramis Garcia",
+        "pitcher": "Bryan Shaw",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Aramis Garcia",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mark Canha",
+        "pitcher": "Bryan Shaw",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "Bryan Shaw",
+        "fielders": [
+          "Harold Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "José Ramírez",
+        "pitcher": "J.B. Wendelken",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Franmil Reyes",
+        "pitcher": "J.B. Wendelken",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Bradley",
+        "pitcher": "J.B. Wendelken",
+        "movements": [
+          {
+            "runner": "Bobby Bradley",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Harold Ramírez",
+        "pitcher": "J.B. Wendelken",
+        "fielders": [
+          "Tony Kemp"
+        ],
+        "movements": [
+          {
+            "runner": "Harold Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt Olson",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Daniel Johnson"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Olson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Mitch Moreland",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Mitch Moreland",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "BuntGroundout": {
+        "batter": "Bradley Zimmer",
+        "pitcher": "Sam Moll",
+        "fielders": [
+          "Sam Moll"
+        ],
+        "movements": [
+          {
+            "runner": "Bradley Zimmer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Hedges",
+        "pitcher": "Sam Moll",
+        "fielders": [
+          "Seth Brown"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hedges",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Óscar Mercado",
+        "pitcher": "Sam Moll",
+        "movements": [
+          {
+            "runner": "Óscar Mercado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "César Hernández",
+        "pitcher": "Sam Moll",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt Chapman",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Seth Brown",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Seth Brown",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jed Lowrie",
+        "pitcher": "James Karinchak",
+        "fielders": [
+          "Óscar Mercado"
+        ],
+        "movements": [
+          {
+            "runner": "Jed Lowrie",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Sean Murphy",
+        "pitcher": "James Karinchak",
+        "fielders": [
+          "Óscar Mercado"
+        ],
+        "scoring_runner": "Matt Chapman",
+        "movements": [
+          {
+            "runner": "Sean Murphy",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Matt Chapman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Mark Canha",
+        "pitcher": "James Karinchak",
+        "movements": [
+          {
+            "runner": "Mark Canha",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Seth Brown",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Elvis Andrus",
+        "pitcher": "James Karinchak",
+        "fielders": [
+          "Amed Rosario"
+        ],
+        "movements": [
+          {
+            "runner": "Elvis Andrus",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

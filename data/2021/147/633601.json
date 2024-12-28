@@ -1,0 +1,1468 @@
+{
+  "context": {
+    "game_pk": 633601,
+    "date": {
+      "year": 2021,
+      "month": 6,
+      "day": 28
+    },
+    "venue_name": "Yankee Stadium",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 90,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 147,
+      "players": [
+        {
+          "name": "Brett Gardner",
+          "position": "CenterField"
+        },
+        {
+          "name": "Lucas Luetge",
+          "position": "Pitcher"
+        },
+        {
+          "name": "DJ LeMahieu",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Gerrit Cole",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Higashioka",
+          "position": "Catcher"
+        },
+        {
+          "name": "Aroldis Chapman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gio Urshela",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Luis Cessa",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Voit",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Aaron Judge",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jameson Taillon",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Domingo Germán",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rougned Odor",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Gary Sánchez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Miguel Andujar",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brooks Kriske",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Clint Frazier",
+          "position": "RightField"
+        },
+        {
+          "name": "Nestor Cortes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Wade",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jonathan Loáisiga",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Chad Green",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gleyber Torres",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Michael King",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Albert Abreu",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Montgomery",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 108,
+      "players": [
+        {
+          "name": "Kurt Suzuki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Junior Guerra",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tony Watson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Quintana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Lagares",
+          "position": "CenterField"
+        },
+        {
+          "name": "Alex Cobb",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steve Cishek",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Anthony Rendon",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Max Stassi",
+          "position": "Catcher"
+        },
+        {
+          "name": "Andrew Heaney",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Iglesias",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Alex Claudio",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Mayers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Phil Gosselin",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Scott Schebler",
+          "position": "LeftField"
+        },
+        {
+          "name": "Dillon Peters",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dylan Bundy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Taylor Ward",
+          "position": "RightField"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luis Rengifo",
+          "position": "RightField"
+        },
+        {
+          "name": "Griffin Canning",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shohei Ohtani",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "José Suarez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Patrick Sandoval",
+          "position": "Pitcher"
+        },
+        {
+          "name": "David Fletcher",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jared Walsh",
+          "position": "FirstBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Michael King",
+        "fielders": [
+          "Luke Voit"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jared Walsh",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Rendon",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Rendon",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Max Stassi",
+        "pitcher": "Michael King",
+        "fielders": [
+          "Gio Urshela"
+        ],
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Scott Schebler",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Scott Schebler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Aaron Judge",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Anthony Rendon"
+        ],
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Luis Rengifo"
+        ],
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luke Voit",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Scott Schebler"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Michael King",
+        "fielders": [
+          "Gleyber Torres"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Michael King",
+        "fielders": [
+          "Miguel Andujar"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Juan Lagares",
+        "pitcher": "Michael King",
+        "fielders": [
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gleyber Torres",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "Anthony Rendon"
+        ],
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Gio Urshela",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Miguel Andujar",
+        "pitcher": "Dylan Bundy",
+        "movements": [
+          {
+            "runner": "Miguel Andujar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brett Gardner",
+        "pitcher": "Dylan Bundy",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Brett Gardner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Andujar",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Michael King",
+        "fielders": [
+          "Gleyber Torres"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Michael King",
+        "fielders": [
+          "Brett Gardner"
+        ],
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jared Walsh",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Rendon",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Stassi",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Aaron Judge",
+        "pitcher": "José Suarez",
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "Luis Rengifo"
+        ],
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "Jose Iglesias",
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Scott Schebler",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Scott Schebler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Michael King",
+        "fielders": [
+          "Aaron Judge"
+        ],
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Juan Lagares",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Luis Rengifo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "David Fletcher",
+        "pitcher": "Michael King",
+        "fielders": [
+          "Aaron Judge"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luke Voit",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Gleyber Torres",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "Luis Rengifo"
+        ],
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gio Urshela",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Michael King",
+        "movements": [
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Jared Walsh",
+        "pitcher": "Lucas Luetge",
+        "fielders": [
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Rendon",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Max Stassi",
+        "pitcher": "Lucas Luetge",
+        "fielders": [
+          "DJ LeMahieu",
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Anthony Rendon",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Scott Schebler",
+        "pitcher": "Lucas Luetge",
+        "movements": [
+          {
+            "runner": "Scott Schebler",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Andujar",
+        "pitcher": "José Suarez",
+        "movements": [
+          {
+            "runner": "Miguel Andujar",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brett Gardner",
+        "pitcher": "José Suarez",
+        "movements": [
+          {
+            "runner": "Brett Gardner",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "Jose Iglesias"
+        ],
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Lucas Luetge",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Lucas Luetge",
+        "fielders": [
+          "Aaron Judge",
+          "Aaron Judge"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Juan Lagares",
+        "pitcher": "Lucas Luetge",
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "David Fletcher",
+        "pitcher": "Lucas Luetge",
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Chad Green",
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Aaron Judge",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "David Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "José Suarez",
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "José Suarez",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luke Voit",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "Anthony Rendon"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Chad Green",
+        "fielders": [
+          "Brett Gardner"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Chad Green",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Max Stassi",
+        "pitcher": "Chad Green",
+        "movements": [
+          {
+            "runner": "Max Stassi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gleyber Torres",
+        "pitcher": "José Suarez",
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Gio Urshela",
+        "pitcher": "José Suarez",
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Miguel Andujar",
+        "pitcher": "José Suarez",
+        "fielders": [
+          "Anthony Rendon"
+        ],
+        "movements": [
+          {
+            "runner": "Gio Urshela",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Andujar",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Clint Frazier",
+        "pitcher": "José Suarez",
+        "movements": [
+          {
+            "runner": "Clint Frazier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Scott Schebler",
+        "pitcher": "Chad Green",
+        "movements": [
+          {
+            "runner": "Scott Schebler",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jose Iglesias",
+        "pitcher": "Chad Green",
+        "movements": [
+          {
+            "runner": "Jose Iglesias",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Iglesias",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Scott Schebler",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Scott Schebler",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Luis Rengifo",
+        "pitcher": "Chad Green",
+        "fielders": [
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Luis Rengifo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Juan Lagares",
+        "pitcher": "Chad Green",
+        "fielders": [
+          "Gleyber Torres"
+        ],
+        "movements": [
+          {
+            "runner": "Juan Lagares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "David Fletcher",
+        "pitcher": "Chad Green",
+        "fielders": [
+          "Chad Green"
+        ],
+        "movements": [
+          {
+            "runner": "David Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "DJ LeMahieu",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "Juan Lagares"
+        ],
+        "movements": [
+          {
+            "runner": "DJ LeMahieu",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Aaron Judge",
+        "pitcher": "Steve Cishek",
+        "fielders": [
+          "Juan Lagares"
+        ],
+        "movements": [
+          {
+            "runner": "Aaron Judge",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gary Sánchez",
+        "pitcher": "Steve Cishek",
+        "movements": [
+          {
+            "runner": "Gary Sánchez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Shohei Ohtani",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "DJ LeMahieu"
+        ],
+        "movements": [
+          {
+            "runner": "Shohei Ohtani",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Anthony Rendon",
+        "pitcher": "Nestor Cortes",
+        "fielders": [
+          "Gio Urshela"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Rendon",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jared Walsh",
+        "pitcher": "Nestor Cortes",
+        "movements": [
+          {
+            "runner": "Jared Walsh",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Giancarlo Stanton",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Giancarlo Stanton",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Luke Voit",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Luke Voit",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gleyber Torres",
+        "pitcher": "Raisel Iglesias",
+        "movements": [
+          {
+            "runner": "Gleyber Torres",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

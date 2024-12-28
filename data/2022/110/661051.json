@@ -1,0 +1,1484 @@
+{
+  "context": {
+    "game_pk": 661051,
+    "date": {
+      "year": 2022,
+      "month": 8,
+      "day": 21
+    },
+    "venue_name": "Oriole Park at Camden Yards",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 70,
+      "wind_speed": 7
+    },
+    "home_team": {
+      "id": 110,
+      "players": [
+        {
+          "name": "Robinson Chirinos",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jordan Lyles",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Louis Head",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rougned Odor",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Ramón Urías",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Joey Krehbiel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Voth",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Richie Martin",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Dillon Tate",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Mateo",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Anthony Santander",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Bryan Baker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Félix Bautista",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cedric Mullins",
+          "position": "CenterField"
+        },
+        {
+          "name": "Spenser Watkins",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Nevin",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ryan Mountcastle",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Ryan McKenna",
+          "position": "LeftField"
+        },
+        {
+          "name": "Nick Vespi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dean Kremer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adley Rutschman",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kyle Stowers",
+          "position": "LeftField"
+        },
+        {
+          "name": "Keegan Akin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Hays",
+          "position": "RightField"
+        },
+        {
+          "name": "Cionel Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Bradish",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 111,
+      "players": [
+        {
+          "name": "Rich Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tommy Pham",
+          "position": "LeftField"
+        },
+        {
+          "name": "J.D. Martinez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Ryan Brasier",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeurys Familia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Enrique Hernández",
+          "position": "CenterField"
+        },
+        {
+          "name": "Xander Bogaerts",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Matt Barnes",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Pivetta",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Wacha",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Plawecki",
+          "position": "Catcher"
+        },
+        {
+          "name": "Rob Refsnyder",
+          "position": "RightField"
+        },
+        {
+          "name": "Franchy Cordero",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Hirokazu Sawamura",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Strahm",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Arroyo",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Reese McGuire",
+          "position": "Catcher"
+        },
+        {
+          "name": "Rafael Devers",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Austin Davis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Verdugo",
+          "position": "LeftField"
+        },
+        {
+          "name": "Bobby Dalbec",
+          "position": "FirstBase"
+        },
+        {
+          "name": "John Schreiber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Garrett Whitlock",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kutter Crawford",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarren Duran",
+          "position": "PinchHitter"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "Tommy Pham",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Cedric Mullins"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Ramón Urías",
+          "Ramón Urías"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Cedric Mullins",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Anthony Santander",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Cedric Mullins",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Cedric Mullins",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Adley Rutschman",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Nick Pivetta",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Adley Rutschman",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Stowers",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Kyle Stowers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ramón Urías",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Adley Rutschman",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Anthony Santander",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Austin Hays",
+        "pitcher": "Nick Pivetta",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Rafael Devers",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Rougned Odor",
+          "Jorge Mateo"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Rafael Devers",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rougned Odor",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Rougned Odor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Mateo",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kevin Plawecki",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Tommy Pham",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Jorge Mateo",
+          "Rougned Odor"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Austin Hays"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Nick Pivetta",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Anthony Santander",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Nick Pivetta",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "scoring_runner": "Ryan Mountcastle",
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Stowers",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Kyle Stowers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Jorge Mateo"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ramón Urías",
+        "pitcher": "Nick Pivetta",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Austin Hays",
+        "pitcher": "Nick Pivetta",
+        "fielders": [
+          "Rafael Devers"
+        ],
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Rougned Odor",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Rougned Odor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Mateo",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Rougned Odor",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Nick Pivetta",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Ramón Urías"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bobby Dalbec",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Bobby Dalbec",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kevin Plawecki",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Kevin Plawecki",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Anthony Santander",
+        "pitcher": "Nick Pivetta",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Tommy Pham",
+        "pitcher": "Dean Kremer",
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Dean Kremer",
+        "fielders": [
+          "Kyle Stowers"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Dillon Tate",
+        "fielders": [
+          "Cedric Mullins"
+        ],
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Dillon Tate",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Stowers",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Kyle Stowers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ramón Urías",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Austin Hays",
+        "pitcher": "Nick Pivetta",
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rougned Odor",
+        "pitcher": "Matt Strahm",
+        "movements": [
+          {
+            "runner": "Austin Hays",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rougned Odor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jorge Mateo",
+        "pitcher": "Matt Strahm",
+        "fielders": [
+          "Enrique Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Dillon Tate",
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Dillon Tate",
+        "fielders": [
+          "Austin Hays"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Enrique Hernández",
+        "pitcher": "Dillon Tate",
+        "fielders": [
+          "Kyle Stowers"
+        ],
+        "movements": [
+          {
+            "runner": "Enrique Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Matt Strahm",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Matt Barnes",
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Anthony Santander",
+        "pitcher": "Matt Barnes",
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ryan Mountcastle",
+        "pitcher": "Matt Barnes",
+        "fielders": [
+          "Christian Arroyo"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan Mountcastle",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Franchy Cordero",
+        "pitcher": "Dillon Tate",
+        "movements": [
+          {
+            "runner": "Franchy Cordero",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Cionel Pérez",
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tommy Pham",
+        "pitcher": "Cionel Pérez",
+        "fielders": [
+          "Ryan Mountcastle"
+        ],
+        "movements": [
+          {
+            "runner": "Tommy Pham",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Alex Verdugo",
+        "pitcher": "Cionel Pérez",
+        "fielders": [
+          "Kyle Stowers"
+        ],
+        "movements": [
+          {
+            "runner": "Alex Verdugo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kyle Stowers",
+        "pitcher": "Matt Barnes",
+        "movements": [
+          {
+            "runner": "Kyle Stowers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ramón Urías",
+        "pitcher": "Matt Barnes",
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Austin Hays",
+        "pitcher": "John Schreiber",
+        "movements": [
+          {
+            "runner": "Ramón Urías",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Hays",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Rougned Odor",
+        "pitcher": "John Schreiber",
+        "movements": [
+          {
+            "runner": "Ryan McKenna",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Hays",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rougned Odor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Jorge Mateo",
+        "pitcher": "John Schreiber",
+        "movements": [
+          {
+            "runner": "Jorge Mateo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Rougned Odor",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Rougned Odor",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ryan McKenna",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Austin Hays",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cedric Mullins",
+        "pitcher": "Austin Davis",
+        "movements": [
+          {
+            "runner": "Cedric Mullins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Adley Rutschman",
+        "pitcher": "Austin Davis",
+        "movements": [
+          {
+            "runner": "Adley Rutschman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Anthony Santander",
+        "pitcher": "Austin Davis",
+        "fielders": [
+          "Xander Bogaerts"
+        ],
+        "movements": [
+          {
+            "runner": "Anthony Santander",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Xander Bogaerts",
+        "pitcher": "Félix Bautista",
+        "movements": [
+          {
+            "runner": "Xander Bogaerts",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rafael Devers",
+        "pitcher": "Félix Bautista",
+        "movements": [
+          {
+            "runner": "Rafael Devers",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "J.D. Martinez",
+        "pitcher": "Félix Bautista",
+        "fielders": [
+          "Jorge Mateo"
+        ],
+        "movements": [
+          {
+            "runner": "J.D. Martinez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Christian Arroyo",
+        "pitcher": "Félix Bautista",
+        "fielders": [
+          "Tyler Nevin"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Arroyo",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

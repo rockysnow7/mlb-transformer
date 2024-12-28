@@ -1,0 +1,1640 @@
+{
+  "context": {
+    "game_pk": 633881,
+    "date": {
+      "year": 2021,
+      "month": 5,
+      "day": 30
+    },
+    "venue_name": "Target Field",
+    "weather": {
+      "condition": "Overcast",
+      "temperature": 55,
+      "wind_speed": 8
+    },
+    "home_team": {
+      "id": 142,
+      "players": [
+        {
+          "name": "Nelson Cruz",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "J.A. Happ",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Michael Pineda",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alex Colomé",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Donaldson",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Matt Shoemaker",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Willians Astudillo",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Hansel Robles",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Taylor Rogers",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Caleb Thielbar",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Juan Minaya",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Andrelton Simmons",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Jorge Polanco",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Miguel Sanó",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Tyler Duffey",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Farrell",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Rob Refsnyder",
+          "position": "CenterField"
+        },
+        {
+          "name": "José Berríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Gordon",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Mitch Garver",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jorge Alcala",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Larnach",
+          "position": "LeftField"
+        },
+        {
+          "name": "Kyle Garlick",
+          "position": "LeftField"
+        },
+        {
+          "name": "Alex Kirilloff",
+          "position": "RightField"
+        },
+        {
+          "name": "Ben Rortvedt",
+          "position": "Catcher"
+        },
+        {
+          "name": "Randy Dobnak",
+          "position": "Pitcher"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 118,
+      "players": [
+        {
+          "name": "Ervin Santana",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Wade Davis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Santana",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Mike Minor",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jarrod Dyson",
+          "position": "CenterField"
+        },
+        {
+          "name": "Greg Holland",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Salvador Perez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Whit Merrifield",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Hanser Alberto",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Cam Gallagher",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jakob Junis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Scott Barlow",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adalberto Mondesi",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Kyle Zimmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jorge Soler",
+          "position": "RightField"
+        },
+        {
+          "name": "Jake Brentz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Hunter Dozier",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Brad Keller",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kelvin Gutiérrez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Andrew Benintendi",
+          "position": "LeftField"
+        },
+        {
+          "name": "Edward Olivares",
+          "position": "RightField"
+        },
+        {
+          "name": "Kris Bubic",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brady Singer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nicky Lopez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Tyler Zuber",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Double": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Matt Shoemaker",
+        "fielders": [
+          "Miguel Sanó"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Matt Shoemaker",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adalberto Mondesi",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Adalberto Mondesi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Kirilloff",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Sanó",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Miguel Sanó",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Cruz",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Edward Olivares",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Kelvin Gutiérrez",
+        "pitcher": "Matt Shoemaker",
+        "fielders": [
+          "Miguel Sanó"
+        ],
+        "movements": [
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ben Rortvedt",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Ben Rortvedt",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Andrelton Simmons",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Kelvin Gutiérrez"
+        ],
+        "movements": [
+          {
+            "runner": "Andrelton Simmons",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Adalberto Mondesi"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Andrelton Simmons",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Kirilloff",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Andrelton Simmons",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Edward Olivares"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jarrod Dyson",
+        "pitcher": "Matt Shoemaker",
+        "fielders": [
+          "Miguel Sanó"
+        ],
+        "movements": [
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "BuntPopOut": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Matt Shoemaker",
+        "fielders": [
+          "Matt Shoemaker"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Carlos Santana",
+        "pitcher": "Matt Shoemaker",
+        "fielders": [
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Sanó",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Miguel Sanó",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Jarrod Dyson"
+        ],
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Matt Shoemaker",
+        "fielders": [
+          "Andrelton Simmons"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Adalberto Mondesi",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Adalberto Mondesi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ben Rortvedt",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Ben Rortvedt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrelton Simmons",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Andrelton Simmons",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Edward Olivares",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kelvin Gutiérrez",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Edward Olivares",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Edward Olivares",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Matt Shoemaker",
+        "fielders": [
+          "Andrelton Simmons",
+          "Andrelton Simmons"
+        ],
+        "movements": [
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Edward Olivares",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jarrod Dyson",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Hunter Dozier",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Hunter Dozier",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Hunter Dozier",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Carlos Santana",
+        "pitcher": "Matt Shoemaker",
+        "movements": [
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Caleb Thielbar",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "scoring_runner": "Whit Merrifield",
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Salvador Perez",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Adalberto Mondesi",
+        "pitcher": "Caleb Thielbar",
+        "fielders": [
+          "Miguel Sanó"
+        ],
+        "movements": [
+          {
+            "runner": "Adalberto Mondesi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Alex Kirilloff",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Miguel Sanó",
+        "pitcher": "Brad Keller",
+        "fielders": [
+          "Kelvin Gutiérrez",
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Miguel Sanó",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Josh Donaldson",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Brad Keller",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Edward Olivares",
+        "pitcher": "Caleb Thielbar",
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Kelvin Gutiérrez",
+        "pitcher": "Caleb Thielbar",
+        "fielders": [
+          "Andrelton Simmons",
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Caleb Thielbar",
+        "fielders": [
+          "Trevor Larnach"
+        ],
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Kyle Zimmer",
+        "fielders": [
+          "Adalberto Mondesi"
+        ],
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ben Rortvedt",
+        "pitcher": "Kyle Zimmer",
+        "fielders": [
+          "Jarrod Dyson"
+        ],
+        "movements": [
+          {
+            "runner": "Ben Rortvedt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrelton Simmons",
+        "pitcher": "Kyle Zimmer",
+        "movements": [
+          {
+            "runner": "Andrelton Simmons",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jarrod Dyson",
+        "pitcher": "Luke Farrell",
+        "fielders": [
+          "Andrelton Simmons"
+        ],
+        "movements": [
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Luke Farrell",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Carlos Santana",
+        "pitcher": "Luke Farrell",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrew Benintendi",
+        "pitcher": "Luke Farrell",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "Andrew Benintendi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Kyle Zimmer",
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Kyle Zimmer",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jorge Polanco",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Alex Kirilloff",
+        "pitcher": "Kyle Zimmer",
+        "movements": [
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Sanó",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Miguel Sanó",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Salvador Perez",
+        "pitcher": "Alex Colomé",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Salvador Perez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Adalberto Mondesi",
+        "pitcher": "Alex Colomé",
+        "fielders": [
+          "Rob Refsnyder"
+        ],
+        "movements": [
+          {
+            "runner": "Adalberto Mondesi",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Edward Olivares",
+        "pitcher": "Alex Colomé",
+        "fielders": [
+          "Miguel Sanó"
+        ],
+        "movements": [
+          {
+            "runner": "Edward Olivares",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Trevor Larnach",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Rob Refsnyder",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Rob Refsnyder",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Mitch Garver",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Trevor Larnach",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Mitch Garver",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrelton Simmons",
+        "pitcher": "Scott Barlow",
+        "movements": [
+          {
+            "runner": "Andrelton Simmons",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Polanco",
+        "pitcher": "Scott Barlow",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Polanco",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Kelvin Gutiérrez",
+        "pitcher": "Juan Minaya",
+        "fielders": [
+          "Josh Donaldson"
+        ],
+        "movements": [
+          {
+            "runner": "Kelvin Gutiérrez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Hunter Dozier",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Hunter Dozier",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jarrod Dyson",
+        "pitcher": "Juan Minaya",
+        "movements": [
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Juan Minaya",
+        "fielders": [
+          "Jorge Polanco"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Juan Minaya",
+        "fielders": [
+          "Miguel Sanó"
+        ],
+        "movements": [
+          {
+            "runner": "Jarrod Dyson",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Donaldson",
+        "pitcher": "Greg Holland",
+        "fielders": [
+          "Andrew Benintendi"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Donaldson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alex Kirilloff",
+        "pitcher": "Greg Holland",
+        "movements": [
+          {
+            "runner": "Alex Kirilloff",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nelson Cruz",
+        "pitcher": "Greg Holland",
+        "fielders": [
+          "Adalberto Mondesi"
+        ],
+        "movements": [
+          {
+            "runner": "Nelson Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

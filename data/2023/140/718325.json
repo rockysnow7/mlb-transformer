@@ -1,0 +1,1778 @@
+{
+  "context": {
+    "game_pk": 718325,
+    "date": {
+      "year": 2023,
+      "month": 5,
+      "day": 3
+    },
+    "venue_name": "Globe Life Field",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 79,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 140,
+      "players": [
+        {
+          "name": "Ian Kennedy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sandy León",
+          "position": "Catcher"
+        },
+        {
+          "name": "Will Smith",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Martín Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Robbie Grossman",
+          "position": "LeftField"
+        },
+        {
+          "name": "Brad Miller",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Marcus Semien",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Andrew Heaney",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jon Gray",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Leclerc",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Travis Jankowski",
+          "position": "LeftField"
+        },
+        {
+          "name": "Josh Sborz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Dane Dunning",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jonah Heim",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Jonathan Hernández",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brock Burke",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathaniel Lowe",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Leody Taveras",
+          "position": "CenterField"
+        },
+        {
+          "name": "Cole Ragans",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yerry Rodríguez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Adolis García",
+          "position": "RightField"
+        },
+        {
+          "name": "Bubba Thompson",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Josh Smith",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Josh Jung",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ezequiel Duran",
+          "position": "Shortstop"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 109,
+      "players": [
+        {
+          "name": "Evan Longoria",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Merrill Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Scott McGough",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Christian Walker",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Joe Mantiply",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Ahmed",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Andrew Chafin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ketel Marte",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Miguel Castro",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Ruiz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jose Herrera",
+          "position": "Catcher"
+        },
+        {
+          "name": "Kevin Ginkel",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emmanuel Rivera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Pavin Smith",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Dominic Fletcher",
+          "position": "RightField"
+        },
+        {
+          "name": "Lourdes Gurriel Jr.",
+          "position": "LeftField"
+        },
+        {
+          "name": "Zac Gallen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Josh Rojas",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Ryne Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kyle Nelson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gabriel Moreno",
+          "position": "Catcher"
+        },
+        {
+          "name": "Geraldo Perdomo",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Tommy Henry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alek Thomas",
+          "position": "CenterField"
+        },
+        {
+          "name": "Corbin Carroll",
+          "position": "PinchHitter"
+        },
+        {
+          "name": "Brandon Pfaadt",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Walk": {
+        "batter": "Ketel Marte",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Emmanuel Rivera",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Emmanuel Rivera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Walker",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Evan Longoria",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Andrew Heaney"
+        ],
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Nick Ahmed"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Alek Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Adolis García",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Alek Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dominic Fletcher",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Dominic Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Sandy León"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alek Thomas",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Jung",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Josh Jung",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Jonah Heim",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ezequiel Duran",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Dominic Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Ezequiel Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Leody Taveras",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Leody Taveras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "CaughtStealing": {
+        "base": 2,
+        "runner": "Leody Taveras",
+        "fielders": [
+          "Jose Herrera"
+        ],
+        "movements": [
+          {
+            "runner": "Leody Taveras",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jose Herrera",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Jose Herrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Emmanuel Rivera",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Emmanuel Rivera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Jose Herrera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Christian Walker",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Herrera",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Evan Longoria",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Josh Jung"
+        ],
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sandy León",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Sandy León",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Marcus Semien",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Evan Longoria"
+        ],
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Marcus Semien",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Dominic Fletcher",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Nathaniel Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Andrew Heaney"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Alek Thomas",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Adolis García",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Alek Thomas"
+        ],
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Josh Jung",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Josh Jung",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonah Heim",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Ezequiel Duran",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Dominic Fletcher"
+        ],
+        "movements": [
+          {
+            "runner": "Ezequiel Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Jose Herrera",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Jose Herrera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Ketel Marte",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Jose Herrera",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Emmanuel Rivera",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Josh Jung"
+        ],
+        "movements": [
+          {
+            "runner": "Emmanuel Rivera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Andrew Heaney",
+        "fielders": [
+          "Josh Jung"
+        ],
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Christian Walker",
+        "pitcher": "Andrew Heaney",
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Evan Longoria",
+        "pitcher": "Josh Sborz",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Evan Longoria",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Leody Taveras",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Leody Taveras",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Sandy León",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Sandy León",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Evan Longoria"
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Sandy León",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Sandy León",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Travis Jankowski",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Adolis García",
+        "pitcher": "Brandon Pfaadt",
+        "fielders": [
+          "Alek Thomas"
+        ],
+        "scoring_runner": "Travis Jankowski",
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Travis Jankowski",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Josh Jung",
+        "pitcher": "Brandon Pfaadt",
+        "movements": [
+          {
+            "runner": "Josh Jung",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jonah Heim",
+        "pitcher": "José Ruiz",
+        "fielders": [
+          "Lourdes Gurriel Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Dominic Fletcher",
+        "pitcher": "Josh Sborz",
+        "movements": [
+          {
+            "runner": "Dominic Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nick Ahmed",
+        "pitcher": "Josh Sborz",
+        "fielders": [
+          "Ezequiel Duran"
+        ],
+        "movements": [
+          {
+            "runner": "Nick Ahmed",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alek Thomas",
+        "pitcher": "Josh Sborz",
+        "fielders": [
+          "Marcus Semien"
+        ],
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ezequiel Duran",
+        "pitcher": "José Ruiz",
+        "movements": [
+          {
+            "runner": "Ezequiel Duran",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Leody Taveras",
+        "pitcher": "José Ruiz",
+        "movements": [
+          {
+            "runner": "Leody Taveras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sandy León",
+        "pitcher": "José Ruiz",
+        "movements": [
+          {
+            "runner": "Sandy León",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Marcus Semien",
+        "pitcher": "José Ruiz",
+        "movements": [
+          {
+            "runner": "Leody Taveras",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Travis Jankowski",
+        "pitcher": "Joe Mantiply",
+        "movements": [
+          {
+            "runner": "Travis Jankowski",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Corbin Carroll",
+        "pitcher": "Josh Sborz",
+        "movements": [
+          {
+            "runner": "Corbin Carroll",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ketel Marte",
+        "pitcher": "Josh Sborz",
+        "movements": [
+          {
+            "runner": "Corbin Carroll",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Emmanuel Rivera",
+        "pitcher": "Josh Sborz",
+        "movements": [
+          {
+            "runner": "Emmanuel Rivera",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Corbin Carroll",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Corbin Carroll",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Ketel Marte",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "José Leclerc",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Emmanuel Rivera",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Christian Walker",
+        "pitcher": "José Leclerc",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Emmanuel Rivera",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "SacFly": {
+        "batter": "Josh Rojas",
+        "pitcher": "José Leclerc",
+        "fielders": [
+          "Adolis García"
+        ],
+        "scoring_runner": "Lourdes Gurriel Jr.",
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Emmanuel Rivera",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Dominic Fletcher",
+        "pitcher": "José Leclerc",
+        "movements": [
+          {
+            "runner": "Dominic Fletcher",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Walker",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Geraldo Perdomo",
+        "pitcher": "Ian Kennedy",
+        "movements": [
+          {
+            "runner": "Geraldo Perdomo",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Christian Walker",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Dominic Fletcher",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoiceOut": {
+        "batter": "Alek Thomas",
+        "pitcher": "Ian Kennedy",
+        "fielders": [
+          "Nathaniel Lowe"
+        ],
+        "scoring_runner": "Geraldo Perdomo",
+        "movements": [
+          {
+            "runner": "Dominic Fletcher",
+            "start_base": 3,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Geraldo Perdomo",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Corbin Carroll",
+        "pitcher": "Ian Kennedy",
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Corbin Carroll",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Joe Mantiply",
+        "fielders": [
+          "Joe Mantiply"
+        ],
+        "movements": [
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Adolis García",
+        "pitcher": "Joe Mantiply",
+        "fielders": [
+          "Geraldo Perdomo"
+        ],
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Jung",
+        "pitcher": "Joe Mantiply",
+        "fielders": [
+          "Joe Mantiply"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Jung",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ketel Marte",
+        "pitcher": "Ian Kennedy",
+        "movements": [
+          {
+            "runner": "Ketel Marte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Emmanuel Rivera",
+        "pitcher": "Ian Kennedy",
+        "fielders": [
+          "Adolis García"
+        ],
+        "movements": [
+          {
+            "runner": "Emmanuel Rivera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Lourdes Gurriel Jr.",
+        "pitcher": "Ian Kennedy",
+        "movements": [
+          {
+            "runner": "Lourdes Gurriel Jr.",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Christian Walker",
+        "pitcher": "Ian Kennedy",
+        "fielders": [
+          "Nathaniel Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Walker",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Jonah Heim",
+        "pitcher": "Miguel Castro",
+        "fielders": [
+          "Josh Rojas"
+        ],
+        "movements": [
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Ezequiel Duran",
+        "pitcher": "Miguel Castro",
+        "movements": [
+          {
+            "runner": "Ezequiel Duran",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Leody Taveras",
+        "pitcher": "Miguel Castro",
+        "movements": [
+          {
+            "runner": "Ezequiel Duran",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Leody Taveras",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Sandy León",
+        "pitcher": "Miguel Castro",
+        "movements": [
+          {
+            "runner": "Sandy León",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Marcus Semien",
+        "pitcher": "Miguel Castro",
+        "fielders": [
+          "Lourdes Gurriel Jr."
+        ],
+        "movements": [
+          {
+            "runner": "Marcus Semien",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Josh Rojas",
+        "pitcher": "Yerry Rodríguez",
+        "fielders": [
+          "Travis Jankowski"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Rojas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Dominic Fletcher",
+        "pitcher": "Yerry Rodríguez",
+        "fielders": [
+          "Leody Taveras"
+        ],
+        "movements": [
+          {
+            "runner": "Dominic Fletcher",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Geraldo Perdomo",
+        "pitcher": "Yerry Rodríguez",
+        "movements": [
+          {
+            "runner": "Geraldo Perdomo",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Alek Thomas",
+        "pitcher": "Yerry Rodríguez",
+        "fielders": [
+          "Nathaniel Lowe"
+        ],
+        "movements": [
+          {
+            "runner": "Alek Thomas",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bubba Thompson",
+        "pitcher": "Andrew Chafin",
+        "movements": [
+          {
+            "runner": "Bubba Thompson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nathaniel Lowe",
+        "pitcher": "Andrew Chafin",
+        "movements": [
+          {
+            "runner": "Nathaniel Lowe",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldError": {
+        "batter": "Adolis García",
+        "pitcher": "Andrew Chafin",
+        "fielders": [
+          "Ketel Marte"
+        ],
+        "movements": [
+          {
+            "runner": "Adolis García",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Jung",
+        "pitcher": "Andrew Chafin",
+        "movements": [
+          {
+            "runner": "Josh Jung",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Adolis García",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Adolis García",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jonah Heim",
+        "pitcher": "Andrew Chafin",
+        "movements": [
+          {
+            "runner": "Josh Jung",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Jonah Heim",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

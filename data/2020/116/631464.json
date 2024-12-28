@@ -1,0 +1,1584 @@
+{
+  "context": {
+    "game_pk": 631464,
+    "date": {
+      "year": 2020,
+      "month": 9,
+      "day": 17
+    },
+    "venue_name": "Comerica Park",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 66,
+      "wind_speed": 10
+    },
+    "home_team": {
+      "id": 116,
+      "players": [
+        {
+          "name": "Miguel Cabrera",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Austin Romine",
+          "position": "Catcher"
+        },
+        {
+          "name": "Jordan Zimmermann",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Cisnero",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matthew Boyd",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Niko Goodrum",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Jorge Bonifacio",
+          "position": "LeftField"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Ramirez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jeimer Candelario",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Michael Fulmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Spencer Turnbull",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eric Haase",
+          "position": "Catcher"
+        },
+        {
+          "name": "Victor Reyes",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tyler Alexander",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Travis Demeritte",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Joe Jiménez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gregory Soto",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Sergio Alcántara",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Willi Castro",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Bryan Garcia",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Derek Hill",
+          "position": "CenterField"
+        },
+        {
+          "name": "Casey Mize",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Daz Cameron",
+          "position": "RightField"
+        },
+        {
+          "name": "Rony García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tarik Skubal",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Isaac Paredes",
+          "position": "ThirdBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 114,
+      "players": [
+        {
+          "name": "Oliver Pérez",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Carlos Santana",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Carlos Carrasco",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Mike Freeman",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Sandy León",
+          "position": "Catcher"
+        },
+        {
+          "name": "César Hernández",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Brad Hand",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Roberto Pérez",
+          "position": "Catcher"
+        },
+        {
+          "name": "Tyler Naquin",
+          "position": "RightField"
+        },
+        {
+          "name": "Delino DeShields",
+          "position": "CenterField"
+        },
+        {
+          "name": "Adam Plutko",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Austin Hedges",
+          "position": "Catcher"
+        },
+        {
+          "name": "Francisco Lindor",
+          "position": "Shortstop"
+        },
+        {
+          "name": "José Ramírez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Franmil Reyes",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Cal Quantrill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nick Wittgren",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Óscar Mercado",
+          "position": "CenterField"
+        },
+        {
+          "name": "Yu Chang",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Josh Naylor",
+          "position": "LeftField"
+        },
+        {
+          "name": "Aaron Civale",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Jordan Luplow",
+          "position": "CenterField"
+        },
+        {
+          "name": "Cam Hill",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Triston McKenzie",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Phil Maton",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Zach Plesac",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Shane Bieber",
+          "position": "Pitcher"
+        },
+        {
+          "name": "James Karinchak",
+          "position": "Pitcher"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "BuntGroundout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Casey Mize"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "César Hernández",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "José Ramírez",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Victor Reyes"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Óscar Mercado"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Roberto Pérez",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Casey Mize"
+        ],
+        "movements": [
+          {
+            "runner": "Roberto Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Óscar Mercado"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Niko Goodrum",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Niko Goodrum",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Jorge Bonifacio",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Jorge Bonifacio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Romine",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Austin Romine",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Niko Goodrum"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Óscar Mercado",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Jorge Bonifacio"
+        ],
+        "movements": [
+          {
+            "runner": "Óscar Mercado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Josh Naylor"
+        ],
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Daz Cameron",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Roberto Pérez"
+        ],
+        "movements": [
+          {
+            "runner": "Daz Cameron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "César Hernández"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "César Hernández",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "José Ramírez",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "César Hernández",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Carlos Santana",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Niko Goodrum"
+        ],
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Roberto Pérez",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Naquin",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Roberto Pérez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Josh Naylor",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "FieldersChoice": {
+        "batter": "Óscar Mercado",
+        "pitcher": "Casey Mize",
+        "fielders": [
+          "Isaac Paredes",
+          "Isaac Paredes"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Naquin",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Roberto Pérez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Óscar Mercado",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Casey Mize",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Roberto Pérez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Óscar Mercado",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "César Hernández",
+        "pitcher": "Nick Ramirez",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Willi Castro",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Niko Goodrum",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Niko Goodrum",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "José Ramírez",
+        "pitcher": "Nick Ramirez",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Nick Ramirez",
+        "fielders": [
+          "Niko Goodrum"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Nick Ramirez",
+        "fielders": [
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Jorge Bonifacio",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Josh Naylor"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Bonifacio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Austin Romine",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Austin Romine",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Óscar Mercado"
+        ],
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Daz Cameron",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Tyler Naquin"
+        ],
+        "movements": [
+          {
+            "runner": "Daz Cameron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Nick Ramirez",
+        "fielders": [
+          "Niko Goodrum"
+        ],
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Roberto Pérez",
+        "pitcher": "Nick Ramirez",
+        "movements": [
+          {
+            "runner": "Roberto Pérez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Nick Ramirez",
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Óscar Mercado",
+        "pitcher": "Nick Ramirez",
+        "fielders": [
+          "Jorge Bonifacio"
+        ],
+        "movements": [
+          {
+            "runner": "Óscar Mercado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Victor Reyes",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Victor Reyes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Willi Castro",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Miguel Cabrera",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Óscar Mercado"
+        ],
+        "movements": [
+          {
+            "runner": "Miguel Cabrera",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Jordan Zimmermann",
+        "fielders": [
+          "Jorge Bonifacio"
+        ],
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "César Hernández",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "José Ramírez",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "César Hernández",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Carlos Santana",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "José Ramírez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "José Ramírez",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "César Hernández",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Jordan Zimmermann",
+        "fielders": [
+          "Willi Castro",
+          "Willi Castro"
+        ],
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Carlos Santana",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Roberto Pérez",
+        "pitcher": "Jordan Zimmermann",
+        "fielders": [
+          "Jordan Zimmermann"
+        ],
+        "movements": [
+          {
+            "runner": "Roberto Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Carlos Santana"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Niko Goodrum",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "Shane Bieber"
+        ],
+        "movements": [
+          {
+            "runner": "Niko Goodrum",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jorge Bonifacio",
+        "pitcher": "Shane Bieber",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Jorge Bonifacio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Josh Naylor",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Óscar Mercado",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "Óscar Mercado",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Francisco Lindor",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "Francisco Lindor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "César Hernández",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "César Hernández",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Naylor",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Josh Naylor",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Ramírez",
+        "pitcher": "Jordan Zimmermann",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "César Hernández",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Carlos Santana",
+        "pitcher": "Rony García",
+        "fielders": [
+          "Daz Cameron"
+        ],
+        "movements": [
+          {
+            "runner": "Carlos Santana",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Austin Romine",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Austin Romine",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Isaac Paredes",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Daz Cameron",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Daz Cameron",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Derek Hill",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Isaac Paredes",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Derek Hill",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HomeRun": {
+        "batter": "Willi Castro",
+        "pitcher": "Shane Bieber",
+        "movements": [
+          {
+            "runner": "Willi Castro",
+            "start_base": null,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Isaac Paredes",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Derek Hill",
+            "start_base": 1,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Travis Demeritte",
+        "pitcher": "Cam Hill",
+        "fielders": [
+          "Francisco Lindor"
+        ],
+        "movements": [
+          {
+            "runner": "Travis Demeritte",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Franmil Reyes",
+        "pitcher": "Rony García",
+        "movements": [
+          {
+            "runner": "Franmil Reyes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler Naquin",
+        "pitcher": "Rony García",
+        "movements": [
+          {
+            "runner": "Tyler Naquin",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Roberto Pérez",
+        "pitcher": "Rony García",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Roberto Pérez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Josh Naylor",
+        "pitcher": "Rony García",
+        "fielders": [
+          "Jeimer Candelario"
+        ],
+        "movements": [
+          {
+            "runner": "Josh Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Jeimer Candelario",
+        "pitcher": "Cam Hill",
+        "fielders": [
+          "Cam Hill"
+        ],
+        "movements": [
+          {
+            "runner": "Jeimer Candelario",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Niko Goodrum",
+        "pitcher": "Cam Hill",
+        "movements": [
+          {
+            "runner": "Niko Goodrum",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Jorge Bonifacio",
+        "pitcher": "Cam Hill",
+        "movements": [
+          {
+            "runner": "Jorge Bonifacio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

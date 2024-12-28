@@ -1,0 +1,1536 @@
+{
+  "context": {
+    "game_pk": 717052,
+    "date": {
+      "year": 2023,
+      "month": 8,
+      "day": 10
+    },
+    "venue_name": "Progressive Field",
+    "weather": {
+      "condition": "Sunny",
+      "temperature": 75,
+      "wind_speed": 9
+    },
+    "home_team": {
+      "id": 114,
+      "players": [
+        {
+          "name": "Michael Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Noah Syndergaard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kole Calhoun",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Cam Gallagher",
+          "position": "Catcher"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Ramírez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Sam Hentges",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ramón Laureano",
+          "position": "RightField"
+        },
+        {
+          "name": "Oscar Gonzalez",
+          "position": "RightField"
+        },
+        {
+          "name": "Enyel De Los Santos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emmanuel Clase",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Stephan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Myles Straw",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrés Giménez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bo Naylor",
+          "position": "Catcher"
+        },
+        {
+          "name": "Gavin Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eli Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Logan Allen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Gabriel Arias",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Xzavion Curry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tanner Bibee",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brayan Rocchio",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "José Tena",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Nick Sandlin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Kwan",
+          "position": "LeftField"
+        },
+        {
+          "name": "Will Brennan",
+          "position": "LeftField"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 141,
+      "players": [
+        {
+          "name": "Brandon Belt",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Jay Jackson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "George Springer",
+          "position": "RightField"
+        },
+        {
+          "name": "Hyun Jin Ryu",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Yimi García",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Gausman",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Whit Merrifield",
+          "position": "LeftField"
+        },
+        {
+          "name": "Chris Bassitt",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Berríos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Cavan Biggio",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Tim Mayza",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Danny Jansen",
+          "position": "Catcher"
+        },
+        {
+          "name": "Génesis Cabrera",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt Chapman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Erik Swanson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Paul DeJong",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Daulton Varsho",
+          "position": "CenterField"
+        },
+        {
+          "name": "Jordan Hicks",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Nathan Lukes",
+          "position": "RightField"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Alek Manoah",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Santiago Espinal",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Bowden Francis",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alejandro Kirk",
+          "position": "Catcher"
+        },
+        {
+          "name": "Davis Schneider",
+          "position": "SecondBase"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Brandon Belt",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Andrés Giménez",
+          "José Tena"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brandon Belt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "George Springer",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brayan Rocchio",
+        "pitcher": "Alek Manoah",
+        "fielders": [
+          "Davis Schneider"
+        ],
+        "movements": [
+          {
+            "runner": "Brayan Rocchio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "José Ramírez",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kole Calhoun",
+        "pitcher": "Alek Manoah",
+        "fielders": [
+          "Davis Schneider"
+        ],
+        "movements": [
+          {
+            "runner": "Kole Calhoun",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Danny Jansen",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Davis Schneider",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Davis Schneider",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Nathan Lukes",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Nathan Lukes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Danny Jansen",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Danny Jansen",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Danny Jansen",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Nathan Lukes",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Kole Calhoun"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Belt",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Brandon Belt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Brennan",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Bo Naylor",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Myles Straw",
+        "pitcher": "Alek Manoah",
+        "fielders": [
+          "Davis Schneider"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Tena",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "José Tena",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Ramón Laureano",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Naylor",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Brayan Rocchio",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Brayan Rocchio",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Bo Naylor",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "José Tena",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Alek Manoah",
+        "fielders": [
+          "Brandon Belt"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "George Springer",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt Chapman",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Kole Calhoun"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Ramírez",
+        "pitcher": "Alek Manoah",
+        "fielders": [
+          "Davis Schneider"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kole Calhoun",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Kole Calhoun",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Alek Manoah",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Danny Jansen",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Davis Schneider",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Brayan Rocchio"
+        ],
+        "movements": [
+          {
+            "runner": "Davis Schneider",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Nathan Lukes",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Brayan Rocchio"
+        ],
+        "movements": [
+          {
+            "runner": "Nathan Lukes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Brennan",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Myles Straw",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Santiago Espinal",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Santiago Espinal",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Brandon Belt",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Brandon Belt",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "José Tena",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "José Tena",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Brayan Rocchio",
+        "pitcher": "Alek Manoah",
+        "movements": [
+          {
+            "runner": "Brayan Rocchio",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "José Tena",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "José Tena",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Génesis Cabrera",
+        "fielders": [
+          "Nathan Lukes"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brayan Rocchio",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "José Ramírez",
+        "pitcher": "Génesis Cabrera",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Kole Calhoun",
+        "pitcher": "Génesis Cabrera",
+        "fielders": [
+          "Davis Schneider"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Kole Calhoun",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Brayan Rocchio",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "José Ramírez",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Génesis Cabrera",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "George Springer",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt Chapman",
+        "pitcher": "Noah Syndergaard",
+        "fielders": [
+          "Ramón Laureano"
+        ],
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Danny Jansen",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Danny Jansen",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Davis Schneider",
+        "pitcher": "Noah Syndergaard",
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Davis Schneider",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Nathan Lukes",
+        "pitcher": "Nick Sandlin",
+        "fielders": [
+          "Brayan Rocchio"
+        ],
+        "movements": [
+          {
+            "runner": "Danny Jansen",
+            "start_base": 2,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Nathan Lukes",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Will Brennan",
+        "pitcher": "Bowden Francis",
+        "fielders": [
+          "Brandon Belt"
+        ],
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Bowden Francis",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Myles Straw",
+        "pitcher": "Bowden Francis",
+        "fielders": [
+          "Whit Merrifield"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Enyel De Los Santos",
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Enyel De Los Santos",
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cavan Biggio",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Cavan Biggio",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Brandon Belt",
+        "pitcher": "Enyel De Los Santos",
+        "movements": [
+          {
+            "runner": "Brandon Belt",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Whit Merrifield",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Enyel De Los Santos",
+        "movements": [
+          {
+            "runner": "Brandon Belt",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "George Springer",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "George Springer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Matt Chapman",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Matt Chapman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Daulton Varsho",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Alejandro Kirk",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Alejandro Kirk",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Davis Schneider",
+        "pitcher": "Trevor Stephan",
+        "movements": [
+          {
+            "runner": "Davis Schneider",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "José Tena",
+        "pitcher": "Tim Mayza",
+        "movements": [
+          {
+            "runner": "José Tena",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Brayan Rocchio",
+        "pitcher": "Tim Mayza",
+        "fielders": [
+          "Paul DeJong"
+        ],
+        "movements": [
+          {
+            "runner": "Brayan Rocchio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Tim Mayza",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "IntentWalk": {
+        "batter": "José Ramírez",
+        "pitcher": "Tim Mayza",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Kole Calhoun",
+        "pitcher": "Tim Mayza",
+        "fielders": [
+          "Davis Schneider"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kole Calhoun",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Nathan Lukes",
+        "pitcher": "Sam Hentges",
+        "movements": [
+          {
+            "runner": "Nathan Lukes",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Cavan Biggio",
+        "pitcher": "Sam Hentges",
+        "movements": [
+          {
+            "runner": "Cavan Biggio",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Whit Merrifield",
+        "pitcher": "Sam Hentges",
+        "fielders": [
+          "José Tena"
+        ],
+        "movements": [
+          {
+            "runner": "Whit Merrifield",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Ramón Laureano",
+        "pitcher": "Yimi García",
+        "movements": [
+          {
+            "runner": "Ramón Laureano",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Will Brennan",
+        "pitcher": "Yimi García",
+        "fielders": [
+          "Daulton Varsho"
+        ],
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Bo Naylor",
+        "pitcher": "Yimi García",
+        "fielders": [
+          "Matt Chapman"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Daulton Varsho",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Daulton Varsho",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Vladimir Guerrero Jr.",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Vladimir Guerrero Jr.",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Paul DeJong",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Paul DeJong",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1444 @@
+{
+  "context": {
+    "game_pk": 716992,
+    "date": {
+      "year": 2023,
+      "month": 8,
+      "day": 15
+    },
+    "venue_name": "Great American Ball Park",
+    "weather": {
+      "condition": "Partly Cloudy",
+      "temperature": 72,
+      "wind_speed": 12
+    },
+    "home_team": {
+      "id": 113,
+      "players": [
+        {
+          "name": "Joey Votto",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Fernando Cruz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Buck Farmer",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Derek Law",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Maile",
+          "position": "Catcher"
+        },
+        {
+          "name": "Henry Ramos",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Sam Moll",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Luke Weaver",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Lucas Sims",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kevin Newman",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Alex Young",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Stuart Fairchild",
+          "position": "CenterField"
+        },
+        {
+          "name": "Tyler Stephenson",
+          "position": "Catcher"
+        },
+        {
+          "name": "Brett Kennedy",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ian Gibaut",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Alexis Díaz",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Will Benson",
+          "position": "RightField"
+        },
+        {
+          "name": "Spencer Steer",
+          "position": "LeftField"
+        },
+        {
+          "name": "Graham Ashcraft",
+          "position": "Pitcher"
+        },
+        {
+          "name": "TJ Friedl",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrew Abbott",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Matt McLain",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Brandon Williamson",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Elly De La Cruz",
+          "position": "Shortstop"
+        },
+        {
+          "name": "TJ Hopkins",
+          "position": "RightField"
+        },
+        {
+          "name": "Christian Encarnacion-Strand",
+          "position": "ThirdBase"
+        }
+      ]
+    },
+    "away_team": {
+      "id": 114,
+      "players": [
+        {
+          "name": "Michael Kelly",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Noah Syndergaard",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Kole Calhoun",
+          "position": "FirstBase"
+        },
+        {
+          "name": "Cam Gallagher",
+          "position": "Catcher"
+        },
+        {
+          "name": "Daniel Norris",
+          "position": "Pitcher"
+        },
+        {
+          "name": "José Ramírez",
+          "position": "ThirdBase"
+        },
+        {
+          "name": "Sam Hentges",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Ramón Laureano",
+          "position": "RightField"
+        },
+        {
+          "name": "Oscar Gonzalez",
+          "position": "DesignatedHitter"
+        },
+        {
+          "name": "Enyel De Los Santos",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Emmanuel Clase",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Trevor Stephan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Myles Straw",
+          "position": "CenterField"
+        },
+        {
+          "name": "Andrés Giménez",
+          "position": "SecondBase"
+        },
+        {
+          "name": "Bo Naylor",
+          "position": "Catcher"
+        },
+        {
+          "name": "Gavin Williams",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Eli Morgan",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Logan Allen",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tyler Freeman",
+          "position": "CenterField"
+        },
+        {
+          "name": "Gabriel Arias",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Xzavion Curry",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Tanner Bibee",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Brayan Rocchio",
+          "position": "Shortstop"
+        },
+        {
+          "name": "Nick Sandlin",
+          "position": "Pitcher"
+        },
+        {
+          "name": "Steven Kwan",
+          "position": "LeftField"
+        },
+        {
+          "name": "Will Brennan",
+          "position": "RightField"
+        }
+      ]
+    }
+  },
+  "plays": [
+    {
+      "Single": {
+        "batter": "Steven Kwan",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "José Ramírez",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 1,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kole Calhoun",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Kole Calhoun",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "José Ramírez",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 3,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "HitByPitch": {
+        "batter": "Oscar Gonzalez",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Kole Calhoun",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Will Brennan",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Christian Encarnacion-Strand"
+        ],
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kole Calhoun",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Christian Encarnacion-Strand"
+        ],
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Kevin Newman",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Matt McLain",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Spencer Steer",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Myles Straw",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Steven Kwan",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Ramírez",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Christian Encarnacion-Strand"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Henry Ramos",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Henry Ramos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Graham Ashcraft"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Kole Calhoun",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Tyler Stephenson"
+        ],
+        "movements": [
+          {
+            "runner": "Kole Calhoun",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Oscar Gonzalez",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "TJ Hopkins",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "TJ Hopkins",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kevin Newman",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "Steven Kwan"
+        ],
+        "movements": [
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Matt McLain",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "Kole Calhoun"
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Will Brennan",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Graham Ashcraft"
+        ],
+        "movements": [
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "Gabriel Arias"
+        ],
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Spencer Steer",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Henry Ramos",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Henry Ramos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Spencer Steer",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Stuart Fairchild",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Stuart Fairchild",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Myles Straw",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Steven Kwan",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Christian Encarnacion-Strand",
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "José Ramírez",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Tyler Stephenson",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Tyler Stephenson",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "TJ Hopkins",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "TJ Hopkins",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "GroundedIntoDoublePlay": {
+        "batter": "Kevin Newman",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "Gabriel Arias",
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Hopkins",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Kevin Newman",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Kole Calhoun",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Stuart Fairchild"
+        ],
+        "movements": [
+          {
+            "runner": "Kole Calhoun",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Oscar Gonzalez",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Forceout": {
+        "batter": "Will Brennan",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Matt McLain"
+        ],
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Walk": {
+        "batter": "Matt McLain",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "DoublePlay": {
+        "batter": "Spencer Steer",
+        "pitcher": "Logan Allen",
+        "fielders": [
+          "Will Brennan",
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Matt McLain",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          },
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": 1,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Henry Ramos",
+        "pitcher": "Logan Allen",
+        "movements": [
+          {
+            "runner": "Henry Ramos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Lineout": {
+        "batter": "Bo Naylor",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "TJ Hopkins"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Myles Straw",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Steven Kwan",
+        "pitcher": "Graham Ashcraft",
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 1,
+            "end_base": 2,
+            "is_out": false
+          },
+          {
+            "runner": "Myles Straw",
+            "start_base": 2,
+            "end_base": 4,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "José Ramírez",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Matt McLain"
+        ],
+        "movements": [
+          {
+            "runner": "José Ramírez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          },
+          {
+            "runner": "Steven Kwan",
+            "start_base": 2,
+            "end_base": 3,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Andrés Giménez",
+        "pitcher": "Graham Ashcraft",
+        "fielders": [
+          "Kevin Newman"
+        ],
+        "movements": [
+          {
+            "runner": "Andrés Giménez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Enyel De Los Santos",
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Enyel De Los Santos",
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Double": {
+        "batter": "Will Benson",
+        "pitcher": "Enyel De Los Santos",
+        "movements": [
+          {
+            "runner": "Will Benson",
+            "start_base": null,
+            "end_base": 2,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Joey Votto",
+        "pitcher": "Enyel De Los Santos",
+        "movements": [
+          {
+            "runner": "Joey Votto",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Kole Calhoun",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Kole Calhoun",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Oscar Gonzalez",
+        "pitcher": "Alex Young",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Oscar Gonzalez",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Will Brennan",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Will Brennan",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Luke Maile",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Will Brennan"
+        ],
+        "movements": [
+          {
+            "runner": "Luke Maile",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Matt McLain",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "José Ramírez"
+        ],
+        "movements": [
+          {
+            "runner": "Matt McLain",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Groundout": {
+        "batter": "Elly De La Cruz",
+        "pitcher": "Trevor Stephan",
+        "fielders": [
+          "Gabriel Arias"
+        ],
+        "movements": [
+          {
+            "runner": "Elly De La Cruz",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Gabriel Arias",
+        "pitcher": "Alex Young",
+        "movements": [
+          {
+            "runner": "Gabriel Arias",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Bo Naylor",
+        "pitcher": "Alex Young",
+        "fielders": [
+          "Elly De La Cruz"
+        ],
+        "movements": [
+          {
+            "runner": "Bo Naylor",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "Myles Straw",
+        "pitcher": "Alex Young",
+        "fielders": [
+          "Will Benson"
+        ],
+        "movements": [
+          {
+            "runner": "Myles Straw",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Single": {
+        "batter": "Spencer Steer",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Spencer Steer",
+            "start_base": null,
+            "end_base": 1,
+            "is_out": false
+          }
+        ]
+      }
+    },
+    {
+      "Strikeout": {
+        "batter": "Henry Ramos",
+        "pitcher": "Emmanuel Clase",
+        "movements": [
+          {
+            "runner": "Henry Ramos",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "PopOut": {
+        "batter": "Christian Encarnacion-Strand",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Andrés Giménez"
+        ],
+        "movements": [
+          {
+            "runner": "Christian Encarnacion-Strand",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    },
+    {
+      "Flyout": {
+        "batter": "TJ Friedl",
+        "pitcher": "Emmanuel Clase",
+        "fielders": [
+          "Myles Straw"
+        ],
+        "movements": [
+          {
+            "runner": "TJ Friedl",
+            "start_base": null,
+            "end_base": null,
+            "is_out": true
+          }
+        ]
+      }
+    }
+  ]
+}
