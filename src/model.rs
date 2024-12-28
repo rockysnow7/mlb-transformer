@@ -498,6 +498,11 @@ pub enum Play {
         catcher: String,
         movements: Vec<Movement>,
     },
+    Error {
+        pitcher: String,
+        catcher: String,
+        movements: Vec<Movement>,
+    },
     // scores
     Single {
         batter: String,
@@ -1361,6 +1366,27 @@ impl Play {
         })
     }
 
+    async fn error_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
+            Some(pitcher) => pitcher.to_string(),
+            None => return Err("No pitcher".to_string()),
+        };
+        let catcher = match value["matchup"]["catcher"]["fullName"].as_str() {
+            Some(catcher) => catcher.to_string(),
+            None => return Err("No catcher".to_string()),
+        };
+        let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
+            runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
+            &runner["movement"],
+        )).collect();
+
+        Ok(Play::Error {
+            pitcher,
+            catcher,
+            movements,
+        })
+    }
+
     // scores
     async fn single_from_value(value: &serde_json::Value) -> Result<Self, String> {
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
@@ -1821,6 +1847,7 @@ impl Play {
             "Field Out" => Play::field_out_from_value(value).await,
             "Balk" => Play::balk_from_value(value).await,
             "Passed Ball" => Play::passed_ball_from_value(value).await,
+            "Error" => Play::error_from_value(value).await,
             "Single" => Play::single_from_value(value).await,
             "Double" => Play::double_from_value(value).await,
             "Triple" => Play::triple_from_value(value).await,
@@ -2230,6 +2257,21 @@ impl Tokenize for Play {
             Play::PassedBall { pitcher, catcher, movements } => {
                 tokens += &format!(
                     "Passed Ball [PITCHER] {} [CATCHER] {} [MOVEMENTS] ",
+                    pitcher,
+                    catcher,
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
+            Play::Error { pitcher, catcher, movements } => {
+                tokens += &format!(
+                    "Error [PITCHER] {} [CATCHER] {} [MOVEMENTS] ",
                     pitcher,
                     catcher,
                 );
