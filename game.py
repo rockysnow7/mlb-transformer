@@ -3,6 +3,7 @@ from dataclasses import dataclass
 from enum import Enum
 
 import re
+import sys
 
 
 @dataclass
@@ -51,7 +52,7 @@ class PlayType(Enum):
     BUNT_LINEOUT = "BUNT_LINEOUT"
     FLYOUT = "FLYOUT"
     POP_OUT = "POP_OUT"
-    BUNT_POPOUT = "BUNT_POPOUT"
+    BUNT_POP_OUT = "BUNT_POP_OUT"
     FORCEOUT = "FORCEOUT"
     FIELDERS_CHOICE_OUT = "FIELDERS_CHOICE_OUT"
     DOUBLE_PLAY = "DOUBLE_PLAY"
@@ -185,17 +186,21 @@ class Play:
     contents: PlayContents
 
     @staticmethod
-    def from_tokens(tokens: list[str]) -> list[Play]:
+    def from_tokens(tokens: list[str]) -> Play:
         play_token = tokens.pop(0)
         if play_token != "[PLAY]":
             raise ValueError(f"Expected token [PLAY], got '{play_token}'")
-        
+
+        print(tokens)
         play_type_tokens = []
         while tokens[0] not in ALL_PLAY_CONTENT_TOKENS:
             play_type_tokens.append(tokens.pop(0))
         play_type = PlayType.from_text(" ".join(play_type_tokens))
 
-        contents = PlayContents.from_tokens(tokens)
+        if play_type == PlayType.GAME_ADVISORY:
+            contents = PlayContents()
+        else:
+            contents = PlayContents.from_tokens(tokens)
 
         return Play(play_type, contents)
 
@@ -351,3 +356,12 @@ def parse_game(text: str) -> Game:
     tokens = re.split(r"[\s,]+", text)
 
     return Game.from_tokens(tokens)
+
+
+if __name__ == "__main__":
+    path = sys.argv[1]
+
+    with open(path) as f:
+        text = f.read()
+
+    parse_game(text)
