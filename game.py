@@ -191,9 +191,8 @@ class Play:
         if play_token != "[PLAY]":
             raise ValueError(f"Expected token [PLAY], got '{play_token}'")
 
-        print(tokens)
         play_type_tokens = []
-        while tokens[0] not in ALL_PLAY_CONTENT_TOKENS:
+        while tokens[0] not in ALL_PLAY_CONTENT_TOKENS and tokens[0] != "[GAME_END]":
             play_type_tokens.append(tokens.pop(0))
         play_type = PlayType.from_text(" ".join(play_type_tokens))
 
