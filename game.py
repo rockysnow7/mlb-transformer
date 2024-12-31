@@ -363,4 +363,8 @@ if __name__ == "__main__":
     with open(path) as f:
         text = f.read()
 
-    parse_game(text)
+    try:
+        parse_game(text)
+    except Exception as e:
+        print(f"Error parsing game: {e}")
+        sys.exit(1)
