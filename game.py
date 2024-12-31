@@ -1,7 +1,6 @@
 from __future__ import annotations
 from dataclasses import dataclass
 from enum import Enum
-from pprint import pprint
 
 import re
 
@@ -272,6 +271,22 @@ class Weather:
     temperature: int
     wind_speed: int
 
+    @staticmethod
+    def from_tokens(tokens: list[str]) -> Weather:
+        weather_token = tokens.pop(0)
+        if weather_token != "[WEATHER]":
+            raise ValueError(f"Expected token [WEATHER], got '{weather_token}'")
+
+        condition_tokens = []
+        while not re.match(r"\d+", tokens[0]):
+            condition_tokens.append(tokens.pop(0))
+        condition = " ".join(condition_tokens)
+
+        temperature = int(tokens.pop(0))
+        wind_speed = int(tokens.pop(0))
+
+        return Weather(condition, temperature, wind_speed)
+
 
 @dataclass
 class GameContext:
@@ -303,13 +318,7 @@ class GameContext:
             venue_tokens.append(tokens.pop(0))
         venue = " ".join(venue_tokens)
 
-        weather_token = tokens.pop(0)
-        if weather_token != "[WEATHER]":
-            raise ValueError(f"Expected token [WEATHER], got '{weather_token}'")
-        condition = tokens.pop(0)
-        temperature = int(tokens.pop(0))
-        wind_speed = int(tokens.pop(0))
-        weather = Weather(condition, temperature, wind_speed)
+        weather = Weather.from_tokens(tokens)
 
         home_team = Team.from_tokens(tokens)
         away_team = Team.from_tokens(tokens)
@@ -338,17 +347,7 @@ class Game:
         return Game(context, plays)
 
 
-def parse_game(file_path: str) -> Game:
-    with open(file_path, "r") as f:
-        text = f.read()
-
+def parse_game(text: str) -> Game:
     tokens = re.split(r"[\s,]+", text)
 
     return Game.from_tokens(tokens)
-
-
-if __name__ == "__main__":
-    game = parse_game("tokenized_data/2020/108/604926.txt")
-
-with open("test.txt", "w") as f:
-    pprint(game, stream=f)
