@@ -28,6 +28,8 @@ def runs_at_end(game: Game) -> dict[str, int]:
                 elif movement.runner in away_team_player_names:
                     scores[game.context.away_team.id] += 1
                     print(f"{movement.runner} scored a run for Team {game.context.away_team.id} ({movement.start_base} -> {movement.end_base})")
+                else:
+                    raise ValueError(f"Runner {movement.runner} not found in either team.")
                 print(f"\t\t\t\t\t\t\t(home {scores[game.context.home_team.id]}, away {scores[game.context.away_team.id]})")
 
     return scores
@@ -35,7 +37,7 @@ def runs_at_end(game: Game) -> dict[str, int]:
 
 if __name__ == "__main__":
     paths = glob("tokenized_data/**/**/*.txt")
-    game_path = paths[1]
+    game_path = paths[0]
 
     with open(game_path) as f:
         game = parse_game(f.read())
