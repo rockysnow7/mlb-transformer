@@ -8,4 +8,4 @@ to preprocess the raw data, run `cargo run tokenize`. this will create a directo
 
 the raw and tokenized data for 2020-2024 (inclusive) is available in the `data` and `tokenized_data` directories respectively.
 
-a tokenizer has been trained on the tokenized data and saved in `training/tokenizer.json`. a notebook `training/MLB Train.ipynb` is provided to train the model on the tokenized data. a trained model is available on [huggingface](https://huggingface.co/finnnnnnnnnnnn/mlb-v1).
+a tokenizer has been trained on the tokenized data and saved in `training/tokenizer.json`. a notebook `training/MLB Train.ipynb` is provided to train the model on the tokenized data. a trained model is available on [huggingface](https://huggingface.co/finnnnnnnnnnnn/mlb-v1.1).
