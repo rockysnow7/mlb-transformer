@@ -13,6 +13,18 @@ a tokenizer has been trained on the tokenized data and saved in `training/tokeni
 IMPORTANT: you should not let the model decode its own output. instead, use the following function:
 
 ```python
+from transformers import PreTrainedTokenizer
+
+
+SPECIAL_TOKENS = [
+    "[UNK]",
+    "[PAD]",
+    "[CLS]",
+    "[SEP]",
+    "[MASK]",
+]
+
+
 def decode_tokens(tokenizer: PreTrainedTokenizer, tokens: list[int]) -> str:
     decoded = tokenizer.decode(tokens, skip_special_tokens=False)
 
@@ -20,6 +32,7 @@ def decode_tokens(tokenizer: PreTrainedTokenizer, tokens: list[int]) -> str:
     filtered = [token for token in tokens if token not in SPECIAL_TOKENS]
     joined = " ".join(filtered)
     joined = joined.replace(" - ", "-")
+    joined = joined.replace("[ BATTER ]", "[BATTER]")
 
     return joined
 ```
