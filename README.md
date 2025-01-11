@@ -45,4 +45,4 @@ def decode_tokens(tokenizer: PreTrainedTokenizer, tokens: list[int]) -> str:
 
 ## validating and interpreting games
 
-the `interpret` directory contains code to validate and interpret games. to validate a game, run `python validate.py {path}`, where `{path}` is the path to the game, in the format described in `FORMAT.md`. to interpret a game, run `python interpret.py {path}`, where `{path}` is the path to the game in the same format.
+the `interpret` directory contains code to validate and interpret games. to validate a game, run `python validate.py {path}`, where `{path}` is the path to the game, in the format described in `FORMAT.md`. to analyse a game, run `python analyse.py {path}`, where `{path}` is the path to the game in the same format.
