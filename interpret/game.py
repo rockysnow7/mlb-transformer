@@ -200,6 +200,22 @@ class PlayContents:
 
         return contents
 
+    def players(self) -> list[str]:
+        players = []
+        if self.batter:
+            players.append(self.batter)
+        if self.pitcher:
+            players.append(self.pitcher)
+        if self.fielders:
+            players.extend(self.fielders)
+        if self.catcher:
+            players.append(self.catcher)
+        if self.runner:
+            players.append(self.runner)
+        if self.scoring_runner:
+            players.append(self.scoring_runner)
+        return players
+
 
 @dataclass
 class Play:
