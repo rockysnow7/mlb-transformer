@@ -49,7 +49,7 @@ class Movement:
         return Movement(runner, start_base, end_base, is_out)
     
     def pretty(self) -> str:
-        return f"{self.runner} {self.start_base} -> {self.end_base} {'[out]' if self.is_out else ''}"
+        return f"{self.runner} {self.start_base} -> {self.end_base}{' [out]' if self.is_out else ''}"
 
 
 class PlayType(Enum):
