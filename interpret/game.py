@@ -8,10 +8,16 @@ import sys
 
 @dataclass
 class Movement:
+    "Information about a movement of a runner from one base to another."
+
     runner: str
+    "The name of the runner moving."
     start_base: int | None
+    "The base the runner started at."
     end_base: int | None
+    "The base the runner ended at."
     is_out: bool
+    "Whether the runner was out at the end of the movement."
 
     @staticmethod
     def from_tokens(tokens: list[str]) -> Movement:
@@ -44,6 +50,8 @@ class Movement:
 
 
 class PlayType(Enum):
+    "An enum representing the type of play."
+
     # Outs
     GROUNDOUT = "GROUNDOUT"
     BUNT_GROUNDOUT = "BUNT_GROUNDOUT"
@@ -111,14 +119,24 @@ ALL_PLAY_CONTENT_TOKENS = [
 
 @dataclass
 class PlayContents:
+    "Information about a play."
+
     batter: str | None = None
+    "The name of the batter in the play."
     pitcher: str | None = None
+    "The name of the pitcher in the play."
     fielders: list[str] | None = None
+    "The names of the fielders involved in the play."
     catcher: str | None = None
+    "The name of the catcher in the play."
     runner: str | None = None
+    "The name of the runner in the play."
     scoring_runner: str | None = None
+    "The name of the runner who scored in the play."
     base: int | None = None
+    "The number of the base involved in the play."
     movements: list[Movement] | None = None
+    "A list of all movements that occurred in the play."
 
     @staticmethod
     def from_tokens(tokens: list[str]) -> PlayContents:
@@ -183,7 +201,9 @@ class PlayContents:
 @dataclass
 class Play:
     play_type: PlayType
+    "The type of play."
     contents: PlayContents
+    "Information about the play."
 
     @staticmethod
     def from_tokens(tokens: list[str]) -> Play:
@@ -205,6 +225,8 @@ class Play:
 
 
 class Position(Enum):
+    "An enum representing a position on the baseball field."
+
     PITCHER = "PITCHER"
     CATCHER = "CATCHER"
     FIRST_BASE = "FIRST_BASE"
@@ -232,7 +254,9 @@ ALL_POSITION_TOKENS = [f"[{position}]" for position in ALL_POSITIONS]
 @dataclass
 class Player:
     name: str
+    "The name of the player."
     position: Position
+    "The position of the player on the field."
 
     @staticmethod
     def from_tokens(tokens: list[str]) -> Player:
@@ -252,7 +276,9 @@ class Player:
 @dataclass
 class Team:
     id: int
+    "The unique identifier for the team in the MLB API."
     players: list[Player]
+    "A list of all players on the team."
 
     @staticmethod
     def from_tokens(tokens: list[str]) -> Team:
@@ -271,9 +297,14 @@ class Team:
 
 @dataclass
 class Weather:
+    "Information about the weather."
+
     condition: str
+    "A description of the weather condition."
     temperature: int
+    "The temperature in degrees Fahrenheit."
     wind_speed: int
+    "The wind speed in miles per hour."
 
     @staticmethod
     def from_tokens(tokens: list[str]) -> Weather:
@@ -293,11 +324,15 @@ class Weather:
 
 
 @dataclass
-class GameContext:
+class GameContext: 
     game_pk: int
+    "The unique identifier for the game in the MLB API."
     date: str
+    "The date on which the game was played."
     venue: str
+    "The name of the venue in which the game was played."
     weather: Weather
+    "The weather conditions at the time of the game."
     home_team: Team
     away_team: Team
 
@@ -332,8 +367,11 @@ class GameContext:
 
 @dataclass
 class Game:
+    "A baseball game."
+
     context: GameContext
     plays: list[Play]
+    "A list of all plays in the game."
 
     @staticmethod
     def from_tokens(tokens: list[str]) -> Game:
