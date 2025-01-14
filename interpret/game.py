@@ -2,9 +2,6 @@ from __future__ import annotations
 from dataclasses import dataclass
 from enum import Enum
 
-import re
-import sys
-
 
 @dataclass
 class Movement:
@@ -19,35 +16,6 @@ class Movement:
     is_out: bool
     "Whether the runner was out at the end of the movement."
 
-    @staticmethod
-    def from_tokens(tokens: list[str]) -> Movement:
-        name_tokens = []
-        while tokens[1] != "->":
-            name_tokens.append(tokens.pop(0))
-        runner = " ".join(name_tokens)
-
-        start_base_token = tokens.pop(0)
-        if start_base_token == "home":
-            start_base = 4
-        else:
-            start_base = int(start_base_token)
-
-        tokens.pop(0)
-
-        end_base_token = tokens.pop(0)
-        if end_base_token == "home":
-            end_base = 4
-        else:
-            end_base = int(end_base_token)
-
-        if tokens[0] == "[out]":
-            is_out = True
-            tokens.pop(0)
-        else:
-            is_out = False
-
-        return Movement(runner, start_base, end_base, is_out)
-    
     def pretty(self) -> str:
         return f"{self.runner} {self.start_base} -> {self.end_base}{' [out]' if self.is_out else ''}"
 
@@ -108,18 +76,6 @@ class PlayType(Enum):
         return PlayType(text.replace(" ", "_").upper())
 
 
-ALL_PLAY_CONTENT_TOKENS = [
-    "[BATTER]",
-    "[PITCHER]",
-    "[FIELDERS]",
-    "[CATCHER]",
-    "[RUNNER]",
-    "[SCORING_RUNNER]",
-    "[BASE]",
-    "[MOVEMENTS]",
-]
-
-
 @dataclass
 class PlayContents:
     "Information about a play."
@@ -140,65 +96,6 @@ class PlayContents:
     "The number of the base involved in the play."
     movements: list[Movement] | None = None
     "A list of all movements that occurred in the play."
-
-    @staticmethod
-    def from_tokens(tokens: list[str]) -> PlayContents:
-        context_tokens = []
-        while tokens[0] != "[MOVEMENTS]":
-            context_tokens.append(tokens.pop(0))
-
-        contents = PlayContents()
-        while context_tokens:
-            token = context_tokens.pop(0)
-            match token:
-                case "[BATTER]":
-                    name_tokens = []
-                    while context_tokens and context_tokens[0] not in ALL_PLAY_CONTENT_TOKENS and context_tokens[0] != "[MOVEMENTS]":
-                        name_tokens.append(context_tokens.pop(0))
-                    contents.batter = " ".join(name_tokens)
-                case "[PITCHER]":
-                    name_tokens = []
-                    while context_tokens and context_tokens[0] not in ALL_PLAY_CONTENT_TOKENS and context_tokens[0] != "[MOVEMENTS]":
-                        name_tokens.append(context_tokens.pop(0))
-                    contents.pitcher = " ".join(name_tokens)
-                case "[FIELDERS]":  # all "fielders" fields have length 1 currently, so we don't need to handle multiple names
-                    name_tokens = []
-                    while context_tokens and context_tokens[0] not in ALL_PLAY_CONTENT_TOKENS and context_tokens[0] != "[MOVEMENTS]":
-                        name_tokens.append(context_tokens.pop(0))
-                    contents.fielders = [" ".join(name_tokens)]
-                case "[CATCHER]":
-                    name_tokens = []
-                    while context_tokens and context_tokens[0] not in ALL_PLAY_CONTENT_TOKENS and context_tokens[0] != "[MOVEMENTS]":
-                        name_tokens.append(context_tokens.pop(0))
-                    contents.catcher = " ".join(name_tokens)
-                case "[RUNNER]":
-                    name_tokens = []
-                    while context_tokens and context_tokens[0] not in ALL_PLAY_CONTENT_TOKENS and context_tokens[0] != "[MOVEMENTS]":
-                        name_tokens.append(context_tokens.pop(0))
-                    contents.runner = " ".join(name_tokens)
-                case "[SCORING_RUNNER]":
-                    name_tokens = []
-                    while context_tokens and context_tokens[0] not in ALL_PLAY_CONTENT_TOKENS and context_tokens[0] != "[MOVEMENTS]":
-                        name_tokens.append(context_tokens.pop(0))
-                    contents.scoring_runner = " ".join(name_tokens)
-                case "[BASE]":
-                    base_token = context_tokens.pop(0)
-                    if base_token == "home":
-                        contents.base = 4
-                    else:
-                        contents.base = int(base_token)
-
-        movements_token = tokens.pop(0)
-        if movements_token != "[MOVEMENTS]":
-            raise ValueError(f"Expected token [MOVEMENTS], got '{movements_token}'")
-
-        movements = []
-        while tokens[0] not in ["[PLAY]", "[GAME_END]"]:
-            movement = Movement.from_tokens(tokens)
-            movements.append(movement)
-        contents.movements = movements
-
-        return contents
 
     def players(self) -> list[str]:
         players = []
@@ -224,24 +121,6 @@ class Play:
     contents: PlayContents
     "Information about the play."
 
-    @staticmethod
-    def from_tokens(tokens: list[str]) -> Play:
-        play_token = tokens.pop(0)
-        if play_token != "[PLAY]":
-            raise ValueError(f"Expected token [PLAY], got '{play_token}'")
-
-        play_type_tokens = []
-        while tokens[0] not in ALL_PLAY_CONTENT_TOKENS and tokens[0] != "[GAME_END]":
-            play_type_tokens.append(tokens.pop(0))
-        play_type = PlayType.from_text(" ".join(play_type_tokens))
-
-        if play_type == PlayType.GAME_ADVISORY:
-            contents = PlayContents()
-        else:
-            contents = PlayContents.from_tokens(tokens)
-
-        return Play(play_type, contents)
-
 
 class Position(Enum):
     "An enum representing a position on the baseball field."
@@ -266,30 +145,12 @@ class Position(Enum):
     STARTING_PITCHER = "STARTING_PITCHER"
 
 
-ALL_POSITIONS = [position.value for position in Position]
-ALL_POSITION_TOKENS = [f"[{position}]" for position in ALL_POSITIONS]
-
-
 @dataclass
 class Player:
     name: str
     "The name of the player."
     position: Position
     "The position of the player on the field."
-
-    @staticmethod
-    def from_tokens(tokens: list[str]) -> Player:
-        position_token = tokens.pop(0)
-        if position_token not in ALL_POSITION_TOKENS:
-            raise ValueError(f"Expected position token, got '{position_token}'")
-        position = Position(position_token[1:-1])
-
-        name_tokens = []
-        while tokens[0] not in ALL_POSITION_TOKENS and tokens[0] != "[TEAM]" and tokens[0] != "[GAME_START]":
-            name_tokens.append(tokens.pop(0))
-        name = " ".join(name_tokens)
-
-        return Player(name, position)
 
 
 @dataclass
@@ -298,20 +159,6 @@ class Team:
     "The unique identifier for the team in the MLB API."
     players: list[Player]
     "A list of all players on the team."
-
-    @staticmethod
-    def from_tokens(tokens: list[str]) -> Team:
-        team_token = tokens.pop(0)
-        if team_token != "[TEAM]":
-            raise ValueError(f"Expected token [TEAM], got '{team_token}'")
-        team_id = int(tokens.pop(0))
-
-        players = []
-        while tokens[0] != "[TEAM]" and tokens[0] != "[GAME_START]":
-            player = Player.from_tokens(tokens)
-            players.append(player)
-
-        return Team(team_id, players)
 
 
 @dataclass
@@ -325,25 +172,9 @@ class Weather:
     wind_speed: int
     "The wind speed in miles per hour."
 
-    @staticmethod
-    def from_tokens(tokens: list[str]) -> Weather:
-        weather_token = tokens.pop(0)
-        if weather_token != "[WEATHER]":
-            raise ValueError(f"Expected token [WEATHER], got '{weather_token}'")
-
-        condition_tokens = []
-        while not re.match(r"\d+", tokens[0]):
-            condition_tokens.append(tokens.pop(0))
-        condition = " ".join(condition_tokens)
-
-        temperature = int(tokens.pop(0))
-        wind_speed = int(tokens.pop(0))
-
-        return Weather(condition, temperature, wind_speed)
-
 
 @dataclass
-class GameContext: 
+class GameContext:
     game_pk: int
     "The unique identifier for the game in the MLB API."
     date: str
@@ -355,34 +186,6 @@ class GameContext:
     home_team: Team
     away_team: Team
 
-    @staticmethod
-    def from_tokens(tokens: list[str]) -> GameContext:
-        game_token = tokens.pop(0)
-        if game_token != "[GAME]":
-            raise ValueError(f"Expected token [GAME], got '{game_token}'")
-        game_pk = int(tokens.pop(0))
-
-        date_token = tokens.pop(0)
-        if date_token != "[DATE]":
-            raise ValueError(f"Expected token [DATE], got '{date_token}'")
-        date = tokens.pop(0)
-
-        venue_token = tokens.pop(0)
-        if venue_token != "[VENUE]":
-            raise ValueError(f"Expected token [VENUE], got '{venue_token}'")
-        
-        venue_tokens = []
-        while tokens[0] != "[WEATHER]":
-            venue_tokens.append(tokens.pop(0))
-        venue = " ".join(venue_tokens)
-
-        weather = Weather.from_tokens(tokens)
-
-        home_team = Team.from_tokens(tokens)
-        away_team = Team.from_tokens(tokens)
-
-        return GameContext(game_pk, date, venue, weather, home_team, away_team)
-
 
 @dataclass
 class Game:
@@ -391,37 +194,3 @@ class Game:
     context: GameContext
     plays: list[Play]
     "A list of all plays in the game."
-
-    @staticmethod
-    def from_tokens(tokens: list[str]) -> Game:
-        context = GameContext.from_tokens(tokens)
-
-        game_start_token = tokens.pop(0)
-        if game_start_token != "[GAME_START]":
-            raise ValueError(f"Expected token [GAME_START], got '{game_start_token}'")
-
-        plays = []
-        while tokens[0] != "[GAME_END]":
-            play = Play.from_tokens(tokens)
-            plays.append(play)
-
-        return Game(context, plays)
-
-
-def parse_game(text: str) -> Game:
-    tokens = re.split(r"[\s,]+", text)
-
-    return Game.from_tokens(tokens)
-
-
-if __name__ == "__main__":
-    path = sys.argv[1]
-
-    with open(path) as f:
-        text = f.read()
-
-    try:
-        parse_game(text)
-    except Exception as e:
-        print(f"Error parsing game: {e}")
-        sys.exit(1)
