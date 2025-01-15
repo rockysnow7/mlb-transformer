@@ -6,12 +6,6 @@ import re
 import sys
 
 
-# reserved_context_tokens = (
-#     "[GAME]",
-#     "[DATE]",
-#     "[VENUE]",
-#     "[WEATHER]",
-# )
 ALL_POSITION_TOKENS = (
     "[PITCHER]",
     "[CATCHER]",
@@ -33,67 +27,6 @@ ALL_POSITION_TOKENS = (
     "[STARTING_PITCHER]",
 )
 ALL_POSITION_TOKENS_PATTERN = "|".join(ALL_POSITION_TOKENS).replace("[", r"\[").replace("]", r"\]")
-# reserved_play_tokens = (
-#     "[PLAY]",
-#     "[BASE]",
-#     "[BATTER]",
-#     "[PITCHER]",
-#     "[CATCHER]",
-#     "[FIELDERS]",
-#     "[RUNNER]",
-#     "[SCORING_RUNNER]",
-#     "[MOVEMENTS]",
-#     "[out]",
-# )
-# reserved_play_type_tokens = (
-#     "Groundout",
-#     "Bunt Groundout",
-#     "Strikeout",
-#     "Lineout",
-#     "Bunt Lineout",
-#     "Flyout",
-#     "Pop Out",
-#     "Bunt Pop Out",
-#     "Forceout",
-#     "Fielders Choice Out",
-#     "Catcher Interference",
-#     "Double Play",
-#     "Triple Play",
-#     "Runner Double Play",
-#     "Runner Triple Play",
-#     "Grounded Into Double Play",
-#     "Strikeout Double Play",
-#     "Pickoff",
-#     "Pickoff Error",
-#     "Caught Stealing",
-#     "Pickoff Caught Stealing",
-#     "Wild Pitch",
-#     "Runner Out",
-#     "Field Out",
-#     "Balk",
-#     "Passed Ball",
-#     "Error",
-#     "Single",
-#     "Double",
-#     "Triple",
-#     "Home Run",
-#     "Walk",
-#     "Intent Walk",
-#     "Hit By Pitch",
-#     "Fielders Choice",
-#     "Stolen Base",
-#     "Sac Fly",
-#     "Sac Fly Double Play",
-#     "Sac Bunt",
-#     "Sac Bunt Double Play",
-#     "Field Error",
-#     "Game Advisory",
-# )
-# all_reserved_tokens = reserved_context_tokens + reserved_team_tokens + reserved_play_tokens + reserved_play_type_tokens + ("[GAME_END]",)
-
-# name = r"[^\[\]0-9 ]+"
-# reserved_base = "1|2|3|4"
-# reserved_arrow = "->"
 
 
 class Parser:
@@ -207,9 +140,9 @@ class Parser:
 
         text = self.__skip(text, expected_position_tag)
         name, text = self.__match_until(text, r"\[")
-        
+
         return name, text
-    
+
     def __parse_play_contents_fielders(self, text: str) -> tuple[list[str], str]:
         """Parses the fielders from a play contents section and returns a list of fielder names and the remaining text."""
 
@@ -260,7 +193,7 @@ class Parser:
         movements = [self.__parse_movement(movement_text) for movement_text in movements_text]
 
         return movements, text
-    
+
     def __parse_play_contents_base(self, text: str) -> tuple[int, str]:
         """Parses a base from a play contents section and returns the base number and the remaining text."""
 
