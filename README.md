@@ -8,7 +8,7 @@ to collect raw data, run `cargo run get {year}`, where `{year}` is the year you 
 
 to preprocess the raw data, run `cargo run tokenize`. this will create a directory `tokenized_data` with each game saved in the subdirectory `tokenized_data/{year}/{home_team_id}`.
 
-the raw and tokenized data for 2020-2024 (inclusive) is available in the `data` and `tokenized_data` directories respectively. this data can also be found as a dataset on [huggingface](https://huggingface.co/finnnnnnnnnnnn/mlb-play-by-plays).
+the raw and tokenized data for 2020-2024 (inclusive) is available in the `data` and `tokenized_data` directories respectively. this data can also be found as a dataset on [huggingface](https://huggingface.co/datasets/finnnnnnnnnnnn/mlb-play-by-plays).
 
 the tokenized data format is described in `FORMAT.md`.
 
