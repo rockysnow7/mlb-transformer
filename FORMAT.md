@@ -25,10 +25,11 @@ a team id is `[TEAM]` followed by an integer. a player is a player type tag foll
 
 a play contains the following data:
 
-1. **play type**: `[PLAY]` followed by a string representing the play type.
-2. **base (optional)**: `[BASE]` followed by an integer representing the base the play occurred at.
-3. **players**: a list of players involved in the play. a player is a player type tag followed by a player's name.
-4. **movements**: `[MOVEMENTS]` followed by a comma-separated list of movements made during the play.
+1. **inning**: `[INNING]` followed by an integer representing the inning and either `top` or `bottom`.
+2. **play type**: `[PLAY]` followed by a string representing the play type.
+3. **base (optional)**: `[BASE]` followed by an integer representing the base the play occurred at.
+4. **players**: a list of players involved in the play. a player is a player type tag followed by a player's name.
+5. **movements**: `[MOVEMENTS]` followed by a comma-separated list of movements made during the play.
 
 valid play types are `Groundout`, `Bunt Groundout`, `Strikeout`, `Lineout`, `Bunt Lineout`, `Flyout`, `Pop Out`, `Bunt Pop Out`, `Forceout`, `Fielders Choice Out`, `Double Play`, `Triple Play`, `Runner Double Play`, `Runner Triple Play`, `Grounded Into Double Play`, `Strikeout Double Play`, `Pickoff`, `Pickoff Error`, `Caught Stealing`, `Pickoff Caught Stealing`, `Wild Pitch`, `Runner Out`, `Field Out`, `Balk`, `Passed Ball`, `Error`, `Single`, `Double`, `Triple`, `Home Run`, `Walk`, `Intent Walk`, `Hit By Pitch`, `Fielders Choice`, `Catcher Interference`, `Stolen Base`, `Sac Fly`, `Sac Fly Double Play`, `Sac Bunt`, `Sac Bunt Double Play`, `Field Error`, and `Game Advisory`.
 
