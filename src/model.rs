@@ -352,62 +352,93 @@ impl Tokenize for Movement {
 }
 
 #[derive(Debug, Serialize, Deserialize)]
+pub struct Inning {
+    pub number: u8,
+    pub top: bool,
+}
+
+impl Inning {
+    pub fn from_value(value: &serde_json::Value) -> Self {
+        let number = value["inning"].as_u64().unwrap() as u8;
+        let top = value["isTopInning"].as_bool().unwrap();
+
+        Self { number, top }
+    }
+}
+
+impl ToString for Inning {
+    fn to_string(&self) -> String {
+        format!("{} {}", self.number, if self.top { "top" } else { "bottom" })
+    }
+}
+
+#[derive(Debug, Serialize, Deserialize)]
 pub enum Play {
     // outs
     Groundout {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     BuntGroundout {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     Strikeout {
+        inning: Inning,
         batter: String,
         pitcher: String,
         movements: Vec<Movement>,
     },
     Lineout {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     BuntLineout {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     Flyout {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     PopOut {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     BuntPopOut {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     Forceout {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     FieldersChoiceOut {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
@@ -415,149 +446,176 @@ pub enum Play {
         movements: Vec<Movement>,
     },
     DoublePlay {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     TriplePlay {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     RunnerDoublePlay {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     RunnerTriplePlay {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     GroundedIntoDoublePlay {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     StrikeoutDoublePlay {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     Pickoff {
+        inning: Inning,
         base: u8,
         runner: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     PickoffError {
+        inning: Inning,
         base: u8,
         runner: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     CaughtStealing {
+        inning: Inning,
         base: u8,
         runner: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     PickoffCaughtStealing {
+        inning: Inning,
         base: u8,
         runner: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     WildPitch {
+        inning: Inning,
         pitcher: String,
         runner: String,
         movements: Vec<Movement>,
     },
     RunnerOut {
+        inning: Inning,
         runner: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     FieldOut {
+        inning: Inning,
         fielder: String,
         runner: String,
         movements: Vec<Movement>,
     },
     Balk {
+        inning: Inning,
         pitcher: String,
         movements: Vec<Movement>,
     },
     PassedBall {
+        inning: Inning,
         pitcher: String,
         catcher: String,
         movements: Vec<Movement>,
     },
     Error {
+        inning: Inning,
         pitcher: String,
         catcher: String,
         movements: Vec<Movement>,
     },
     // scores
     Single {
+        inning: Inning,
         batter: String,
         pitcher: String,
         movements: Vec<Movement>,
     },
     Double {
+        inning: Inning,
         batter: String,
         pitcher: String,
         movements: Vec<Movement>,
     },
     Triple {
+        inning: Inning,
         batter: String,
         pitcher: String,
         movements: Vec<Movement>,
     },
     HomeRun {
+        inning: Inning,
         batter: String,
         pitcher: String,
         movements: Vec<Movement>,
     },
     Walk {
+        inning: Inning,
         batter: String,
         pitcher: String,
         movements: Vec<Movement>,
     },
     IntentWalk {
+        inning: Inning,
         batter: String,
         pitcher: String,
         movements: Vec<Movement>,
     },
     HitByPitch {
+        inning: Inning,
         batter: String,
         pitcher: String,
         movements: Vec<Movement>,
     },
     FieldersChoice {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     CatcherInterference {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
     StolenBase {
+        inning: Inning,
         base: u8,
         runner: String,
         movements: Vec<Movement>,
     },
     // other
     SacFly {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
@@ -565,6 +623,7 @@ pub enum Play {
         movements: Vec<Movement>,
     },
     SacFlyDoublePlay {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
@@ -572,6 +631,7 @@ pub enum Play {
         movements: Vec<Movement>,
     },
     SacBunt {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
@@ -579,6 +639,7 @@ pub enum Play {
         movements: Vec<Movement>,
     },
     SacBuntDoublePlay {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
@@ -586,17 +647,21 @@ pub enum Play {
         movements: Vec<Movement>,
     },
     FieldError {
+        inning: Inning,
         batter: String,
         pitcher: String,
         fielders: Vec<String>,
         movements: Vec<Movement>,
     },
-    GameAdvisory,
+    GameAdvisory {
+        inning: Inning,
+    },
 }
 
 impl Play {
     // outs
     async fn groundout_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -611,9 +676,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -624,6 +686,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Groundout {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -632,6 +695,7 @@ impl Play {
     }
 
     async fn bunt_groundout_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -646,9 +710,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -659,6 +720,7 @@ impl Play {
         )).collect();
 
         Ok(Play::BuntGroundout {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -667,6 +729,7 @@ impl Play {
     }
 
     async fn strikeout_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -681,6 +744,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Strikeout {
+            inning,
             batter,
             pitcher,
             movements,
@@ -688,6 +752,7 @@ impl Play {
     }
 
     async fn lineout_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -715,6 +780,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Lineout {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -723,6 +789,7 @@ impl Play {
     }
 
     async fn bunt_lineout_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -737,9 +804,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -750,6 +814,7 @@ impl Play {
         )).collect();
 
         Ok(Play::BuntLineout {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -758,6 +823,7 @@ impl Play {
     }
 
     async fn flyout_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -772,9 +838,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -785,6 +848,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Flyout {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -793,6 +857,7 @@ impl Play {
     }
 
     async fn pop_out_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -807,9 +872,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -820,6 +882,7 @@ impl Play {
         )).collect();
 
         Ok(Play::PopOut {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -828,6 +891,7 @@ impl Play {
     }
 
     async fn bunt_pop_out_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -842,9 +906,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -855,6 +916,7 @@ impl Play {
         )).collect();
 
         Ok(Play::BuntPopOut {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -863,6 +925,7 @@ impl Play {
     }
 
     async fn forceout_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -877,9 +940,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -890,6 +950,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Forceout {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -898,6 +959,7 @@ impl Play {
     }
 
     async fn fielders_choice_out_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -912,9 +974,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -929,6 +988,7 @@ impl Play {
         )).collect();
 
         Ok(Play::FieldersChoiceOut {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -938,6 +998,7 @@ impl Play {
     }
 
     async fn double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -952,9 +1013,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -965,6 +1023,7 @@ impl Play {
         )).collect();
 
         Ok(Play::DoublePlay {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -973,6 +1032,7 @@ impl Play {
     }
 
     async fn triple_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -987,9 +1047,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1000,6 +1057,7 @@ impl Play {
         )).collect();
 
         Ok(Play::TriplePlay {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1008,6 +1066,7 @@ impl Play {
     }
 
     async fn runner_double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1022,9 +1081,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1035,6 +1091,7 @@ impl Play {
         )).collect();
 
         Ok(Play::RunnerDoublePlay {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1043,6 +1100,7 @@ impl Play {
     }
 
     async fn runner_triple_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1057,9 +1115,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1070,6 +1125,7 @@ impl Play {
         )).collect();
 
         Ok(Play::TriplePlay {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1078,6 +1134,7 @@ impl Play {
     }
 
     async fn grounded_into_double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1092,9 +1149,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1105,6 +1159,7 @@ impl Play {
         )).collect();
 
         Ok(Play::GroundedIntoDoublePlay {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1113,6 +1168,7 @@ impl Play {
     }
 
     async fn strikeout_double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1127,9 +1183,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1140,6 +1193,7 @@ impl Play {
         )).collect();
 
         Ok(Play::StrikeoutDoublePlay {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1148,6 +1202,7 @@ impl Play {
     }
 
     async fn pickoff_from_value_and_base(value: &serde_json::Value, base: u8) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
         let fielder_ids = value["runners"]
             .as_array()
@@ -1155,9 +1210,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1169,6 +1221,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Pickoff {
+            inning,
             base,
             runner,
             fielders,
@@ -1177,6 +1230,7 @@ impl Play {
     }
 
     async fn pickoff_error_from_value_and_base(value: &serde_json::Value, base: u8) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
         let fielder_ids = value["runners"]
             .as_array()
@@ -1184,9 +1238,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1198,6 +1249,7 @@ impl Play {
         )).collect();
 
         Ok(Play::PickoffError {
+            inning,
             base,
             runner,
             fielders,
@@ -1206,6 +1258,7 @@ impl Play {
     }
 
     async fn caught_stealing_from_value_and_base(value: &serde_json::Value, base: u8) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
         let fielder_ids = value["runners"]
             .as_array()
@@ -1213,9 +1266,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1227,6 +1277,7 @@ impl Play {
         )).collect();
 
         Ok(Play::CaughtStealing {
+            inning,
             base,
             runner,
             fielders,
@@ -1235,6 +1286,7 @@ impl Play {
     }
 
     async fn pickoff_caught_stealing_from_value_and_base(value: &serde_json::Value, base: u8) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
         let fielder_ids = value["runners"]
             .as_array()
@@ -1242,9 +1294,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1256,6 +1305,7 @@ impl Play {
         )).collect();
 
         Ok(Play::PickoffCaughtStealing {
+            inning,
             base,
             runner,
             fielders,
@@ -1264,6 +1314,7 @@ impl Play {
     }
 
     async fn wild_pitch_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
             Some(pitcher) => pitcher.to_string(),
             None => return Err("No pitcher".to_string()),
@@ -1275,6 +1326,7 @@ impl Play {
         )];
 
         Ok(Play::WildPitch {
+            inning,
             pitcher,
             runner,
             movements,
@@ -1282,6 +1334,7 @@ impl Play {
     }
 
     async fn runner_out_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
         let fielder_ids = value["runners"]
             .as_array()
@@ -1289,9 +1342,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1303,6 +1353,7 @@ impl Play {
         )).collect();
 
         Ok(Play::RunnerOut {
+            inning,
             runner,
             fielders,
             movements,
@@ -1310,6 +1361,7 @@ impl Play {
     }
 
     async fn field_out_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let fielder = match value["runners"][0]["details"]["fielder"]["fullName"].as_str() {
             Some(fielder) => fielder.to_string(),
             None => return Err("No fielder".to_string()),
@@ -1321,6 +1373,7 @@ impl Play {
         )];
 
         Ok(Play::FieldOut {
+            inning,
             fielder,
             runner,
             movements,
@@ -1328,6 +1381,7 @@ impl Play {
     }
 
     async fn balk_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
             Some(pitcher) => pitcher.to_string(),
             None => return Err("No pitcher".to_string()),
@@ -1339,12 +1393,14 @@ impl Play {
         )];
 
         Ok(Play::Balk {
+            inning,
             pitcher,
             movements,
         })
     }
 
     async fn passed_ball_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let pitcher = match value["runners"][0]["details"]["pitcher"]["fullName"].as_str() {
             Some(pitcher) => pitcher.to_string(),
             None => return Err("No pitcher".to_string()),
@@ -1360,6 +1416,7 @@ impl Play {
         )];
 
         Ok(Play::PassedBall {
+            inning,
             pitcher,
             catcher,
             movements,
@@ -1367,6 +1424,7 @@ impl Play {
     }
 
     async fn error_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
             Some(pitcher) => pitcher.to_string(),
             None => return Err("No pitcher".to_string()),
@@ -1381,6 +1439,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Error {
+            inning,
             pitcher,
             catcher,
             movements,
@@ -1389,6 +1448,7 @@ impl Play {
 
     // scores
     async fn single_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1403,6 +1463,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Single {
+            inning,
             batter,
             pitcher,
             movements,
@@ -1410,6 +1471,7 @@ impl Play {
     }
 
     async fn double_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1424,6 +1486,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Double {
+            inning,
             batter,
             pitcher,
             movements,
@@ -1431,6 +1494,7 @@ impl Play {
     }
 
     async fn triple_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1445,6 +1509,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Triple {
+            inning,
             batter,
             pitcher,
             movements,
@@ -1452,6 +1517,7 @@ impl Play {
     }
 
     async fn home_run_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1466,6 +1532,7 @@ impl Play {
         )).collect();
 
         Ok(Play::HomeRun {
+            inning,
             batter,
             pitcher,
             movements,
@@ -1473,6 +1540,7 @@ impl Play {
     }
 
     async fn walk_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1487,6 +1555,7 @@ impl Play {
         )).collect();
 
         Ok(Play::Walk {
+            inning,
             batter,
             pitcher,
             movements,
@@ -1494,6 +1563,7 @@ impl Play {
     }
 
     async fn intent_walk_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1508,6 +1578,7 @@ impl Play {
         )).collect();
 
         Ok(Play::IntentWalk {
+            inning,
             batter,
             pitcher,
             movements,
@@ -1515,6 +1586,7 @@ impl Play {
     }
 
     async fn hit_by_pitch_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1529,6 +1601,7 @@ impl Play {
         )).collect();
 
         Ok(Play::HitByPitch {
+            inning,
             batter,
             pitcher,
             movements,
@@ -1536,6 +1609,7 @@ impl Play {
     }
 
     async fn fielders_choice_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1550,9 +1624,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1563,6 +1634,7 @@ impl Play {
         )).collect();
 
         Ok(Play::FieldersChoice {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1571,6 +1643,7 @@ impl Play {
     }
 
     async fn catcher_interference_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1585,9 +1658,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1598,6 +1668,7 @@ impl Play {
         )).collect();
 
         Ok(Play::CatcherInterference {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1606,6 +1677,7 @@ impl Play {
     }
 
     async fn stolen_base_from_value_and_base(value: &serde_json::Value, base: u8) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let runner = value["runners"][0]["details"]["runner"]["fullName"].as_str().unwrap().to_string();
         let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
             runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
@@ -1613,6 +1685,7 @@ impl Play {
         )).collect();
 
         Ok(Play::StolenBase {
+            inning,
             base,
             runner,
             movements,
@@ -1621,6 +1694,7 @@ impl Play {
 
     // other
     async fn sac_fly_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1635,9 +1709,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1650,6 +1721,7 @@ impl Play {
         )).collect();
 
         Ok(Play::SacFly {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1659,6 +1731,7 @@ impl Play {
     }
 
     async fn sac_fly_double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1673,9 +1746,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1688,6 +1758,7 @@ impl Play {
         )).collect();
 
         Ok(Play::SacFlyDoublePlay {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1697,6 +1768,7 @@ impl Play {
     }
 
     async fn sac_bunt_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1711,9 +1783,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1726,6 +1795,7 @@ impl Play {
         )).collect();
 
         Ok(Play::SacBunt {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1735,6 +1805,7 @@ impl Play {
     }
 
     async fn sac_bunt_double_play_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1749,9 +1820,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1764,6 +1832,7 @@ impl Play {
         )).collect();
 
         Ok(Play::SacBuntDoublePlay {
+            inning,
             batter,
             pitcher,
             fielders,
@@ -1773,6 +1842,7 @@ impl Play {
     }
 
     async fn field_error_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
         let batter = match value["matchup"]["batter"]["fullName"].as_str() {
             Some(batter) => batter.to_string(),
             None => return Err("No batter".to_string()),
@@ -1787,9 +1857,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -1801,10 +1868,19 @@ impl Play {
         )).collect();
 
         Ok(Play::FieldError {
+            inning,
             batter,
             pitcher,
             fielders,
             movements,
+        })
+    }
+
+    async fn game_advistory_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
+
+        Ok(Play::GameAdvisory {
+            inning,
         })
     }
 
@@ -1864,7 +1940,7 @@ impl Play {
             "Sac Bunt" => Play::sac_bunt_from_value(value).await,
             "Sac Bunt Double Play" => Play::sac_bunt_double_play_from_value(value).await,
             "Field Error" => Play::field_error_from_value(value).await,
-            "Game Advisory" => Ok(Play::GameAdvisory),
+            "Game Advisory" => Play::game_advistory_from_value(value).await,
             _ => panic!("Unknown play type: {}", play_type),
         }
     }
@@ -1872,12 +1948,13 @@ impl Play {
 
 impl Tokenize for Play {
     fn tokenize(&self) -> String {
-        let mut tokens = "[PLAY] ".to_string();
+        let mut tokens = "[INNING] ".to_string();
 
         match self {
-            Play::Groundout { batter, pitcher, fielders, movements } => {
+            Play::Groundout { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Groundout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Groundout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -1891,9 +1968,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::BuntGroundout { batter, pitcher, fielders, movements } => {
+            Play::BuntGroundout { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Bunt Groundout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Bunt Groundout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -1907,9 +1985,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Strikeout { batter, pitcher, movements } => {
+            Play::Strikeout { inning, batter, pitcher, movements } => {
                 tokens += &format!(
-                    "Strikeout [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Strikeout [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                 );
@@ -1922,25 +2001,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Lineout { batter, pitcher, fielders, movements } => {
+            Play::Lineout { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Lineout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    batter,
-                    pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
-            Play::BuntLineout { batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "Bunt Lineout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Lineout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -1954,9 +2018,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Flyout { batter, pitcher, fielders, movements } => {
+            Play::BuntLineout { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Flyout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Bunt Lineout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -1970,9 +2035,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::PopOut { batter, pitcher, fielders, movements } => {
+            Play::Flyout { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Pop Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Flyout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -1986,9 +2052,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::BuntPopOut { batter, pitcher, fielders, movements } => {
+            Play::PopOut { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Bunt Pop Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Pop Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2002,9 +2069,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Forceout { batter, pitcher, fielders, movements } => {
+            Play::BuntPopOut { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Forceout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Bunt Pop Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2018,9 +2086,27 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::FieldersChoiceOut { batter, pitcher, fielders, scoring_runner, movements } => {
+            Play::Forceout { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Fielders Choice Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Forceout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
+                    batter,
+                    pitcher,
+                    fielders.join(", "),
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
+            Play::FieldersChoiceOut { inning, batter, pitcher, fielders, scoring_runner, movements } => {
+                tokens += &format!(
+                    "{} [PLAY] Fielders Choice Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2035,9 +2121,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::DoublePlay { batter, pitcher, fielders, movements } => {
+            Play::DoublePlay { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2051,9 +2138,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::TriplePlay { batter, pitcher, fielders, movements } => {
+            Play::TriplePlay { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Triple Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Triple Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2067,9 +2155,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::RunnerDoublePlay { batter, pitcher, fielders, movements } => {
+            Play::RunnerDoublePlay { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Runner Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Runner Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2083,9 +2172,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::RunnerTriplePlay { batter, pitcher, fielders, movements } => {
+            Play::RunnerTriplePlay { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Runner Triple Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Runner Triple Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2099,9 +2189,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::GroundedIntoDoublePlay { batter, pitcher, fielders, movements } => {
+            Play::GroundedIntoDoublePlay { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Grounded Into Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Grounded Into Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2115,9 +2206,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::StrikeoutDoublePlay { batter, pitcher, fielders, movements } => {
+            Play::StrikeoutDoublePlay { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Strikeout Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Strikeout Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2131,9 +2223,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Pickoff { base, runner, fielders, movements } => {
+            Play::Pickoff { inning, base, runner, fielders, movements } => {
                 tokens += &format!(
-                    "Pickoff [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Pickoff [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     base,
                     runner,
                     fielders.join(", "),
@@ -2147,9 +2240,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::PickoffError { base, runner, fielders, movements } => {
+            Play::PickoffError { inning, base, runner, fielders, movements } => {
                 tokens += &format!(
-                    "Pickoff Error [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Pickoff Error [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     base,
                     runner,
                     fielders.join(", "),
@@ -2163,9 +2257,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::CaughtStealing { base, runner, fielders, movements } => {
+            Play::CaughtStealing { inning, base, runner, fielders, movements } => {
                 tokens += &format!(
-                    "Caught Stealing [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Caught Stealing [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     base,
                     runner,
                     fielders.join(", "),
@@ -2179,9 +2274,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::PickoffCaughtStealing { base, runner, fielders, movements } => {
+            Play::PickoffCaughtStealing { inning, base, runner, fielders, movements } => {
                 tokens += &format!(
-                    "Pickoff Caught Stealing [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Pickoff Caught Stealing [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     base,
                     runner,
                     fielders.join(", "),
@@ -2195,9 +2291,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::WildPitch { pitcher, runner, movements } => {
+            Play::WildPitch { inning, pitcher, runner, movements } => {
                 tokens += &format!(
-                    "Wild Pitch [PITCHER] {} [RUNNER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Wild Pitch [PITCHER] {} [RUNNER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     pitcher,
                     runner,
                 );
@@ -2210,9 +2307,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::RunnerOut { runner, fielders, movements } => {
+            Play::RunnerOut { inning, runner, fielders, movements } => {
                 tokens += &format!(
-                    "Runner Out [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Runner Out [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     runner,
                     fielders.join(", "),
                 );
@@ -2225,9 +2323,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::FieldOut { fielder, runner, movements } => {
+            Play::FieldOut { inning, fielder, runner, movements } => {
                 tokens += &format!(
-                    "Field Out [FIELDER] {} [RUNNER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Field Out [FIELDER] {} [RUNNER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     fielder,
                     runner,
                 );
@@ -2240,9 +2339,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Balk { pitcher, movements } => {
+            Play::Balk { inning, pitcher, movements } => {
                 tokens += &format!(
-                    "Balk [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Balk [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     pitcher,
                 );
 
@@ -2254,24 +2354,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::PassedBall { pitcher, catcher, movements } => {
+            Play::PassedBall { inning, pitcher, catcher, movements } => {
                 tokens += &format!(
-                    "Passed Ball [PITCHER] {} [CATCHER] {} [MOVEMENTS] ",
-                    pitcher,
-                    catcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
-            Play::Error { pitcher, catcher, movements } => {
-                tokens += &format!(
-                    "Error [PITCHER] {} [CATCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Passed Ball [PITCHER] {} [CATCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     pitcher,
                     catcher,
                 );
@@ -2284,9 +2370,26 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Single { batter, pitcher, movements } => {
+            Play::Error { inning, pitcher, catcher, movements } => {
                 tokens += &format!(
-                    "Single [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Error [PITCHER] {} [CATCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
+                    pitcher,
+                    catcher,
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
+            Play::Single { inning, batter, pitcher, movements } => {
+                tokens += &format!(
+                    "{} [PLAY] Single [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                 );
@@ -2299,9 +2402,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Double { batter, pitcher, movements } => {
+            Play::Double { inning, batter, pitcher, movements } => {
                 tokens += &format!(
-                    "Double [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Double [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                 );
@@ -2314,9 +2418,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Triple { batter, pitcher, movements } => {
+            Play::Triple { inning, batter, pitcher, movements } => {
                 tokens += &format!(
-                    "Triple [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Triple [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                 );
@@ -2329,9 +2434,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::HomeRun { batter, pitcher, movements } => {
+            Play::HomeRun { inning, batter, pitcher, movements } => {
                 tokens += &format!(
-                    "Home Run [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Home Run [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                 );
@@ -2344,9 +2450,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::Walk { batter, pitcher, movements } => {
+            Play::Walk { inning, batter, pitcher, movements } => {
                 tokens += &format!(
-                    "Walk [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Walk [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                 );
@@ -2359,9 +2466,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::IntentWalk { batter, pitcher, movements } => {
+            Play::IntentWalk { inning, batter, pitcher, movements } => {
                 tokens += &format!(
-                    "Intent Walk [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Intent Walk [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                 );
@@ -2374,9 +2482,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::HitByPitch { batter, pitcher, movements } => {
+            Play::HitByPitch { inning, batter, pitcher, movements } => {
                 tokens += &format!(
-                    "Hit By Pitch [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Hit By Pitch [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                 );
@@ -2389,9 +2498,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::FieldersChoice { batter, pitcher, fielders, movements } => {
+            Play::FieldersChoice { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Fielders Choice [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Fielders Choice [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2405,9 +2515,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::CatcherInterference { batter, pitcher, fielders, movements } => {
+            Play::CatcherInterference { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Catcher Interference [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Catcher Interference [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2421,9 +2532,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::StolenBase { base, runner, movements } => {
+            Play::StolenBase { inning, base, runner, movements } => {
                 tokens += &format!(
-                    "Stolen Base [BASE] {} [RUNNER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Stolen Base [BASE] {} [RUNNER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     base,
                     runner,
                 );
@@ -2436,9 +2548,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::SacFly { batter, pitcher, fielders, scoring_runner, movements } => {
+            Play::SacFly { inning, batter, pitcher, fielders, scoring_runner, movements } => {
                 tokens += &format!(
-                    "Sac Fly [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Sac Fly [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2453,9 +2566,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::SacFlyDoublePlay { batter, pitcher, fielders, scoring_runner, movements } => {
+            Play::SacFlyDoublePlay { inning, batter, pitcher, fielders, scoring_runner, movements } => {
                 tokens += &format!(
-                    "Sac Fly Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Sac Fly Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2470,9 +2584,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::SacBunt { batter, pitcher, fielders, runner, movements } => {
+            Play::SacBunt { inning, batter, pitcher, fielders, runner, movements } => {
                 tokens += &format!(
-                    "Sac Bunt [BATTER] {} [PITCHER] {} [FIELDERS] {} [RUNNER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Sac Bunt [BATTER] {} [PITCHER] {} [FIELDERS] {} [RUNNER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2487,9 +2602,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::SacBuntDoublePlay { batter, pitcher, fielders, runner, movements } => {
+            Play::SacBuntDoublePlay { inning, batter, pitcher, fielders, runner, movements } => {
                 tokens += &format!(
-                    "Sac Bunt Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [RUNNER] {} [MOVEMENTS] ",
+                    "{} [PLAY] Sac Bunt Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [RUNNER] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2504,9 +2620,10 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::FieldError { batter, pitcher, fielders, movements } => {
+            Play::FieldError { inning, batter, pitcher, fielders, movements } => {
                 tokens += &format!(
-                    "Field Error [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    "{} [PLAY] Field Error [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
+                    inning.to_string(),
                     batter,
                     pitcher,
                     fielders.join(", "),
@@ -2520,7 +2637,7 @@ impl Tokenize for Play {
                     }
                 }
             },
-            Play::GameAdvisory => tokens += "Game Advisory",
+            Play::GameAdvisory { inning } => tokens += &format!("{} [PLAY] Game Advisory", inning.to_string()),
         };
 
         tokens
