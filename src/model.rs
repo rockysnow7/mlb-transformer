@@ -25,7 +25,11 @@ async fn get_player_name_from_id(player_id: usize) -> Result<String, String> {
     } else {
         return Err("Failed to get player data".to_string());
     };
-    let player_data = response.json::<serde_json::Value>().await.unwrap();
+    let player_data = if let Ok(player_data) = response.json::<serde_json::Value>().await {
+        player_data
+    } else {
+        return Err("Failed to parse player data".to_string());
+    };
     let player_name = player_data["people"][0]["fullName"].as_str().unwrap().to_string();
 
     Ok(player_name)
