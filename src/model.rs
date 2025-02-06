@@ -771,9 +771,6 @@ impl Play {
             .iter()
             .filter_map(|runner| runner["credits"][0]["player"]["id"].as_u64())
             .map(|id| id as usize);
-        // let fielders = join_all(
-        //     fielder_ids.into_iter().map(|id| get_player_name_from_id(id))
-        // ).await;
         let mut fielders = Vec::new();
         for id in fielder_ids {
             fielders.push(get_player_name_from_id(id).await?);
@@ -2681,7 +2678,10 @@ impl Game {
         }
 
         let boxscore_data_url = format!("https://statsapi.mlb.com/api/v1/game/{game_pk}/boxscore");
-        let boxscore_response = reqwest::get(&boxscore_data_url).await.unwrap();
+        let boxscore_response = match reqwest::get(&boxscore_data_url).await {
+            Ok(response) => response,
+            Err(_) => return Err("Failed to fetch boxscore data".to_string()),
+        };
         let boxscore_data = boxscore_response.json::<serde_json::Value>().await.unwrap();
         let context = GameContext::from_game_boxscore_data_and_date_and_weather_and_game_pk(
             &boxscore_data,
@@ -2715,9 +2715,12 @@ impl Game {
         log(format!("[Game::save] Saved game to {}", file_path));
     }
 
-    pub async fn get_all_by_team_in_season(team_id: u8, season: u16, skip_game_pks: Vec<usize>) {
+    pub async fn get_all_by_team_in_season(team_id: u8, season: u16, skip_game_pks: Vec<usize>) -> Result<(), String> {
         let url = format!("https://statsapi.mlb.com/api/v1/schedule?sportId=1&teamId={}&season={}", team_id, season);
-        let response = reqwest::get(&url).await.unwrap();
+        let response = match reqwest::get(&url).await {
+            Ok(response) => response,
+            Err(_) => return Err("Failed to fetch team data".to_string()),
+        };
         let schedule = response.json::<serde_json::Value>().await.unwrap();
         let dates = schedule["dates"].as_array().unwrap();
 
@@ -2737,6 +2740,8 @@ impl Game {
                 };
             }
         }
+
+        Ok(())
     }
 }
 

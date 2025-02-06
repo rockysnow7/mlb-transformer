@@ -54,7 +54,7 @@ async fn main() {
 
                 let progress_style = ProgressStyle::default_bar().template("{wide_bar} {pos}/{len} | elapsed: {elapsed_precise}, eta: {eta_precise}").unwrap();
                 for team_id in progress_season.iter().progress_with_style(progress_style) {
-                    model::Game::get_all_by_team_in_season(
+                    let _ = model::Game::get_all_by_team_in_season(
                         *team_id,
                         season,
                         game_pks_for_team_in_season(*team_id, season),
