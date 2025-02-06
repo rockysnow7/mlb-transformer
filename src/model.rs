@@ -2658,7 +2658,10 @@ impl Game {
     pub async fn from_game_pk(game_pk: usize) -> Result<Self, String> {
         let url = format!("https://statsapi.mlb.com/api/v1.1/game/{game_pk}/feed/live");
         log(format!("[Game::from_game_pk] Getting game: {url}"));
-        let response = reqwest::get(&url).await.unwrap();
+        let response = match reqwest::get(&url).await {
+            Ok(response) => response,
+            Err(_) => return Err("Failed to fetch game data".to_string()),
+        };
         let game_data = response.json::<serde_json::Value>().await.unwrap();
 
         if game_data["gameData"]["status"]["detailedState"].as_str().unwrap() != "Final" {
