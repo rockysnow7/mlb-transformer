@@ -1,6 +1,6 @@
 # mlb-transformer
 
-this repo contains code to gather MLB play-by-play data, preprocess it, and train a transformer model on it. this is a work in progress.
+this repo contains code to gather MLB play-by-play data, preprocess it, and train a transformer model on it. this is a work in progress, and huggingface may be behind the latest version of the code in this repo.
 
 ## gathering data
 

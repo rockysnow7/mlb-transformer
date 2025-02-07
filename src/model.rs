@@ -537,6 +537,12 @@ pub enum Play {
         runner: String,
         movements: Vec<Movement>,
     },
+    BatterOut {
+        inning: Inning,
+        batter: String,
+        catcher: String,
+        movements: Vec<Movement>,
+    },
     Balk {
         inning: Inning,
         pitcher: String,
@@ -1381,6 +1387,27 @@ impl Play {
         })
     }
 
+    async fn batter_out_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
+        let batter = match value["matchup"]["batter"]["fullName"].as_str() {
+            Some(batter) => batter.to_string(),
+            None => return Err("No batter".to_string()),
+        };
+        let catcher_id = value["runners"][0]["credits"][0]["player"]["id"].as_u64().unwrap() as usize;
+        let catcher = get_player_name_from_id(catcher_id).await?;
+        let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
+            runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
+            &runner["movement"],
+        )).collect();
+
+        Ok(Play::BatterOut {
+            inning,
+            batter,
+            catcher,
+            movements,
+        })
+    }
+
     async fn balk_from_value(value: &serde_json::Value) -> Result<Self, String> {
         let inning = Inning::from_value(&value["about"]);
         let pitcher = match value["matchup"]["pitcher"]["fullName"].as_str() {
@@ -1922,6 +1949,7 @@ impl Play {
             "Wild Pitch" => Play::wild_pitch_from_value(value).await,
             "Runner Out" => Play::runner_out_from_value(value).await,
             "Field Out" => Play::field_out_from_value(value).await,
+            "Batter Out" => Play::batter_out_from_value(value).await,
             "Balk" => Play::balk_from_value(value).await,
             "Passed Ball" => Play::passed_ball_from_value(value).await,
             "Error" => Play::error_from_value(value).await,
@@ -2340,6 +2368,22 @@ impl Tokenize for Play {
                     }
                 }
             },
+            Play::BatterOut { inning, batter, catcher, movements } => {
+                tokens += &format!(
+                    "{} [PLAY] Batter Out [BATTER] {} [CATCHER] {} [MOVEMENTS] ",
+                    inning.to_string(),
+                    batter,
+                    catcher,
+                );
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &movement.tokenize();
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            }
             Play::Balk { inning, pitcher, movements } => {
                 tokens += &format!(
                     "{} [PLAY] Balk [PITCHER] {} [MOVEMENTS] ",
