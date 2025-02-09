@@ -1964,6 +1964,7 @@ impl Play {
             "Stolen Base 1B" => Play::stolen_base_from_value_and_base(value, 1).await,
             "Stolen Base 2B" => Play::stolen_base_from_value_and_base(value, 2).await,
             "Stolen Base 3B" => Play::stolen_base_from_value_and_base(value, 3).await,
+            "Stolen Base Home" => Play::stolen_base_from_value_and_base(value, 4).await,
             "Sac Fly" => Play::sac_fly_from_value(value).await,
             "Sac Fly Double Play" => Play::sac_fly_double_play_from_value(value).await,
             "Sac Bunt" => Play::sac_bunt_from_value(value).await,
@@ -2705,7 +2706,8 @@ impl Game {
         };
         let game_data = response.json::<serde_json::Value>().await.unwrap();
 
-        if game_data["gameData"]["status"]["detailedState"].as_str().unwrap() != "Final" {
+        let game_status = game_data["gameData"]["status"]["detailedState"].as_str();
+        if let Some("Final") = game_status {} else {
             return Err("Game is not final".to_string());
         }
 
