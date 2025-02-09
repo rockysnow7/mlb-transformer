@@ -666,6 +666,10 @@ pub enum Play {
     GameAdvisory {
         inning: Inning,
     },
+    Ejection {
+        inning: Inning,
+        movements: Vec<Movement>,
+    }
 }
 
 impl Play {
@@ -1912,6 +1916,19 @@ impl Play {
         })
     }
 
+    async fn ejection_from_value(value: &serde_json::Value) -> Result<Self, String> {
+        let inning = Inning::from_value(&value["about"]);
+        let movements = value["runners"].as_array().unwrap().iter().map(|runner| Movement::from_runner_and_value(
+            runner["details"]["runner"]["fullName"].as_str().unwrap().to_string(),
+            &runner["movement"],
+        )).collect();
+
+        Ok(Play::Ejection {
+            inning,
+            movements,
+        })
+    }
+
     pub async fn from_value(value: &serde_json::Value) -> Result<Self, String> {
         let play_type = value["result"]["event"].as_str().unwrap();
 
@@ -1971,6 +1988,7 @@ impl Play {
             "Sac Bunt Double Play" => Play::sac_bunt_double_play_from_value(value).await,
             "Field Error" => Play::field_error_from_value(value).await,
             "Game Advisory" => Play::game_advistory_from_value(value).await,
+            "Ejection" => Play::ejection_from_value(value).await,
             _ => panic!("Unknown play type: {}", play_type),
         }
     }
@@ -2684,6 +2702,17 @@ impl Tokenize for Play {
                 }
             },
             Play::GameAdvisory { inning } => tokens += &format!("{} [PLAY] Game Advisory", inning.to_string()),
+            Play::Ejection { inning, movements } => {
+                tokens += &format!("{} [PLAY] Ejection [MOVEMENTS] ", inning.to_string());
+
+                for (i, movement) in movements.iter().enumerate() {
+                    tokens += &format!("{}", movement.tokenize());
+
+                    if movements.len() > 1 && i < movements.len() - 1 {
+                        tokens += ", ";
+                    }
+                }
+            },
         };
 
         tokens
