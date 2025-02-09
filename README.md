@@ -12,7 +12,7 @@ the raw and tokenized data for 2020-2024 (inclusive) is available in the `data` 
 
 the tokenized data format is described in `FORMAT.md`.
 
-## training and using the model
+## training and using the model
 
 a tokenizer has been trained on the tokenized data and saved in `training/tokenizer.json`. a notebook `training/MLB Train.ipynb` is provided to train the model on the tokenized data. a trained model is available on [huggingface](https://huggingface.co/finnnnnnnnnnnn/mlb-v1.1).
 
