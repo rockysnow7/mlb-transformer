@@ -2,8 +2,8 @@ use indicatif::{ProgressIterator, ProgressStyle};
 use serde::{Serialize, Deserialize};
 use std::io::Write;
 
-pub trait Tokenize {
-    fn tokenize(&self) -> String;
+pub trait Preprocess {
+    fn preprocess(&self) -> String;
 }
 
 fn log(message: String) {
@@ -74,8 +74,8 @@ impl From<&str> for Date {
     }
 }
 
-impl Tokenize for Date {
-    fn tokenize(&self) -> String {
+impl Preprocess for Date {
+    fn preprocess(&self) -> String {
         format!("[DATE] {}", self.to_string())
     }
 }
@@ -166,8 +166,8 @@ impl Player {
     }
 }
 
-impl Tokenize for Player {
-    fn tokenize(&self) -> String {
+impl Preprocess for Player {
+    fn preprocess(&self) -> String {
         format!("[{}] {}", self.position.to_string(), self.name)
     }
 }
@@ -205,13 +205,13 @@ impl Team {
     }
 }
 
-impl Tokenize for Team {
-    fn tokenize(&self) -> String {
+impl Preprocess for Team {
+    fn preprocess(&self) -> String {
         let mut tokens = String::new();
 
         tokens += &format!("[TEAM] {}\n", self.id);
         for player in &self.players {
-            tokens += &format!("{}\n", player.tokenize());
+            tokens += &format!("{}\n", player.preprocess());
         }
 
         tokens
@@ -252,8 +252,8 @@ impl Weather {
     }
 }
 
-impl Tokenize for Weather {
-    fn tokenize(&self) -> String {
+impl Preprocess for Weather {
+    fn preprocess(&self) -> String {
         format!("[WEATHER] {} {} {}", self.condition, self.temperature, self.wind_speed)
     }
 }
@@ -293,16 +293,16 @@ impl GameContext {
     }
 }
 
-impl Tokenize for GameContext {
-    fn tokenize(&self) -> String {
+impl Preprocess for GameContext {
+    fn preprocess(&self) -> String {
         format!(
             "{} [DATE] {} [VENUE] {} {}\n\n{}\n{}",
             self.game_pk,
             self.date.to_string(),
             self.venue_name,
-            self.weather.tokenize(),
-            self.home_team.tokenize(),
-            self.away_team.tokenize(),
+            self.weather.preprocess(),
+            self.home_team.preprocess(),
+            self.away_team.preprocess(),
         )
     }
 }
@@ -330,8 +330,8 @@ impl Movement {
     }
 }
 
-impl Tokenize for Movement {
-    fn tokenize(&self) -> String {
+impl Preprocess for Movement {
+    fn preprocess(&self) -> String {
         let mut tokens = String::new();
 
         tokens += &format!("{} ", self.runner);
@@ -1994,8 +1994,8 @@ impl Play {
     }
 }
 
-impl Tokenize for Play {
-    fn tokenize(&self) -> String {
+impl Preprocess for Play {
+    fn preprocess(&self) -> String {
         let mut tokens = "[INNING] ".to_string();
 
         match self {
@@ -2009,7 +2009,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2026,7 +2026,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2042,7 +2042,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2059,7 +2059,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2076,7 +2076,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2093,7 +2093,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2110,7 +2110,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2127,7 +2127,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2144,7 +2144,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2162,7 +2162,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2179,7 +2179,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2196,7 +2196,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2213,7 +2213,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2230,7 +2230,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2247,7 +2247,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2264,7 +2264,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2281,7 +2281,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2298,7 +2298,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2315,7 +2315,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2332,7 +2332,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2348,7 +2348,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2364,7 +2364,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2380,7 +2380,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2396,7 +2396,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2411,7 +2411,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2427,7 +2427,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2443,7 +2443,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2459,7 +2459,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2475,7 +2475,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2491,7 +2491,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2507,7 +2507,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2523,7 +2523,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2539,7 +2539,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2555,7 +2555,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2572,7 +2572,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2589,7 +2589,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2605,7 +2605,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2623,7 +2623,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2641,7 +2641,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2659,7 +2659,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2677,7 +2677,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.tokenize();
+                    tokens += &movement.preprocess();
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2694,7 +2694,7 @@ impl Tokenize for Play {
                 );
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &format!("{}", movement.tokenize());
+                    tokens += &format!("{}", movement.preprocess());
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2706,7 +2706,7 @@ impl Tokenize for Play {
                 tokens += &format!("{} [PLAY] Ejection [MOVEMENTS] ", inning.to_string());
 
                 for (i, movement) in movements.iter().enumerate() {
-                    tokens += &format!("{}", movement.tokenize());
+                    tokens += &format!("{}", movement.preprocess());
 
                     if movements.len() > 1 && i < movements.len() - 1 {
                         tokens += ", ";
@@ -2820,13 +2820,13 @@ impl Game {
     }
 }
 
-impl Tokenize for Game {
-    fn tokenize(&self) -> String {
+impl Preprocess for Game {
+    fn preprocess(&self) -> String {
         let mut tokens = String::new();
 
-        tokens += &format!("[GAME] {}\n[GAME_START]\n", self.context.tokenize());
+        tokens += &format!("[GAME] {}\n[GAME_START]\n", self.context.preprocess());
         for play in &self.plays {
-            tokens += &format!("{}\n", play.tokenize());
+            tokens += &format!("{}\n", play.preprocess());
         }
         tokens += "[GAME_END]\n";
 

@@ -1,6 +1,6 @@
 # game data format
 
-tokenized play-by-play data is stored in a custom format for this project.
+preprocessed play-by-play data is stored in a custom format for this project.
 
 ## overview
 

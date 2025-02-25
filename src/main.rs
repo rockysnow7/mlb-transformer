@@ -3,7 +3,7 @@ use indicatif::{ProgressIterator, ProgressStyle};
 
 mod model;
 
-use model::Tokenize;
+use model::Preprocess;
 
 // all mlb team ids
 const TEAM_IDS: [u8; 30] = [108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 158];
@@ -62,7 +62,7 @@ async fn main() {
                     save_progress(season, *team_id);
                 }
             },
-            "tokenize" => {
+            "preprocess" => {
                 let ignore_paths = ["data/log.txt", "data/progress.json"];
                 let all_games = glob("data/**/*.json")
                     .unwrap()
@@ -75,10 +75,10 @@ async fn main() {
                 let progress_style = ProgressStyle::default_bar().template("{wide_bar} {pos}/{len} | elapsed: {elapsed_precise}, eta: {eta_precise}").unwrap();
                 for game_path in all_games.iter().progress_with_style(progress_style) {
                     let game = serde_json::from_str::<model::Game>(&std::fs::read_to_string(game_path).unwrap()).unwrap();
-                    let tokens = game.tokenize();
+                    let tokens = game.preprocess();
 
                     let tokens_path = game_path
-                        .replace("data", "tokenized_data")
+                        .replace("data", "preprocessed_data")
                         .replace(".json", ".txt");
 
                     let parts = tokens_path
@@ -95,7 +95,7 @@ async fn main() {
                     std::fs::create_dir_all(parts).unwrap();
                     std::fs::write(tokens_path, tokens).unwrap();
                 }
-            }
+            },
             "getone" => {
                 let game_pk = std::env::args().nth(2).unwrap().parse::<usize>().unwrap();
                 let _ = model::Game::from_game_pk(game_pk).await.unwrap();
