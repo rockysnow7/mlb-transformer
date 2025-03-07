@@ -349,8 +349,6 @@ impl Preprocess for Movement {
 
         if self.is_out {
             tokens += " [out]";
-        } else {
-            tokens += " [in]";
         }
 
         tokens
