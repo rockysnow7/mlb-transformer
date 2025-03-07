@@ -35,7 +35,7 @@ valid play types are `Groundout`, `Bunt Groundout`, `Strikeout`, `Lineout`, `Bun
 
 possible player types in a play are `[BATTER]`, `[PITCHER]`, `[CATCHER]`, `[FIELDERS]`, `[RUNNER]`, and `[SCORING_RUNNER]`.
 
-a movement is a player's name followed by their starting base, `->`, and their ending base. if a player is out, the movement is followed by `[out]`.
+a movement is a player's name followed by their starting base, `->`, and their ending base. if a player is out, the movement is followed by `[out]`. otherwise, the movement is followed by `[in]`.
 
 below is a table of what information is required for each play type:
 

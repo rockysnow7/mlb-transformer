@@ -17,4 +17,4 @@ the preprocessed data format is described in `FORMAT.md`.
 
 ## huggingface
 
-a preprocessed dataset can be found on [huggingface](https://huggingface.co/datasets/finnnnnnnnnnnn/mlb-play-by-plays).
+a preprocessed dataset can be found on [huggingface](https://huggingface.co/datasets/finnnnnnnnnnnn/mlb-play-by-plays). this is in the process of being updated.
