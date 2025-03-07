@@ -2715,7 +2715,7 @@ impl Preprocess for Play {
             },
         };
 
-        tokens
+        tokens + ";"
     }
 }
 
