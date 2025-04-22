@@ -79,8 +79,7 @@ async fn main() {
                     let preprocessed = jsonxf::pretty_print(&preprocessed).unwrap();
 
                     let tokens_path = game_path
-                        .replace("data", "preprocessed_data")
-                        .replace(".json", ".txt");
+                        .replace("data", "preprocessed_data");
 
                     let parts = tokens_path
                         .split('/')
