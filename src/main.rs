@@ -75,7 +75,8 @@ async fn main() {
                 let progress_style = ProgressStyle::default_bar().template("{wide_bar} {pos}/{len} | elapsed: {elapsed_precise}, eta: {eta_precise}").unwrap();
                 for game_path in all_games.iter().progress_with_style(progress_style) {
                     let game = serde_json::from_str::<model::Game>(&std::fs::read_to_string(game_path).unwrap()).unwrap();
-                    let tokens = game.preprocess();
+                    let preprocessed = game.preprocess();
+                    let preprocessed = jsonxf::pretty_print(&preprocessed).unwrap();
 
                     let tokens_path = game_path
                         .replace("data", "preprocessed_data")
@@ -93,7 +94,7 @@ async fn main() {
                         .join("/");
 
                     std::fs::create_dir_all(parts).unwrap();
-                    std::fs::write(tokens_path, tokens).unwrap();
+                    std::fs::write(tokens_path, preprocessed).unwrap();
                 }
             },
             "getone" => {

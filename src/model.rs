@@ -3,6 +3,7 @@ use serde::{Serialize, Deserialize};
 use std::io::Write;
 
 pub trait Preprocess {
+    /// Returns a JSON string representing the object.
     fn preprocess(&self) -> String;
 }
 
@@ -71,12 +72,6 @@ impl From<&str> for Date {
             month: date_parts[1].parse().unwrap(),
             day: date_parts[2].parse().unwrap(),
         }
-    }
-}
-
-impl Preprocess for Date {
-    fn preprocess(&self) -> String {
-        format!("[DATE] {}", self.to_string())
     }
 }
 
@@ -168,7 +163,8 @@ impl Player {
 
 impl Preprocess for Player {
     fn preprocess(&self) -> String {
-        format!("[{}] {}", self.position.to_string(), self.name)
+        // format!("[{}] {}", self.position.to_string(), self.name)
+        format!("{{ \"position\": \"{}\", \"name\": \"{}\" }}", self.position.to_string(), self.name)
     }
 }
 
@@ -207,14 +203,20 @@ impl Team {
 
 impl Preprocess for Team {
     fn preprocess(&self) -> String {
-        let mut tokens = String::new();
+        // let mut tokens = String::new();
 
-        tokens += &format!("[TEAM] {}\n", self.id);
-        for player in &self.players {
-            tokens += &format!("{}\n", player.preprocess());
-        }
+        // tokens += &format!("[TEAM] {}\n", self.id);
+        // for player in &self.players {
+        //     tokens += &format!("{}\n", player.preprocess());
+        // }
 
-        tokens
+        // tokens
+
+        format!(
+            "{{ \"id\": {}, \"players\": [{}] }}",
+            self.id,
+            self.players.iter().map(|player| player.preprocess()).collect::<Vec<String>>().join(", "),
+        )
     }
 }
 
@@ -254,7 +256,13 @@ impl Weather {
 
 impl Preprocess for Weather {
     fn preprocess(&self) -> String {
-        format!("[WEATHER] {} {} {}", self.condition, self.temperature, self.wind_speed)
+        // format!("[WEATHER] {} {} {}", self.condition, self.temperature, self.wind_speed)
+        format!(
+            "{{ \"condition\": \"{}\", \"temperature\": {}, \"wind_speed\": {} }}",
+            self.condition,
+            self.temperature,
+            self.wind_speed,
+        )
     }
 }
 
@@ -295,8 +303,17 @@ impl GameContext {
 
 impl Preprocess for GameContext {
     fn preprocess(&self) -> String {
+        // format!(
+        //     "{} [DATE] {} [VENUE] {} {}\n\n{}\n{}",
+        //     self.game_pk,
+        //     self.date.to_string(),
+        //     self.venue_name,
+        //     self.weather.preprocess(),
+        //     self.home_team.preprocess(),
+        //     self.away_team.preprocess(),
+        // )
         format!(
-            "{} [DATE] {} [VENUE] {} {}\n\n{}\n{}",
+            "{{ \"game_pk\": {}, \"date\": \"{}\", \"venue_name\": \"{}\", \"weather\": {}, \"home_team\": {}, \"away_team\": {} }}",
             self.game_pk,
             self.date.to_string(),
             self.venue_name,
@@ -332,26 +349,34 @@ impl Movement {
 
 impl Preprocess for Movement {
     fn preprocess(&self) -> String {
-        let mut tokens = String::new();
+        // let mut tokens = String::new();
 
-        tokens += &format!("{} ", self.runner);
+        // tokens += &format!("{} ", self.runner);
 
-        let start_base_str = match self.start_base {
-            Some(base) => base.to_string(),
-            None => "home".to_string(),
-        };
-        let end_base_str = match self.end_base {
-            Some(base) => base.to_string(),
-            None => "home".to_string(),
-        };
+        // let start_base_str = match self.start_base {
+        //     Some(base) => base.to_string(),
+        //     None => "home".to_string(),
+        // };
+        // let end_base_str = match self.end_base {
+        //     Some(base) => base.to_string(),
+        //     None => "home".to_string(),
+        // };
 
-        tokens += &format!("{} -> {}", start_base_str, end_base_str);
+        // tokens += &format!("{} -> {}", start_base_str, end_base_str);
 
-        if self.is_out {
-            tokens += " [out]";
-        }
+        // if self.is_out {
+        //     tokens += " [out]";
+        // }
 
-        tokens
+        // tokens
+
+        format!(
+            "{{ \"runner\": \"{}\", \"start_base\": {}, \"end_base\": {}, \"is_out\": {} }}",
+            self.runner,
+            self.start_base.map_or("home".to_string(), |base| base.to_string()),
+            self.end_base.map_or("home".to_string(), |base| base.to_string()),
+            self.is_out,
+        )
     }
 }
 
@@ -373,6 +398,12 @@ impl Inning {
 impl ToString for Inning {
     fn to_string(&self) -> String {
         format!("{} {}", self.number, if self.top { "top" } else { "bottom" })
+    }
+}
+
+impl Preprocess for Inning {
+    fn preprocess(&self) -> String {
+        format!("{{ \"number\": {}, \"top\": {} }}", self.number, self.top)
     }
 }
 
@@ -1996,726 +2027,429 @@ impl Play {
 
 impl Preprocess for Play {
     fn preprocess(&self) -> String {
-        let mut tokens = "[INNING] ".to_string();
-
         match self {
             Play::Groundout { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Groundout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Groundout\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::BuntGroundout { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Bunt Groundout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Bunt Groundout\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Strikeout { inning, batter, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Strikeout [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Strikeout\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Lineout { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Lineout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Lineout\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::BuntLineout { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Bunt Lineout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Bunt Lineout\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Flyout { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Flyout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Flyout\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::PopOut { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Pop Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Pop Out\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::BuntPopOut { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Bunt Pop Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Bunt Pop Out\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Forceout { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Forceout [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Forceout\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::FieldersChoiceOut { inning, batter, pitcher, fielders, scoring_runner, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Fielders Choice Out [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Fielders Choice Out\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     scoring_runner,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::DoublePlay { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Double Play\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::TriplePlay { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Triple Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Triple Play\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::RunnerDoublePlay { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Runner Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Runner Double Play\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::RunnerTriplePlay { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Runner Triple Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Runner Triple Play\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::GroundedIntoDoublePlay { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Grounded Into Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Grounded Into Double Play\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::StrikeoutDoublePlay { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Strikeout Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Strikeout Double Play\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Pickoff { inning, base, runner, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Pickoff [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Pickoff\", \"inning\": {}, \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     base,
                     runner,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::PickoffError { inning, base, runner, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Pickoff Error [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Pickoff Error\", \"inning\": {}, \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     base,
                     runner,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::CaughtStealing { inning, base, runner, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Caught Stealing [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Caught Stealing\", \"inning\": {}, \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     base,
                     runner,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::PickoffCaughtStealing { inning, base, runner, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Pickoff Caught Stealing [BASE] {} [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Pickoff Caught Stealing\", \"inning\": {}, \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     base,
                     runner,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::WildPitch { inning, pitcher, runner, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Wild Pitch [PITCHER] {} [RUNNER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Wild Pitch\", \"inning\": {}, \"pitcher\": \"{}\", \"runner\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     pitcher,
                     runner,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::RunnerOut { inning, runner, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Runner Out [RUNNER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Runner Out\", \"inning\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     runner,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::FieldOut { inning, fielder, runner, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Field Out [FIELDER] {} [RUNNER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Field Out\", \"inning\": {}, \"fielder\": \"{}\", \"runner\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     fielder,
                     runner,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::BatterOut { inning, batter, catcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Batter Out [BATTER] {} [CATCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Batter Out\", \"inning\": {}, \"batter\": \"{}\", \"catcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     catcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
             }
             Play::Balk { inning, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Balk [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Balk\", \"inning\": {}, \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::PassedBall { inning, pitcher, catcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Passed Ball [PITCHER] {} [CATCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Passed Ball\", \"inning\": {}, \"pitcher\": \"{}\", \"catcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     pitcher,
                     catcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Error { inning, pitcher, catcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Error [PITCHER] {} [CATCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Error\", \"inning\": {}, \"pitcher\": \"{}\", \"catcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     pitcher,
                     catcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Single { inning, batter, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Single [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Single\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Double { inning, batter, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Double [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Double\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Triple { inning, batter, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Triple [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Triple\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::HomeRun { inning, batter, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Home Run [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Home Run\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::Walk { inning, batter, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Walk [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Walk\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::IntentWalk { inning, batter, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Intent Walk [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Intent Walk\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::HitByPitch { inning, batter, pitcher, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Hit By Pitch [BATTER] {} [PITCHER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Hit By Pitch\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::FieldersChoice { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Fielders Choice [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Fielders Choice\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::CatcherInterference { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Catcher Interference [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Catcher Interference\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::StolenBase { inning, base, runner, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Stolen Base [BASE] {} [RUNNER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Stolen Base\", \"inning\": {}, \"base\": {}, \"runner\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     base,
                     runner,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::SacFly { inning, batter, pitcher, fielders, scoring_runner, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Sac Fly [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Sac Fly\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     scoring_runner,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::SacFlyDoublePlay { inning, batter, pitcher, fielders, scoring_runner, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Sac Fly Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [SCORING_RUNNER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Sac Fly Double Play\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     scoring_runner,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::SacBunt { inning, batter, pitcher, fielders, runner, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Sac Bunt [BATTER] {} [PITCHER] {} [FIELDERS] {} [RUNNER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Sac Bunt\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"runner\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     runner,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::SacBuntDoublePlay { inning, batter, pitcher, fielders, runner, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Sac Bunt Double Play [BATTER] {} [PITCHER] {} [FIELDERS] {} [RUNNER] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Sac Bunt Double Play\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"runner\": \"{}\", \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     runner,
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &movement.preprocess();
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
             Play::FieldError { inning, batter, pitcher, fielders, movements } => {
-                tokens += &format!(
-                    "{} [PLAY] Field Error [BATTER] {} [PITCHER] {} [FIELDERS] {} [MOVEMENTS] ",
-                    inning.to_string(),
+                format!(
+                    "{{ \"type\": \"Field Error\", \"inning\": {}, \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    inning.preprocess(),
                     batter,
                     pitcher,
-                    fielders.join(", "),
-                );
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &format!("{}", movement.preprocess());
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
-            Play::GameAdvisory { inning } => tokens += &format!("{} [PLAY] Game Advisory", inning.to_string()),
+                    fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
+            Play::GameAdvisory { inning } => {
+                format!(
+                    "{{ \"type\": \"Game Advisory\", \"inning\": {} }}",
+                    inning.preprocess(),
+                )
+            }
             Play::Ejection { inning, movements } => {
-                tokens += &format!("{} [PLAY] Ejection [MOVEMENTS] ", inning.to_string());
-
-                for (i, movement) in movements.iter().enumerate() {
-                    tokens += &format!("{}", movement.preprocess());
-
-                    if movements.len() > 1 && i < movements.len() - 1 {
-                        tokens += ", ";
-                    }
-                }
-            },
-        };
-
-        tokens + ";"
+                format!(
+                    "{{ \"type\": \"Ejection\", \"inning\": {}, \"movements\": [{}] }}",
+                    inning.preprocess(),
+                    movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
+                )
+            }
+        }
     }
 }
 
@@ -2822,14 +2556,20 @@ impl Game {
 
 impl Preprocess for Game {
     fn preprocess(&self) -> String {
-        let mut tokens = String::new();
+        // let mut tokens = String::new();
 
-        tokens += &format!("[GAME] {}\n[GAME_START]\n", self.context.preprocess());
-        for play in &self.plays {
-            tokens += &format!("{}\n", play.preprocess());
-        }
-        tokens += "[GAME_END]\n";
+        // tokens += &format!("[GAME] {}\n[GAME_START]\n", self.context.preprocess());
+        // for play in &self.plays {
+        //     tokens += &format!("{}\n", play.preprocess());
+        // }
+        // tokens += "[GAME_END]\n";
 
-        tokens
+        // tokens
+
+        format!(
+            "{{ \"context\": {}, \"plays\": [{}] }}",
+            self.context.preprocess(),
+            self.plays.iter().map(|play| play.preprocess()).collect::<Vec<String>>().join(", "),
+        )
     }
 }
