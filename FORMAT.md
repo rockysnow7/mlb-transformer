@@ -129,6 +129,6 @@ a movement object represents a runner's movement from one base to another, possi
 a movement object contains the following fields:
 
 - `runner`: the name of the runner, a string.
-- `start_base`: the starting base, a string.
-- `end_base`: the ending base, a string.
+- `start_base`: the starting base, a string (one of `home`, `1`, `2`, `3`, or `4`).
+- `end_base`: the ending base, a string (one of `home`, `1`, `2`, `3`, or `4`).
 - `is_out`: a boolean indicating if the runner is out.
