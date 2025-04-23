@@ -373,8 +373,8 @@ impl Preprocess for Movement {
         format!(
             "{{ \"runner\": \"{}\", \"start_base\": {}, \"end_base\": {}, \"is_out\": {} }}",
             self.runner,
-            self.start_base.map_or("home".to_string(), |base| base.to_string()),
-            self.end_base.map_or("home".to_string(), |base| base.to_string()),
+            self.start_base.map_or("\"home\"".to_string(), |base| format!("\"{base}\"")),
+            self.end_base.map_or("\"home\"".to_string(), |base| format!("\"{base}\"")),
             self.is_out,
         )
     }
