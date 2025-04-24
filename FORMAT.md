@@ -1,13 +1,11 @@
 # game data format
 
-preprocessed play-by-play data is stored in JSON files.
+preprocessed play-by-play data is stored in JSONL files.
 
 ## overview
 
-each JSON game object contains the following fields:
-
-- `context`: a context object containing game metadata and teams.
-- `plays`: a list of plays.
+the first line of a JSONL file is a JSON object containing the context of the game.
+all subsequent lines are JSON objects representing plays.
 
 ## context
 
