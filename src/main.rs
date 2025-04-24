@@ -76,10 +76,11 @@ async fn main() {
                 for game_path in all_games.iter().progress_with_style(progress_style) {
                     let game = serde_json::from_str::<model::Game>(&std::fs::read_to_string(game_path).unwrap()).unwrap();
                     let preprocessed = game.preprocess();
-                    let preprocessed = jsonxf::pretty_print(&preprocessed).unwrap();
+                    // let preprocessed = jsonxf::pretty_print(&preprocessed).unwrap();
 
                     let tokens_path = game_path
-                        .replace("data", "preprocessed_data");
+                        .replace("data", "preprocessed_data")
+                        .replace(".json", ".jsonl");
 
                     let parts = tokens_path
                         .split('/')

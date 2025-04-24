@@ -2566,10 +2566,15 @@ impl Preprocess for Game {
 
         // tokens
 
+        // format!(
+        //     "{{ \"context\": {}, \"plays\": [{}] }}",
+        //     self.context.preprocess(),
+        //     self.plays.iter().map(|play| play.preprocess()).collect::<Vec<String>>().join(", "),
+        // )
         format!(
-            "{{ \"context\": {}, \"plays\": [{}] }}",
+            "{}\n{}\n",
             self.context.preprocess(),
-            self.plays.iter().map(|play| play.preprocess()).collect::<Vec<String>>().join(", "),
+            self.plays.iter().map(|play| play.preprocess()).collect::<Vec<String>>().join("\n"),
         )
     }
 }
