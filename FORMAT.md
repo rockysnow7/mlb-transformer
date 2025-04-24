@@ -49,56 +49,55 @@ a play object contains the following fields:
 - `inning`: the inning of the play, an inning object.
 - `type`: the play type, a string.
 - any other information required for the play type.
-- `movements`: a list of movement objects.
 
 the following table lists the information required for each play type (in order, from left to right):
 
-| Play Type | Base | Batter | Pitcher | Catcher | Fielders | Runner | Scoring Runner |
-|-|-|-|-|-|-|-|-|
-| Groundout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Bunt Groundout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Strikeout | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Lineout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Bunt Lineout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Flyout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Pop Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Bunt Pop Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Forceout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Fielders Choice Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ |
-| Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Triple Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Runner Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Runner Triple Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Grounded Into Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Strikeout Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Pickoff | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
-| Pickoff Error | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
-| Caught Stealing | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
-| Pickoff Caught Stealing | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
-| Wild Pitch | ✗ | ✗ | ✓ | ✗ | ✗ | ✓ | ✗ |
-| Runner Out | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
-| Field Out | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
-| Batter Out | ✗ | ✓ | ✗ | ✓ | ✗ | ✗ | ✗ |
-| Balk | ✗ | ✗ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Passed Ball | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ |
-| Error | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ |
-| Single | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Double | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Triple | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Home Run | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Walk | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Intent Walk | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Hit By Pitch | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
-| Fielders Choice | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Catcher Interference | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Stolen Base | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ | ✗ |
-| Sac Fly | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ |
-| Sac Fly Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ |
-| Sac Bunt | ✗ | ✓ | ✓ | ✗ | ✓ | ✓ | ✗ |
-| Sac Bunt Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✓ | ✗ |
-| Field Error | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
-| Game Advisory | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
-| Ejection | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
+| Play Type | Base | Batter | Pitcher | Catcher | Fielders | Runner | Scoring Runner | Movements |
+|-|-|-|-|-|-|-|-|-|
+| Groundout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Bunt Groundout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Strikeout | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Lineout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Bunt Lineout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Flyout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Pop Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Bunt Pop Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Forceout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Fielders Choice Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ | ✓ |
+| Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Triple Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Runner Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Runner Triple Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Grounded Into Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Strikeout Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Pickoff | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
+| Pickoff Error | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
+| Caught Stealing | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
+| Pickoff Caught Stealing | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
+| Wild Pitch | ✗ | ✗ | ✓ | ✗ | ✗ | ✓ | ✗ | ✓ |
+| Runner Out | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
+| Field Out | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
+| Batter Out | ✗ | ✓ | ✗ | ✓ | ✗ | ✗ | ✗ | ✓ |
+| Balk | ✗ | ✗ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Passed Ball | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✓ |
+| Error | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✓ |
+| Single | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Double | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Triple | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Home Run | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Walk | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Intent Walk | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Hit By Pitch | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Fielders Choice | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Catcher Interference | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Stolen Base | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ | ✗ | ✓ |
+| Sac Fly | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ | ✓ |
+| Sac Fly Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ | ✓ |
+| Sac Bunt | ✗ | ✓ | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
+| Sac Bunt Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
+| Field Error | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
+| Game Advisory | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
+| Ejection | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ |
 
 the keys and types for each of these pieces of information are listed below:
 
@@ -123,6 +122,8 @@ an inning object contains the following fields:
 `fielders` is a list of player names (strings).
 
 ### movements
+
+`movements` is a list of movement objects.
 
 a movement object represents a runner's movement from one base to another, possibly being out.
 
