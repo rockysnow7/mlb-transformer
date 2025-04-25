@@ -7,6 +7,17 @@ preprocessed play-by-play data is stored in JSONL files.
 the first line of a JSONL file is a JSON object containing the context of the game.
 all subsequent lines are JSON objects representing plays.
 
+a play line is either an introduction line or an information line.
+
+an introduction line contains the following fields:
+
+- `inning`: an inning object.
+- `type`: the play type, a string.
+
+information lines are described further below.
+
+an introduction line must be immediately followed by an information line, except in the case of a Game Advisory, as this does not require any additional information.
+
 ## context
 
 the context object contains the following fields:
@@ -40,13 +51,9 @@ a player object contains the following fields:
 - `position`: the position of the player, a string.
 - `name`: the name of the player, a string.
 
-## play
+## play information
 
-a play object contains the following fields:
-
-- `inning`: the inning of the play, an inning object.
-- `type`: the play type, a string.
-- any other information required for the play type.
+a play information object contains all the information required for the play type introduced on the previous line.
 
 the following table lists the information required for each play type (in order, from left to right):
 
@@ -99,7 +106,6 @@ the following table lists the information required for each play type (in order,
 
 the keys and types for each of these pieces of information are listed below:
 
-- Play Type: `type`, a string.
 - Base: `base`, an integer.
 - Batter: `batter`, a string.
 - Pitcher: `pitcher`, a string.
@@ -107,6 +113,7 @@ the keys and types for each of these pieces of information are listed below:
 - Fielders: `fielders`, a list of strings.
 - Runner: `runner`, a string.
 - Scoring Runner: `scoring_runner`, a string.
+- Movements: `movements`, a list of movement objects.
 
 ### inning
 
@@ -120,8 +127,6 @@ an inning object contains the following fields:
 `fielders` is a list of player names (strings).
 
 ### movements
-
-`movements` is a list of movement objects.
 
 a movement object represents a runner's movement from one base to another, possibly being out.
 
