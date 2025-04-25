@@ -370,11 +370,25 @@ impl Preprocess for Movement {
 
         // tokens
 
+        let mut start_base = "\"home\"".to_string();
+        if let Some(base) = self.start_base {
+            if base != 4 {
+                start_base = base.to_string();
+            }
+        }
+
+        let mut end_base = "\"home\"".to_string();
+        if let Some(base) = self.end_base {
+            if base != 4 {
+                end_base = base.to_string();
+            }
+        }
+
         format!(
             "{{ \"runner\": \"{}\", \"start_base\": {}, \"end_base\": {}, \"is_out\": {} }}",
             self.runner,
-            self.start_base.map_or("\"home\"".to_string(), |base| format!("\"{base}\"")),
-            self.end_base.map_or("\"home\"".to_string(), |base| format!("\"{base}\"")),
+            start_base,
+            end_base,
             self.is_out,
         )
     }
@@ -2189,40 +2203,60 @@ impl Preprocess for Play {
                 )
             }
             Play::Pickoff { inning, base, runner, fielders, movements } => {
+                let mut base_string = "\"home\"".to_string();
+                if *base != 4 {
+                    base_string = base.to_string();
+                }
+
                 format!(
                     "{{ \"inning\": {}, \"type\": \"Pickoff\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
                     inning.preprocess(),
-                    base,
+                    base_string,
                     runner,
                     fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
                 )
             }
             Play::PickoffError { inning, base, runner, fielders, movements } => {
+                let mut base_string = "\"home\"".to_string();
+                if *base != 4 {
+                    base_string = base.to_string();
+                }
+
                 format!(
                     "{{ \"inning\": {}, \"type\": \"Pickoff Error\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
                     inning.preprocess(),
-                    base,
+                    base_string,
                     runner,
                     fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
                 )
             }
             Play::CaughtStealing { inning, base, runner, fielders, movements } => {
+                let mut base_string = "\"home\"".to_string();
+                if *base != 4 {
+                    base_string = base.to_string();
+                }
+
                 format!(
                     "{{ \"inning\": {}, \"type\": \"Caught Stealing\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
                     inning.preprocess(),
-                    base,
+                    base_string,
                     runner,
                     fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
                 )
             }
             Play::PickoffCaughtStealing { inning, base, runner, fielders, movements } => {
+                let mut base_string = "\"home\"".to_string();
+                if *base != 4 {
+                    base_string = base.to_string();
+                }
+
                 format!(
                     "{{ \"inning\": {}, \"type\": \"Pickoff Caught Stealing\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
                     inning.preprocess(),
-                    base,
+                    base_string,
                     runner,
                     fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
                     movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
@@ -2374,10 +2408,15 @@ impl Preprocess for Play {
                 )
             }
             Play::StolenBase { inning, base, runner, movements } => {
+                let mut base_string = "\"home\"".to_string();
+                if *base != 4 {
+                    base_string = base.to_string();
+                }
+
                 format!(
                     "{{ \"inning\": {}, \"type\": \"Stolen Base\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"movements\": [{}] }}",
                     inning.preprocess(),
-                    base,
+                    base_string,
                     runner,
                     movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
                 )
