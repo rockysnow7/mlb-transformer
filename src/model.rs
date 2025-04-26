@@ -2203,13 +2203,13 @@ impl Preprocess for Play {
                 )
             }
             Play::Pickoff { inning, base, runner, fielders, movements } => {
-                let mut base_string = "\"home\"".to_string();
+                let mut base_string = "home".to_string();
                 if *base != 4 {
                     base_string = base.to_string();
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Pickoff\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Pickoff\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2218,13 +2218,13 @@ impl Preprocess for Play {
                 )
             }
             Play::PickoffError { inning, base, runner, fielders, movements } => {
-                let mut base_string = "\"home\"".to_string();
+                let mut base_string = "home".to_string();
                 if *base != 4 {
                     base_string = base.to_string();
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Pickoff Error\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Pickoff Error\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2233,13 +2233,13 @@ impl Preprocess for Play {
                 )
             }
             Play::CaughtStealing { inning, base, runner, fielders, movements } => {
-                let mut base_string = "\"home\"".to_string();
+                let mut base_string = "home".to_string();
                 if *base != 4 {
                     base_string = base.to_string();
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Caught Stealing\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Caught Stealing\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2248,13 +2248,13 @@ impl Preprocess for Play {
                 )
             }
             Play::PickoffCaughtStealing { inning, base, runner, fielders, movements } => {
-                let mut base_string = "\"home\"".to_string();
+                let mut base_string = "home".to_string();
                 if *base != 4 {
                     base_string = base.to_string();
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Pickoff Caught Stealing\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Pickoff Caught Stealing\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2408,13 +2408,13 @@ impl Preprocess for Play {
                 )
             }
             Play::StolenBase { inning, base, runner, movements } => {
-                let mut base_string = "\"home\"".to_string();
+                let mut base_string = "home".to_string();
                 if *base != 4 {
                     base_string = base.to_string();
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Stolen Base\" }}\n{{ \"base\": {}, \"runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Stolen Base\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
