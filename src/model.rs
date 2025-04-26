@@ -370,14 +370,14 @@ impl Preprocess for Movement {
 
         // tokens
 
-        let mut start_base = "\"home\"".to_string();
+        let mut start_base = "home".to_string();
         if let Some(base) = self.start_base {
             if base != 4 {
                 start_base = base.to_string();
             }
         }
 
-        let mut end_base = "\"home\"".to_string();
+        let mut end_base = "home".to_string();
         if let Some(base) = self.end_base {
             if base != 4 {
                 end_base = base.to_string();
@@ -385,7 +385,7 @@ impl Preprocess for Movement {
         }
 
         format!(
-            "{{ \"runner\": \"{}\", \"start_base\": {}, \"end_base\": {}, \"is_out\": {} }}",
+            "{{ \"runner\": \"{}\", \"start_base\": \"{}\", \"end_base\": \"{}\", \"is_out\": {} }}",
             self.runner,
             start_base,
             end_base,
