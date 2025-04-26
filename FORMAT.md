@@ -7,18 +7,22 @@ preprocessed play-by-play data is stored in JSONL files.
 the first line of a JSONL file is a JSON object containing the context of the game.
 all subsequent lines are JSON objects representing plays.
 
-a play line is either an introduction line or an information line.
+a play line is either an introduction line, an information line, or a movement line.
 
 an introduction line contains the following fields:
 
 - `inning`: an inning object.
 - `type`: the play type, a string.
 
-information lines are described further below.
+information lines and movement lines are described further below.
 
-an introduction line must be immediately followed by an information line, except in the case of a Game Advisory, as this does not require any additional information.
+Game Advisories do not require an information line or a movement line.
 
-## context
+Ejections do not require an information line, but do require a movement line.
+
+All other play types require an information line and a movement line.
+
+## context line
 
 the context object contains the following fields:
 
@@ -29,7 +33,7 @@ the context object contains the following fields:
 - `home_team`: a team object for the home team.
 - `away_team`: a team object for the away team.
 
-## weather
+### weather
 
 the weather object contains the following fields:
 
@@ -37,72 +41,72 @@ the weather object contains the following fields:
 - `temperature`: the temperature, an integer.
 - `wind_speed`: the wind speed, an integer.
 
-## team
+### team
 
 a team object contains the following fields:
 
 - `id`: the team id, an integer.
 - `players`: a list of player objects.
 
-## player
+### player
 
 a player object contains the following fields:
 
 - `position`: the position of the player, a string.
 - `name`: the name of the player, a string.
 
-## play information
+## information lines
 
-a play information object contains all the information required for the play type introduced on the previous line.
+an information object contains all the information required for the play type introduced on the previous line.
 
 the following table lists the information required for each play type (in order, from left to right):
 
-| Play Type | Base | Batter | Pitcher | Catcher | Fielders | Runner | Scoring Runner | Movements |
-|-|-|-|-|-|-|-|-|-|
-| Groundout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Bunt Groundout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Strikeout | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Lineout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Bunt Lineout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Flyout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Pop Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Bunt Pop Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Forceout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Fielders Choice Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ | ✓ |
-| Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Triple Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Runner Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Runner Triple Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Grounded Into Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Strikeout Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Pickoff | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| Pickoff Error | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| Caught Stealing | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| Pickoff Caught Stealing | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| Wild Pitch | ✗ | ✗ | ✓ | ✗ | ✗ | ✓ | ✗ | ✓ |
-| Runner Out | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| Field Out | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| Batter Out | ✗ | ✓ | ✗ | ✓ | ✗ | ✗ | ✗ | ✓ |
-| Balk | ✗ | ✗ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Passed Ball | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✓ |
-| Error | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✓ |
-| Single | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Double | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Triple | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Home Run | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Walk | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Intent Walk | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Hit By Pitch | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ |
-| Fielders Choice | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Catcher Interference | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Stolen Base | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ | ✗ | ✓ |
-| Sac Fly | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ | ✓ |
-| Sac Fly Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ | ✓ |
-| Sac Bunt | ✗ | ✓ | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| Sac Bunt Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✓ | ✗ | ✓ |
-| Field Error | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ |
-| Game Advisory | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
-| Ejection | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✓ |
+| Play Type | Base | Batter | Pitcher | Catcher | Fielders | Runner | Scoring Runner |
+|-|-|-|-|-|-|-|-|
+| Groundout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Bunt Groundout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Strikeout | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Lineout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Bunt Lineout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Flyout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Pop Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Bunt Pop Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Forceout | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Fielders Choice Out | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ |
+| Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Triple Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Runner Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Runner Triple Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Grounded Into Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Strikeout Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Pickoff | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
+| Pickoff Error | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
+| Caught Stealing | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
+| Pickoff Caught Stealing | ✓ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
+| Wild Pitch | ✗ | ✗ | ✓ | ✗ | ✗ | ✓ | ✗ |
+| Runner Out | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
+| Field Out | ✗ | ✗ | ✗ | ✗ | ✓ | ✓ | ✗ |
+| Batter Out | ✗ | ✓ | ✗ | ✓ | ✗ | ✗ | ✗ |
+| Balk | ✗ | ✗ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Passed Ball | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ |
+| Error | ✗ | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ |
+| Single | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Double | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Triple | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Home Run | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Walk | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Intent Walk | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Hit By Pitch | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+| Fielders Choice | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Catcher Interference | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Stolen Base | ✓ | ✗ | ✗ | ✗ | ✗ | ✓ | ✗ |
+| Sac Fly | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ |
+| Sac Fly Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✓ |
+| Sac Bunt | ✗ | ✓ | ✓ | ✗ | ✓ | ✓ | ✗ |
+| Sac Bunt Double Play | ✗ | ✓ | ✓ | ✗ | ✓ | ✓ | ✗ |
+| Field Error | ✗ | ✓ | ✓ | ✗ | ✓ | ✗ | ✗ |
+| Game Advisory | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
+| Ejection | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
 
 the keys and types for each of these pieces of information are listed below:
 
@@ -113,7 +117,6 @@ the keys and types for each of these pieces of information are listed below:
 - Fielders: `fielders`, a list of strings.
 - Runner: `runner`, a string.
 - Scoring Runner: `scoring_runner`, a string.
-- Movements: `movements`, a list of movement objects.
 
 ### inning
 
@@ -125,6 +128,10 @@ an inning object contains the following fields:
 ### fielders
 
 `fielders` is a list of player names (strings).
+
+## movement lines
+
+a movement object contains one field, `movements`, a list of movement objects.
 
 ### movements
 

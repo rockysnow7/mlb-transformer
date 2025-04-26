@@ -2044,7 +2044,7 @@ impl Preprocess for Play {
         match self {
             Play::Groundout { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Groundout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Groundout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2054,7 +2054,7 @@ impl Preprocess for Play {
             }
             Play::BuntGroundout { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Bunt Groundout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Bunt Groundout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2064,7 +2064,7 @@ impl Preprocess for Play {
             }
             Play::Strikeout { inning, batter, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Strikeout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Strikeout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2073,7 +2073,7 @@ impl Preprocess for Play {
             }
             Play::Lineout { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Lineout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Lineout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2083,7 +2083,7 @@ impl Preprocess for Play {
             }
             Play::BuntLineout { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Bunt Lineout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Bunt Lineout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2093,7 +2093,7 @@ impl Preprocess for Play {
             }
             Play::Flyout { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Flyout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Flyout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2103,7 +2103,7 @@ impl Preprocess for Play {
             }
             Play::PopOut { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Pop Out\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Pop Out\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2113,7 +2113,7 @@ impl Preprocess for Play {
             }
             Play::BuntPopOut { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Bunt Pop Out\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Bunt Pop Out\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2123,7 +2123,7 @@ impl Preprocess for Play {
             }
             Play::Forceout { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Forceout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Forceout\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2133,7 +2133,7 @@ impl Preprocess for Play {
             }
             Play::FieldersChoiceOut { inning, batter, pitcher, fielders, scoring_runner, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Fielders Choice Out\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Fielders Choice Out\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2144,7 +2144,7 @@ impl Preprocess for Play {
             }
             Play::DoublePlay { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2154,7 +2154,7 @@ impl Preprocess for Play {
             }
             Play::TriplePlay { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Triple Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Triple Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2164,7 +2164,7 @@ impl Preprocess for Play {
             }
             Play::RunnerDoublePlay { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Runner Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Runner Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2174,7 +2174,7 @@ impl Preprocess for Play {
             }
             Play::RunnerTriplePlay { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Runner Triple Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Runner Triple Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2184,7 +2184,7 @@ impl Preprocess for Play {
             }
             Play::GroundedIntoDoublePlay { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Grounded Into Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Grounded Into Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2194,7 +2194,7 @@ impl Preprocess for Play {
             }
             Play::StrikeoutDoublePlay { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Strikeout Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Strikeout Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2209,7 +2209,7 @@ impl Preprocess for Play {
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Pickoff\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Pickoff\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2224,7 +2224,7 @@ impl Preprocess for Play {
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Pickoff Error\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Pickoff Error\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2239,7 +2239,7 @@ impl Preprocess for Play {
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Caught Stealing\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Caught Stealing\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2254,7 +2254,7 @@ impl Preprocess for Play {
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Pickoff Caught Stealing\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Pickoff Caught Stealing\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2264,7 +2264,7 @@ impl Preprocess for Play {
             }
             Play::WildPitch { inning, pitcher, runner, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Wild Pitch\" }}\n{{ \"pitcher\": \"{}\", \"runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Wild Pitch\" }}\n{{ \"pitcher\": \"{}\", \"runner\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     pitcher,
                     runner,
@@ -2273,7 +2273,7 @@ impl Preprocess for Play {
             }
             Play::RunnerOut { inning, runner, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Runner Out\" }}\n{{ \"runner\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Runner Out\" }}\n{{ \"runner\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     runner,
                     fielders.iter().map(|fielder| format!("\"{fielder}\"")).collect::<Vec<String>>().join(", "),
@@ -2282,7 +2282,7 @@ impl Preprocess for Play {
             }
             Play::FieldOut { inning, fielder, runner, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Field Out\" }}\n{{ \"fielder\": \"{}\", \"runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Field Out\" }}\n{{ \"fielder\": \"{}\", \"runner\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     fielder,
                     runner,
@@ -2291,7 +2291,7 @@ impl Preprocess for Play {
             }
             Play::BatterOut { inning, batter, catcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Batter Out\" }}\n{{ \"batter\": \"{}\", \"catcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Batter Out\" }}\n{{ \"batter\": \"{}\", \"catcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     catcher,
@@ -2300,7 +2300,7 @@ impl Preprocess for Play {
             }
             Play::Balk { inning, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Balk\" }}\n{{ \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Balk\" }}\n{{ \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     pitcher,
                     movements.iter().map(|movement| movement.preprocess()).collect::<Vec<String>>().join(", "),
@@ -2308,7 +2308,7 @@ impl Preprocess for Play {
             }
             Play::PassedBall { inning, pitcher, catcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Passed Ball\" }}\n{{ \"pitcher\": \"{}\", \"catcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Passed Ball\" }}\n{{ \"pitcher\": \"{}\", \"catcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     pitcher,
                     catcher,
@@ -2317,7 +2317,7 @@ impl Preprocess for Play {
             }
             Play::Error { inning, pitcher, catcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Error\" }}\n{{ \"pitcher\": \"{}\", \"catcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Error\" }}\n{{ \"pitcher\": \"{}\", \"catcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     pitcher,
                     catcher,
@@ -2326,7 +2326,7 @@ impl Preprocess for Play {
             }
             Play::Single { inning, batter, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Single\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Single\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2335,7 +2335,7 @@ impl Preprocess for Play {
             }
             Play::Double { inning, batter, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Double\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Double\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2344,7 +2344,7 @@ impl Preprocess for Play {
             }
             Play::Triple { inning, batter, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Triple\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Triple\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2353,7 +2353,7 @@ impl Preprocess for Play {
             }
             Play::HomeRun { inning, batter, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Home Run\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Home Run\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2362,7 +2362,7 @@ impl Preprocess for Play {
             }
             Play::Walk { inning, batter, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Walk\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Walk\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2371,7 +2371,7 @@ impl Preprocess for Play {
             }
             Play::IntentWalk { inning, batter, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Intent Walk\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Intent Walk\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2380,7 +2380,7 @@ impl Preprocess for Play {
             }
             Play::HitByPitch { inning, batter, pitcher, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Hit By Pitch\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Hit By Pitch\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2389,7 +2389,7 @@ impl Preprocess for Play {
             }
             Play::FieldersChoice { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Fielders Choice\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Fielders Choice\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2399,7 +2399,7 @@ impl Preprocess for Play {
             }
             Play::CatcherInterference { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Catcher Interference\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Catcher Interference\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2414,7 +2414,7 @@ impl Preprocess for Play {
                 }
 
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Stolen Base\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Stolen Base\" }}\n{{ \"base\": \"{}\", \"runner\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     base_string,
                     runner,
@@ -2423,7 +2423,7 @@ impl Preprocess for Play {
             }
             Play::SacFly { inning, batter, pitcher, fielders, scoring_runner, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Sac Fly\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Sac Fly\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2434,7 +2434,7 @@ impl Preprocess for Play {
             }
             Play::SacFlyDoublePlay { inning, batter, pitcher, fielders, scoring_runner, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Sac Fly Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Sac Fly Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"scoring_runner\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2445,7 +2445,7 @@ impl Preprocess for Play {
             }
             Play::SacBunt { inning, batter, pitcher, fielders, runner, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Sac Bunt\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Sac Bunt\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"runner\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2456,7 +2456,7 @@ impl Preprocess for Play {
             }
             Play::SacBuntDoublePlay { inning, batter, pitcher, fielders, runner, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Sac Bunt Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"runner\": \"{}\", \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Sac Bunt Double Play\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"runner\": \"{}\" }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
@@ -2467,7 +2467,7 @@ impl Preprocess for Play {
             }
             Play::FieldError { inning, batter, pitcher, fielders, movements } => {
                 format!(
-                    "{{ \"inning\": {}, \"type\": \"Field Error\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}], \"movements\": [{}] }}",
+                    "{{ \"inning\": {}, \"type\": \"Field Error\" }}\n{{ \"batter\": \"{}\", \"pitcher\": \"{}\", \"fielders\": [{}] }}\n{{ \"movements\": [{}] }}",
                     inning.preprocess(),
                     batter,
                     pitcher,
